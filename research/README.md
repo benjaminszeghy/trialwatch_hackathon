@@ -2,6 +2,8 @@
 
 **BNS acquisition update:** `outputs/bns-training-starter/README.md` documents the new BNS-only retrieval corpus (107 candidate CNRs, 177 order records), its text-grounded review seeds, blank human-label template and separate official-source supplements. `acquire_bns.py` and `build_bns_corpus.py` implement this acquisition/annotation stage. The prior law-score outputs below remain a separate provisional rubric.
 
+**PDF access audit:** `outputs/bns-training-starter/document-index.md` provides a clickable link per document. `audit_bns_output.py` checks the saved PDFs against hashes, page counts and extracted text, and optionally checks live source bytes with `--live`. It needs the pinned `pypdf` dependency; live checks additionally use curl. It does not modify the CSVs, annotations or source snapshot.
+
 The deliverable is **19 version/status-specific rows: 18 scored profiles and an unscored, invalidated IT 66A entry**. Historical IPC, current BNS, and continuing special acts are kept in separate panels. Start with `outputs/law-scores.md`.
 
 The score is a provisional **statute-as-written review index**, not a learned model or an abuse probability. Six explicit 0–2 ratings are summed out of 12 and rounded onto a 0–100 display. Every rating has a reason and a source. Court doctrine, metadata counts, incomplete evidence and weight sensitivity remain separate.

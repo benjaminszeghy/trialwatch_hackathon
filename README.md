@@ -7,6 +7,8 @@ This branch contains the law-scoring, ML-design and case-acquisition outputs pre
 | Deliverable | File |
 |---|---|
 | BNS corpus, annotation codebook and team handoff | [BNS README](outputs/bns-training-starter/README.md) |
+| Clickable preview/download links, one PDF per row | [Open the documents](outputs/bns-training-starter/document-index.md) |
+| Saved-file integrity and timestamped source access checks | [Document access audit](outputs/bns-training-starter/document-access-audit.json) |
 | Chinese instructions for Kai | [开始这里](outputs/bns-training-starter/开始这里.md) |
 | All 107 candidate CNR proceedings | [case-candidates.csv](outputs/bns-training-starter/case-candidates.csv) |
 | First 16 documents with blank human-label fields | [annotation-template.csv](outputs/bns-training-starter/annotation-template.csv) |

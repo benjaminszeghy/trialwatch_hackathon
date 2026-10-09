@@ -2,6 +2,8 @@
 
 Start with `case-candidates.csv` for the inventory and `annotation-template.csv` for the first **16 documents** to review. `documents.jsonl` supplies the extracted text. The ZIP contains PDFs under `pdfs/<document_id>.pdf`. Each document has a direct source URL and SHA-256 hash.
 
+**To open the PDFs, use [the clickable document index](document-index.md).** It has one row per document with GitHub preview, download and original-source links. The case CSV's `source_urls` field can contain two URLs separated by a newline; copy one URL at a time. CSV quotation marks, backslashes and pasted `&#x20;` spacing are not part of a PDF URL. CSV cells do not guarantee clickable hyperlinks. `document-access-audit.json` records the saved-file checks and point-in-time live source checks.
+
 ## What was collected
 
 The retrieval frame contains **107 CNR proceedings**, selected because their Act-bound metadata matched BNS **152, 196, 299, 353, 356 or 221**. These are provisional project targets, not all BNS offences. The source is the recorded Indian High Court Judgments AWS snapshot for four Bombay benches, joined to orders in the **2024–2025** window. It is a High Court sample, not all India or a journalist-only corpus.
@@ -87,10 +89,14 @@ For later element coding, use at least: `specific_facts_recorded`, `statutory_wo
 - `review-seeds.json`: 39 AI-assisted annotations with exact raw/normalized character spans.
 - `acquisition-manifest.json`: attempted order URLs, downloaded hashes and selection metadata.
 - `summary.json`: collection counts and limitations.
+- `document-index.md`: clickable links to all 177 saved HC document records and six separate reference documents.
+- `document-access-audit.json`: local PDF parsing, text/hash checks and timestamped live-source responses; this verifies access and snapshot integrity, not legal labels.
 - `supplements/`: separately sourced official Supreme Court material and Claude’s review, when included; not part of the 107-CNR retrieval denominator.
 - `pdfs/`: downloaded HC PDFs in the ZIP; filenames match `document_id`.
 
 In the Codex workspace, acquisition is `research/acquire_bns.py`; offline construction is `research/build_bns_corpus.py`; CSV export is `export-bns-corpus.mjs`. Acquisition reuses the recorded Bombay metadata snapshot, and limits concurrent PDF requests to two. It does not automate CAPTCHA solving or query private eCourts endpoints. For a large expansion, use the dataset’s bulk tar/Parquet interfaces.
+
+To rebuild the clickable index and audit saved copies, install the pinned Python requirements and run `python3 research/audit_bns_output.py`. Add `--live` to check each public source URL with two concurrent curl requests. Live checks retain normal TLS verification and never overwrite downloaded research PDFs. A source served as `binary/octet-stream` may download rather than display in a browser; the GitHub preview links provide another way to read it.
 
 ## Sources and attribution
 

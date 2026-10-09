@@ -18,9 +18,14 @@
       "sha256": "cf561eae52b56f210bf6aab9f440a4275d0cb39595dd97e1652a8857eee2cff8"
     },
     {
+      "path": "outputs/bns-training-starter.zip",
+      "bytes": 27236306,
+      "sha256": "f8876eb381d801bdcff0c18bc103bfa414afd77cc6fd2a01d8cb6d555a2407a1"
+    },
+    {
       "path": "outputs/bns-training-starter/README.md",
-      "bytes": 14139,
-      "sha256": "757c5e9d7b4890ba8760cb3ab1f53c50b434f7061223345a2932a661002f0e17"
+      "bytes": 15381,
+      "sha256": "1aafb40786e074ef798c83ae79565e1846bc232219d0f7d16ecf3039a7be4d25"
     },
     {
       "path": "outputs/bns-training-starter/acquisition-manifest.json",
@@ -51,6 +56,16 @@
       "path": "outputs/bns-training-starter/case-preview.png",
       "bytes": 83355,
       "sha256": "db13ced86affe83035234ef685ef980c64cbb964a465ad5e93ed5bdbcad2a016"
+    },
+    {
+      "path": "outputs/bns-training-starter/document-access-audit.json",
+      "bytes": 308149,
+      "sha256": "37c106ce1a146632741dc6155e299cc7907808b8461dec8e3762aa2730dc3129"
+    },
+    {
+      "path": "outputs/bns-training-starter/document-index.md",
+      "bytes": 92450,
+      "sha256": "6fc5573647977f3b2370508e12e8f96d38e70116a1a23e30dd9f938ab7d64b63"
     },
     {
       "path": "outputs/bns-training-starter/documents.jsonl",
@@ -1029,13 +1044,8 @@
     },
     {
       "path": "outputs/bns-training-starter/\u5f00\u59cb\u8fd9\u91cc.md",
-      "bytes": 3005,
-      "sha256": "db8fc8fd8c657901c2afcaacce6aac3306e548d7a12ca03f233bf6884661babc"
-    },
-    {
-      "path": "outputs/bns-training-starter.zip",
-      "bytes": 27206341,
-      "sha256": "ad2ab82d9db22bdce1cb28baa546b444fed50d94fc178f980683ced2401acc7d"
+      "bytes": 3310,
+      "sha256": "c3ce388eb7c6d297b64e3e4418c73e8e6ae5a38ff6c518e0134f84779d7934e2"
     },
     {
       "path": "outputs/claude-bns-review.jpg",
@@ -1149,8 +1159,8 @@
     },
     {
       "path": "research/README.md",
-      "bytes": 5561,
-      "sha256": "728350e0311f0208a6ee4b2ce7bbd397a73b8bedb766ec47dbc1c5a9a1223292"
+      "bytes": 5956,
+      "sha256": "61c7d70e53e51334647b44c104a3de027587d0dbb6001589a3c608a12e6ff84f"
     },
     {
       "path": "research/acquire_bns.py",
@@ -1171,6 +1181,11 @@
       "path": "research/acquire_supplemental.py",
       "bytes": 676,
       "sha256": "d2ff10afa691eedec48182a24b11a405b09c5c9fb0b293bbad173fd1d36f88dc"
+    },
+    {
+      "path": "research/audit_bns_output.py",
+      "bytes": 9656,
+      "sha256": "c384d77722015d0076f8b0d14cf84010a6fb4b71bfbf9ddad1c8dc7bf772cdc4"
     },
     {
       "path": "research/bns_review_seeds.py",
