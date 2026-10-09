@@ -1,0 +1,102 @@
+[
+  {
+    "document_id": "imran-pratapgarhi-2025",
+    "source_url": "https://api.sci.gov.in/supremecourt/2025/3511/3511_2025_4_1501_60508_Judgement_28-Mar-2025.pdf",
+    "pdf_sha256": "896f08f97519248a7f004350d43b72ffc296144e817c0be8b0365bd28f0d5a58",
+    "page": 40,
+    "quote": "mens rea will have to be read into Section 196 of the BNS",
+    "normalized_char_start": 1278,
+    "normalized_char_end": 1335,
+    "source_type": "court interpretation",
+    "text_confirmed_target_sections": [
+      "196"
+    ],
+    "note": "Interpretation benchmark; keep judicial reasoning separate from allegations.",
+    "review_status": "Codex text check of Claude candidate; human/legal validation pending",
+    "human_gold_label": null,
+    "in_bombay_denominator": false
+  },
+  {
+    "document_id": "pawan-khera-2026",
+    "source_url": "https://api.sci.gov.in/supremecourt/2026/25523/25523_2026_3_62_70689_Judgement_30-Apr-2026.pdf",
+    "pdf_sha256": "fcc1bdf4a5091138a53289cc588fddab7394079c60445b5bd6b4a2533e5f9d02",
+    "page": 2,
+    "quote": "under Sections 175, 3(5), 3(6), 318, 336(4), 337, 338, 340, 341(1), 351(1), 352, 353, 356, and 61(2) of Bharatiya Nyaya Sanhita, 2023",
+    "normalized_char_start": 159,
+    "normalized_char_end": 292,
+    "source_type": "court account of FIR charges",
+    "text_confirmed_target_sections": [
+      "353",
+      "356"
+    ],
+    "note": "FIR 04/2026, Crime Branch Police Station, Guwahati; politician speaking at press conferences, not presumed journalist.",
+    "review_status": "Codex text check of Claude candidate; human/legal validation pending",
+    "human_gold_label": null,
+    "in_bombay_denominator": false
+  },
+  {
+    "document_id": "ranveer-allahbadia-2025",
+    "source_url": "https://api.sci.gov.in/supremecourt/2025/8375/8375_2025_3_47_59435_Order_18-Feb-2025.pdf",
+    "pdf_sha256": "0c4f2780f43e663c9c978fba5186aaaad76728359ab85fe7d76a3ff553849f5e",
+    "page": 1,
+    "quote": "FIR No. 5 of 2025 registered under Sections 79, 196, 296, 299 of the Bharatiya Nyaya Sanhita, 2023",
+    "normalized_char_start": 867,
+    "normalized_char_end": 965,
+    "source_type": "court account of FIR charges in interim order",
+    "text_confirmed_target_sections": [
+      "196",
+      "299"
+    ],
+    "note": "Thane FIR 5/2025; Guwahati FIR 3/2025 is another FIR connected to the same episode. Do not treat all proceedings as independent train/test observations.",
+    "review_status": "Codex text check of Claude candidate; human/legal validation pending",
+    "human_gold_label": null,
+    "in_bombay_denominator": false
+  },
+  {
+    "document_id": "ruchika-mitra-2026",
+    "source_url": "https://delhihighcourt.nic.in/app/showFileJudgment/60915012026CRLMM3472026_125440.pdf",
+    "pdf_sha256": "bceb341befcc2713722889cb58717c6ac308bba7dc6d4e5254f552f2ef345897",
+    "page": 1,
+    "quote": "offence s under Sections 126(2)/61(2)/356(2)/351(2)/3(5) of Bharatiya Nyaya Sanhita (BNS), 2023",
+    "normalized_char_start": 652,
+    "normalized_char_end": 747,
+    "source_type": "court account of FIR charges",
+    "text_confirmed_target_sections": [
+      "356(2)"
+    ],
+    "note": "Maurya Enclave FIR 224/2025; private school dispute. Private nature is not automatically absence of expression or absence of abuse.",
+    "review_status": "Codex text check of Claude candidate; human/legal validation pending",
+    "human_gold_label": null,
+    "in_bombay_denominator": false
+  },
+  {
+    "document_id": "vombatkere-bns-152-challenge-2025",
+    "source_url": "https://api.sci.gov.in/officereport/2025/37157/37157_2025_2025-08-08_1607@1.pdf",
+    "pdf_sha256": "c998df7f1fbdc239b3f6dcbfa4975227a9737a02c35a51582a1286e5e1f34832",
+    "page": 1,
+    "quote": "declaring Section 152 of the Bharatiya Nyaya Sanhita, 2023 as void and inoperative",
+    "normalized_char_start": 523,
+    "normalized_char_end": 605,
+    "source_type": "office report recording relief sought",
+    "text_confirmed_target_sections": [],
+    "note": "Constitutional challenge; this is a requested declaration, not a ruling striking down BNS 152 and not a personal charge case.",
+    "review_status": "Codex text check of Claude candidate; human/legal validation pending",
+    "human_gold_label": null,
+    "in_bombay_denominator": false
+  },
+  {
+    "document_id": "ashish-dave-2026",
+    "source_url": "https://api.sci.gov.in/supremecourt/2025/68616/68616_2025_2_34_68884_FinalOrder_27-Feb-2026.pdf",
+    "pdf_sha256": "3350c58215253837483fbe01397717b841f08cbb25ac2d5cbfb31edaff81bc0b",
+    "page": 2,
+    "quote": "under Sections 308(2), 318(4) and 351(2) of the Bharatiya Nyaya Sanhita, 2023",
+    "normalized_char_start": 548,
+    "normalized_char_end": 625,
+    "source_type": "court account of FIR charges",
+    "text_confirmed_target_sections": [],
+    "note": "BNS case outside the six targets; court describes a Channel Head. Useful for examining the limits of a speech-section-only retrieval strategy.",
+    "review_status": "Codex text check of Claude candidate; human/legal validation pending",
+    "human_gold_label": null,
+    "in_bombay_denominator": false
+  }
+]

@@ -1,0 +1,2099 @@
+{
+  "reviews": [
+    {
+      "id": "kedar-nath",
+      "laws": [
+        "IPC-124A"
+      ],
+      "kind": "doctrine",
+      "summary": "The Court limited application to disorder/public peace through violence. Broad bare text is not the complete operative legal standard.",
+      "evidence": [
+        {
+          "url": "https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=1962/english/S_1962_2_769_812_EN.pdf",
+          "local_pages": "work/court-data/indian-supreme-court-judgments/data/pdf/year=1962/english/S_1962_2_769_812_EN.pages.json",
+          "pdf_page": 41,
+          "quote": "limit their application to acts involving intention or tendency to create disorder",
+          "source_type": "court reasoning"
+        }
+      ],
+      "review_status": "AI-assisted analyst review; expert check pending"
+    },
+    {
+      "id": "manzar",
+      "laws": [
+        "IPC-153A"
+      ],
+      "kind": "doctrine",
+      "summary": "Mens rea, context and the whole publication matter. Isolated hostile words cannot replace the legal elements.",
+      "evidence": [
+        {
+          "url": "https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2007/english/2007_4_907_917_EN.pdf",
+          "local_pages": "work/court-data/indian-supreme-court-judgments/data/pdf/year=2007/english/2007_4_907_917_EN.pages.json",
+          "pdf_page": 10,
+          "quote": "gist of the offence is the intention to promote feelings of enmity or hatred",
+          "source_type": "court reasoning"
+        }
+      ],
+      "review_status": "AI-assisted analyst review; expert check pending"
+    },
+    {
+      "id": "ramji-lal",
+      "laws": [
+        "IPC-295A"
+      ],
+      "kind": "doctrine",
+      "summary": "The Court distinguished deliberate malicious insult from unwitting/careless insult and upheld the challenged provision.",
+      "evidence": [
+        {
+          "url": "https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=1957/english/1957_1_860_868_EN.pdf",
+          "local_pages": "work/court-data/indian-supreme-court-judgments/data/pdf/year=1957/english/1957_1_860_868_EN.pages.json",
+          "pdf_page": 8,
+          "quote": "It only punishes the aggravated form of insult to religion",
+          "source_type": "court reasoning"
+        }
+      ],
+      "review_status": "AI-assisted analyst review; expert check pending"
+    },
+    {
+      "id": "shreya-singhal",
+      "laws": [
+        "IT-66A"
+      ],
+      "kind": "doctrine",
+      "summary": "Section 66A was struck down in its entirety. It is excluded from the index.",
+      "evidence": [
+        {
+          "url": "https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2015/english/2015_5_963_1074_EN.pdf",
+          "local_pages": "work/court-data/indian-supreme-court-judgments/data/pdf/year=2015/english/2015_5_963_1074_EN.pages.json",
+          "pdf_page": 112,
+          "quote": "struck down in its entirety being violative of Article",
+          "source_type": "court reasoning"
+        }
+      ],
+      "review_status": "AI-assisted analyst review; expert check pending"
+    },
+    {
+      "id": "subramanian-swamy",
+      "laws": [
+        "IPC-499-500"
+      ],
+      "kind": "doctrine",
+      "summary": "Criminal defamation has a complaint/summons safeguard, and judicial process should not enable vendetta. This does not make every defamation complaint legitimate or abusive.",
+      "evidence": [
+        {
+          "url": "https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2016/english/2016_3_865_1017_EN.pdf",
+          "local_pages": "work/court-data/indian-supreme-court-judgments/data/pdf/year=2016/english/2016_3_865_1017_EN.pages.json",
+          "pdf_page": 152,
+          "quote": "judicial process should not be an instrument of oppression or needless harassment.",
+          "source_type": "court reasoning"
+        }
+      ],
+      "review_status": "AI-assisted analyst review; expert check pending"
+    },
+    {
+      "id": "thwaha",
+      "laws": [
+        "UAPA-13"
+      ],
+      "kind": "doctrine",
+      "summary": "The 43D(5) Chapters IV/VI bail restriction does not apply to section 13 alone. Do not assign all UAPA bail rules to every UAPA charge.",
+      "evidence": [
+        {
+          "url": "https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2021/english/2021_8_797_834_EN.pdf",
+          "local_pages": "work/court-data/indian-supreme-court-judgments/data/pdf/year=2021/english/2021_8_797_834_EN.pages.json",
+          "pdf_page": 35,
+          "quote": "sub-section (5) of Section 43D is not applicable to the offence under Section 13.",
+          "source_type": "court reasoning"
+        }
+      ],
+      "review_status": "AI-assisted analyst review; expert check pending"
+    },
+    {
+      "id": "imran-current-bns",
+      "laws": [
+        "BNS-196",
+        "BNS-299"
+      ],
+      "kind": "doctrine",
+      "summary": "Current BNS 196 has a judicial mens rea requirement and contextual/reasonable-person safeguards. The absence of an explicit fault word in clause (a) is not absence of a legal fault requirement. This official SCI supplement was not selected from the AWS sample.",
+      "evidence": [
+        {
+          "url": "https://api.sci.gov.in/supremecourt/2025/3511/3511_2025_4_1501_60508_Judgement_28-Mar-2025.pdf",
+          "local_pages": "work/court-data/supplemental/imran-2025.pages.json",
+          "pdf_page": 40,
+          "quote": "Hence, mens rea will have to be read into Section 196 of the BNS",
+          "source_type": "court reasoning"
+        }
+      ],
+      "review_status": "AI-assisted analyst review; expert check pending",
+      "dataset_origin": "supplemental official Supreme Court PDF"
+    },
+    {
+      "id": "124a-2022-stay",
+      "laws": [
+        "IPC-124A"
+      ],
+      "kind": "doctrine",
+      "summary": "The May 2022 order kept pending 124A proceedings in abeyance; historical scoring is not permission to apply the repealed code to new conduct.",
+      "evidence": [
+        {
+          "url": "https://api.sci.gov.in/supremecourt/2021/14059/14059_2021_1_301_35891_Order_11-May-2022.pdf",
+          "local_pages": "work/court-data/supplemental/vombatkere-2022.pages.json",
+          "pdf_page": 4,
+          "quote": "All pending trials, appeals and proceedings with respect to the charge framed under Section 124A of IPC be kept in abeyance.",
+          "source_type": "court reasoning"
+        }
+      ],
+      "review_status": "AI-assisted analyst review; expert check pending",
+      "dataset_origin": "supplemental official Supreme Court PDF"
+    },
+    {
+      "id": "hc-act-conflict",
+      "laws": [
+        "BNS-152",
+        "BNS-353-1",
+        "BNS-353-2",
+        "IPC-505-2"
+      ],
+      "kind": "metadata conflict",
+      "summary": "Metadata labels a 2020 IPC prosecution as BNS. The opening operative narrative specifies IPC; BNS 152/353 metadata hits are not counted as verified BNS charges.",
+      "evidence": [
+        {
+          "url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233100030432025_10.pdf",
+          "local_pages": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233100030432025_10.pages.json",
+          "pdf_page": 1,
+          "quote": "Indian Penal Code, 1860 (‘ IPC’)",
+          "source_type": "court account of charges"
+        }
+      ],
+      "review_status": "AI-assisted analyst review; expert check pending",
+      "cnr": "HCBM010407652025",
+      "excluded_metadata_hits": [
+        "BNS:152",
+        "BNS:353"
+      ],
+      "verified_charge_laws": [
+        "IPC-505-2"
+      ]
+    },
+    {
+      "id": "hc-farah-deeba",
+      "laws": [
+        "BNS-152",
+        "BNS-196",
+        "BNS-353-1",
+        "BNS-353-2"
+      ],
+      "kind": "charge/procedure example",
+      "summary": "The operative narrative confirms BNS 152, 196 and parent 353 in a WhatsApp-comment FIR. The Court refused quashing; this outcome is not a label of legitimacy. The 353 subsection is not resolved.",
+      "evidence": [
+        {
+          "url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800032572025_2.pdf",
+          "local_pages": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800032572025_2.pages.json",
+          "pdf_page": 2,
+          "quote": "offences punishable under Sections 152, 196, 197, 352 and 353 of the Bharatiya Nyay Sanhita, 2023",
+          "source_type": "court account of charges"
+        },
+        {
+          "url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800032572025_2.pdf",
+          "local_pages": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800032572025_2.pages.json",
+          "pdf_page": 10,
+          "quote": "present Petition stands dismissed.",
+          "source_type": "court reasoning"
+        }
+      ],
+      "review_status": "AI-assisted analyst review; expert check pending",
+      "cnr": "HCBM010319502025",
+      "verified_charge_laws": [
+        "BNS-152",
+        "BNS-196"
+      ],
+      "verified_parent_hits": [
+        "BNS:353"
+      ],
+      "case_family_key": "Pune|Kalepadal|178|2025"
+    },
+    {
+      "id": "hc-linked-bail-proceeding",
+      "laws": [
+        "BNS-152",
+        "BNS-196",
+        "BNS-353-1",
+        "BNS-353-2"
+      ],
+      "kind": "case family link",
+      "summary": "A different CNR covers anticipatory bail for the SAME Kalepadal CR/FIR 178 of 2025. These are two proceedings from one identified prosecution family, not two independent criminal cases.",
+      "evidence": [
+        {
+          "url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200019322025_2.pdf",
+          "local_pages": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200019322025_2.pages.json",
+          "pdf_page": 1,
+          "quote": "CR No.178 of 2025, registered at Kalepadal Police Station",
+          "source_type": "court account of charges"
+        },
+        {
+          "url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200019322025_2.pdf",
+          "local_pages": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200019322025_2.pages.json",
+          "pdf_page": 1,
+          "quote": "Sections 152, 196, 197, 352, and 353 of the Bharatiya Nyaya Sanhita, 2023",
+          "source_type": "court account of charges"
+        }
+      ],
+      "review_status": "AI-assisted analyst review; expert check pending",
+      "cnr": "HCBM010375472025",
+      "verified_charge_laws": [
+        "BNS-152",
+        "BNS-196"
+      ],
+      "verified_parent_hits": [
+        "BNS:353"
+      ],
+      "case_family_key": "Pune|Kalepadal|178|2025"
+    },
+    {
+      "id": "hc-bail-not-fir-quashing",
+      "laws": [
+        "UAPA-13",
+        "IPC-153A"
+      ],
+      "kind": "procedure example",
+      "summary": "A lower-court bail-refusal order was quashed and bail granted for prolonged incarceration. The FIR/prosecution was not quashed. Multiple IPC, explosives and UAPA charges are bundled, so delay is not attributed to section 13 alone.",
+      "evidence": [
+        {
+          "url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_231000010172025_5.pdf",
+          "local_pages": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_231000010172025_5.pages.json",
+          "pdf_page": 2,
+          "quote": "Sections 10, 13, 15, 16, 18, 18-A, 18-B, 20 of the Unlawful Act ivities (Prevention) Act, 1967",
+          "source_type": "court account of charges"
+        },
+        {
+          "url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_231000010172025_5.pdf",
+          "local_pages": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_231000010172025_5.pages.json",
+          "pdf_page": 6,
+          "quote": "released on bail on the ground of prolong incarceration",
+          "source_type": "court reasoning"
+        }
+      ],
+      "review_status": "AI-assisted analyst review; expert check pending",
+      "cnr": "HCBM010024772025",
+      "verified_charge_laws": [
+        "UAPA-13",
+        "IPC-153A"
+      ]
+    },
+    {
+      "id": "hc-defamation-not-confirmed",
+      "laws": [
+        "BNS-356"
+      ],
+      "kind": "unverified metadata hit",
+      "summary": "Metadata lists BNS 356(2). The opening order instead concerns sexual-offence/POCSO and IT charges. This excerpt does not establish a defamation charge; the metadata hit remains unverified, not a negative finding.",
+      "evidence": [
+        {
+          "url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233100006252025_5.pdf",
+          "local_pages": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233100006252025_5.pages.json",
+          "pdf_page": 1,
+          "quote": "offences punishable under Sections 64 and 64 (2) (m)",
+          "source_type": "court account of charges"
+        }
+      ],
+      "review_status": "AI-assisted analyst review; expert check pending",
+      "cnr": "HCBM010075992025",
+      "verified_charge_laws": []
+    }
+  ],
+  "element_matrices": [
+    {
+      "id": "patricia-elements",
+      "law": "IPC-153A",
+      "origin": "Supreme Court doctrinal example, not High Court rate sample",
+      "document_id": "2021 INSC 213",
+      "elements": [
+        {
+          "element": "expressive act",
+          "state": "specific facts recorded",
+          "source_type": "court account of allegations",
+          "evidence": {
+            "url": "https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2021/english/2021_7_65_77_EN.pdf",
+            "local_pages": "work/court-data/indian-supreme-court-judgments/data/pdf/year=2021/english/2021_7_65_77_EN.pages.json",
+            "pdf_page": 11,
+            "quote": "Facebook post dated 04.07.2020",
+            "source_type": "court account of allegations"
+          }
+        },
+        {
+          "element": "intention to promote class/community hatred",
+          "state": "court explicitly finds absent",
+          "source_type": "court reasoning",
+          "evidence": {
+            "url": "https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2021/english/2021_7_65_77_EN.pdf",
+            "local_pages": "work/court-data/indian-supreme-court-judgments/data/pdf/year=2021/english/2021_7_65_77_EN.pages.json",
+            "pdf_page": 12,
+            "quote": "there was no intention on the part of the Appellant to promote class/community hatred.",
+            "source_type": "court reasoning"
+          }
+        },
+        {
+          "element": "incitement to community violence",
+          "state": "court explicitly finds absent",
+          "source_type": "court reasoning",
+          "evidence": {
+            "url": "https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2021/english/2021_7_65_77_EN.pdf",
+            "local_pages": "work/court-data/indian-supreme-court-judgments/data/pdf/year=2021/english/2021_7_65_77_EN.pages.json",
+            "pdf_page": 12,
+            "quote": "there is no attempt ma de by the Appellant to incite people belonging to a community to indulge in any violence",
+            "source_type": "court reasoning"
+          }
+        }
+      ],
+      "ccd_numeric": null,
+      "note": "Doctrinal elements need expert confirmation; findings remain separate from allegations. No composite distance is produced."
+    },
+    {
+      "id": "farah-elements",
+      "law": "BNS-152",
+      "origin": "selected HC document",
+      "cnr": "HCBM010319502025",
+      "elements": [
+        {
+          "element": "communication",
+          "state": "specific facts recorded",
+          "source_type": "court account of allegations",
+          "evidence": {
+            "url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800032572025_2.pdf",
+            "local_pages": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800032572025_2.pages.json",
+            "pdf_page": 2,
+            "quote": "A WhatsApp group was created",
+            "source_type": "court account of allegations"
+          }
+        },
+        {
+          "element": "purpose/knowledge tied to a specified prohibited activity",
+          "state": "not assessed in this pilot",
+          "source_type": null,
+          "evidence": null
+        },
+        {
+          "element": "secession/rebellion/subversive activity or specified danger",
+          "state": "not assessed in this pilot",
+          "source_type": null,
+          "evidence": null
+        }
+      ],
+      "ccd_numeric": null,
+      "note": "A general statement that offences are made out does not resolve every element. No unknown state is counted as an absent element."
+    }
+  ],
+  "hc_document_index": [
+    {
+      "cnr": "HCBM010407652025",
+      "title": "RAJESH DHAKAL RAO v STATE OF MAHARASHTRA",
+      "law_hits": [
+        "BNS:152",
+        "BNS:353"
+      ],
+      "decision_date": "2025-12-23 00:00:00",
+      "source_url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233100030432025_10.pdf",
+      "pages_json": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233100030432025_10.pages.json",
+      "page_count": 19,
+      "review_ids": [
+        "hc-act-conflict"
+      ],
+      "verified_specific_charge_laws": [
+        "IPC-505-2"
+      ],
+      "excluded_metadata_hits": [
+        "BNS:152",
+        "BNS:353"
+      ],
+      "case_family_key": null,
+      "lexical_candidates": [
+        {
+          "term": "bail",
+          "pdf_page": 1,
+          "context": "901_BA_3043_2025.doc IN THE HIGH COURT OF JUDICATURE AT BOMBAY CRIMINAL APPELLATE JURISDICTION BAIL APPLICATION NO.3043 OF 2025 Rajesh Dhakal Rao …Applicant Versus State of Maharashtra & Anr. …Respondents Ms. Saili Dhuru, for the Applicant . Ms. Poonam P. Bhosale, APP for the Respondent No.1 – State. Mr. Amit Munde a/w Jai Vohra, for the Respondent No.2 – CBI. Mr. Sanjay Sehgal, ASP , CBI, ST",
+          "status": "unreviewed retrieval candidate; not an outcome/element finding"
+        },
+        {
+          "term": "bail",
+          "pdf_page": 4,
+          "context": "assailants in the incident. The present Applicant was arrested on 30th April 2020. 3. The Applicant and another co-accused filed a joint application seeking bail before the Additional Sessions Judge , Thane, however, by order dated 26 th November 2020, the bail application, insofar as the present Applicant is concerned, was rejected. He made a Bail Application bearing no. 2180 of 2021, before this Court, however, by order dated 1 st April, 2022",
+          "status": "unreviewed retrieval candidate; not an outcome/element finding"
+        },
+        {
+          "term": "ingredient",
+          "pdf_page": 5,
+          "context": ") On the ground of long incarceration suffere d by the Applicant. She further submitted that presuming, without admitting the case of the prosecution as it is, ingredients of Section 302 are not made out. The incident is a mob lynchin g incident that happened on the spur of the moment. There was no intention to murder the deceased. The villagers pre sumed the persons disguised as Sadhus, to be thieves, who were on a spree of abducting children. She submit",
+          "status": "unreviewed retrieval candidate; not an outcome/element finding"
+        }
+      ],
+      "unreviewed_fields": {
+        "journalism_nexus": null,
+        "fir_quashed": null,
+        "charge_conduct_distance": null
+      }
+    },
+    {
+      "cnr": "HCBM010319502025",
+      "title": "FARAH DEEBA v STATE OF MAHARASHTRA AND ANR.",
+      "law_hits": [
+        "BNS:152",
+        "BNS:196",
+        "BNS:353"
+      ],
+      "decision_date": "2025-07-29 00:00:00",
+      "source_url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800032572025_2.pdf",
+      "pages_json": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800032572025_2.pages.json",
+      "page_count": 10,
+      "review_ids": [
+        "hc-farah-deeba"
+      ],
+      "verified_specific_charge_laws": [
+        "BNS-152",
+        "BNS-196"
+      ],
+      "excluded_metadata_hits": [],
+      "case_family_key": "Pune|Kalepadal|178|2025",
+      "lexical_candidates": [
+        {
+          "term": "quash",
+          "pdf_page": 2,
+          "context": "J.) :- 1) By this Petition filed under Article 226 of the Constitution of India r/w Section 482 of the Code of Criminal Procedure, the Petitioner is seeking quashing of First Information Report (FIR) No. 178 of 2025, dated 15th May 2025, registered with Kalepadal Police Station, Pune, for the offences punishable under Sections 152, 196, 197, 352 and 353 of the Bharatiya Nyay Sanhita, 2023 (for short ‘BNS 2023’). 2) Heard Mr. Sathe, learned Advo",
+          "status": "unreviewed retrieval candidate; not an outcome/element finding"
+        },
+        {
+          "term": "quash",
+          "pdf_page": 4,
+          "context": "sApp belatedly . There are no merits in the contents of the FIR, hence no purpose would be served if the FIR is kept pending. Therefore, the FIR requires to be quashed and set aside. 5) Per contra, learned APP strongly opposed the quashing of the FIR and submitted that on perusal of the entire FIR, it shows that, there is ample evidence against the Petitioner to implicate her under Section 152, 196, 197, 352 and 353 of the BNS 2023. Petitioner is accused o",
+          "status": "unreviewed retrieval candidate; not an outcome/element finding"
+        },
+        {
+          "term": "ingredient",
+          "pdf_page": 7,
+          "context": "he herself claims that families of her father and mother are from the neighbouring country , Pakistan. 10) The intention of the Petitioner becomes an essential ingredient to be judged with the kind of language she has used for India and more particularly when the whole country was feeling proud of our army. She could have probably avoided reacting with a laughing emoji, when others were celebrating the event of successful mission of the Indian Army of ‘Ope",
+          "status": "unreviewed retrieval candidate; not an outcome/element finding"
+        },
+        {
+          "term": "bail",
+          "pdf_page": 9,
+          "context": "cri.wp3257-25.doc 15) In a recent case of Ashraf Khan alias Nisrat Khan Versus State of Uttar Pradesh, Criminal Misc. Bail Application No.20227 of 2025 , the Allahabad High Court, deciding a Bail Application, where the accused was prosecuted for uploading edited videos on his Facebook account during the India-Pakistan war. The videos depicted the Prime Minister of India moving next to a donkey pulling a cart and i",
+          "status": "unreviewed retrieval candidate; not an outcome/element finding"
+        },
+        {
+          "term": "ingredient",
+          "pdf_page": 10,
+          "context": "cri.wp3257-25.doc documents on record, we are satisfied that it constitutes the ingredients of the alleged offences. Also taking into account the law as laid down by the Supreme Court in the judgments referred above, we find that there is no merit in the present Petition and the same deserves to be dismissed. 17) Hence, present Petition stands dismissed. (RAJESH S. PATIL",
+          "status": "unreviewed retrieval candidate; not an outcome/element finding"
+        }
+      ],
+      "unreviewed_fields": {
+        "journalism_nexus": null,
+        "fir_quashed": null,
+        "charge_conduct_distance": null
+      }
+    },
+    {
+      "cnr": "HCBM030281682025",
+      "title": "MANISH PRAKASH KSHIRSAGAR v THE STATE OF MAHARASHTRA",
+      "law_hits": [
+        "BNS:152"
+      ],
+      "decision_date": "2025-08-04 00:00:00",
+      "source_url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=hcaurdb/orders_2025_231800013482025_3.pdf",
+      "pages_json": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=hcaurdb/orders_2025_231800013482025_3.pages.json",
+      "page_count": 2,
+      "review_ids": [],
+      "verified_specific_charge_laws": [],
+      "excluded_metadata_hits": [],
+      "case_family_key": null,
+      "lexical_candidates": [
+        {
+          "term": "bail",
+          "pdf_page": 1,
+          "context": "oned against them. 2. The interim relief/undertaking/statement, if any, in these matters shall continue till next date. Matters on board Adjourned to 52 BAIL APPLICATION NO. 1194 OF 2025 53 BAIL APPLICATION NO. 1206 OF 2025 54 BAIL APPLICATION NO. 1211 OF 2025 55 BAIL APPLICATION NO. 1219 OF 2025 56 BAIL APPLICATION NO. 1221 OF 2025 11.08.2025 57 BAIL APPLICATION NO. 1223 OF 2025 WITH CRIMINAL APPLICATION NO. 2519 OF 2025 IN BA/1223/2025 58 BAIL APP",
+          "status": "unreviewed retrieval candidate; not an outcome/element finding"
+        },
+        {
+          "term": "bail",
+          "pdf_page": 2,
+          "context": "BA 1194/25 & Ors. 2 96 BAIL APPLICATION NO. 895 OF 2025 97 BAIL APPLICATION NO. 940 OF 2025 99 BAIL APPLICATION NO. 960 OF 2025 100 BAIL APPLICATION NO. 1001 OF 2025 101 BAIL APPLICATION NO. 1141 OF 2025 102 BAIL APPLICATION NO. 1155 OF 2025 103 BAIL APPLICATION NO. 1158 OF 2025 104 BAIL APPLICATION NO. 1237 OF 2025 105 B",
+          "status": "unreviewed retrieval candidate; not an outcome/element finding"
+        }
+      ],
+      "unreviewed_fields": {
+        "journalism_nexus": null,
+        "fir_quashed": null,
+        "charge_conduct_distance": null
+      }
+    },
+    {
+      "cnr": "HCBM010375472025",
+      "title": "FARAH DEEBA SYED SHAMIN AHMAD v STATE OF MAHARASHTRA",
+      "law_hits": [
+        "BNS:152",
+        "BNS:196"
+      ],
+      "decision_date": "2025-07-16 00:00:00",
+      "source_url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200019322025_2.pdf",
+      "pages_json": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200019322025_2.pages.json",
+      "page_count": 6,
+      "review_ids": [
+        "hc-linked-bail-proceeding"
+      ],
+      "verified_specific_charge_laws": [
+        "BNS-152",
+        "BNS-196"
+      ],
+      "excluded_metadata_hits": [],
+      "case_family_key": "Pune|Kalepadal|178|2025",
+      "lexical_candidates": [
+        {
+          "term": "bail",
+          "pdf_page": 1,
+          "context": "901-ABA-1932-2025.doc IN THE HIGH COURT OF JUDICATURE AT BOMBAY CRIMINAL APPELLATE JURISDICTION Anticipatory Bail Application No.1932 of 2025 Farah Deeba Syed Shamin Ahmad Age: 46 yrs, R/at B7/801, Margosa Society Mohammed Wadi Pune … Applicant Versus The State of Maharashtra (Through the Sr PI Kalepadal police station) … Respondent ---- Mr Wesley Menezes i/by Waqar Pathan, for the applicant. Mr P",
+          "status": "unreviewed retrieval candidate; not an outcome/element finding"
+        },
+        {
+          "term": "bail",
+          "pdf_page": 3,
+          "context": "been falsely implicated in the crime, and submits that she is willing to comply with any conditions that may be imposed in the event of the grant of pre-arrest bail. 4. Mr Prashant Jadhav, the learned Additional Public Prosecutor representing the respondent/ State, opposes the applicant’s request for pre-arrest bail. He contends that the applicant has deliberately disseminated provocative vid eo content through her WhatsApp status, with",
+          "status": "unreviewed retrieval candidate; not an outcome/element finding"
+        }
+      ],
+      "unreviewed_fields": {
+        "journalism_nexus": null,
+        "fir_quashed": null,
+        "charge_conduct_distance": null
+      }
+    },
+    {
+      "cnr": "HCBM010235652025",
+      "title": "ASHFAQUE AHMED ABDUL SATTAR SHAIKH v STATE OF MAHARASHTRA",
+      "law_hits": [
+        "BNS:196"
+      ],
+      "decision_date": "2025-07-01 00:00:00",
+      "source_url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200011532025_7.pdf",
+      "pages_json": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200011532025_7.pages.json",
+      "page_count": 1,
+      "review_ids": [],
+      "verified_specific_charge_laws": [],
+      "excluded_metadata_hits": [],
+      "case_family_key": null,
+      "lexical_candidates": [
+        {
+          "term": "bail",
+          "pdf_page": 1,
+          "context": "27.aba1153-25.docx IN THE HIGH COURT OF JUDICATURE AT BOMBAY CRIMINAL APPELLATE JURISDICTION Anticipatory Bail Application No.1153 of 2025 Ashfaque Ahmed Abdul Sattar Shaikh … Applicant versus The State of Maharashtra and Anr … Respondents ---- Ms Vaishali Sawant, i/b. Shaikh Abdul Kalam, for the applicant. Mr Arfan Sait, APP , for the respondent/ State. PSI Pairavi Officer, SS Ghag, Malwani Police Stat",
+          "status": "unreviewed retrieval candidate; not an outcome/element finding"
+        }
+      ],
+      "unreviewed_fields": {
+        "journalism_nexus": null,
+        "fir_quashed": null,
+        "charge_conduct_distance": null
+      }
+    },
+    {
+      "cnr": "HCBM030312862025",
+      "title": "SHRIRAM ASHOK SAGADE v THE STATE OF MAHARASHTRA",
+      "law_hits": [
+        "BNS:196",
+        "BNS:299"
+      ],
+      "decision_date": "2025-12-18 00:00:00",
+      "source_url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=hcaurdb/orders_2025_231800015012025_2.pdf",
+      "pages_json": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=hcaurdb/orders_2025_231800015012025_2.pages.json",
+      "page_count": 3,
+      "review_ids": [],
+      "verified_specific_charge_laws": [],
+      "excluded_metadata_hits": [],
+      "case_family_key": null,
+      "lexical_candidates": [
+        {
+          "term": "bail",
+          "pdf_page": 1,
+          "context": "901 BA No.2472.2025 + 7 -1- IN THE HIGH COURT OF JUDICATURE AT BOMBAY BENCH AT AURANGABAD 901 BAIL APPLICATION NO. 2472 OF 2025 VIJAY RAMA GAVHANE VERSUS THE STATE OF MAHARASHTRA AND ANOTHER ... Advocate for Applicant : Mr. S. J. Salunke APP for Respondents-State : Mr. S. G. Sangale … WITH BAIL APPLICATION NO. 1501 OF 2025 …. AND 902 BAIL APPLICATION NO. 2478 OF 2025 MOHAMMAD AZHAR MUSTAFA D",
+          "status": "unreviewed retrieval candidate; not an outcome/element finding"
+        },
+        {
+          "term": "bail",
+          "pdf_page": 2,
+          "context": "ANKATRAO SHINDE VERSUS THE STATE OF MAHARASHTRA AND ANOTHER ... Advocate for Applicant : Mr. S. J. Salunke APP for Respondents-State : Ms. D. S. Jape … AND 906 BAIL APPLICATION NO. 2494 OF 2025 RAM VISHWAS BORSE VERSUS THE STATE OF MAHARASHTRA ... Advocate for Applicant : Mr. D. R. Kale APP for Respondents-State : Mr. S. G. Sangale … AND 907 BAIL APPLICATION NO. 2497 OF 2025 BALU DEVIDAS RATHOD VERSUS THE STATE OF MAHARASHTRA ... Advocate for Applicant :",
+          "status": "unreviewed retrieval candidate; not an outcome/element finding"
+        }
+      ],
+      "unreviewed_fields": {
+        "journalism_nexus": null,
+        "fir_quashed": null,
+        "charge_conduct_distance": null
+      }
+    },
+    {
+      "cnr": "HCBM030500802025",
+      "title": "VIJAY RAMA GAVHANE v THE STATE OF MAHARASHTRA AND ANOTHER",
+      "law_hits": [
+        "BNS:196",
+        "BNS:299"
+      ],
+      "decision_date": "2025-12-18 00:00:00",
+      "source_url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=hcaurdb/orders_2025_231800024722025_1.pdf",
+      "pages_json": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=hcaurdb/orders_2025_231800024722025_1.pages.json",
+      "page_count": 3,
+      "review_ids": [],
+      "verified_specific_charge_laws": [],
+      "excluded_metadata_hits": [],
+      "case_family_key": null,
+      "lexical_candidates": [
+        {
+          "term": "bail",
+          "pdf_page": 1,
+          "context": "901 BA No.2472.2025 + 7 -1- IN THE HIGH COURT OF JUDICATURE AT BOMBAY BENCH AT AURANGABAD 901 BAIL APPLICATION NO. 2472 OF 2025 VIJAY RAMA GAVHANE VERSUS THE STATE OF MAHARASHTRA AND ANOTHER ... Advocate for Applicant : Mr. S. J. Salunke APP for Respondents-State : Mr. S. G. Sangale … WITH BAIL APPLICATION NO. 1501 OF 2025 …. AND 902 BAIL APPLICATION NO. 2478 OF 2025 MOHAMMAD AZHAR MUSTAFA D",
+          "status": "unreviewed retrieval candidate; not an outcome/element finding"
+        },
+        {
+          "term": "bail",
+          "pdf_page": 2,
+          "context": "ANKATRAO SHINDE VERSUS THE STATE OF MAHARASHTRA AND ANOTHER ... Advocate for Applicant : Mr. S. J. Salunke APP for Respondents-State : Ms. D. S. Jape … AND 906 BAIL APPLICATION NO. 2494 OF 2025 RAM VISHWAS BORSE VERSUS THE STATE OF MAHARASHTRA ... Advocate for Applicant : Mr. D. R. Kale APP for Respondents-State : Mr. S. G. Sangale … AND 907 BAIL APPLICATION NO. 2497 OF 2025 BALU DEVIDAS RATHOD VERSUS THE STATE OF MAHARASHTRA ... Advocate for Applicant :",
+          "status": "unreviewed retrieval candidate; not an outcome/element finding"
+        }
+      ],
+      "unreviewed_fields": {
+        "journalism_nexus": null,
+        "fir_quashed": null,
+        "charge_conduct_distance": null
+      }
+    },
+    {
+      "cnr": "HCBM010174652025",
+      "title": "RAVINDRA DILIP PADWAL v THE STATE OF MAHARASHTRA",
+      "law_hits": [
+        "BNS:196"
+      ],
+      "decision_date": "2025-07-25 00:00:00",
+      "source_url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200008462025_7.pdf",
+      "pages_json": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200008462025_7.pages.json",
+      "page_count": 1,
+      "review_ids": [],
+      "verified_specific_charge_laws": [],
+      "excluded_metadata_hits": [],
+      "case_family_key": null,
+      "lexical_candidates": [
+        {
+          "term": "bail",
+          "pdf_page": 1,
+          "context": "908-aba-846-25@IA.doc IN THE HIGH COURT OF JUDICATURE AT BOMBAY CRIMINAL APPELLATE JURISDICTION Anticipatory Bail Application No.846 of 2025 Ravindra Dilip Padwal … Applicant. Vs. The State of Maharashtra … Respondent. With Interim Application No.2737 of 2025 In Anticipatory Bail Application No.846 of 2025 Siraj Kasam Pabhulkar … Applicant. Vs. The State of Mah",
+          "status": "unreviewed retrieval candidate; not an outcome/element finding"
+        }
+      ],
+      "unreviewed_fields": {
+        "journalism_nexus": null,
+        "fir_quashed": null,
+        "charge_conduct_distance": null
+      }
+    },
+    {
+      "cnr": "HCBM010546982025",
+      "title": "MAMTA GANESH SHINDE v STATE OF MAHARASHTRA AND ANR",
+      "law_hits": [
+        "BNS:221"
+      ],
+      "decision_date": "2025-12-11 00:00:00",
+      "source_url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800055672025_5.pdf",
+      "pages_json": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800055672025_5.pages.json",
+      "page_count": 1,
+      "review_ids": [],
+      "verified_specific_charge_laws": [],
+      "excluded_metadata_hits": [],
+      "case_family_key": null,
+      "lexical_candidates": [],
+      "unreviewed_fields": {
+        "journalism_nexus": null,
+        "fir_quashed": null,
+        "charge_conduct_distance": null
+      }
+    },
+    {
+      "cnr": "HCBM010343052025",
+      "title": "JITENDRA NARESH BHABHE BHAVE v STATE OF MAHARASHTRA",
+      "law_hits": [
+        "BNS:221",
+        "BNS:353",
+        "BNS:356"
+      ],
+      "decision_date": "2025-07-01 00:00:00",
+      "source_url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200017592025_1.pdf",
+      "pages_json": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200017592025_1.pages.json",
+      "page_count": 1,
+      "review_ids": [],
+      "verified_specific_charge_laws": [],
+      "excluded_metadata_hits": [],
+      "case_family_key": null,
+      "lexical_candidates": [
+        {
+          "term": "bail",
+          "pdf_page": 1,
+          "context": "904-aba-1759-25.doc IN THE HIGH COURT OF JUDICATURE AT BOMBAY CRIMINAL APPELLATE JURISDICTION Anticipatory Bail Application No.1759 of 2025 Jitendra NareshBhabhe (Bhave) Age: 56 yrs, Occ: business R/o 32, Dnyaneshwari, Ashwini colony, near Govt Polytechnic college, Samangaon road, Nashik road, Nashik … Applicant. Vs. The State of Maharashtra Through the PI, Cyber Police Station, Nashik",
+          "status": "unreviewed retrieval candidate; not an outcome/element finding"
+        }
+      ],
+      "unreviewed_fields": {
+        "journalism_nexus": null,
+        "fir_quashed": null,
+        "charge_conduct_distance": null
+      }
+    },
+    {
+      "cnr": "HCBM010553222025",
+      "title": "GANESH SHINDE @ KALIA GANYA v STATE OF MAHARASHTRA",
+      "law_hits": [
+        "BNS:221"
+      ],
+      "decision_date": "2025-11-03 00:00:00",
+      "source_url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200029572025_1.pdf",
+      "pages_json": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200029572025_1.pages.json",
+      "page_count": 1,
+      "review_ids": [],
+      "verified_specific_charge_laws": [],
+      "excluded_metadata_hits": [],
+      "case_family_key": null,
+      "lexical_candidates": [
+        {
+          "term": "bail",
+          "pdf_page": 1,
+          "context": "1 21-ABA 2957-25.doc IN THE HIGH COURT OF JUDICATURE AT BOMBAY CRIMINAL APPELLATE JURISDICTION ANTICIPATORY BAIL APPLICATION NO.2957 OF 2025 Ganesh Shinde @ Kalia Ganya … Applicant V/s. State of Maharashtra … Respondent ----- None for the Applicant. Ms. Anagha Deshmukh, APP for the Respondent-State. PSI Ankush D. Patil, Kalwa PS is present. ----- CORAM : N.R. BORKAR, J. DATE : 03RD NOVEMBER 2025 P.C",
+          "status": "unreviewed retrieval candidate; not an outcome/element finding"
+        }
+      ],
+      "unreviewed_fields": {
+        "journalism_nexus": null,
+        "fir_quashed": null,
+        "charge_conduct_distance": null
+      }
+    },
+    {
+      "cnr": "HCBM010286462025",
+      "title": "AMOL DINKAR JADHAV AND ANR v STATE OF MAHARASHTRA",
+      "law_hits": [
+        "BNS:221",
+        "BNS:353",
+        "BNS:356",
+        "IT:67"
+      ],
+      "decision_date": "2025-06-06 00:00:00",
+      "source_url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200014462025_3.pdf",
+      "pages_json": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200014462025_3.pages.json",
+      "page_count": 2,
+      "review_ids": [],
+      "verified_specific_charge_laws": [],
+      "excluded_metadata_hits": [],
+      "case_family_key": null,
+      "lexical_candidates": [
+        {
+          "term": "bail",
+          "pdf_page": 1,
+          "context": "4.ABA1417.2025.odt IN THE HIGH COURT OF JUDICATURE AT BOMBAY CRIMINAL APPELLATE JURISDICTION CRIMINAL ANTICIPATORY BAIL APPLICATION NO. 1417 OF 2025 Jitendra Naresh Bhabhe. ... Applicant. Vs. The State of Maharashtra ... Respondent. WITH CRIMINAL ANTICIPATORY BAIL APPLICATION NO. 1443 OF 2025 Rajendra Babanrao Gaidhani. ... Applicant. Vs. The State of Maharashtra ... Respondent. WITH CRIMINAL ANTICIPATORY",
+          "status": "unreviewed retrieval candidate; not an outcome/element finding"
+        },
+        {
+          "term": "bail",
+          "pdf_page": 2,
+          "context": "3) notice under Section BNSS. 3. Mr. Narayan Rokade states that he has instructions from the Applicants to unconditionally withdraw the present Anticipatory Bail Applications. Leave granted. 4. All the above Anticipatory Bail Applications are dismissed as withdrawn. [ ASHWIN D. BHOBE, J.] Talwalkar 2 of 2",
+          "status": "unreviewed retrieval candidate; not an outcome/element finding"
+        }
+      ],
+      "unreviewed_fields": {
+        "journalism_nexus": null,
+        "fir_quashed": null,
+        "charge_conduct_distance": null
+      }
+    },
+    {
+      "cnr": "HCBM010351762025",
+      "title": "NADEEM KHAN MOHIDDIN KHAN v STATE OF MAHARASHTRA AND ANR",
+      "law_hits": [
+        "BNS:299"
+      ],
+      "decision_date": "2025-07-04 00:00:00",
+      "source_url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200018132025_1.pdf",
+      "pages_json": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200018132025_1.pages.json",
+      "page_count": 1,
+      "review_ids": [],
+      "verified_specific_charge_laws": [],
+      "excluded_metadata_hits": [],
+      "case_family_key": null,
+      "lexical_candidates": [
+        {
+          "term": "bail",
+          "pdf_page": 1,
+          "context": "909.aba1813-25.docx IN THE HIGH COURT OF JUDICATURE AT BOMBAY CRIMINAL APPELLATE JURISDICTION Anticipatory Bail Application No.1813 of 2025 Nadeem Khan Mohiddin Khan … Applicant versus The State of Maharashtra and Anr … Respondents ---- Mr Moin Khan, a/w. Ms Shafiya Shaikh, for the applicant. Mr Anand Shalgaonkar, APP , for respondent No.1/ State. ---- Coram: R.N. Laddha, J. Date: 4 July 2025. P.C.: . He",
+          "status": "unreviewed retrieval candidate; not an outcome/element finding"
+        }
+      ],
+      "unreviewed_fields": {
+        "journalism_nexus": null,
+        "fir_quashed": null,
+        "charge_conduct_distance": null
+      }
+    },
+    {
+      "cnr": "HCBM010549912024",
+      "title": "VIJAY RAMBABU SONKAR AND ORS v THE STATE OF MAHARASHTRA AND ANR",
+      "law_hits": [
+        "BNS:299"
+      ],
+      "decision_date": "2025-01-02 00:00:00",
+      "source_url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_230800052312024_2.pdf",
+      "pages_json": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_230800052312024_2.pages.json",
+      "page_count": 12,
+      "review_ids": [],
+      "verified_specific_charge_laws": [],
+      "excluded_metadata_hits": [],
+      "case_family_key": null,
+      "lexical_candidates": [
+        {
+          "term": "quash",
+          "pdf_page": 4,
+          "context": "2024 have approached this Court setting forth prayer clause 9 (a), which reads as under : “(a) This Hon’ble Court may kindly issue writ of certiorari and quash/ de-register the criminal proceedings in C.R. No. 1349 of 2024 registered at Malwani Police Station, Mumbai for offences punishable u/s 115 (2), 352, 79 & 3 (5) of BNS 2023”. 4",
+          "status": "unreviewed retrieval candidate; not an outcome/element finding"
+        },
+        {
+          "term": "quash",
+          "pdf_page": 6,
+          "context": "in both these Petitions, submit that now both the parties desire to live peaceful ly and they have decided to settle the issue. They pray that the FIRs be quashed 6",
+          "status": "unreviewed retrieval candidate; not an outcome/element finding"
+        }
+      ],
+      "unreviewed_fields": {
+        "journalism_nexus": null,
+        "fir_quashed": null,
+        "charge_conduct_distance": null
+      }
+    },
+    {
+      "cnr": "HCBM010492472025",
+      "title": "NAMDEV DEVJI TALAPE v SUNITA NAMDEV  TALAPE AND ORS",
+      "law_hits": [
+        "BNS:353"
+      ],
+      "decision_date": "2025-09-22 00:00:00",
+      "source_url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800049062025_1.pdf",
+      "pages_json": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800049062025_1.pages.json",
+      "page_count": 1,
+      "review_ids": [],
+      "verified_specific_charge_laws": [],
+      "excluded_metadata_hits": [],
+      "case_family_key": null,
+      "lexical_candidates": [],
+      "unreviewed_fields": {
+        "journalism_nexus": null,
+        "fir_quashed": null,
+        "charge_conduct_distance": null
+      }
+    },
+    {
+      "cnr": "HCBM030439342025",
+      "title": "MEHRAJ ABDUL KHAYUM PATEL v THE STATE OF MAHARASHTRA AND ANOTHER",
+      "law_hits": [
+        "BNS:353"
+      ],
+      "decision_date": "2025-11-28 00:00:00",
+      "source_url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=hcaurdb/orders_2025_230500008202025_3.pdf",
+      "pages_json": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=hcaurdb/orders_2025_230500008202025_3.pages.json",
+      "page_count": 1,
+      "review_ids": [],
+      "verified_specific_charge_laws": [],
+      "excluded_metadata_hits": [],
+      "case_family_key": null,
+      "lexical_candidates": [],
+      "unreviewed_fields": {
+        "journalism_nexus": null,
+        "fir_quashed": null,
+        "charge_conduct_distance": null
+      }
+    },
+    {
+      "cnr": "HCBM010166222025",
+      "title": "POPAT BALWANT KADAM AND ANR v STATE OF MAHARASHTRA",
+      "law_hits": [
+        "BNS:353"
+      ],
+      "decision_date": "2025-04-28 00:00:00",
+      "source_url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233100013042025_3.pdf",
+      "pages_json": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233100013042025_3.pages.json",
+      "page_count": 3,
+      "review_ids": [],
+      "verified_specific_charge_laws": [],
+      "excluded_metadata_hits": [],
+      "case_family_key": null,
+      "lexical_candidates": [
+        {
+          "term": "bail",
+          "pdf_page": 1,
+          "context": "7-ba-1304-2025.doc IN THE HIGH COURT OF JUDICATURE AT BOMBAY CRIMINAL APPELLATE JURISDICTION CRIMINAL BAIL APPLICATION NO. 1304 OF 2025 1. Popat Balwant Kadam 2. Balbhim Vishnu Kadam ...Applicants VERSUS The State of Maharashtra ...Respondent …. Mr. Shekhar Ingawale, Advocate for the Applicants. Ms. Veera Shinde, A.P .P. for the Respondent – State. …. CORAM : N. R. BORKAR, J. DATE : 28.04.",
+          "status": "unreviewed retrieval candidate; not an outcome/element finding"
+        },
+        {
+          "term": "bail",
+          "pdf_page": 2,
+          "context": "to the present applicants. It is submitted that the applicants are involved in one more crime. It is th us submitted that the applicants may not be released on bail. 7. I have perused the statement of complainant/injured. The motive for the alleged crime is attributed to the accused No.1. According to him present applicants assaulted him by fist and kick blows. Considering the sa id facts, I am inclined to release the applicants on bail. I n",
+          "status": "unreviewed retrieval candidate; not an outcome/element finding"
+        }
+      ],
+      "unreviewed_fields": {
+        "journalism_nexus": null,
+        "fir_quashed": null,
+        "charge_conduct_distance": null
+      }
+    },
+    {
+      "cnr": "HCBM010410412025",
+      "title": "ABDUL SADAM ABDUL RASHID SHAIKH @ ABDUL SAMAD ABDUL RASHID SHAIKH v THE STATE OF MAHARASHTRA AND ORS",
+      "law_hits": [
+        "BNS:356"
+      ],
+      "decision_date": "2025-09-24 00:00:00",
+      "source_url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800041582025_2.pdf",
+      "pages_json": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800041582025_2.pages.json",
+      "page_count": 2,
+      "review_ids": [],
+      "verified_specific_charge_laws": [],
+      "excluded_metadata_hits": [],
+      "case_family_key": null,
+      "lexical_candidates": [
+        {
+          "term": "quash",
+          "pdf_page": 1,
+          "context": "Writ Petition is filed under Article 22 6 and Article 227 of the Constitution of India and section 528 of the Bharatiya Nagarik Suraksha Sanhita, 2023 seeking quashing, by consent, of the FIR No. 573 of 2025 registered with the Mumbra Police Station under sections 308, 118(1), 115(2), 351(2), 352, 35 6(2) and 3(5) of the Bhartiya Nyaya Sanhita, 2023 and the criminal p roceeding being Regular Criminal Case No. 2781/2025 pending be fore the 3 rd Jo",
+          "status": "unreviewed retrieval candidate; not an outcome/element finding"
+        },
+        {
+          "term": "quash",
+          "pdf_page": 2,
+          "context": "haikh, the learned advocate for respondent nos. 2 and 3 has tendered an affidavit dated 17 th September 2025 across the bar recording their no objection to the quashing of the FIR and any proceedings arising therefrom. The same is taken on record and marked “X” for identification. 4. It is settled law that the Court is empowered to quash the criminal proceedings to prevent the abuse of proces s of law, particularly, when the complainant no",
+          "status": "unreviewed retrieval candidate; not an outcome/element finding"
+        }
+      ],
+      "unreviewed_fields": {
+        "journalism_nexus": null,
+        "fir_quashed": null,
+        "charge_conduct_distance": null
+      }
+    },
+    {
+      "cnr": "HCBM010075992025",
+      "title": "HANUMAN @ HANYA PARSHURAM PATIL v THE STATE OF MAHARASHTRA AND ANR",
+      "law_hits": [
+        "BNS:356"
+      ],
+      "decision_date": "2025-04-22 00:00:00",
+      "source_url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233100006252025_5.pdf",
+      "pages_json": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233100006252025_5.pages.json",
+      "page_count": 15,
+      "review_ids": [
+        "hc-defamation-not-confirmed"
+      ],
+      "verified_specific_charge_laws": [],
+      "excluded_metadata_hits": [],
+      "case_family_key": null,
+      "lexical_candidates": [
+        {
+          "term": "bail",
+          "pdf_page": 1,
+          "context": "ININ THETHE HIGHHIGH COURTCOURT OFOF JUDICATUREJUDICATURE ATAT BOMBAYBOMBAY CRIMINAL APPELLATE JURISDICTIONCRIMINAL APPELLATE JURISDICTION CRIMINAL BAIL APPLICATION NO. 625 OF 2025 Hanuman @ Hanya Parshuram Patil .. Applicant Versus The State of Maharashtra and Anr. .. Respondents ....................  Mr. Vaibhav R. Gargade, Advocate for Applicant.  Mr. Sukanta Karmakar, APP for Respondent No. 1 – State.  Mr. Saurish S. Shetye",
+          "status": "unreviewed retrieval candidate; not an outcome/element finding"
+        },
+        {
+          "term": "bail",
+          "pdf_page": 4,
+          "context": "a he kept contacting her family members and threatened her which ultimate ly compelled her to file the complaint against him. He would submit that granting bail to Applicant would pose an imminent danger to the 4 of 15",
+          "status": "unreviewed retrieval candidate; not an outcome/element finding"
+        }
+      ],
+      "unreviewed_fields": {
+        "journalism_nexus": null,
+        "fir_quashed": null,
+        "charge_conduct_distance": null
+      }
+    },
+    {
+      "cnr": "HCBM010273022025",
+      "title": "ABHISHEK MISHRA AND ANR v STATE OF MAHARASHTRA AND ANR",
+      "law_hits": [
+        "BNS:356"
+      ],
+      "decision_date": "2025-06-16 00:00:00",
+      "source_url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800028072025_1.pdf",
+      "pages_json": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800028072025_1.pages.json",
+      "page_count": 1,
+      "review_ids": [],
+      "verified_specific_charge_laws": [],
+      "excluded_metadata_hits": [],
+      "case_family_key": null,
+      "lexical_candidates": [
+        {
+          "term": "quash",
+          "pdf_page": 1,
+          "context": "She submitted that, the said Report will be filed within three working days from today . The said statement is accepted. 2. In view of the above, Petition for quashing of C.R.No. 0398 of 2025 registered with Amboli Police Station, Mumbai, has become infructuous and is accordingly , disposed of. (RAJESH S. PATIL, J.) (A.S. GADKARI, J.) 1/1 2025:BHC-AS:24835-DB",
+          "status": "unreviewed retrieval candidate; not an outcome/element finding"
+        }
+      ],
+      "unreviewed_fields": {
+        "journalism_nexus": null,
+        "fir_quashed": null,
+        "charge_conduct_distance": null
+      }
+    },
+    {
+      "cnr": "HCBM010560832024",
+      "title": "AMIT SHANTARAM MATKAR AND ANR v THE STATE OF MAHARASHTRA AND ANR",
+      "law_hits": [
+        "BNS:356"
+      ],
+      "decision_date": "2025-04-16 00:00:00",
+      "source_url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_233000016702024_3.pdf",
+      "pages_json": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_233000016702024_3.pages.json",
+      "page_count": 1,
+      "review_ids": [],
+      "verified_specific_charge_laws": [],
+      "excluded_metadata_hits": [],
+      "case_family_key": null,
+      "lexical_candidates": [],
+      "unreviewed_fields": {
+        "journalism_nexus": null,
+        "fir_quashed": null,
+        "charge_conduct_distance": null
+      }
+    },
+    {
+      "cnr": "HCBM010312862024",
+      "title": "URVASHI CHUDAWALA v THE STATE OF MAHARASHTRA",
+      "law_hits": [
+        "IPC:124A",
+        "IPC:505"
+      ],
+      "decision_date": "2024-07-15 00:00:00",
+      "source_url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2024/court=27_1/bench=newas/orders_2024_233700024872024_2.pdf",
+      "pages_json": "work/court-data/indian-high-court-judgments/data/pdf/year=2024/court=27_1/bench=newas/orders_2024_233700024872024_2.pages.json",
+      "page_count": 3,
+      "review_ids": [],
+      "verified_specific_charge_laws": [],
+      "excluded_metadata_hits": [],
+      "case_family_key": null,
+      "lexical_candidates": [
+        {
+          "term": "bail",
+          "pdf_page": 1,
+          "context": "rmission to travel.doc IN THE HIGH COURT OF JUDICATURE AT BOMBAY CRIMINAL APPELLATE JURISDICTION Interim Application No.2487 of 2024 in Anticipatory Bail Application No.342 OF 2020 Urvashi Chudawala Aged 26 years, Adult Indian Inhabitant, Residing at 003, 13-B, Shreeji Splender Bramhand, Azad Nagar, Thane (West), Sandozbaug, Maharashtra-400 607 ... Applicant. v/s. The State of Maharashtra At the instance of Azad Maidan Police Station,",
+          "status": "unreviewed retrieval candidate; not an outcome/element finding"
+        },
+        {
+          "term": "bail",
+          "pdf_page": 2,
+          "context": "is a 22 y ears old, making her readily available for investigation. 3. On 30 October 2021, the Court made the interim order absolu te and granted anticipatory bail to the applicant. The operat ive part of the order reads thus: ORDER (i) The interim order dated 1 1.02.2020 is made absolute in the following terms and conditions; (a) The Applicant shall cooperate with the investigating agency; (b) The Applicant shall appear before the inve",
+          "status": "unreviewed retrieval candidate; not an outcome/element finding"
+        }
+      ],
+      "unreviewed_fields": {
+        "journalism_nexus": null,
+        "fir_quashed": null,
+        "charge_conduct_distance": null
+      }
+    },
+    {
+      "cnr": "HCBM010273422024",
+      "title": "MUZAMMIL SHAIKH S/O ATA UR RAHMAN SHAIKH v THE STATE OF MAHARASHTRA AND ANR",
+      "law_hits": [
+        "IPC:124A",
+        "UAPA:13"
+      ],
+      "decision_date": "2024-06-14 00:00:00",
+      "source_url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2024/court=27_1/bench=newas/orders_2024_230800023192024_4.pdf",
+      "pages_json": "work/court-data/indian-high-court-judgments/data/pdf/year=2024/court=27_1/bench=newas/orders_2024_230800023192024_4.pages.json",
+      "page_count": 2,
+      "review_ids": [],
+      "verified_specific_charge_laws": [],
+      "excluded_metadata_hits": [],
+      "case_family_key": null,
+      "lexical_candidates": [],
+      "unreviewed_fields": {
+        "journalism_nexus": null,
+        "fir_quashed": null,
+        "charge_conduct_distance": null
+      }
+    },
+    {
+      "cnr": "HCBM010570352024",
+      "title": "LACHU NARAYANDAS DUNWANI v STATE OF MAHARASHTRA AND ANR",
+      "law_hits": [
+        "IPC:153A",
+        "IPC:295A",
+        "IT:66A"
+      ],
+      "decision_date": "2025-03-03 00:00:00",
+      "source_url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_230800054792024_1.pdf",
+      "pages_json": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_230800054792024_1.pages.json",
+      "page_count": 1,
+      "review_ids": [],
+      "verified_specific_charge_laws": [],
+      "excluded_metadata_hits": [],
+      "case_family_key": null,
+      "lexical_candidates": [],
+      "unreviewed_fields": {
+        "journalism_nexus": null,
+        "fir_quashed": null,
+        "charge_conduct_distance": null
+      }
+    },
+    {
+      "cnr": "HCBM010364052024",
+      "title": "MOHAMMAD IRFAN DAULAT KHAN @ MAULANA IRFAN KHAN (NADAVI) v THE STATE OF MAHARASHTRA",
+      "law_hits": [
+        "IPC:153A",
+        "UAPA:13"
+      ],
+      "decision_date": "2025-04-28 00:00:00",
+      "source_url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_231000010292024_16.pdf",
+      "pages_json": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_231000010292024_16.pages.json",
+      "page_count": 15,
+      "review_ids": [],
+      "verified_specific_charge_laws": [],
+      "excluded_metadata_hits": [],
+      "case_family_key": null,
+      "lexical_candidates": [
+        {
+          "term": "bail",
+          "pdf_page": 2,
+          "context": "bmission of the learned counsel for the Appellant that more than 150 prosecution witnesses are to be examined in this case. 4. While rejecting the Appellant’s bail application, learned Special Judge observed that there was prima facie case against the Appellant. There were links between him and the co-accused. There were phone calls between him and the co-accused. Ther e used to be secret meetings between the accused persons. Th e peo",
+          "status": "unreviewed retrieval candidate; not an outcome/element finding"
+        },
+        {
+          "term": "bail",
+          "pdf_page": 3,
+          "context": "at there were chances of the Appellant tampering with the prosecution witnesses was accepte d by the learned Judge. Based on all these considerations, the Bail Application was rejected. The Appellant has challenged this order in the present Appeal. 5. The FIR was lodged on 22.9.2022 by API Sukhdeo Kale. The FIR was lodged against five accused on the allegations that they were spreading hatred in the minds of the Muslim peopl e against Government of",
+          "status": "unreviewed retrieval candidate; not an outcome/element finding"
+        }
+      ],
+      "unreviewed_fields": {
+        "journalism_nexus": null,
+        "fir_quashed": null,
+        "charge_conduct_distance": null
+      }
+    },
+    {
+      "cnr": "HCBM010210402024",
+      "title": "MONIKA SHERGILL D/O MR. BHARAT RAJ DHINGRA v STATE OF MAHARASHTRA",
+      "law_hits": [
+        "IPC:153A",
+        "IPC:295A",
+        "IPC:505"
+      ],
+      "decision_date": "2025-11-26 00:00:00",
+      "source_url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_230800030062024_12.pdf",
+      "pages_json": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_230800030062024_12.pages.json",
+      "page_count": 2,
+      "review_ids": [],
+      "verified_specific_charge_laws": [],
+      "excluded_metadata_hits": [],
+      "case_family_key": null,
+      "lexical_candidates": [
+        {
+          "term": "quash",
+          "pdf_page": 1,
+          "context": "HITE DERE & SANDESH D. PATIL, JJ. WEDNESDAY, 26 th NOVEMBER 2025 P.C : 1 By this petition, the petitioner seeks quashing of the FIR registered vide C.R. No.20/2024 with the Naya Nagar Police Station, Thane, for the alleged offences punishable under Sections SQ Pathan 1/2 SHAGUFTA QUTBUDDIN PATHAN Digitally signed by",
+          "status": "unreviewed retrieval candidate; not an outcome/element finding"
+        }
+      ],
+      "unreviewed_fields": {
+        "journalism_nexus": null,
+        "fir_quashed": null,
+        "charge_conduct_distance": null
+      }
+    },
+    {
+      "cnr": "HCBM010363872024",
+      "title": "SUDHIR SHAMRAO TAWARE v STATE OF MAHARASHTRA",
+      "law_hits": [
+        "IPC:153A",
+        "IPC:295A"
+      ],
+      "decision_date": "2025-03-03 00:00:00",
+      "source_url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_230900003872024_1.pdf",
+      "pages_json": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_230900003872024_1.pages.json",
+      "page_count": 1,
+      "review_ids": [],
+      "verified_specific_charge_laws": [],
+      "excluded_metadata_hits": [],
+      "case_family_key": null,
+      "lexical_candidates": [],
+      "unreviewed_fields": {
+        "journalism_nexus": null,
+        "fir_quashed": null,
+        "charge_conduct_distance": null
+      }
+    },
+    {
+      "cnr": "HCBM010385712024",
+      "title": "DADASO MANOHAR CHALEKAR v STATE OF MAHARASHTRA",
+      "law_hits": [
+        "IPC:186"
+      ],
+      "decision_date": "2024-12-05 00:00:00",
+      "source_url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2024/court=27_1/bench=newas/orders_2024_233100032982024_9.pdf",
+      "pages_json": "work/court-data/indian-high-court-judgments/data/pdf/year=2024/court=27_1/bench=newas/orders_2024_233100032982024_9.pages.json",
+      "page_count": 3,
+      "review_ids": [],
+      "verified_specific_charge_laws": [],
+      "excluded_metadata_hits": [],
+      "case_family_key": null,
+      "lexical_candidates": [
+        {
+          "term": "bail",
+          "pdf_page": 1,
+          "context": "931-BA-3298-2024.DOC Kartikeya Goti. IN THE HIGH COURT OF JUDICATURE AT BOMBAY CRIMINAL APPELLATE JURISDICTION CRIMINAL BAIL APPLICATION NO.3298 OF 2024 Dadaso Manohar Chalekar ...Applicant Vs. State of Maharashtra ...Respondent Mr. Amit Icham a/w Mr. Pratik Jadhav and Mr. Sumit Patil, Ad vocate for Applicant. Mr. S.S. Choudhari, APP for State-Respondent. CORAM:- ANIL S. KILOR, J. DA",
+          "status": "unreviewed retrieval candidate; not an outcome/element finding"
+        },
+        {
+          "term": "bail",
+          "pdf_page": 2,
+          "context": "the circumstances, though the learned APP has strongly opposed the application, I am of the opinion that t he applicant is entitled for grant of bail. 5). Accordingly , I pass the following order. ORDER (i) The Bail Application is allowed; (ii) It is directed that the Applicant shall be released on bail in Crime No. 357 of 2024 registered with Sangola Police Station, District Solapur, for the offences punishable under Sections",
+          "status": "unreviewed retrieval candidate; not an outcome/element finding"
+        }
+      ],
+      "unreviewed_fields": {
+        "journalism_nexus": null,
+        "fir_quashed": null,
+        "charge_conduct_distance": null
+      }
+    },
+    {
+      "cnr": "HCBM010182562025",
+      "title": "MILIND RAMDAS NIKAM v STATE OF MAHARASHTRA",
+      "law_hits": [
+        "IPC:186"
+      ],
+      "decision_date": "2025-07-10 00:00:00",
+      "source_url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233100014392025_5.pdf",
+      "pages_json": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233100014392025_5.pages.json",
+      "page_count": 7,
+      "review_ids": [],
+      "verified_specific_charge_laws": [],
+      "excluded_metadata_hits": [],
+      "case_family_key": null,
+      "lexical_candidates": [
+        {
+          "term": "bail",
+          "pdf_page": 1,
+          "context": "18-ba1439-2025.doc AGK/Shabnoor IN THE HIGH COURT OF JUDICATURE AT BOMBAY CRIMINAL APPELLATE JURISDICTION BAIL APPLICATION NO.1439 OF 2025 Milind Ramdas Nikam … Applicant V/s. The State of Maharashtra … Respondent Mr. Arif Zamirullah Khan with Ms. Shilpa Sharma for the applicant. Mr. Prasanna P . Malshe, APP for the respondent-State. Mr. Jagdish More, PSI, Andheri Police Station, Mumbai, is present. C",
+          "status": "unreviewed retrieval candidate; not an outcome/element finding"
+        },
+        {
+          "term": "bail",
+          "pdf_page": 3,
+          "context": "nvestigation has been completed, and the applicant has been in custody since 17th October 2024. In these circumstances, he prays for the grant of regular bail. 4. In support of the bail plea, the learned advocate for the applicant has placed reliance upon certain orders passed by this Court in Chetan Kisan Patil Vs. State of Maharashtra (Bail Application No.1304 of 2024, decided on 18th June 2025), Dipak P . Mali Vs. State of Maharash",
+          "status": "unreviewed retrieval candidate; not an outcome/element finding"
+        }
+      ],
+      "unreviewed_fields": {
+        "journalism_nexus": null,
+        "fir_quashed": null,
+        "charge_conduct_distance": null
+      }
+    },
+    {
+      "cnr": "HCBM010572082023",
+      "title": "VEENA AMOL BHURKE v STATE OF MAHARASHTRA AND ANR",
+      "law_hits": [
+        "IPC:186"
+      ],
+      "decision_date": "2024-08-08 00:00:00",
+      "source_url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2024/court=27_1/bench=newas/orders_2023_230800006582024_3.pdf",
+      "pages_json": "work/court-data/indian-high-court-judgments/data/pdf/year=2024/court=27_1/bench=newas/orders_2023_230800006582024_3.pages.json",
+      "page_count": 1,
+      "review_ids": [],
+      "verified_specific_charge_laws": [],
+      "excluded_metadata_hits": [],
+      "case_family_key": null,
+      "lexical_candidates": [],
+      "unreviewed_fields": {
+        "journalism_nexus": null,
+        "fir_quashed": null,
+        "charge_conduct_distance": null
+      }
+    },
+    {
+      "cnr": "HCBM010221372025",
+      "title": "SAURABH @ MAHENDRA DATTATRAYA LENDE v THE STATE OF MAHARASHTRA",
+      "law_hits": [
+        "IPC:186"
+      ],
+      "decision_date": "2025-12-02 00:00:00",
+      "source_url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233100017322025_6.pdf",
+      "pages_json": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233100017322025_6.pages.json",
+      "page_count": 6,
+      "review_ids": [],
+      "verified_specific_charge_laws": [],
+      "excluded_metadata_hits": [],
+      "case_family_key": null,
+      "lexical_candidates": [
+        {
+          "term": "bail",
+          "pdf_page": 1,
+          "context": "36-ba-1732-2025.docx IN THE HIGH COURT OF JUDICATURE AT BOMBAY CRIMINAL APPELLATE JURISDICTION Bail Application No.1732 of 2025 Saurabh @ Mahendra Dattatraya Lende Age 21 years, Occupation : Driver, R/at.: Lendewadi, Post Koregaonbhiwar, T aluka – Daund, Dist: Pune. (Currently lodged in Yerwara Central Prison) …Applicant versus The State of Maharashtra (Through Shikrapur Police Station, Pune)",
+          "status": "unreviewed retrieval candidate; not an outcome/element finding"
+        },
+        {
+          "term": "bail",
+          "pdf_page": 3,
+          "context": "a simple nature, and the application of Section 307 IPC cannot be attracted. It is further pointed o ut that the co-accused has already been released on bail, and the applicant is entitled to seek parity. Mr Joshi further sub mits that the applicant has no criminal antecedents and has been languishing in jail since 16 January 2023 without any substantial progress in the trial. 5. Mr SV Walve, the learned Additional Public Prosecutor represe",
+          "status": "unreviewed retrieval candidate; not an outcome/element finding"
+        }
+      ],
+      "unreviewed_fields": {
+        "journalism_nexus": null,
+        "fir_quashed": null,
+        "charge_conduct_distance": null
+      }
+    },
+    {
+      "cnr": "HCBM010496572024",
+      "title": "SHARAD UTTAMRAO TANDALE v SANGRAM SUHAS BHANDARE AND ANR",
+      "law_hits": [
+        "IPC:295A"
+      ],
+      "decision_date": "2025-04-29 00:00:00",
+      "source_url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_233700042232024_8.pdf",
+      "pages_json": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_233700042232024_8.pages.json",
+      "page_count": 2,
+      "review_ids": [],
+      "verified_specific_charge_laws": [],
+      "excluded_metadata_hits": [],
+      "case_family_key": null,
+      "lexical_candidates": [],
+      "unreviewed_fields": {
+        "journalism_nexus": null,
+        "fir_quashed": null,
+        "charge_conduct_distance": null
+      }
+    },
+    {
+      "cnr": "HCBM010166562024",
+      "title": "PRAVEEN DATTATRAYA BHOLE AND ORS v THE STATE OF MAHARASHTRA",
+      "law_hits": [
+        "IPC:295A"
+      ],
+      "decision_date": "2024-07-01 00:00:00",
+      "source_url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2024/court=27_1/bench=newas/orders_2024_230800021732024_1.pdf",
+      "pages_json": "work/court-data/indian-high-court-judgments/data/pdf/year=2024/court=27_1/bench=newas/orders_2024_230800021732024_1.pages.json",
+      "page_count": 1,
+      "review_ids": [],
+      "verified_specific_charge_laws": [],
+      "excluded_metadata_hits": [],
+      "case_family_key": null,
+      "lexical_candidates": [],
+      "unreviewed_fields": {
+        "journalism_nexus": null,
+        "fir_quashed": null,
+        "charge_conduct_distance": null
+      }
+    },
+    {
+      "cnr": "HCBM010147482024",
+      "title": "ASIF BASHIR SHAIKH v THE STATE OF MAHARASHTRA",
+      "law_hits": [
+        "IPC:295A",
+        "IPC:505",
+        "UAPA:13"
+      ],
+      "decision_date": "2024-07-01 00:00:00",
+      "source_url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2024/court=27_1/bench=newas/orders_2024_231000003582024_5.pdf",
+      "pages_json": "work/court-data/indian-high-court-judgments/data/pdf/year=2024/court=27_1/bench=newas/orders_2024_231000003582024_5.pages.json",
+      "page_count": 1,
+      "review_ids": [],
+      "verified_specific_charge_laws": [],
+      "excluded_metadata_hits": [],
+      "case_family_key": null,
+      "lexical_candidates": [],
+      "unreviewed_fields": {
+        "journalism_nexus": null,
+        "fir_quashed": null,
+        "charge_conduct_distance": null
+      }
+    },
+    {
+      "cnr": "HCBM010470752025",
+      "title": "LAXMAN BHUBHARAMJI PARIHAR v STATE OF MAHARASHTRA AND ANR",
+      "law_hits": [
+        "IPC:499"
+      ],
+      "decision_date": "2025-10-15 00:00:00",
+      "source_url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800046872025_3.pdf",
+      "pages_json": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800046872025_3.pages.json",
+      "page_count": 2,
+      "review_ids": [],
+      "verified_specific_charge_laws": [],
+      "excluded_metadata_hits": [],
+      "case_family_key": null,
+      "lexical_candidates": [],
+      "unreviewed_fields": {
+        "journalism_nexus": null,
+        "fir_quashed": null,
+        "charge_conduct_distance": null
+      }
+    },
+    {
+      "cnr": "HCBM010401902024",
+      "title": "NIKHIL MADHUKAR PADTE v STATE OF MAHARASHTRA AND ANR.",
+      "law_hits": [
+        "IPC:499",
+        "IPC:500"
+      ],
+      "decision_date": "2025-06-23 00:00:00",
+      "source_url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_230800040812024_5.pdf",
+      "pages_json": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_230800040812024_5.pages.json",
+      "page_count": 1,
+      "review_ids": [],
+      "verified_specific_charge_laws": [],
+      "excluded_metadata_hits": [],
+      "case_family_key": null,
+      "lexical_candidates": [],
+      "unreviewed_fields": {
+        "journalism_nexus": null,
+        "fir_quashed": null,
+        "charge_conduct_distance": null
+      }
+    },
+    {
+      "cnr": "HCBM010285452025",
+      "title": "ARPITA SONEE D/O VINOD SONEE v STATE OF MAHARASHTRA AND ORS",
+      "law_hits": [
+        "IPC:499",
+        "IPC:500"
+      ],
+      "decision_date": "2025-06-23 00:00:00",
+      "source_url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800029232025_2.pdf",
+      "pages_json": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800029232025_2.pages.json",
+      "page_count": 1,
+      "review_ids": [],
+      "verified_specific_charge_laws": [],
+      "excluded_metadata_hits": [],
+      "case_family_key": null,
+      "lexical_candidates": [],
+      "unreviewed_fields": {
+        "journalism_nexus": null,
+        "fir_quashed": null,
+        "charge_conduct_distance": null
+      }
+    },
+    {
+      "cnr": "HCBM010564792025",
+      "title": "RAIF KHURSHID AHMED KOTWAL AND ORS v STATE OF MAHARASHTRA AND ORS",
+      "law_hits": [
+        "IPC:499"
+      ],
+      "decision_date": "2025-11-12 00:00:00",
+      "source_url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233000012212025_2.pdf",
+      "pages_json": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233000012212025_2.pages.json",
+      "page_count": 2,
+      "review_ids": [],
+      "verified_specific_charge_laws": [],
+      "excluded_metadata_hits": [],
+      "case_family_key": null,
+      "lexical_candidates": [
+        {
+          "term": "quash",
+          "pdf_page": 1,
+          "context": "to call for relevant record and proceeding pertaining to impugned proceedings and after going through the legality, validity and propriety of the same, quash and set aside F.I.R. bearing C.R. No.244/2024 registered on 06.03.2024 with Kondhwa Police Station , Pune City under sections 498A, 34, 323, 504, 506 and 499 of IPC as well as the Charge Sheet dt. 14.10.2024. (b) This Hon’ble Court further be pleased to quash and s et aside proceedings",
+          "status": "unreviewed retrieval candidate; not an outcome/element finding"
+        }
+      ],
+      "unreviewed_fields": {
+        "journalism_nexus": null,
+        "fir_quashed": null,
+        "charge_conduct_distance": null
+      }
+    },
+    {
+      "cnr": "HCBM010304412024",
+      "title": "CHANDRAKANT C. SHAH v STATE OF MAHARASHTRA",
+      "law_hits": [
+        "IPC:500"
+      ],
+      "decision_date": "2025-03-27 00:00:00",
+      "source_url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_230800005692025_1.pdf",
+      "pages_json": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_230800005692025_1.pages.json",
+      "page_count": 2,
+      "review_ids": [],
+      "verified_specific_charge_laws": [],
+      "excluded_metadata_hits": [],
+      "case_family_key": null,
+      "lexical_candidates": [],
+      "unreviewed_fields": {
+        "journalism_nexus": null,
+        "fir_quashed": null,
+        "charge_conduct_distance": null
+      }
+    },
+    {
+      "cnr": "HCBM010217222025",
+      "title": "SHAMSUNDAR KASHINATH BHISE AND ORS v THE STATE OF MAHARASHTRA AND ANR",
+      "law_hits": [
+        "IPC:500"
+      ],
+      "decision_date": "2025-04-17 00:00:00",
+      "source_url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233700015002025_1.pdf",
+      "pages_json": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233700015002025_1.pages.json",
+      "page_count": 1,
+      "review_ids": [],
+      "verified_specific_charge_laws": [],
+      "excluded_metadata_hits": [],
+      "case_family_key": null,
+      "lexical_candidates": [
+        {
+          "term": "bail",
+          "pdf_page": 1,
+          "context": "502. IA 1500-25.doc IN THE HIGH COURT OF JUDICATURE AT BOMBAY CRIMINAL APPELLATE JURISDICTION INTERIM APPLICATION NO. 1500/2025 IN ANTICIPATORY BAIL APPLICATION NO. 847/2025 SHAMSUNDAR KASHINATH BHISE & ORS...APPLICANTS VS. STATE OF MAHARASHTRA & ANR. ..RESPONDENTS ------------ Adv. Burjis Doctor i/b. Adv. Pratik Irpatgiri for applicants. Ms. Rutuja A. Ambekar, APP for State. ------------",
+          "status": "unreviewed retrieval candidate; not an outcome/element finding"
+        }
+      ],
+      "unreviewed_fields": {
+        "journalism_nexus": null,
+        "fir_quashed": null,
+        "charge_conduct_distance": null
+      }
+    },
+    {
+      "cnr": "HCBM010199302024",
+      "title": "YOGESH DAMAJI GAURATH v STATE OF MAHARASHTRA AND ANR",
+      "law_hits": [
+        "IPC:500"
+      ],
+      "decision_date": "2025-09-22 00:00:00",
+      "source_url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_233100016502024_8.pdf",
+      "pages_json": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_233100016502024_8.pages.json",
+      "page_count": 1,
+      "review_ids": [],
+      "verified_specific_charge_laws": [],
+      "excluded_metadata_hits": [],
+      "case_family_key": null,
+      "lexical_candidates": [
+        {
+          "term": "bail",
+          "pdf_page": 1,
+          "context": "23-ba1650-2024.doc AGK IN THE HIGH COURT OF JUDICATURE AT BOMBAY CRIMINAL APPELLATE JURISDICTION BAIL APPLICATION NO.1650 OF 2024 Yogesh Damaji Gaurath … Applicant V/s. The State of Maharashtra & Anr. … Respondents Mr. Suyash N. Khose for the applicant. Mrs. Rajashree V . Newton, APP for respondent No.1- State. Mr. Pranav Narsalia for respondent No.2-victim (appointed as Legal Aid). Mr.",
+          "status": "unreviewed retrieval candidate; not an outcome/element finding"
+        }
+      ],
+      "unreviewed_fields": {
+        "journalism_nexus": null,
+        "fir_quashed": null,
+        "charge_conduct_distance": null
+      }
+    },
+    {
+      "cnr": "HCBM010577372025",
+      "title": "SANJAY BHALCHANDRA VARTAK v STATE OF MAHARASHTRA",
+      "law_hits": [
+        "IPC:500"
+      ],
+      "decision_date": "2025-12-11 00:00:00",
+      "source_url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233000012782025_1.pdf",
+      "pages_json": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233000012782025_1.pages.json",
+      "page_count": 2,
+      "review_ids": [],
+      "verified_specific_charge_laws": [],
+      "excluded_metadata_hits": [],
+      "case_family_key": null,
+      "lexical_candidates": [],
+      "unreviewed_fields": {
+        "journalism_nexus": null,
+        "fir_quashed": null,
+        "charge_conduct_distance": null
+      }
+    },
+    {
+      "cnr": "HCBM010377672024",
+      "title": "SANDESH JANYA GURUD v STATE OF MAHARASHTRA",
+      "law_hits": [
+        "IPC:505"
+      ],
+      "decision_date": "2025-01-07 00:00:00",
+      "source_url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_233100032242024_12.pdf",
+      "pages_json": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_233100032242024_12.pages.json",
+      "page_count": 3,
+      "review_ids": [],
+      "verified_specific_charge_laws": [],
+      "excluded_metadata_hits": [],
+      "case_family_key": null,
+      "lexical_candidates": [
+        {
+          "term": "bail",
+          "pdf_page": 1,
+          "context": "901-BA-3633-2024-3224-2024.doc IN THE HIGH COURT OF JUDICATURE AT BOMBAY CRIMINAL APPELLATE JURISDICTION CRIMINAL BAIL APPLICATION NO.3633 OF 2024 1. Bhau Dhakal Sathe 2. Havasa Tulji Sathe ...Applicants Versus The State of Maharashtra ...Respondent WITH CRIMINAL BAIL APPLICATION NO.3224 OF 2024 Sandesh Janya Gurud ...Applicant Versus The State of Maharashtra ...Respondent WITH CRIMINAL BAIL APPLICATION NO.36",
+          "status": "unreviewed retrieval candidate; not an outcome/element finding"
+        },
+        {
+          "term": "bail",
+          "pdf_page": 2,
+          "context": "Management Act, 2005 and Sections 2, 3, 4, 5 of the Epidemic Act, 1897 and Sections 135, 37(1)(3) of the Destruction of Public Property Act, 1984. 3. The bail is sought on the ground of parity . In support of submission, the learned counsel for the applicants has placed on record the copy of order passed by this Court dated 2nd July 2024 in Criminal Bail Application No.1956 of 2023. By the said order, this Court has released the co-accused M",
+          "status": "unreviewed retrieval candidate; not an outcome/element finding"
+        }
+      ],
+      "unreviewed_fields": {
+        "journalism_nexus": null,
+        "fir_quashed": null,
+        "charge_conduct_distance": null
+      }
+    },
+    {
+      "cnr": "HCBM010454782023",
+      "title": "SHYAMBAHADUR YADAV v STATE OF MAHARASHTRA AND ORS",
+      "law_hits": [
+        "IPC:505"
+      ],
+      "decision_date": "2024-12-12 00:00:00",
+      "source_url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2024/court=27_1/bench=newas/orders_2023_230800059882024_2.pdf",
+      "pages_json": "work/court-data/indian-high-court-judgments/data/pdf/year=2024/court=27_1/bench=newas/orders_2023_230800059882024_2.pages.json",
+      "page_count": 1,
+      "review_ids": [],
+      "verified_specific_charge_laws": [],
+      "excluded_metadata_hits": [],
+      "case_family_key": null,
+      "lexical_candidates": [],
+      "unreviewed_fields": {
+        "journalism_nexus": null,
+        "fir_quashed": null,
+        "charge_conduct_distance": null
+      }
+    },
+    {
+      "cnr": "HCBM010309632025",
+      "title": "SATISH BABBAN MISHRA v STATE OF MAHARASHTRA AND ANR",
+      "law_hits": [
+        "IT:66A"
+      ],
+      "decision_date": "2025-12-22 00:00:00",
+      "source_url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233100023612025_7.pdf",
+      "pages_json": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233100023612025_7.pages.json",
+      "page_count": 1,
+      "review_ids": [],
+      "verified_specific_charge_laws": [],
+      "excluded_metadata_hits": [],
+      "case_family_key": null,
+      "lexical_candidates": [
+        {
+          "term": "bail",
+          "pdf_page": 1,
+          "context": "Board Sr.No.:-0 IN THE HIGH COURT OF JUDICATURE AT BOMBAY APPELLATE SIDE CRIMINAL JURISDICTION CRIMINAL BAIL APPLN. NO. 2361 OF 2025 Satish Babban Mishra ....APPLICANT V/S State Of Maharashtra And Anr ....RESPONDENT CORAM : HON'BLE JUSTICE DR. NEELA KEDAR GOKHALE J DATE : 22nd December, 2025 P.C. : Due to paucity of time, stand over to 21/01/2026. Interim order, if any, to continue ti",
+          "status": "unreviewed retrieval candidate; not an outcome/element finding"
+        }
+      ],
+      "unreviewed_fields": {
+        "journalism_nexus": null,
+        "fir_quashed": null,
+        "charge_conduct_distance": null
+      }
+    },
+    {
+      "cnr": "HCBM010648022024",
+      "title": "SHUBHAM DEVENDRA KUMAR YADAV v STATE OF MAHARASHTRA",
+      "law_hits": [
+        "BNS:356",
+        "IT:66A"
+      ],
+      "decision_date": "2025-01-13 00:00:00",
+      "source_url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_233200036272024_3.pdf",
+      "pages_json": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_233200036272024_3.pages.json",
+      "page_count": 1,
+      "review_ids": [],
+      "verified_specific_charge_laws": [],
+      "excluded_metadata_hits": [],
+      "case_family_key": null,
+      "lexical_candidates": [
+        {
+          "term": "bail",
+          "pdf_page": 1,
+          "context": "IGHHIGH COURTCOURT OFOF JUDICATUREJUDICATURE ATAT BOMBAYBOMBAY TESTAMENTARY AND INTESTATE TESTAMENTARY AND INTESTATE JURISDICTIONJURISDICTION ANTICIPATORY BAIL APPLICATION NO.3627 OF 2024 Shubham Devendra Kumar Yadav .. Applicant Versus The State of Maharashtra .. Respondent .................... \u0001 CORAM : MILIND N. JADHAV, J. DATE : JANUARY 13, 2025 SUO MOTU SPEAKING TO THE MINUTES OF THE ORDER DATED 02 ND JANUARY, 2025. 1. T",
+          "status": "unreviewed retrieval candidate; not an outcome/element finding"
+        }
+      ],
+      "unreviewed_fields": {
+        "journalism_nexus": null,
+        "fir_quashed": null,
+        "charge_conduct_distance": null
+      }
+    },
+    {
+      "cnr": "HCBM010072952024",
+      "title": "AMAN ARUN JAIN AND ANR v THE STATE OF MAHARASHTRA AND ANR",
+      "law_hits": [
+        "IT:66A"
+      ],
+      "decision_date": "2025-11-20 00:00:00",
+      "source_url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_230800019382024_3.pdf",
+      "pages_json": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_230800019382024_3.pages.json",
+      "page_count": 2,
+      "review_ids": [],
+      "verified_specific_charge_laws": [],
+      "excluded_metadata_hits": [],
+      "case_family_key": null,
+      "lexical_candidates": [],
+      "unreviewed_fields": {
+        "journalism_nexus": null,
+        "fir_quashed": null,
+        "charge_conduct_distance": null
+      }
+    },
+    {
+      "cnr": "HCBM010061932025",
+      "title": "AVINASH MAHESH MISHRA v STATE OF MAHARASHTRA AND ANR",
+      "law_hits": [
+        "IT:67"
+      ],
+      "decision_date": "2025-12-22 00:00:00",
+      "source_url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233000001282025_3.pdf",
+      "pages_json": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233000001282025_3.pages.json",
+      "page_count": 1,
+      "review_ids": [],
+      "verified_specific_charge_laws": [],
+      "excluded_metadata_hits": [],
+      "case_family_key": null,
+      "lexical_candidates": [],
+      "unreviewed_fields": {
+        "journalism_nexus": null,
+        "fir_quashed": null,
+        "charge_conduct_distance": null
+      }
+    },
+    {
+      "cnr": "HCBM010552372024",
+      "title": "ARJUN BHARAT BEHERA v STATE OF MAHARASHTRA AND ANR",
+      "law_hits": [
+        "IT:67"
+      ],
+      "decision_date": "2024-11-21 00:00:00",
+      "source_url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2024/court=27_1/bench=newas/orders_2024_233200030492024_2.pdf",
+      "pages_json": "work/court-data/indian-high-court-judgments/data/pdf/year=2024/court=27_1/bench=newas/orders_2024_233200030492024_2.pages.json",
+      "page_count": 1,
+      "review_ids": [],
+      "verified_specific_charge_laws": [],
+      "excluded_metadata_hits": [],
+      "case_family_key": null,
+      "lexical_candidates": [
+        {
+          "term": "bail",
+          "pdf_page": 1,
+          "context": "915.ABA.3049.2024.doc IN THE HIGH COURT OF JUDICATURE AT BOMBAY CRIMINAL APPELLATE JURISDICTION ANTICIPATORY BAIL APPLICATION NO. 3049 OF 2024 Arjun Bharat Behera ...Applicant Versus The State of Maharashtra & Anr. ...Respondents ***  Mr. Ramprasad V . Gupta, for Applicant.  Mr. Tanveer G. Khan, (Through V.C.) APP for Respondent. *** CORAM : MANISH PITALE, J. DATE : 21st NOVEMBER, 2024. P. C. : 1. Aft",
+          "status": "unreviewed retrieval candidate; not an outcome/element finding"
+        }
+      ],
+      "unreviewed_fields": {
+        "journalism_nexus": null,
+        "fir_quashed": null,
+        "charge_conduct_distance": null
+      }
+    },
+    {
+      "cnr": "HCBM010503182025",
+      "title": "SHAHEEN MOHAMMED ASLAM MANIHAR v STATE OF MAHARASHTRA",
+      "law_hits": [
+        "IT:67"
+      ],
+      "decision_date": "2025-12-02 00:00:00",
+      "source_url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233100037352025_3.pdf",
+      "pages_json": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233100037352025_3.pages.json",
+      "page_count": 1,
+      "review_ids": [],
+      "verified_specific_charge_laws": [],
+      "excluded_metadata_hits": [],
+      "case_family_key": null,
+      "lexical_candidates": [
+        {
+          "term": "bail",
+          "pdf_page": 1,
+          "context": "Board Sr.No.:-0 IN THE HIGH COURT OF JUDICATURE AT BOMBAY APPELLATE SIDE CRIMINAL JURISDICTION CRIMINAL BAIL APPLN. NO. 3735 OF 2025 Shaheen Mohammed Aslam Manihar ....APPLICANT V/S State Of Maharashtra ....RESPONDENT CORAM : HON'BLE JUSTICE DR. NEELA KEDAR GOKHALE J DATE : 2nd December, 2025 P.C. : Due to paucity of time, stand over to 12/01/2026. Interim order, if any, to continue t",
+          "status": "unreviewed retrieval candidate; not an outcome/element finding"
+        }
+      ],
+      "unreviewed_fields": {
+        "journalism_nexus": null,
+        "fir_quashed": null,
+        "charge_conduct_distance": null
+      }
+    },
+    {
+      "cnr": "HCBM010562392024",
+      "title": "KHALIL REHAMAN SHAIKH v STATE OF MAHARASHTRA",
+      "law_hits": [
+        "IT:67"
+      ],
+      "decision_date": "2025-01-13 00:00:00",
+      "source_url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_230800062412024_2.pdf",
+      "pages_json": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_230800062412024_2.pages.json",
+      "page_count": 1,
+      "review_ids": [],
+      "verified_specific_charge_laws": [],
+      "excluded_metadata_hits": [],
+      "case_family_key": null,
+      "lexical_candidates": [],
+      "unreviewed_fields": {
+        "journalism_nexus": null,
+        "fir_quashed": null,
+        "charge_conduct_distance": null
+      }
+    },
+    {
+      "cnr": "HCBM010211112025",
+      "title": "DEEPAK SHRAVAN SHIRSAH v STATE OF MAHARASHTRA",
+      "law_hits": [
+        "OSA:3",
+        "OSA:5"
+      ],
+      "decision_date": "2025-12-12 00:00:00",
+      "source_url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233100016742025_10.pdf",
+      "pages_json": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233100016742025_10.pages.json",
+      "page_count": 3,
+      "review_ids": [],
+      "verified_specific_charge_laws": [],
+      "excluded_metadata_hits": [],
+      "case_family_key": null,
+      "lexical_candidates": [
+        {
+          "term": "bail",
+          "pdf_page": 1,
+          "context": "915-BA-1674-2025.doc IN THE HIGH COURT OF JUDICATURE AT BOMBAY CRIMINAL APPELLATE JURISDICTION BAIL APPLICATION NO. 1674 OF 2025 Deepak Shravan Shirsath …Applicant Versus State of Maharashtra …Respondent _______________________________________________________________ Mr. Mihir Desai, Senior Advocate, i/b. Akshay Bankapur, for the Petitioner. Mr. S.A. Karmakar, for the Respondent- St",
+          "status": "unreviewed retrieval candidate; not an outcome/element finding"
+        },
+        {
+          "term": "bail",
+          "pdf_page": 2,
+          "context": "thin a period of six months. 6. In view of the said submission raised by Mr. Karmakar, learned APP , Mr. Desai, learned Senior Counsel seeks withdrawal of the Bail Application with liberty to file fresh Bail Application after a period of six months. However, he states that as there is considerable delay in t he trial and as a result of that fundamental right of the Applicant of sp eedy trial is affected, certain directions be issued. 7. Perusal of record",
+          "status": "unreviewed retrieval candidate; not an outcome/element finding"
+        }
+      ],
+      "unreviewed_fields": {
+        "journalism_nexus": null,
+        "fir_quashed": null,
+        "charge_conduct_distance": null
+      }
+    },
+    {
+      "cnr": "HCBM010324852024",
+      "title": "PRADEEP MORESHWAR KURULKAR v STATE OF MAHARASHTRA",
+      "law_hits": [
+        "OSA:3",
+        "OSA:5"
+      ],
+      "decision_date": "2025-12-24 00:00:00",
+      "source_url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_233100027742024_21.pdf",
+      "pages_json": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_233100027742024_21.pages.json",
+      "page_count": 1,
+      "review_ids": [],
+      "verified_specific_charge_laws": [],
+      "excluded_metadata_hits": [],
+      "case_family_key": null,
+      "lexical_candidates": [
+        {
+          "term": "bail",
+          "pdf_page": 1,
+          "context": "21-ba-2774-2024.docx IN THE HIGH COURT OF JUDICATURE AT BOMBAY CRIMINAL APPELLATE JURISDICTION Bail Application No. 2774 of 2024 Pradeep Moreshwar Kurulkar … Applicant versus The State of Maharashtra …Respondent ---- Mr Abhishek Arote i/b Jayant Bhardastkar, for the applicant. Mr Arfan Sait, APP , for respondent / State. PSI Atul Ghoghate, ATS, Pune, is present. ---- Coram: R.N. Laddha, J.",
+          "status": "unreviewed retrieval candidate; not an outcome/element finding"
+        }
+      ],
+      "unreviewed_fields": {
+        "journalism_nexus": null,
+        "fir_quashed": null,
+        "charge_conduct_distance": null
+      }
+    },
+    {
+      "cnr": "HCBM010024772025",
+      "title": "SHEIKH LALBABA MOHAMMED HUSSAIN v STATE OF MAHARASHTRA",
+      "law_hits": [
+        "IPC:153A",
+        "UAPA:13"
+      ],
+      "decision_date": "2025-12-11 00:00:00",
+      "source_url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_231000010172025_5.pdf",
+      "pages_json": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_231000010172025_5.pages.json",
+      "page_count": 7,
+      "review_ids": [
+        "hc-bail-not-fir-quashing"
+      ],
+      "verified_specific_charge_laws": [
+        "IPC-153A",
+        "UAPA-13"
+      ],
+      "excluded_metadata_hits": [],
+      "case_family_key": null,
+      "lexical_candidates": [
+        {
+          "term": "bail",
+          "pdf_page": 1,
+          "context": "No. 192 o f 2010, by the learned District Judge-1, Nashik, rejecting the Appl ication of the Appellant under Section 439 of the Code of Criminal Proced ure for bail in C.R. No. 21 of 2010 registered with ATS Police Station, Kalachowki, Mumbai for the offences punishable under Sections 419, 420, 465, 4 67, 1/7",
+          "status": "unreviewed retrieval candidate; not an outcome/element finding"
+        },
+        {
+          "term": "bail",
+          "pdf_page": 2,
+          "context": "ths of incarceration at pre-trial stage. He submitted that the co-accused namely , Mirza Himayat Beig @Umar (Accused No.2) has been directed to be released on bail by the co-ordinate Bench, by its Judgment dated 5 th January 2024 in Criminal Appeal No. 656 of 2023 and therefore the Appellant is also entit led to be released on bail on the ground of parity . 4) Per contra, learned APP opposed the Appeal and submitted that, the Appellant is the prime accuse",
+          "status": "unreviewed retrieval candidate; not an outcome/element finding"
+        },
+        {
+          "term": "quash",
+          "pdf_page": 6,
+          "context": "passed by the learned District Judge-1, Nashik below Exhibit - 461, in Sessions Case No.192 of 2010, rejecting the Appellant's Bail Application, is quashed and set aside; ii) The Appellant be enlarged on bail on furnishing P .R.Bond in the sum of Rs.1,00,000/-, with two solvent sureties in the like amount; iii) The Appellant shall report to the office of the ATS P olice Station, Kalachowki, Mumbai, on the second Saturday of every month bet",
+          "status": "unreviewed retrieval candidate; not an outcome/element finding"
+        }
+      ],
+      "unreviewed_fields": {
+        "journalism_nexus": null,
+        "fir_quashed": null,
+        "charge_conduct_distance": null
+      }
+    },
+    {
+      "cnr": "HCBM010536652019",
+      "title": "SURENDRA GADLING v THE STATE OF MAHARASHTRA AND ANR.",
+      "law_hits": [
+        "IPC:153A",
+        "IPC:505",
+        "UAPA:13"
+      ],
+      "decision_date": "2025-11-12 00:00:00",
+      "source_url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2019_231000013422024_21.pdf",
+      "pages_json": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2019_231000013422024_21.pages.json",
+      "page_count": 1,
+      "review_ids": [],
+      "verified_specific_charge_laws": [],
+      "excluded_metadata_hits": [],
+      "case_family_key": null,
+      "lexical_candidates": [],
+      "unreviewed_fields": {
+        "journalism_nexus": null,
+        "fir_quashed": null,
+        "charge_conduct_distance": null
+      }
+    }
+  ],
+  "sc_aws_document_index": [
+    {
+      "title": "RAMJI LAL MODI versus THE STATE OF U.P.",
+      "path": "1957_1_860_868",
+      "year": 1957,
+      "decision_date": "05-04-1957",
+      "case_id": "1957 INSC 32",
+      "court_level": "SC",
+      "key": "data/pdf/year=1957/english/1957_1_860_868_EN.pdf",
+      "source_url": "https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=1957/english/1957_1_860_868_EN.pdf",
+      "pages_json": "work/court-data/indian-supreme-court-judgments/data/pdf/year=1957/english/1957_1_860_868_EN.pages.json",
+      "page_count": 9,
+      "retrieval_status": "success"
+    },
+    {
+      "title": "KEDAR NATH SINGH versus STATE OF BIHAR",
+      "path": "S_1962_2_769_812",
+      "year": 1962,
+      "decision_date": "20-01-1962",
+      "case_id": "1962 INSC 17",
+      "court_level": "SC",
+      "key": "data/pdf/year=1962/english/S_1962_2_769_812_EN.pdf",
+      "source_url": "https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=1962/english/S_1962_2_769_812_EN.pdf",
+      "pages_json": "work/court-data/indian-supreme-court-judgments/data/pdf/year=1962/english/S_1962_2_769_812_EN.pages.json",
+      "page_count": 44,
+      "retrieval_status": "success"
+    },
+    {
+      "title": "MANZAR SAYEED KHAN versus STATE OF MAHARASHTRA AND ANR.",
+      "path": "2007_4_907_917",
+      "year": 2007,
+      "decision_date": "05-04-2007",
+      "case_id": "2007 INSC 378",
+      "court_level": "SC",
+      "key": "data/pdf/year=2007/english/2007_4_907_917_EN.pdf",
+      "source_url": "https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2007/english/2007_4_907_917_EN.pdf",
+      "pages_json": "work/court-data/indian-supreme-court-judgments/data/pdf/year=2007/english/2007_4_907_917_EN.pages.json",
+      "page_count": 11,
+      "retrieval_status": "success"
+    },
+    {
+      "title": "SHREYA SINGHAL versus UNION OF INDIA",
+      "path": "2015_5_963_1074",
+      "year": 2015,
+      "decision_date": "24-03-2015",
+      "case_id": "2015 INSC 257",
+      "court_level": "SC",
+      "key": "data/pdf/year=2015/english/2015_5_963_1074_EN.pdf",
+      "source_url": "https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2015/english/2015_5_963_1074_EN.pdf",
+      "pages_json": "work/court-data/indian-supreme-court-judgments/data/pdf/year=2015/english/2015_5_963_1074_EN.pages.json",
+      "page_count": 112,
+      "retrieval_status": "success"
+    },
+    {
+      "title": "SUBRAMANIAN SWAMY versus UNION OF INDIA, MINISTRY OF LAW & ORS.",
+      "path": "2016_3_865_1017",
+      "year": 2016,
+      "decision_date": "13-05-2016",
+      "case_id": "2016 INSC 427",
+      "court_level": "SC",
+      "key": "data/pdf/year=2016/english/2016_3_865_1017_EN.pdf",
+      "source_url": "https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2016/english/2016_3_865_1017_EN.pdf",
+      "pages_json": "work/court-data/indian-supreme-court-judgments/data/pdf/year=2016/english/2016_3_865_1017_EN.pages.json",
+      "page_count": 153,
+      "retrieval_status": "success"
+    },
+    {
+      "title": "ARNAB RANJAN GOSWAMI versus UNION OF INDIA AND ORS.",
+      "path": "2020_8_222_271",
+      "year": 2020,
+      "decision_date": "19-05-2020",
+      "case_id": "2020 INSC 400",
+      "court_level": "SC",
+      "key": "data/pdf/year=2020/english/2020_8_222_271_EN.pdf",
+      "source_url": "https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2020/english/2020_8_222_271_EN.pdf",
+      "pages_json": "work/court-data/indian-supreme-court-judgments/data/pdf/year=2020/english/2020_8_222_271_EN.pages.json",
+      "page_count": 50,
+      "retrieval_status": "success"
+    },
+    {
+      "title": "AMISH DEVGAN versus UNION OF INDIA AND OTHERS",
+      "path": "2020_14_198_293",
+      "year": 2020,
+      "decision_date": "07-12-2020",
+      "case_id": "2020 INSC 682",
+      "court_level": "SC",
+      "key": "data/pdf/year=2020/english/2020_14_198_293_EN.pdf",
+      "source_url": "https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2020/english/2020_14_198_293_EN.pdf",
+      "pages_json": "work/court-data/indian-supreme-court-judgments/data/pdf/year=2020/english/2020_14_198_293_EN.pages.json",
+      "page_count": 96,
+      "retrieval_status": "success"
+    },
+    {
+      "title": "PATRICIA MUKHIM versus STATE OF MEGHALAYA & ORS.",
+      "path": "2021_7_65_77",
+      "year": 2021,
+      "decision_date": "25-03-2021",
+      "case_id": "2021 INSC 213",
+      "court_level": "SC",
+      "key": "data/pdf/year=2021/english/2021_7_65_77_EN.pdf",
+      "source_url": "https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2021/english/2021_7_65_77_EN.pdf",
+      "pages_json": "work/court-data/indian-supreme-court-judgments/data/pdf/year=2021/english/2021_7_65_77_EN.pages.json",
+      "page_count": 13,
+      "retrieval_status": "success"
+    },
+    {
+      "title": "THWAHA FASAL versus UNION OF INDIA",
+      "path": "2021_8_797_834",
+      "year": 2021,
+      "decision_date": "28-10-2021",
+      "case_id": "2021 INSC 688",
+      "court_level": "SC",
+      "key": "data/pdf/year=2021/english/2021_8_797_834_EN.pdf",
+      "source_url": "https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2021/english/2021_8_797_834_EN.pdf",
+      "pages_json": "work/court-data/indian-supreme-court-judgments/data/pdf/year=2021/english/2021_8_797_834_EN.pages.json",
+      "page_count": 38,
+      "retrieval_status": "success"
+    }
+  ],
+  "schema_note": "Unreviewed/unknown fields remain null. Boilerplate allegation, missing record, court finding and specific alleged facts must remain distinct."
+}

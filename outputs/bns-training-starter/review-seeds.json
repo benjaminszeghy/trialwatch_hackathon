@@ -1,0 +1,1046 @@
+[
+  {
+    "document_id": "b70ddc531eaf35c35d84",
+    "page": 2,
+    "quote": "offences punishable under Sections 152, 196, 197, 352 and 353 of the Bharatiya Nyay Sanhita, 2023",
+    "verified_target_sections": [
+      "152",
+      "196",
+      "353"
+    ],
+    "note": "WhatsApp allegations; 353 subsection unresolved. Dismissal is not a legitimacy label.",
+    "family_key": "Pune|Kalepadal|178|2025",
+    "role": "operative charge recorded",
+    "source_type": "court account of charges",
+    "cnr": "HCBM010319502025",
+    "evidence": {
+      "source_url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800032572025_2.pdf",
+      "document_id": "b70ddc531eaf35c35d84",
+      "pdf_sha256": "85b42652679d32cff8810b174b5035778124f15c768148285473073360e72ea6",
+      "page": 2,
+      "normalized_char_start": 349,
+      "normalized_char_end": 446,
+      "raw_char_start": 477,
+      "raw_char_end": 574,
+      "quote": "offences punishable under Sections 152, 196, 197, 352 and 353 of the\nBharatiya Nyay Sanhita, 2023",
+      "source_type": "court account of charges"
+    },
+    "annotation_status": "AI-assisted text review; independent human/legal check pending",
+    "applicability_validation": "document assertion only; offence dates and transition rules require review"
+  },
+  {
+    "document_id": "26ecd6d1d32b5d3a1dc2",
+    "page": 1,
+    "quote": "Sections 152, 196, 197, 352, and 353 of the Bharatiya Nyaya Sanhita, 2023",
+    "verified_target_sections": [
+      "152",
+      "196",
+      "353"
+    ],
+    "note": "Anticipatory bail in the same Farah Deeba prosecution; do not count as a second FIR.",
+    "family_key": "Pune|Kalepadal|178|2025",
+    "role": "operative charge recorded",
+    "source_type": "court account of charges",
+    "cnr": "HCBM010375472025",
+    "evidence": {
+      "source_url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200019322025_2.pdf",
+      "document_id": "26ecd6d1d32b5d3a1dc2",
+      "pdf_sha256": "a01034149dd0b36cbe69b1e7df28eb38eb2f321978f24569e5f227a324ed7311",
+      "page": 1,
+      "normalized_char_start": 726,
+      "normalized_char_end": 799,
+      "raw_char_start": 856,
+      "raw_char_end": 929,
+      "quote": "Sections 152, 196, 197,\n352, and 353 of the Bharatiya Nyaya Sanhita, 2023",
+      "source_type": "court account of charges"
+    },
+    "annotation_status": "AI-assisted text review; independent human/legal check pending",
+    "applicability_validation": "document assertion only; offence dates and transition rules require review"
+  },
+  {
+    "document_id": "605e19011157940a0039",
+    "page": 1,
+    "quote": "Sections 353(1)(b), 353(2) of the Bhar tiya Nyaya Sanhita",
+    "verified_target_sections": [
+      "353(1)(b)",
+      "353(2)"
+    ],
+    "note": "Social-media allegation. Bail observations are provisional, not a merits judgment.",
+    "family_key": "Ratnagiri|Cyber|2|2025",
+    "role": "operative charge recorded",
+    "source_type": "court account of charges",
+    "cnr": "HCBM070353582025",
+    "evidence": {
+      "source_url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=kolhcdb/orders_2025_233200018172025_4.pdf",
+      "document_id": "605e19011157940a0039",
+      "pdf_sha256": "67fdf2f3bfbf248221f87e32bbcca4265e24f11950b869a3e38f8afd9eb4fb67",
+      "page": 1,
+      "normalized_char_start": 588,
+      "normalized_char_end": 645,
+      "raw_char_start": 601,
+      "raw_char_end": 658,
+      "quote": "Sections 353(1)(b), 353(2) of the Bhar tiya\nNyaya Sanhita",
+      "source_type": "court account of charges"
+    },
+    "annotation_status": "AI-assisted text review; independent human/legal check pending",
+    "applicability_validation": "document assertion only; offence dates and transition rules require review"
+  },
+  {
+    "document_id": "40d5fc5057b0eb562e14",
+    "page": 1,
+    "quote": "Police Station, District - Solapur Rural, for offences u nder Section 356 of the Bhartiya Nyaya Sanhita, 2023",
+    "verified_target_sections": [
+      "356"
+    ],
+    "note": "Public criticism during a hunger strike; media presence does not establish journalist identity.",
+    "family_key": "Solapur|PandharpurCity|619|2024",
+    "role": "operative charge recorded",
+    "source_type": "court account of charges",
+    "cnr": "HCBM010577982024",
+    "evidence": {
+      "source_url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2024/court=27_1/bench=newas/orders_2024_233200032062024_1.pdf",
+      "document_id": "40d5fc5057b0eb562e14",
+      "pdf_sha256": "d057a62976a9524e2dcff32ec23587e7a1bf875ea8bc40637d6b06bfdb12fa33",
+      "page": 1,
+      "normalized_char_start": 644,
+      "normalized_char_end": 753,
+      "raw_char_start": 677,
+      "raw_char_end": 787,
+      "quote": "Police Station, District - Solapur Rural, for offences u nder Section 356 \nof the Bhartiya Nyaya Sanhita, 2023",
+      "source_type": "court account of charges"
+    },
+    "annotation_status": "AI-assisted text review; independent human/legal check pending",
+    "applicability_validation": "document assertion only; offence dates and transition rules require review"
+  },
+  {
+    "document_id": "5f392f49c1e07618eed8",
+    "page": 1,
+    "quote": "under Sections 79 and 356(2) of the Bharatiya Nyaya Sanhita (BNS), 2023",
+    "verified_target_sections": [
+      "356(2)"
+    ],
+    "note": "LinkedIn post; court records cognizance and issue of process. No abuse label.",
+    "family_key": null,
+    "role": "operative charge recorded",
+    "source_type": "court account of charges",
+    "cnr": "HCBM010523832025",
+    "evidence": {
+      "source_url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800052202025_1.pdf",
+      "document_id": "5f392f49c1e07618eed8",
+      "pdf_sha256": "ac65c5b39f835bca59cc405b3e25a85794fe4821bbc0af8ad3cb47974bb6b9f3",
+      "page": 1,
+      "normalized_char_start": 765,
+      "normalized_char_end": 836,
+      "raw_char_start": 793,
+      "raw_char_end": 864,
+      "quote": "under Sections 79 and 356(2) of the Bharatiya Nyaya Sanhita (BNS), 2023",
+      "source_type": "court account of charges"
+    },
+    "annotation_status": "AI-assisted text review; independent human/legal check pending",
+    "applicability_validation": "document assertion only; offence dates and transition rules require review"
+  },
+  {
+    "document_id": "e12a879540d06588c381",
+    "page": 2,
+    "quote": "Section 356(1), 356 (2), 356 (3) and Section 3(5) of the Bhartiya Nyay Sanhita, 2023",
+    "verified_target_sections": [
+      "356(1)",
+      "356(2)",
+      "356(3)"
+    ],
+    "note": "Private complaint, proposed accused; distinguish BNSS 223 notice from a conviction or FIR.",
+    "family_key": null,
+    "role": "operative charge recorded",
+    "source_type": "court account of charges",
+    "cnr": "HCBM010409232025",
+    "evidence": {
+      "source_url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800041532025_3.pdf",
+      "document_id": "e12a879540d06588c381",
+      "pdf_sha256": "d2468e6e44e4a3ee00ac02b60ab5df09f93244e6b825217b8737d9f1a1d5a5f8",
+      "page": 2,
+      "normalized_char_start": 620,
+      "normalized_char_end": 704,
+      "raw_char_start": 727,
+      "raw_char_end": 811,
+      "quote": "Section 356(1), 356 (2), 356 (3) and\nSection 3(5) of the Bhartiya Nyay Sanhita, 2023",
+      "source_type": "court account of charges"
+    },
+    "annotation_status": "AI-assisted text review; independent human/legal check pending",
+    "applicability_validation": "document assertion only; offence dates and transition rules require review"
+  },
+  {
+    "document_id": "a5e5723675a5bf3f08be",
+    "page": 2,
+    "quote": "Section 318(4), 319(2), 336(2), 356(2) of Bhartiya Nyay Sanhita, 2023",
+    "verified_target_sections": [
+      "356(2)"
+    ],
+    "note": "Deepfake advertisement FIR; petition concerns arrest safeguards. Not a reporter case by default.",
+    "family_key": "Mumbai|CyberWestRegion|293|2025",
+    "role": "operative charge recorded",
+    "source_type": "court account of charges",
+    "cnr": "HCBM010565972025",
+    "evidence": {
+      "source_url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800057642025_6.pdf",
+      "document_id": "a5e5723675a5bf3f08be",
+      "pdf_sha256": "ff1adfce3cf01d51b77ef13a91254a270424ddd833a87131db5127c750045c95",
+      "page": 2,
+      "normalized_char_start": 1167,
+      "normalized_char_end": 1236,
+      "raw_char_start": 1223,
+      "raw_char_end": 1295,
+      "quote": "Section  318(4),  319(2),  336(2),\n356(2) of Bhartiya Nyay Sanhita, 2023",
+      "source_type": "court account of charges"
+    },
+    "annotation_status": "AI-assisted text review; independent human/legal check pending",
+    "applicability_validation": "document assertion only; offence dates and transition rules require review"
+  },
+  {
+    "document_id": "f98dfa61137f1e2b25cb",
+    "page": 1,
+    "quote": "under Section 196(1), 299 of The Bharatiya Nyaya Sanhita, 2023",
+    "verified_target_sections": [
+      "196(1)",
+      "299"
+    ],
+    "note": "Facebook post about Lord Gautam Buddha; short notice order still records actual charges.",
+    "family_key": null,
+    "role": "operative charge recorded",
+    "source_type": "court account of charges",
+    "cnr": "HCBM010482532025",
+    "evidence": {
+      "source_url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_231000009452025_1.pdf",
+      "document_id": "f98dfa61137f1e2b25cb",
+      "pdf_sha256": "d1dc9fd182719df57ebe0c91e406aca703c26b376b4b1e73081b6a6cc47913bc",
+      "page": 1,
+      "normalized_char_start": 653,
+      "normalized_char_end": 715,
+      "raw_char_start": 681,
+      "raw_char_end": 743,
+      "quote": "under\nSection 196(1), 299 of The Bharatiya Nyaya Sanhita, 2023",
+      "source_type": "court account of charges"
+    },
+    "annotation_status": "AI-assisted text review; independent human/legal check pending",
+    "applicability_validation": "document assertion only; offence dates and transition rules require review"
+  },
+  {
+    "document_id": "ac8391b5caea9843c780",
+    "page": 1,
+    "quote": "punishable under sections 127(2), 221 of the Bhartiya Nyaya Sanhita, 2023",
+    "verified_target_sections": [
+      "221"
+    ],
+    "note": "Alleged detention of a village official; useful contrasting conduct, not automatically a negative abuse label.",
+    "family_key": "Latur|Chakur|374|2024",
+    "role": "operative charge recorded",
+    "source_type": "court account of charges",
+    "cnr": "HCBM030338522024",
+    "evidence": {
+      "source_url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2024/court=27_1/bench=hcaurdb/orders_2024_230500007922024_4.pdf",
+      "document_id": "ac8391b5caea9843c780",
+      "pdf_sha256": "f50f615d8aac17c8b9dd8be100332445e5969cf36ce03b0a49041c4181fba657",
+      "page": 1,
+      "normalized_char_start": 690,
+      "normalized_char_end": 763,
+      "raw_char_start": 705,
+      "raw_char_end": 778,
+      "quote": "punishable under sections 127(2), 221 of the Bhartiya Nyaya Sanhita,\n2023",
+      "source_type": "court account of charges"
+    },
+    "annotation_status": "AI-assisted text review; independent human/legal check pending",
+    "applicability_validation": "document assertion only; offence dates and transition rules require review"
+  },
+  {
+    "document_id": "15714bc512a81e24d76a",
+    "page": 1,
+    "quote": "under Sections 316(2), 318(2), 318(4), 351(2), 352 and 356(2) of the Bharatiy a Nyaya Sanhita, 2023",
+    "verified_target_sections": [
+      "356(2)"
+    ],
+    "note": "Bundled family/dowry allegations. Linked order also covers Shameem Begam.",
+    "family_key": "Mumbai|Mahim|625|2024",
+    "role": "operative charge recorded",
+    "source_type": "court account of charges",
+    "cnr": "HCBM010011662025",
+    "evidence": {
+      "source_url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233700000882025_2.pdf",
+      "document_id": "15714bc512a81e24d76a",
+      "pdf_sha256": "6cb59936b4c5cef1491b61224a92aa45a5f758985d0f92385748ffbcc5317277",
+      "page": 1,
+      "normalized_char_start": 953,
+      "normalized_char_end": 1052,
+      "raw_char_start": 996,
+      "raw_char_end": 1104,
+      "quote": "under Sections 316(2),\n318(2),  318(4),  351(2),  352  and  356(2)  of  the  Bharatiy a  Nyaya\nSanhita, 2023",
+      "source_type": "court account of charges"
+    },
+    "annotation_status": "AI-assisted text review; independent human/legal check pending",
+    "applicability_validation": "document assertion only; offence dates and transition rules require review"
+  },
+  {
+    "document_id": "a157974fd63740b90593",
+    "page": 1,
+    "quote": "under Sections 316(2), 318(2), 318(4), 351(2), 352 and 356(2) of the Bharatiy a Nyaya Sanhita, 2023",
+    "verified_target_sections": [
+      "356(2)"
+    ],
+    "note": "Same Mahim FIR as Shakeel Ahmed Khan; keep all linked proceedings together.",
+    "family_key": "Mumbai|Mahim|625|2024",
+    "role": "operative charge recorded",
+    "source_type": "court account of charges",
+    "cnr": "HCBM010647422024",
+    "evidence": {
+      "source_url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_233200036002024_5.pdf",
+      "document_id": "a157974fd63740b90593",
+      "pdf_sha256": "c3f638d1941dc8f0ed13b571cb663ec99e644f06489bb6ef8ffab3bdccfa4ec0",
+      "page": 1,
+      "normalized_char_start": 953,
+      "normalized_char_end": 1052,
+      "raw_char_start": 996,
+      "raw_char_end": 1104,
+      "quote": "under Sections 316(2),\n318(2),  318(4),  351(2),  352  and  356(2)  of  the  Bharatiy a  Nyaya\nSanhita, 2023",
+      "source_type": "court account of charges"
+    },
+    "annotation_status": "AI-assisted text review; independent human/legal check pending",
+    "applicability_validation": "document assertion only; offence dates and transition rules require review"
+  },
+  {
+    "document_id": "41a242e5d99ef91057d7",
+    "page": 1,
+    "quote": "105, 353(2), 351(3), 352, 3(5) of the Bharatiya Nyaya Sanhita, 2023",
+    "verified_target_sections": [
+      "353(2)"
+    ],
+    "note": "Document records 353(2) among assault-related allegations; retain unusual bundling for legal review.",
+    "family_key": null,
+    "role": "operative charge recorded",
+    "source_type": "court account of charges",
+    "cnr": "HCBM010072832025",
+    "evidence": {
+      "source_url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200003632025_1.pdf",
+      "document_id": "41a242e5d99ef91057d7",
+      "pdf_sha256": "772fc8cde1b70a6c8f31759a3d1d0b0c33deb6f40bbd923c485c87c706e4b600",
+      "page": 1,
+      "normalized_char_start": 707,
+      "normalized_char_end": 774,
+      "raw_char_start": 753,
+      "raw_char_end": 820,
+      "quote": "105, 353(2), 351(3), 352, 3(5) of the Bharatiya Nyaya Sanhita,\n2023",
+      "source_type": "court account of charges"
+    },
+    "annotation_status": "AI-assisted text review; independent human/legal check pending",
+    "applicability_validation": "document assertion only; offence dates and transition rules require review"
+  },
+  {
+    "document_id": "0f3815cd9e2985179c18",
+    "page": 1,
+    "quote": "75(1),75(2), 75(3),75(4),78, 79, 111, 356, 351(2), 351 (3) of Bh aratiya Nyaya Sanhita 2023",
+    "verified_target_sections": [
+      "356"
+    ],
+    "note": "Record the complete charge bundle; parent 356 only.",
+    "family_key": "Mumbai|SamtaNagar|112|2025",
+    "role": "operative charge recorded",
+    "source_type": "court account of charges",
+    "cnr": "HCBM010152112025",
+    "evidence": {
+      "source_url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200007362025_5.pdf",
+      "document_id": "0f3815cd9e2985179c18",
+      "pdf_sha256": "68b2d4ab894807bdbcaadf4df56e091cb630e63f7e61215a467da376d5265b06",
+      "page": 1,
+      "normalized_char_start": 730,
+      "normalized_char_end": 821,
+      "raw_char_start": 755,
+      "raw_char_end": 855,
+      "quote": "75(1),75(2),\n75(3),75(4),78,  79,  111,  356,  351(2),  351  (3)  of  Bh aratiya  Nyaya\nSanhita 2023",
+      "source_type": "court account of charges"
+    },
+    "annotation_status": "AI-assisted text review; independent human/legal check pending",
+    "applicability_validation": "document assertion only; offence dates and transition rules require review"
+  },
+  {
+    "document_id": "be10f36baf6cbd93aa68",
+    "page": 1,
+    "quote": "189(2), 191(2), 191(3), 190, 115(2), 353, 351(2), & 351(3) of the Bhartiya Nyaya Sanhita, 2023",
+    "verified_target_sections": [
+      "353"
+    ],
+    "note": "Land dispute/assault narrative; document records parent 353, not a resolved subsection.",
+    "family_key": "Solapur|Velapur|46|2025",
+    "role": "operative charge recorded",
+    "source_type": "court account of charges",
+    "cnr": "HCBM010166222025",
+    "evidence": {
+      "source_url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233100013042025_3.pdf",
+      "document_id": "be10f36baf6cbd93aa68",
+      "pdf_sha256": "e03ef4e1e9e4b40c52253d403c56c7677d32cba395aeedb4dce933f854dd50ce",
+      "page": 1,
+      "normalized_char_start": 621,
+      "normalized_char_end": 715,
+      "raw_char_start": 639,
+      "raw_char_end": 734,
+      "quote": "189(2), 191(2), 191(3), 190, 115(2), 353, 351(2), &  351(3)\nof the Bhartiya Nyaya Sanhita, 2023",
+      "source_type": "court account of charges"
+    },
+    "annotation_status": "AI-assisted text review; independent human/legal check pending",
+    "applicability_validation": "document assertion only; offence dates and transition rules require review"
+  },
+  {
+    "document_id": "e2704b9bd5a7ac685168",
+    "page": 2,
+    "quote": "356(2), 352, 351(1), 338, 318(4), 318(2), 303(2), 3(5) of the Bharatiya Nyaya Sanhita, 2023",
+    "verified_target_sections": [
+      "356(2)"
+    ],
+    "note": "Property transaction dispute; substantive allegations available.",
+    "family_key": "Thane|MiraRoad|104|2025",
+    "role": "operative charge recorded",
+    "source_type": "court account of charges",
+    "cnr": "HCBM010229692025",
+    "evidence": {
+      "source_url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200011122025_4.pdf",
+      "document_id": "e2704b9bd5a7ac685168",
+      "pdf_sha256": "dfc7f294953add4bfce1b99f5c3f2f7517f9bea09fd5aff50b0fe42d30950cff",
+      "page": 2,
+      "normalized_char_start": 407,
+      "normalized_char_end": 498,
+      "raw_char_start": 414,
+      "raw_char_end": 505,
+      "quote": "356(2), 352, 351(1), 338, 318(4), 318(2), 303(2),\n3(5) of the Bharatiya Nyaya Sanhita, 2023",
+      "source_type": "court account of charges"
+    },
+    "annotation_status": "AI-assisted text review; independent human/legal check pending",
+    "applicability_validation": "document assertion only; offence dates and transition rules require review"
+  },
+  {
+    "document_id": "58941b566e9c3d8f9b70",
+    "page": 1,
+    "quote": "115(2), 118(1), 118(2), 127(2), 3(5), 351(3), 352, 356(2), 74, 76 of Bharatiya Nyaya Sanhita 2023",
+    "verified_target_sections": [
+      "356(2)"
+    ],
+    "note": "Bundled charges, no journalist inference.",
+    "family_key": "Palghar|Waliv|297|2025",
+    "role": "operative charge recorded",
+    "source_type": "court account of charges",
+    "cnr": "HCBM010249372025",
+    "evidence": {
+      "source_url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200012352025_3.pdf",
+      "document_id": "58941b566e9c3d8f9b70",
+      "pdf_sha256": "463f992dc2255eb9484c5c47d414975ac7e02d9580e127fc526bd60d048d7346",
+      "page": 1,
+      "normalized_char_start": 719,
+      "normalized_char_end": 816,
+      "raw_char_start": 737,
+      "raw_char_end": 836,
+      "quote": "115(2),  118(1),  118(2),\n127(2), 3(5), 351(3), 352, 356(2), 74, 76 of Bharatiya Nyaya Sanhita\n2023",
+      "source_type": "court account of charges"
+    },
+    "annotation_status": "AI-assisted text review; independent human/legal check pending",
+    "applicability_validation": "document assertion only; offence dates and transition rules require review"
+  },
+  {
+    "document_id": "96b1cad0c502ef822b74",
+    "page": 2,
+    "quote": "316(2), 318(4), 351(3), 356(2) and 3(5) of the Bharatiya Nyaya Sanhita, 2023",
+    "verified_target_sections": [
+      "356(2)"
+    ],
+    "note": "Engagement/family dispute. Common judgment with Bhavin Mehta.",
+    "family_key": "Mumbai|Borivali|264|2025",
+    "role": "operative charge recorded",
+    "source_type": "court account of charges",
+    "cnr": "HCBM010286912025",
+    "evidence": {
+      "source_url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200014322025_2.pdf",
+      "document_id": "96b1cad0c502ef822b74",
+      "pdf_sha256": "7712433660418b2f86b96126012bc249dcd22a9239ffa1e7bbdd8eefecf40393",
+      "page": 2,
+      "normalized_char_start": 751,
+      "normalized_char_end": 827,
+      "raw_char_start": 894,
+      "raw_char_end": 971,
+      "quote": "316(2), 318(4), 351(3), 356(2) and 3(5) of the Bharatiya Nyaya Sanhita, \n2023",
+      "source_type": "court account of charges"
+    },
+    "annotation_status": "AI-assisted text review; independent human/legal check pending",
+    "applicability_validation": "document assertion only; offence dates and transition rules require review"
+  },
+  {
+    "document_id": "bc7bd723400c86ce85fd",
+    "page": 2,
+    "quote": "316(2), 318(4), 351(3), 356(2) and 3(5) of the Bharatiya Nyaya Sanhita, 2023",
+    "verified_target_sections": [
+      "356(2)"
+    ],
+    "note": "Same Borivali FIR as Priti Mehta.",
+    "family_key": "Mumbai|Borivali|264|2025",
+    "role": "operative charge recorded",
+    "source_type": "court account of charges",
+    "cnr": "HCBM010287052025",
+    "evidence": {
+      "source_url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200014292025_2.pdf",
+      "document_id": "bc7bd723400c86ce85fd",
+      "pdf_sha256": "fa24948ada4bd2f7878d3e9f08ba957aecd5c1e35d75c775e90df6a07d39442a",
+      "page": 2,
+      "normalized_char_start": 751,
+      "normalized_char_end": 827,
+      "raw_char_start": 894,
+      "raw_char_end": 971,
+      "quote": "316(2), 318(4), 351(3), 356(2) and 3(5) of the Bharatiya Nyaya Sanhita, \n2023",
+      "source_type": "court account of charges"
+    },
+    "annotation_status": "AI-assisted text review; independent human/legal check pending",
+    "applicability_validation": "document assertion only; offence dates and transition rules require review"
+  },
+  {
+    "document_id": "b2f7c3c7c11b9bc1241e",
+    "page": 2,
+    "quote": "75, 78, 351(2) and 356(2) of the Bharatiya Nyaya Sanhita, 2023",
+    "verified_target_sections": [
+      "356(2)"
+    ],
+    "note": "Alleged online defamation in a relationship dispute.",
+    "family_key": "Pune|Kondhwa|123|2025",
+    "role": "operative charge recorded",
+    "source_type": "court account of charges",
+    "cnr": "HCBM010317822025",
+    "evidence": {
+      "source_url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200016432025_16.pdf",
+      "document_id": "b2f7c3c7c11b9bc1241e",
+      "pdf_sha256": "13554b288702c0f8a4d64190f28558982a69e77d70c062f43e2340bc5b6e109f",
+      "page": 2,
+      "normalized_char_start": 86,
+      "normalized_char_end": 148,
+      "raw_char_start": 86,
+      "raw_char_end": 149,
+      "quote": "75, \n78, 351(2) and 356(2) of the Bharatiya Nyaya Sanhita, 2023",
+      "source_type": "court account of charges"
+    },
+    "annotation_status": "AI-assisted text review; independent human/legal check pending",
+    "applicability_validation": "document assertion only; offence dates and transition rules require review"
+  },
+  {
+    "document_id": "f36c3ddbf23e12222f0f",
+    "page": 1,
+    "quote": "under sections 115(2), 3(5) and 356 of the Bhartiya",
+    "verified_target_sections": [
+      "356"
+    ],
+    "note": "Act name continues on page 2 as Nyaya Sanhita. Political meeting and bundled SC/ST allegations.",
+    "family_key": "Mumbai|Dadar|385|2024",
+    "role": "operative charge recorded",
+    "source_type": "court account of charges",
+    "cnr": "HCBM010396872024",
+    "evidence": {
+      "source_url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2024/court=27_1/bench=newas/orders_2024_230800038792024_3.pdf",
+      "document_id": "f36c3ddbf23e12222f0f",
+      "pdf_sha256": "d2440b50c86f532433796f2b74612e592eadc789f62e0ec175aec52a79cc6a79",
+      "page": 1,
+      "normalized_char_start": 889,
+      "normalized_char_end": 940,
+      "raw_char_start": 910,
+      "raw_char_end": 961,
+      "quote": "under sections 115(2), 3(5) and 356 of the Bhartiya",
+      "source_type": "court account of charges"
+    },
+    "annotation_status": "AI-assisted text review; independent human/legal check pending",
+    "applicability_validation": "document assertion only; offence dates and transition rules require review"
+  },
+  {
+    "document_id": "377f1a2ccae097e5e3df",
+    "page": 7,
+    "quote": "under Section 353(2) o f the Bharatiya Nyaya Sanhita, 2023",
+    "verified_target_sections": [
+      "353(2)"
+    ],
+    "note": "Instagram video/unlawful assembly and Arms Act bundle; allegation is not merely speech.",
+    "family_key": "Pune|Vimannagar|378|2025",
+    "role": "operative charge recorded",
+    "source_type": "court account of charges",
+    "cnr": "HCBM010554792025",
+    "evidence": {
+      "source_url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800056342025_1.pdf",
+      "document_id": "377f1a2ccae097e5e3df",
+      "pdf_sha256": "904ad7d937c86698d8954f55f6dc4cf6a327ad78d7b80fb4226579847d839f3c",
+      "page": 7,
+      "normalized_char_start": 2618,
+      "normalized_char_end": 2676,
+      "raw_char_start": 2687,
+      "raw_char_end": 2745,
+      "quote": "under Section 353(2) o f the Bharatiya\nNyaya Sanhita, 2023",
+      "source_type": "court account of charges"
+    },
+    "annotation_status": "AI-assisted text review; independent human/legal check pending",
+    "applicability_validation": "document assertion only; offence dates and transition rules require review"
+  },
+  {
+    "document_id": "f7364412bb6410507bcf",
+    "page": 3,
+    "quote": "351(2), 221, 132, 121 (1) of the Bharatiya Nyaya Sanhita, 2023",
+    "verified_target_sections": [
+      "221"
+    ],
+    "note": "Common judgment for several members of Anand family.",
+    "family_key": "Mumbai|Versova|452|2025",
+    "role": "operative charge recorded",
+    "source_type": "court account of charges",
+    "cnr": "HCBM010555262024",
+    "evidence": {
+      "source_url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_230800053092024_10.pdf",
+      "document_id": "f7364412bb6410507bcf",
+      "pdf_sha256": "9695ee38c4f9c66e4423567cf0ade40325c04b165f1fcc893a26e8916d878ba8",
+      "page": 3,
+      "normalized_char_start": 568,
+      "normalized_char_end": 630,
+      "raw_char_start": 729,
+      "raw_char_end": 791,
+      "quote": "351(2), 221, 132, 121 (1) of the Bharatiya Nyaya Sanhita, 2023",
+      "source_type": "court account of charges"
+    },
+    "annotation_status": "AI-assisted text review; independent human/legal check pending",
+    "applicability_validation": "document assertion only; offence dates and transition rules require review"
+  },
+  {
+    "document_id": "4e83e4b4c856a05ae973",
+    "page": 3,
+    "quote": "351(2), 221, 132, 121 (1) of the Bharatiya Nyaya Sanhita, 2023",
+    "verified_target_sections": [
+      "221"
+    ],
+    "note": "Same Versova FIR as Kapil Anand.",
+    "family_key": "Mumbai|Versova|452|2025",
+    "role": "operative charge recorded",
+    "source_type": "court account of charges",
+    "cnr": "HCBM010555272024",
+    "evidence": {
+      "source_url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_230800001192025_10.pdf",
+      "document_id": "4e83e4b4c856a05ae973",
+      "pdf_sha256": "03ad8f22b5a743d13248a7c136cc8ca78abcd01332085ebbca5ba5c2b162922a",
+      "page": 3,
+      "normalized_char_start": 568,
+      "normalized_char_end": 630,
+      "raw_char_start": 729,
+      "raw_char_end": 791,
+      "quote": "351(2), 221, 132, 121 (1) of the Bharatiya Nyaya Sanhita, 2023",
+      "source_type": "court account of charges"
+    },
+    "annotation_status": "AI-assisted text review; independent human/legal check pending",
+    "applicability_validation": "document assertion only; offence dates and transition rules require review"
+  },
+  {
+    "document_id": "adc424c8a767bebbdcdb",
+    "page": 1,
+    "quote": "Section 189(2), 1902, 192, 196, 197, 2 23 of BNS, 2023",
+    "verified_target_sections": [
+      "196"
+    ],
+    "note": "Interim protection order; original document has apparent section-format/OCR anomalies. Do not silently repair them.",
+    "family_key": "Mumbai|Trombay|464|2025",
+    "role": "operative charge recorded",
+    "source_type": "court account of charges",
+    "cnr": "HCBM010558742025",
+    "evidence": {
+      "source_url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200029762025_1.pdf",
+      "document_id": "adc424c8a767bebbdcdb",
+      "pdf_sha256": "0d212dd8a803b6c0d5c50d572aa5bd394eef91a230dfb165afafe9a0ca7e1e69",
+      "page": 1,
+      "normalized_char_start": 793,
+      "normalized_char_end": 847,
+      "raw_char_start": 933,
+      "raw_char_end": 987,
+      "quote": "Section 189(2), 1902, 192, 196, 197, 2 23 of BNS,\n2023",
+      "source_type": "court account of charges"
+    },
+    "annotation_status": "AI-assisted text review; independent human/legal check pending",
+    "applicability_validation": "document assertion only; offence dates and transition rules require review"
+  },
+  {
+    "document_id": "332dc47893301971414f",
+    "page": 1,
+    "quote": "Section 189(2), 1902, 192, 196, 197, 223 of BNS, 2023",
+    "verified_target_sections": [
+      "196"
+    ],
+    "note": "Same Trombay FIR as Hardika Bhagat; little conduct detail in this order.",
+    "family_key": "Mumbai|Trombay|464|2025",
+    "role": "operative charge recorded",
+    "source_type": "court account of charges",
+    "cnr": "HCBM010558762025",
+    "evidence": {
+      "source_url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200029772025_1.pdf",
+      "document_id": "332dc47893301971414f",
+      "pdf_sha256": "172bb827ec596f9687a6dce9e8537ea8369a17f2a5684b0f31dd4cf532ea001c",
+      "page": 1,
+      "normalized_char_start": 794,
+      "normalized_char_end": 847,
+      "raw_char_start": 933,
+      "raw_char_end": 986,
+      "quote": "Section 189(2), 1902, 192, 196, 197, 223 of BNS,\n2023",
+      "source_type": "court account of charges"
+    },
+    "annotation_status": "AI-assisted text review; independent human/legal check pending",
+    "applicability_validation": "document assertion only; offence dates and transition rules require review"
+  },
+  {
+    "document_id": "7465cbba78ad78009516",
+    "page": 3,
+    "quote": "126(2), 356(2), 79, 352 and 351(1) of BNS",
+    "verified_target_sections": [
+      "356(2)"
+    ],
+    "note": "Court challenges BNSS preventive notices, while recording separate BNS FIRs. Keep procedural object distinct.",
+    "family_key": "PimpriChinchwad|Kalewadi|6-and-7|2025",
+    "role": "operative charge recorded",
+    "source_type": "court account of charges",
+    "cnr": "HCBM010568252025",
+    "evidence": {
+      "source_url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800057962025_1.pdf",
+      "document_id": "7465cbba78ad78009516",
+      "pdf_sha256": "8469f9acebb63b1b4bd7eb3dfd0b7d24bc48e43aed1502b5cc0d842a9fce8575",
+      "page": 3,
+      "normalized_char_start": 950,
+      "normalized_char_end": 991,
+      "raw_char_start": 1016,
+      "raw_char_end": 1057,
+      "quote": "126(2), 356(2), 79, 352 and 351(1) of BNS",
+      "source_type": "court account of charges"
+    },
+    "annotation_status": "AI-assisted text review; independent human/legal check pending",
+    "applicability_validation": "document assertion only; offence dates and transition rules require review"
+  },
+  {
+    "document_id": "8eb2158150fed02dce88",
+    "page": 3,
+    "quote": "126(2), 356(2), 79, 352 and 351(1) of BNS",
+    "verified_target_sections": [
+      "356(2)"
+    ],
+    "note": "Same housing-society dispute and common judgment as Anushka Kondra.",
+    "family_key": "PimpriChinchwad|Kalewadi|6-and-7|2025",
+    "role": "operative charge recorded",
+    "source_type": "court account of charges",
+    "cnr": "HCBM010568272025",
+    "evidence": {
+      "source_url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800058292025_1.pdf",
+      "document_id": "8eb2158150fed02dce88",
+      "pdf_sha256": "a828ba8646281711dce4a72573d6c3c2e8aac00a9903c156d597a8130db4a77b",
+      "page": 3,
+      "normalized_char_start": 950,
+      "normalized_char_end": 991,
+      "raw_char_start": 1016,
+      "raw_char_end": 1057,
+      "quote": "126(2), 356(2), 79, 352 and 351(1) of BNS",
+      "source_type": "court account of charges"
+    },
+    "annotation_status": "AI-assisted text review; independent human/legal check pending",
+    "applicability_validation": "document assertion only; offence dates and transition rules require review"
+  },
+  {
+    "document_id": "a19dd9e0159a103e9608",
+    "page": 2,
+    "quote": "78, 79, 356 (2) of the Bharat iya Nyay Sanhita, 2023",
+    "verified_target_sections": [
+      "356(2)"
+    ],
+    "note": "BNS 356(2) recorded alongside IT 66A/67A; IT 66A is separate invalidated-law context.",
+    "family_key": null,
+    "role": "operative charge recorded",
+    "source_type": "court account of charges",
+    "cnr": "HCBM010648022024",
+    "evidence": {
+      "source_url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_233200036272024_1.pdf",
+      "document_id": "a19dd9e0159a103e9608",
+      "pdf_sha256": "7138e7a9f4fb8be00d22cf65d1dba1c79930585ba8d05fff1793bf6b04d03732",
+      "page": 2,
+      "normalized_char_start": 744,
+      "normalized_char_end": 796,
+      "raw_char_start": 782,
+      "raw_char_end": 834,
+      "quote": "78, 79, 356 (2) of the Bharat iya\nNyay Sanhita, 2023",
+      "source_type": "court account of charges"
+    },
+    "annotation_status": "AI-assisted text review; independent human/legal check pending",
+    "applicability_validation": "document assertion only; offence dates and transition rules require review"
+  },
+  {
+    "document_id": "2fd9cf741b9a62be5046",
+    "page": 1,
+    "quote": "75, 78, 356(2) and 351(2) of the Bharatiya Nyaya Sanhita, 2023",
+    "verified_target_sections": [
+      "356(2)"
+    ],
+    "note": "Interim bail and bundled IT charges.",
+    "family_key": "ChhSambhajinagar|Javaharnagar|418|2025",
+    "role": "operative charge recorded",
+    "source_type": "court account of charges",
+    "cnr": "HCBM030480562025",
+    "evidence": {
+      "source_url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=hcaurdb/orders_2025_231900021102025_1.pdf",
+      "document_id": "2fd9cf741b9a62be5046",
+      "pdf_sha256": "69a74684e187fe58c0b64c4d93901dac6bc7740a2f27eb1ed38af005670358c8",
+      "page": 1,
+      "normalized_char_start": 876,
+      "normalized_char_end": 938,
+      "raw_char_start": 997,
+      "raw_char_end": 1062,
+      "quote": "75,  78,  356(2)  and\n351(2) of the Bharatiya Nyaya Sanhita, 2023",
+      "source_type": "court account of charges"
+    },
+    "annotation_status": "AI-assisted text review; independent human/legal check pending",
+    "applicability_validation": "document assertion only; offence dates and transition rules require review"
+  },
+  {
+    "document_id": "233e5a54ff26b0d9fbf4",
+    "page": 1,
+    "quote": "offences punishable under Sections 308(2), 308(6), 316(2), 356( 2), 356(3), 79, 351(2) & 61(2) of the Bharatiya Nyaya Sanhita, 2023",
+    "verified_target_sections": [
+      "356(2)",
+      "356(3)"
+    ],
+    "note": "News-interview video in family dispute; defendants not assumed journalists.",
+    "family_key": "CentralPoliceStation|682|2025",
+    "role": "operative charge recorded",
+    "source_type": "court account of charges",
+    "cnr": "HCBM010498102025",
+    "evidence": {
+      "source_url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200026002025_4.pdf",
+      "document_id": "233e5a54ff26b0d9fbf4",
+      "pdf_sha256": "7d8d97ea2ae15a3e649a4db4c9557add3cd50b2965f1c7360de3fc9fae1252e9",
+      "page": 1,
+      "normalized_char_start": 826,
+      "normalized_char_end": 957,
+      "raw_char_start": 859,
+      "raw_char_end": 990,
+      "quote": "offences\npunishable under Sections 308(2), 308(6), 316(2), 356( 2), 356(3),\n79, 351(2) & 61(2) of the Bharatiya Nyaya Sanhita, 2023",
+      "source_type": "court account of charges"
+    },
+    "annotation_status": "AI-assisted text review; independent human/legal check pending",
+    "applicability_validation": "document assertion only; offence dates and transition rules require review"
+  },
+  {
+    "document_id": "51c3d45883098945b745",
+    "page": 1,
+    "quote": "Indian Penal Code, 1860",
+    "verified_target_sections": [],
+    "note": "Operative prosecution is IPC for 2020 FIR despite BNS metadata. Exclude from positive BNS pool; useful Act-identity challenge.",
+    "family_key": null,
+    "role": "IPC/BNS metadata conflict",
+    "source_type": "court account of charges",
+    "cnr": "HCBM010407652025",
+    "evidence": {
+      "source_url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233100030432025_10.pdf",
+      "document_id": "51c3d45883098945b745",
+      "pdf_sha256": "dc0e2b68c4bf76a396fae715f8eb7ed28107fe4c22548c8cd54a6677b4415527",
+      "page": 1,
+      "normalized_char_start": 796,
+      "normalized_char_end": 819,
+      "raw_char_start": 918,
+      "raw_char_end": 941,
+      "quote": "Indian Penal Code, 1860",
+      "source_type": "court account of charges"
+    },
+    "annotation_status": "AI-assisted text review; independent human/legal check pending",
+    "applicability_validation": "document assertion only; offence dates and transition rules require review"
+  },
+  {
+    "document_id": "a4d7cb98e2c1888b8fc9",
+    "page": 1,
+    "quote": "offences punishable under Sections 64 and 64 (2) (m)",
+    "verified_target_sections": [],
+    "note": "Metadata target 356 not confirmed by reviewed charge narrative. Not evidence that no later/additional charge exists.",
+    "family_key": null,
+    "role": "target not confirmed by reviewed narrative",
+    "source_type": "court account of charges",
+    "cnr": "HCBM010075992025",
+    "evidence": {
+      "source_url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233100006252025_5.pdf",
+      "document_id": "a4d7cb98e2c1888b8fc9",
+      "pdf_sha256": "33f53d02bf2fdce36d5069c62050e566e0755dea6713cca862a3e9f7aefdeca3",
+      "page": 1,
+      "normalized_char_start": 815,
+      "normalized_char_end": 867,
+      "raw_char_start": 860,
+      "raw_char_end": 912,
+      "quote": "offences punishable under Sections 64 and 64 (2) (m)",
+      "source_type": "court account of charges"
+    },
+    "annotation_status": "AI-assisted text review; independent human/legal check pending",
+    "applicability_validation": "document assertion only; offence dates and transition rules require review"
+  },
+  {
+    "document_id": "0b07992a92888903fd32",
+    "page": 2,
+    "quote": "189(2), 190, 191(2), 191(3), 351(2), 352 of the Bharatiya Nyay Sanhita, 2023",
+    "verified_target_sections": [],
+    "note": "Metadata 353 differs from recorded list ending 351(2),352. Do not promote metadata to target charge.",
+    "family_key": null,
+    "role": "target not confirmed by reviewed narrative",
+    "source_type": "court account of charges",
+    "cnr": "HCBM010147382025",
+    "evidence": {
+      "source_url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_231000002482025_7.pdf",
+      "document_id": "0b07992a92888903fd32",
+      "pdf_sha256": "98b5005f071b7a497f65383855292978c40792af6dd48163ff37b1e3d657c0d3",
+      "page": 2,
+      "normalized_char_start": 227,
+      "normalized_char_end": 303,
+      "raw_char_start": 291,
+      "raw_char_end": 367,
+      "quote": "189(2), 190, 191(2), 191(3), 351(2), 352 of the Bharatiya Nyay\nSanhita, 2023",
+      "source_type": "court account of charges"
+    },
+    "annotation_status": "AI-assisted text review; independent human/legal check pending",
+    "applicability_validation": "document assertion only; offence dates and transition rules require review"
+  },
+  {
+    "document_id": "4d05a6839c5304326ef4",
+    "page": 1,
+    "quote": "189(2), 191(2), 190 & 352 of the Bharatiya Nyaya Sanhita, 2023",
+    "verified_target_sections": [],
+    "note": "Metadata 353 hit; recorded target-adjacent charge is 352. Good section-boundary challenge.",
+    "family_key": null,
+    "role": "target not confirmed by reviewed narrative",
+    "source_type": "court account of charges",
+    "cnr": "HCBM010510512025",
+    "evidence": {
+      "source_url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200026802025_1.pdf",
+      "document_id": "4d05a6839c5304326ef4",
+      "pdf_sha256": "919afb12f5531d35785f4176e9737a04e9d00f2782e12515303d8a0ec9d12c76",
+      "page": 1,
+      "normalized_char_start": 638,
+      "normalized_char_end": 700,
+      "raw_char_start": 667,
+      "raw_char_end": 729,
+      "quote": "189(2), 191(2), 190 & 352 of the Bharatiya Nyaya Sanhita, 2023",
+      "source_type": "court account of charges"
+    },
+    "annotation_status": "AI-assisted text review; independent human/legal check pending",
+    "applicability_validation": "document assertion only; offence dates and transition rules require review"
+  },
+  {
+    "document_id": "1fb5473c7ca7dccc78bf",
+    "page": 2,
+    "quote": "115(2), 305, 351(2), and 352 read with 3 (5) of the Bharatiya Nyaya Sanhita, 2023",
+    "verified_target_sections": [],
+    "note": "Recorded BNS list does not confirm metadata 353; preserve unknown, not a negative abuse label.",
+    "family_key": null,
+    "role": "target not confirmed by reviewed narrative",
+    "source_type": "court account of charges",
+    "cnr": "HCBM010608962024",
+    "evidence": {
+      "source_url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2024/court=27_1/bench=newas/orders_2024_233200033492024_2.pdf",
+      "document_id": "1fb5473c7ca7dccc78bf",
+      "pdf_sha256": "c517d981035dc1537fc45d3bd19dbbdd433cfc22e42e9e498f04f9954867e768",
+      "page": 2,
+      "normalized_char_start": 227,
+      "normalized_char_end": 308,
+      "raw_char_start": 327,
+      "raw_char_end": 408,
+      "quote": "115(2), 305, 351(2), and 352 read with 3 (5)\nof the Bharatiya Nyaya Sanhita, 2023",
+      "source_type": "court account of charges"
+    },
+    "annotation_status": "AI-assisted text review; independent human/legal check pending",
+    "applicability_validation": "document assertion only; offence dates and transition rules require review"
+  },
+  {
+    "document_id": "bf05ed5d56c1ac4c8e0e",
+    "page": 2,
+    "quote": "One of the offences pertains to Section 132 of the Bharatiya Nyaya Sanhita, 2023",
+    "verified_target_sections": [],
+    "note": "132 confirmed in narrative; metadata 221 unconfirmed. No inference that 221 is absent from the FIR.",
+    "family_key": null,
+    "role": "target not confirmed by reviewed narrative",
+    "source_type": "court account of charges",
+    "cnr": "HCBM010613572024",
+    "evidence": {
+      "source_url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2024/court=27_1/bench=newas/orders_2024_233200033702024_2.pdf",
+      "document_id": "bf05ed5d56c1ac4c8e0e",
+      "pdf_sha256": "466fa9c73d0ce78aab9f1c2b4338aabf23b79f50923e2766cecac7dd69fb3670",
+      "page": 2,
+      "normalized_char_start": 280,
+      "normalized_char_end": 360,
+      "raw_char_start": 293,
+      "raw_char_end": 379,
+      "quote": "One  of  the  \noffences pertains to Section 132 of the Bharatiya Nyaya Sanhita,  \n2023",
+      "source_type": "court account of charges"
+    },
+    "annotation_status": "AI-assisted text review; independent human/legal check pending",
+    "applicability_validation": "document assertion only; offence dates and transition rules require review"
+  },
+  {
+    "document_id": "1dbf3af50f8329f07f7a",
+    "page": 1,
+    "quote": "register an FIR as against respondent Nos. 6 to 10",
+    "verified_target_sections": [],
+    "note": "Petition seeks FIR registration; not an established prosecution of the petitioner. Target 356 unknown.",
+    "family_key": null,
+    "role": "request to register FIR; target unconfirmed",
+    "source_type": "court account of charges",
+    "cnr": "HCBM010552022024",
+    "evidence": {
+      "source_url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2024/court=27_1/bench=newas/orders_2024_230800045742024_1.pdf",
+      "document_id": "1dbf3af50f8329f07f7a",
+      "pdf_sha256": "7d47b42da544c9044e5a0ef204160f9aa156a2fd801acdee592100b9009440e6",
+      "page": 1,
+      "normalized_char_start": 600,
+      "normalized_char_end": 650,
+      "raw_char_start": 702,
+      "raw_char_end": 752,
+      "quote": "register an FIR as against respondent\nNos. 6 to 10",
+      "source_type": "court account of charges"
+    },
+    "annotation_status": "AI-assisted text review; independent human/legal check pending",
+    "applicability_validation": "document assertion only; offence dates and transition rules require review"
+  },
+  {
+    "document_id": "6391feabd2bfc0c67c5f",
+    "page": 3,
+    "quote": "Issue notice to the respondents in all matters",
+    "verified_target_sections": [],
+    "note": "Batch notice order; no charge facts. Multi-case document is not one FIR family.",
+    "family_key": null,
+    "role": "insufficient charge detail",
+    "source_type": "court account of charges",
+    "cnr": "HCBM030312862025",
+    "evidence": {
+      "source_url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=hcaurdb/orders_2025_231800015012025_1.pdf",
+      "document_id": "6391feabd2bfc0c67c5f",
+      "pdf_sha256": "64370aec12a76683c9f2ab4741f67100cf9afe4cf95fb1808350e586114dfc9a",
+      "page": 3,
+      "normalized_char_start": 79,
+      "normalized_char_end": 125,
+      "raw_char_start": 85,
+      "raw_char_end": 135,
+      "quote": "Issue notice  to  the  respondents in  all\nmatters",
+      "source_type": "court account of charges"
+    },
+    "annotation_status": "AI-assisted text review; independent human/legal check pending",
+    "applicability_validation": "document assertion only; offence dates and transition rules require review"
+  },
+  {
+    "document_id": "7f785c87b9ebe05ef5c7",
+    "page": 3,
+    "quote": "Liberty to place on record copy of charge-sheet, if any.",
+    "verified_target_sections": [],
+    "note": "Batch notice order. Same document may appear under several CNRs; keep shared-text records in one split group.",
+    "family_key": null,
+    "role": "insufficient charge detail",
+    "source_type": "court account of charges",
+    "cnr": "HCBM030500802025",
+    "evidence": {
+      "source_url": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=hcaurdb/orders_2025_231800024722025_1.pdf",
+      "document_id": "7f785c87b9ebe05ef5c7",
+      "pdf_sha256": "4793a85854dc30d9f04bbfc0dc01b356b13735c6b2ffcf67ca5e93be98035fe4",
+      "page": 3,
+      "normalized_char_start": 235,
+      "normalized_char_end": 291,
+      "raw_char_start": 284,
+      "raw_char_end": 340,
+      "quote": "Liberty to place on record copy of charge-sheet, if any.",
+      "source_type": "court account of charges"
+    },
+    "annotation_status": "AI-assisted text review; independent human/legal check pending",
+    "applicability_validation": "document assertion only; offence dates and transition rules require review"
+  }
+]

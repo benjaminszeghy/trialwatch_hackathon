@@ -1,0 +1,612 @@
+[
+  {
+    "i": 0,
+    "cnr": "HCBM010407652025",
+    "title": "RAJESH DHAKAL RAO v STATE OF MAHARASHTRA",
+    "laws": [
+      "BNS:152",
+      "BNS:353"
+    ],
+    "pages": 19,
+    "flags": [
+      "ingredients:1",
+      "prima facie:1",
+      "not made out:1"
+    ]
+  },
+  {
+    "i": 1,
+    "cnr": "HCBM010319502025",
+    "title": "FARAH DEEBA v STATE OF MAHARASHTRA AND ANR.",
+    "laws": [
+      "BNS:152",
+      "BNS:196",
+      "BNS:353"
+    ],
+    "pages": 10,
+    "flags": [
+      "quash\\w*:9",
+      "ingredients:1",
+      "prima facie:1"
+    ]
+  },
+  {
+    "i": 2,
+    "cnr": "HCBM030281682025",
+    "title": "MANISH PRAKASH KSHIRSAGAR v THE STATE OF MAHARASHTRA",
+    "laws": [
+      "BNS:152"
+    ],
+    "pages": 2,
+    "flags": []
+  },
+  {
+    "i": 3,
+    "cnr": "HCBM010375472025",
+    "title": "FARAH DEEBA SYED SHAMIN AHMAD v STATE OF MAHARASHTRA",
+    "laws": [
+      "BNS:152",
+      "BNS:196"
+    ],
+    "pages": 6,
+    "flags": [
+      "prima facie:1"
+    ]
+  },
+  {
+    "i": 4,
+    "cnr": "HCBM010235652025",
+    "title": "ASHFAQUE AHMED ABDUL SATTAR SHAIKH v STATE OF MAHARASHTRA",
+    "laws": [
+      "BNS:196"
+    ],
+    "pages": 1,
+    "flags": []
+  },
+  {
+    "i": 5,
+    "cnr": "HCBM030312862025",
+    "title": "SHRIRAM ASHOK SAGADE v THE STATE OF MAHARASHTRA",
+    "laws": [
+      "BNS:196",
+      "BNS:299"
+    ],
+    "pages": 3,
+    "flags": []
+  },
+  {
+    "i": 6,
+    "cnr": "HCBM030500802025",
+    "title": "VIJAY RAMA GAVHANE v THE STATE OF MAHARASHTRA AND ANOTHER",
+    "laws": [
+      "BNS:196",
+      "BNS:299"
+    ],
+    "pages": 3,
+    "flags": []
+  },
+  {
+    "i": 7,
+    "cnr": "HCBM010174652025",
+    "title": "RAVINDRA DILIP PADWAL v THE STATE OF MAHARASHTRA",
+    "laws": [
+      "BNS:196"
+    ],
+    "pages": 1,
+    "flags": []
+  },
+  {
+    "i": 8,
+    "cnr": "HCBM010546982025",
+    "title": "MAMTA GANESH SHINDE v STATE OF MAHARASHTRA AND ANR",
+    "laws": [
+      "BNS:221"
+    ],
+    "pages": 1,
+    "flags": []
+  },
+  {
+    "i": 9,
+    "cnr": "HCBM010343052025",
+    "title": "JITENDRA NARESH BHABHE BHAVE v STATE OF MAHARASHTRA",
+    "laws": [
+      "BNS:221",
+      "BNS:353",
+      "BNS:356"
+    ],
+    "pages": 1,
+    "flags": []
+  },
+  {
+    "i": 10,
+    "cnr": "HCBM010553222025",
+    "title": "GANESH SHINDE @ KALIA GANYA v STATE OF MAHARASHTRA",
+    "laws": [
+      "BNS:221"
+    ],
+    "pages": 1,
+    "flags": []
+  },
+  {
+    "i": 11,
+    "cnr": "HCBM010286462025",
+    "title": "AMOL DINKAR JADHAV AND ANR v STATE OF MAHARASHTRA",
+    "laws": [
+      "BNS:221",
+      "BNS:353",
+      "BNS:356",
+      "IT:67"
+    ],
+    "pages": 2,
+    "flags": []
+  },
+  {
+    "i": 12,
+    "cnr": "HCBM010351762025",
+    "title": "NADEEM KHAN MOHIDDIN KHAN v STATE OF MAHARASHTRA AND ANR",
+    "laws": [
+      "BNS:299"
+    ],
+    "pages": 1,
+    "flags": []
+  },
+  {
+    "i": 13,
+    "cnr": "HCBM010549912024",
+    "title": "VIJAY RAMBABU SONKAR AND ORS v THE STATE OF MAHARASHTRA AND ANR",
+    "laws": [
+      "BNS:299"
+    ],
+    "pages": 12,
+    "flags": [
+      "quash\\w*:12",
+      "prima facie:1"
+    ]
+  },
+  {
+    "i": 14,
+    "cnr": "HCBM010492472025",
+    "title": "NAMDEV DEVJI TALAPE v SUNITA NAMDEV  TALAPE AND ORS",
+    "laws": [
+      "BNS:353"
+    ],
+    "pages": 1,
+    "flags": []
+  },
+  {
+    "i": 15,
+    "cnr": "HCBM030439342025",
+    "title": "MEHRAJ ABDUL KHAYUM PATEL v THE STATE OF MAHARASHTRA AND ANOTHER",
+    "laws": [
+      "BNS:353"
+    ],
+    "pages": 1,
+    "flags": []
+  },
+  {
+    "i": 16,
+    "cnr": "HCBM010166222025",
+    "title": "POPAT BALWANT KADAM AND ANR v STATE OF MAHARASHTRA",
+    "laws": [
+      "BNS:353"
+    ],
+    "pages": 3,
+    "flags": []
+  },
+  {
+    "i": 17,
+    "cnr": "HCBM010410412025",
+    "title": "ABDUL SADAM ABDUL RASHID SHAIKH @ ABDUL SAMAD ABDUL RASHID SHAIKH v THE STATE OF MAHARASHTRA AND ORS",
+    "laws": [
+      "BNS:356"
+    ],
+    "pages": 2,
+    "flags": [
+      "quash\\w*:4"
+    ]
+  },
+  {
+    "i": 18,
+    "cnr": "HCBM010075992025",
+    "title": "HANUMAN @ HANYA PARSHURAM PATIL v THE STATE OF MAHARASHTRA AND ANR",
+    "laws": [
+      "BNS:356"
+    ],
+    "pages": 15,
+    "flags": [
+      "prima facie:11"
+    ]
+  },
+  {
+    "i": 19,
+    "cnr": "HCBM010273022025",
+    "title": "ABHISHEK MISHRA AND ANR v STATE OF MAHARASHTRA AND ANR",
+    "laws": [
+      "BNS:356"
+    ],
+    "pages": 1,
+    "flags": [
+      "quash\\w*:1"
+    ]
+  },
+  {
+    "i": 20,
+    "cnr": "HCBM010560832024",
+    "title": "AMIT SHANTARAM MATKAR AND ANR v THE STATE OF MAHARASHTRA AND ANR",
+    "laws": [
+      "BNS:356"
+    ],
+    "pages": 1,
+    "flags": []
+  },
+  {
+    "i": 21,
+    "cnr": "HCBM010312862024",
+    "title": "URVASHI CHUDAWALA v THE STATE OF MAHARASHTRA",
+    "laws": [
+      "IPC:124A",
+      "IPC:505"
+    ],
+    "pages": 3,
+    "flags": [
+      "prima facie:1"
+    ]
+  },
+  {
+    "i": 22,
+    "cnr": "HCBM010273422024",
+    "title": "MUZAMMIL SHAIKH S/O ATA UR RAHMAN SHAIKH v THE STATE OF MAHARASHTRA AND ANR",
+    "laws": [
+      "IPC:124A",
+      "UAPA:13"
+    ],
+    "pages": 2,
+    "flags": []
+  },
+  {
+    "i": 23,
+    "cnr": "HCBM010570352024",
+    "title": "LACHU NARAYANDAS DUNWANI v STATE OF MAHARASHTRA AND ANR",
+    "laws": [
+      "IPC:153A",
+      "IPC:295A",
+      "IT:66A"
+    ],
+    "pages": 1,
+    "flags": []
+  },
+  {
+    "i": 24,
+    "cnr": "HCBM010364052024",
+    "title": "MOHAMMAD IRFAN DAULAT KHAN @ MAULANA IRFAN KHAN (NADAVI) v THE STATE OF MAHARASHTRA",
+    "laws": [
+      "IPC:153A",
+      "UAPA:13"
+    ],
+    "pages": 15,
+    "flags": [
+      "prima facie:2"
+    ]
+  },
+  {
+    "i": 25,
+    "cnr": "HCBM010210402024",
+    "title": "MONIKA SHERGILL D/O MR. BHARAT RAJ DHINGRA v STATE OF MAHARASHTRA",
+    "laws": [
+      "IPC:153A",
+      "IPC:295A",
+      "IPC:505"
+    ],
+    "pages": 2,
+    "flags": [
+      "quash\\w*:1"
+    ]
+  },
+  {
+    "i": 26,
+    "cnr": "HCBM010363872024",
+    "title": "SUDHIR SHAMRAO TAWARE v STATE OF MAHARASHTRA",
+    "laws": [
+      "IPC:153A",
+      "IPC:295A"
+    ],
+    "pages": 1,
+    "flags": []
+  },
+  {
+    "i": 27,
+    "cnr": "HCBM010385712024",
+    "title": "DADASO MANOHAR CHALEKAR v STATE OF MAHARASHTRA",
+    "laws": [
+      "IPC:186"
+    ],
+    "pages": 3,
+    "flags": []
+  },
+  {
+    "i": 28,
+    "cnr": "HCBM010182562025",
+    "title": "MILIND RAMDAS NIKAM v STATE OF MAHARASHTRA",
+    "laws": [
+      "IPC:186"
+    ],
+    "pages": 7,
+    "flags": [
+      "prima facie:1"
+    ]
+  },
+  {
+    "i": 29,
+    "cnr": "HCBM010572082023",
+    "title": "VEENA AMOL BHURKE v STATE OF MAHARASHTRA AND ANR",
+    "laws": [
+      "IPC:186"
+    ],
+    "pages": 1,
+    "flags": []
+  },
+  {
+    "i": 30,
+    "cnr": "HCBM010221372025",
+    "title": "SAURABH @ MAHENDRA DATTATRAYA LENDE v THE STATE OF MAHARASHTRA",
+    "laws": [
+      "IPC:186"
+    ],
+    "pages": 6,
+    "flags": []
+  },
+  {
+    "i": 31,
+    "cnr": "HCBM010496572024",
+    "title": "SHARAD UTTAMRAO TANDALE v SANGRAM SUHAS BHANDARE AND ANR",
+    "laws": [
+      "IPC:295A"
+    ],
+    "pages": 2,
+    "flags": []
+  },
+  {
+    "i": 32,
+    "cnr": "HCBM010166562024",
+    "title": "PRAVEEN DATTATRAYA BHOLE AND ORS v THE STATE OF MAHARASHTRA",
+    "laws": [
+      "IPC:295A"
+    ],
+    "pages": 1,
+    "flags": []
+  },
+  {
+    "i": 33,
+    "cnr": "HCBM010147482024",
+    "title": "ASIF BASHIR SHAIKH v THE STATE OF MAHARASHTRA",
+    "laws": [
+      "IPC:295A",
+      "IPC:505",
+      "UAPA:13"
+    ],
+    "pages": 1,
+    "flags": []
+  },
+  {
+    "i": 34,
+    "cnr": "HCBM010470752025",
+    "title": "LAXMAN BHUBHARAMJI PARIHAR v STATE OF MAHARASHTRA AND ANR",
+    "laws": [
+      "IPC:499"
+    ],
+    "pages": 2,
+    "flags": []
+  },
+  {
+    "i": 35,
+    "cnr": "HCBM010401902024",
+    "title": "NIKHIL MADHUKAR PADTE v STATE OF MAHARASHTRA AND ANR.",
+    "laws": [
+      "IPC:499",
+      "IPC:500"
+    ],
+    "pages": 1,
+    "flags": []
+  },
+  {
+    "i": 36,
+    "cnr": "HCBM010285452025",
+    "title": "ARPITA SONEE D/O VINOD SONEE v STATE OF MAHARASHTRA AND ORS",
+    "laws": [
+      "IPC:499",
+      "IPC:500"
+    ],
+    "pages": 1,
+    "flags": []
+  },
+  {
+    "i": 37,
+    "cnr": "HCBM010564792025",
+    "title": "RAIF KHURSHID AHMED KOTWAL AND ORS v STATE OF MAHARASHTRA AND ORS",
+    "laws": [
+      "IPC:499"
+    ],
+    "pages": 2,
+    "flags": [
+      "quash\\w*:2"
+    ]
+  },
+  {
+    "i": 38,
+    "cnr": "HCBM010304412024",
+    "title": "CHANDRAKANT C. SHAH v STATE OF MAHARASHTRA",
+    "laws": [
+      "IPC:500"
+    ],
+    "pages": 2,
+    "flags": []
+  },
+  {
+    "i": 39,
+    "cnr": "HCBM010217222025",
+    "title": "SHAMSUNDAR KASHINATH BHISE AND ORS v THE STATE OF MAHARASHTRA AND ANR",
+    "laws": [
+      "IPC:500"
+    ],
+    "pages": 1,
+    "flags": []
+  },
+  {
+    "i": 40,
+    "cnr": "HCBM010199302024",
+    "title": "YOGESH DAMAJI GAURATH v STATE OF MAHARASHTRA AND ANR",
+    "laws": [
+      "IPC:500"
+    ],
+    "pages": 1,
+    "flags": []
+  },
+  {
+    "i": 41,
+    "cnr": "HCBM010577372025",
+    "title": "SANJAY BHALCHANDRA VARTAK v STATE OF MAHARASHTRA",
+    "laws": [
+      "IPC:500"
+    ],
+    "pages": 2,
+    "flags": []
+  },
+  {
+    "i": 42,
+    "cnr": "HCBM010377672024",
+    "title": "SANDESH JANYA GURUD v STATE OF MAHARASHTRA",
+    "laws": [
+      "IPC:505"
+    ],
+    "pages": 3,
+    "flags": []
+  },
+  {
+    "i": 43,
+    "cnr": "HCBM010454782023",
+    "title": "SHYAMBAHADUR YADAV v STATE OF MAHARASHTRA AND ORS",
+    "laws": [
+      "IPC:505"
+    ],
+    "pages": 1,
+    "flags": []
+  },
+  {
+    "i": 44,
+    "cnr": "HCBM010309632025",
+    "title": "SATISH BABBAN MISHRA v STATE OF MAHARASHTRA AND ANR",
+    "laws": [
+      "IT:66A"
+    ],
+    "pages": 1,
+    "flags": []
+  },
+  {
+    "i": 45,
+    "cnr": "HCBM010648022024",
+    "title": "SHUBHAM DEVENDRA KUMAR YADAV v STATE OF MAHARASHTRA",
+    "laws": [
+      "BNS:356",
+      "IT:66A"
+    ],
+    "pages": 1,
+    "flags": []
+  },
+  {
+    "i": 46,
+    "cnr": "HCBM010072952024",
+    "title": "AMAN ARUN JAIN AND ANR v THE STATE OF MAHARASHTRA AND ANR",
+    "laws": [
+      "IT:66A"
+    ],
+    "pages": 2,
+    "flags": []
+  },
+  {
+    "i": 47,
+    "cnr": "HCBM010061932025",
+    "title": "AVINASH MAHESH MISHRA v STATE OF MAHARASHTRA AND ANR",
+    "laws": [
+      "IT:67"
+    ],
+    "pages": 1,
+    "flags": []
+  },
+  {
+    "i": 48,
+    "cnr": "HCBM010552372024",
+    "title": "ARJUN BHARAT BEHERA v STATE OF MAHARASHTRA AND ANR",
+    "laws": [
+      "IT:67"
+    ],
+    "pages": 1,
+    "flags": []
+  },
+  {
+    "i": 49,
+    "cnr": "HCBM010503182025",
+    "title": "SHAHEEN MOHAMMED ASLAM MANIHAR v STATE OF MAHARASHTRA",
+    "laws": [
+      "IT:67"
+    ],
+    "pages": 1,
+    "flags": []
+  },
+  {
+    "i": 50,
+    "cnr": "HCBM010562392024",
+    "title": "KHALIL REHAMAN SHAIKH v STATE OF MAHARASHTRA",
+    "laws": [
+      "IT:67"
+    ],
+    "pages": 1,
+    "flags": []
+  },
+  {
+    "i": 51,
+    "cnr": "HCBM010211112025",
+    "title": "DEEPAK SHRAVAN SHIRSAH v STATE OF MAHARASHTRA",
+    "laws": [
+      "OSA:3",
+      "OSA:5"
+    ],
+    "pages": 3,
+    "flags": []
+  },
+  {
+    "i": 52,
+    "cnr": "HCBM010324852024",
+    "title": "PRADEEP MORESHWAR KURULKAR v STATE OF MAHARASHTRA",
+    "laws": [
+      "OSA:3",
+      "OSA:5"
+    ],
+    "pages": 1,
+    "flags": []
+  },
+  {
+    "i": 53,
+    "cnr": "HCBM010024772025",
+    "title": "SHEIKH LALBABA MOHAMMED HUSSAIN v STATE OF MAHARASHTRA",
+    "laws": [
+      "IPC:153A",
+      "UAPA:13"
+    ],
+    "pages": 7,
+    "flags": [
+      "quash\\w*:1"
+    ]
+  },
+  {
+    "i": 54,
+    "cnr": "HCBM010536652019",
+    "title": "SURENDRA GADLING v THE STATE OF MAHARASHTRA AND ANR.",
+    "laws": [
+      "IPC:153A",
+      "IPC:505",
+      "UAPA:13"
+    ],
+    "pages": 1,
+    "flags": []
+  }
+]

@@ -1,0 +1,45 @@
+{
+  "hc_case_detail_rows": 106408,
+  "hc_unique_cnr": 106408,
+  "sc_metadata_rows_inspected": 8551,
+  "sc_metadata_years": [
+    1957,
+    1962,
+    1997,
+    2007,
+    2015,
+    2016,
+    2020,
+    2021,
+    2022,
+    2024,
+    2025,
+    2026
+  ],
+  "hc_benches": [
+    "newas",
+    "hcaurdb",
+    "hcbgoa",
+    "kolhcdb"
+  ],
+  "court": "Bombay High Court, S3 court=27_1",
+  "source_metadata_files": [
+    "work/court-data/indian-supreme-court-judgments/metadata/parquet/year=1957/metadata.parquet",
+    "work/court-data/indian-supreme-court-judgments/metadata/parquet/year=1962/metadata.parquet",
+    "work/court-data/indian-supreme-court-judgments/metadata/parquet/year=1997/metadata.parquet",
+    "work/court-data/indian-supreme-court-judgments/metadata/parquet/year=2007/metadata.parquet",
+    "work/court-data/indian-supreme-court-judgments/metadata/parquet/year=2015/metadata.parquet",
+    "work/court-data/indian-supreme-court-judgments/metadata/parquet/year=2016/metadata.parquet",
+    "work/court-data/indian-supreme-court-judgments/metadata/parquet/year=2020/metadata.parquet",
+    "work/court-data/indian-supreme-court-judgments/metadata/parquet/year=2021/metadata.parquet",
+    "work/court-data/indian-supreme-court-judgments/metadata/parquet/year=2022/metadata.parquet",
+    "work/court-data/indian-supreme-court-judgments/metadata/parquet/year=2024/metadata.parquet",
+    "work/court-data/indian-supreme-court-judgments/metadata/parquet/year=2025/metadata.parquet",
+    "work/court-data/indian-supreme-court-judgments/metadata/parquet/year=2026/metadata.parquet",
+    "work/court-data/indian-high-court-judgments/metadata/parquet_case_details/court=27_1/bench=hcaurdb/case_details-mobile.parquet",
+    "work/court-data/indian-high-court-judgments/metadata/parquet_case_details/court=27_1/bench=hcbgoa/case_details-mobile.parquet",
+    "work/court-data/indian-high-court-judgments/metadata/parquet_case_details/court=27_1/bench=kolhcdb/case_details-mobile.parquet",
+    "work/court-data/indian-high-court-judgments/metadata/parquet_case_details/court=27_1/bench=newas/case_details-mobile.parquet"
+  ],
+  "note": "Counts from the cached metadata snapshot, not population denominators."
+}

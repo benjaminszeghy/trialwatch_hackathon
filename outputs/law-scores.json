@@ -1,0 +1,2877 @@
+{
+  "title": "TrialWatch Legal Tripwire: India — provisional law review indices",
+  "as_of": "2026-10-09",
+  "rubric_version": "0.1",
+  "summary": {
+    "hc_case_detail_rows": 106408,
+    "hc_unique_cnr": 106408,
+    "sc_metadata_rows_inspected": 8551,
+    "sc_metadata_years": [
+      1957,
+      1962,
+      1997,
+      2007,
+      2015,
+      2016,
+      2020,
+      2021,
+      2022,
+      2024,
+      2025,
+      2026
+    ],
+    "hc_benches": [
+      "newas",
+      "hcaurdb",
+      "hcbgoa",
+      "kolhcdb"
+    ],
+    "court": "Bombay High Court, S3 court=27_1",
+    "source_metadata_files": [
+      "work/court-data/indian-supreme-court-judgments/metadata/parquet/year=1957/metadata.parquet",
+      "work/court-data/indian-supreme-court-judgments/metadata/parquet/year=1962/metadata.parquet",
+      "work/court-data/indian-supreme-court-judgments/metadata/parquet/year=1997/metadata.parquet",
+      "work/court-data/indian-supreme-court-judgments/metadata/parquet/year=2007/metadata.parquet",
+      "work/court-data/indian-supreme-court-judgments/metadata/parquet/year=2015/metadata.parquet",
+      "work/court-data/indian-supreme-court-judgments/metadata/parquet/year=2016/metadata.parquet",
+      "work/court-data/indian-supreme-court-judgments/metadata/parquet/year=2020/metadata.parquet",
+      "work/court-data/indian-supreme-court-judgments/metadata/parquet/year=2021/metadata.parquet",
+      "work/court-data/indian-supreme-court-judgments/metadata/parquet/year=2022/metadata.parquet",
+      "work/court-data/indian-supreme-court-judgments/metadata/parquet/year=2024/metadata.parquet",
+      "work/court-data/indian-supreme-court-judgments/metadata/parquet/year=2025/metadata.parquet",
+      "work/court-data/indian-supreme-court-judgments/metadata/parquet/year=2026/metadata.parquet",
+      "work/court-data/indian-high-court-judgments/metadata/parquet_case_details/court=27_1/bench=hcaurdb/case_details-mobile.parquet",
+      "work/court-data/indian-high-court-judgments/metadata/parquet_case_details/court=27_1/bench=hcbgoa/case_details-mobile.parquet",
+      "work/court-data/indian-high-court-judgments/metadata/parquet_case_details/court=27_1/bench=kolhcdb/case_details-mobile.parquet",
+      "work/court-data/indian-high-court-judgments/metadata/parquet_case_details/court=27_1/bench=newas/case_details-mobile.parquet"
+    ],
+    "note": "Counts from the cached metadata snapshot, not population denominators.",
+    "observation_order_years": [
+      2024,
+      2025
+    ],
+    "metadata_matched_cnr_frame": 387,
+    "selected_hc_pdfs": 55,
+    "selected_hc_pdf_pages": 168,
+    "selected_sc_aws_pdfs": 9,
+    "supplemental_official_sc_pdfs": 2,
+    "reviewed_hc_cnr": 5,
+    "curated_review_items": 13,
+    "one_page_hc_orders": 28,
+    "selection": "Lowest SHA-256(CNR) within each parent-law metadata stratum, up to four CNRs; union; latest final order in 2024-25 if available, otherwise latest order.",
+    "unit": "CNR proceeding; not an independent FIR/case family, journalist, or charge.",
+    "law_assignment": "Named Act in metadata; never inferred from order year. Operative PDF text can expose conflicts. Only the small reviewed subset is corrected/confirmed.",
+    "gold_dataset_status": "No independent expert gold labels and no measured generalization performance.",
+    "sc_selection": "Purposive doctrinal benchmarks from inspected-year metadata; not a random Supreme Court outcome sample."
+  },
+  "score_definition": "Statute-as-written plus linked central procedural classification. Six analyst-proposed 0-2 ratings; equal-weight sum/12*100, rounded. Higher means more review flags under THIS rubric.",
+  "validation_status": "Provisional AI-assisted analyst coding; not independently legally validated; not an abuse probability or learned risk model.",
+  "weight_sensitivity": {
+    "runs": 10000,
+    "seed": 20261009,
+    "distribution": "Independent Uniform(0.5,1.5) criterion weights, normalized in the score formula.",
+    "interpretation": "5th-95th percentile assumption band, not a statistical confidence interval. Rank envelopes include ties and are within era only."
+  },
+  "criteria": [
+    {
+      "id": "speech_reach",
+      "label": "Reach into expression",
+      "anchors": [
+        "No express publication, words, or communication limb.",
+        "Communication limb confined to a defined class of protected official information.",
+        "Words, publication, or expressive content are an express route to liability."
+      ]
+    },
+    {
+      "id": "open_texture",
+      "label": "Evaluative trigger language",
+      "anchors": [
+        "Concrete conduct and object; no evaluative expression or harm trigger identified.",
+        "Evaluative trigger bounded by a specified object, such as reputation, religious insult, or obstruction of official functions.",
+        "Open political, group-affective, morality, or national-security terms, including potential harm rather than a specified completed injury."
+      ]
+    },
+    {
+      "id": "mental_state_gap",
+      "label": "Explicit mental-state gap",
+      "anchors": [
+        "A specific deliberate/malicious harmful purpose is expressly required in the selected limb.",
+        "Knowledge, reason to believe, voluntariness, a purpose presumption, or mixed intent/effect routes; no specific malicious purpose required throughout.",
+        "No express mental-state qualifier in the selected expression limb. This is a TEXT feature, not a claim of strict liability."
+      ]
+    },
+    {
+      "id": "safeguard_gap",
+      "label": "Express expression-safeguard gap",
+      "anchors": [
+        "Several express criticism/reporting exceptions or a broad public-good/art/learning exception in the linked text.",
+        "A conditional lawful-criticism or reasonable-belief/good-faith exception.",
+        "No general criticism, reporting, or public-interest exception identified in the selected provision/linked definition."
+      ]
+    },
+    {
+      "id": "custody",
+      "label": "Arrest/bail exposure",
+      "anchors": [
+        "Non-cognizable AND bailable under the linked central schedule.",
+        "Cognizable OR non-bailable, but not both.",
+        "Cognizable AND non-bailable, or a specific statutory anticipatory-bail bar."
+      ]
+    },
+    {
+      "id": "penalty",
+      "label": "Maximum imprisonment",
+      "anchors": [
+        "Maximum up to and including two years.",
+        "Maximum greater than two and up to seven years.",
+        "Maximum greater than seven years, life imprisonment, or death."
+      ]
+    }
+  ],
+  "sources": {
+    "ipc": {
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/4219/1/THE-INDIAN-PENAL-CODE-1860.pdf",
+      "local": "statutes/ipc.json"
+    },
+    "bns": {
+      "url": "https://www.indiacode.nic.in/indiacode/bitstream/123456789/20062/1/a202345.pdf",
+      "local": "statutes/bns.json"
+    },
+    "uapa": {
+      "url": "https://www.mha.gov.in/sites/default/files/A1967-37_0.pdf",
+      "local": "statutes/uapa.json"
+    },
+    "osa": {
+      "url": "https://www.mha.gov.in/sites/default/files/2022-10/OSA1923_02092022%5B1%5D.pdf",
+      "local": "statutes/osa.json"
+    },
+    "it": {
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/13116/1/it_act_2000_updated.pdf",
+      "local": null,
+      "access": "Web tool PDF text verified; local download unavailable"
+    },
+    "crpc": {
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/15272/1/the_code_of_criminal_procedure,_1973.pdf",
+      "local": "statutes/crpc.json"
+    },
+    "bnss": {
+      "url": "https://www.mha.gov.in/sites/default/files/2024-04/250884_2_english_01042024.pdf",
+      "local": "statutes/bnss.json"
+    },
+    "commencement": {
+      "url": "https://www.mha.gov.in/sites/default/files/BhartiyaNyayaSanhita_24022024.pdf",
+      "local": null
+    }
+  },
+  "laws": [
+    {
+      "id": "IPC-124A",
+      "name": "IPC 124A — sedition (historical; 2022 abeyance order)",
+      "era": "IPC",
+      "metadata_parent_hits": [
+        "IPC:124A"
+      ],
+      "status": "historical/savings",
+      "counterpart": "BNS-152",
+      "max_years": "life",
+      "notes": "Historical text only. The 11 May 2022 Supreme Court order kept 124A proceedings in abeyance and restrained fresh use; this is not an active offence recommendation. BNS 152 is a related provision with different wording, not a one-to-one renumbering.",
+      "coding_status": "AI-assisted analyst proposal; no independent legal coding or outcome validation",
+      "components": {
+        "speech_reach": {
+          "rating": 2,
+          "reason": "Words, signs and representations are expressly covered."
+        },
+        "open_texture": {
+          "rating": 2,
+          "reason": "Hatred, contempt and disaffection against the government are broad affective/political triggers."
+        },
+        "mental_state_gap": {
+          "rating": 2,
+          "reason": "No express mental-state qualifier in the operative textual trigger; Kedar Nath judicial limitations are separate."
+        },
+        "safeguard_gap": {
+          "rating": 1,
+          "reason": "Explanations protect disapprobation seeking lawful alteration without the specified prohibited effects."
+        },
+        "custody": {
+          "rating": 2,
+          "reason": "CrPC central schedule: cognizable and non-bailable."
+        },
+        "penalty": {
+          "rating": 2,
+          "reason": "Maximum life imprisonment."
+        }
+      },
+      "sources": [
+        {
+          "source": "ipc",
+          "url": "https://www.indiacode.nic.in/bitstream/123456789/4219/1/THE-INDIAN-PENAL-CODE-1860.pdf",
+          "pdf_pages": [
+            55,
+            56
+          ],
+          "provisions": "124A"
+        },
+        {
+          "source": "crpc",
+          "url": "https://www.indiacode.nic.in/bitstream/123456789/15272/1/the_code_of_criminal_procedure,_1973.pdf",
+          "pdf_pages": [
+            198
+          ],
+          "provisions": "First Schedule: 124A"
+        }
+      ],
+      "historical_panel": {
+        "metadata_cnr_count": 2,
+        "selected_pdf_count": 2,
+        "one_page_selected_orders": 0,
+        "metadata_scope": [
+          "IPC:124A"
+        ],
+        "verified_specific_charge_examples_cnr": [],
+        "known_metadata_conflicts_cnr": [],
+        "rate_of_abuse": null,
+        "quashing_rate": null,
+        "note": "Metadata counts are retrieval denominators. Subsection rows share the parent denominator. Zero reviewed confirmations is not an absence finding."
+      },
+      "evidence_review_ids": [
+        "kedar-nath",
+        "124a-2022-stay"
+      ],
+      "raw_total": 11,
+      "raw_max": 12,
+      "score_100": 92,
+      "baseline_rank_band_within_era": [
+        1,
+        2
+      ],
+      "sensitivity": {
+        "weight_score_p05_p95": [
+          88.1,
+          95.1
+        ],
+        "weight_rank_envelope": [
+          1,
+          2
+        ],
+        "leave_one_criterion_out": [
+          {
+            "omitted_index": 0,
+            "score_100": 90.0,
+            "rank_band": [
+              1,
+              2
+            ]
+          },
+          {
+            "omitted_index": 1,
+            "score_100": 90.0,
+            "rank_band": [
+              1,
+              2
+            ]
+          },
+          {
+            "omitted_index": 2,
+            "score_100": 90.0,
+            "rank_band": [
+              1,
+              2
+            ]
+          },
+          {
+            "omitted_index": 3,
+            "score_100": 100.0,
+            "rank_band": [
+              1,
+              1
+            ]
+          },
+          {
+            "omitted_index": 4,
+            "score_100": 90.0,
+            "rank_band": [
+              1,
+              2
+            ]
+          },
+          {
+            "omitted_index": 5,
+            "score_100": 90.0,
+            "rank_band": [
+              2,
+              2
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "IPC-153A",
+      "name": "IPC 153A(1)(a)-(b) — promoting enmity",
+      "era": "IPC",
+      "metadata_parent_hits": [
+        "IPC:153A"
+      ],
+      "status": "historical/savings",
+      "counterpart": "BNS-196",
+      "max_years": 5,
+      "notes": "Expression/maintenance-of-harmony clauses only; drill/force clause (c) is outside the selected textual lens. Supreme Court intent/context safeguards are material.",
+      "coding_status": "AI-assisted analyst proposal; no independent legal coding or outcome validation",
+      "components": {
+        "speech_reach": {
+          "rating": 2,
+          "reason": "The words/representation limb expressly reaches expressive content."
+        },
+        "open_texture": {
+          "rating": 2,
+          "reason": "Disharmony, enmity, hatred, ill-will and likely disturbance are evaluative group/public-order triggers."
+        },
+        "mental_state_gap": {
+          "rating": 2,
+          "reason": "Clauses (1)(a)-(b) have no express intent qualifier in the text. Supreme Court mens rea requirements are displayed separately."
+        },
+        "safeguard_gap": {
+          "rating": 2,
+          "reason": "No express general public-interest or reporting exception in these clauses; judicial and constitutional safeguards remain relevant."
+        },
+        "custody": {
+          "rating": 2,
+          "reason": "The central procedural schedule classifies the offence as cognizable and non-bailable."
+        },
+        "penalty": {
+          "rating": 1,
+          "reason": "Three years ordinarily; five for the specified worship setting. Both are in the >2 to 7 band."
+        }
+      },
+      "sources": [
+        {
+          "source": "ipc",
+          "url": "https://www.indiacode.nic.in/bitstream/123456789/4219/1/THE-INDIAN-PENAL-CODE-1860.pdf",
+          "pdf_pages": [
+            66,
+            67
+          ],
+          "provisions": "153A"
+        },
+        {
+          "source": "crpc",
+          "url": "https://www.indiacode.nic.in/bitstream/123456789/15272/1/the_code_of_criminal_procedure,_1973.pdf",
+          "pdf_pages": [
+            199
+          ],
+          "provisions": "First Schedule: 153A"
+        }
+      ],
+      "historical_panel": {
+        "metadata_cnr_count": 27,
+        "selected_pdf_count": 6,
+        "one_page_selected_orders": 3,
+        "metadata_scope": [
+          "IPC:153A"
+        ],
+        "verified_specific_charge_examples_cnr": [
+          "HCBM010024772025"
+        ],
+        "known_metadata_conflicts_cnr": [],
+        "rate_of_abuse": null,
+        "quashing_rate": null,
+        "note": "Metadata counts are retrieval denominators. Subsection rows share the parent denominator. Zero reviewed confirmations is not an absence finding."
+      },
+      "evidence_review_ids": [
+        "manzar",
+        "hc-bail-not-fir-quashing"
+      ],
+      "raw_total": 11,
+      "raw_max": 12,
+      "score_100": 92,
+      "baseline_rank_band_within_era": [
+        1,
+        2
+      ],
+      "sensitivity": {
+        "weight_score_p05_p95": [
+          88.1,
+          95.2
+        ],
+        "weight_rank_envelope": [
+          1,
+          2
+        ],
+        "leave_one_criterion_out": [
+          {
+            "omitted_index": 0,
+            "score_100": 90.0,
+            "rank_band": [
+              1,
+              2
+            ]
+          },
+          {
+            "omitted_index": 1,
+            "score_100": 90.0,
+            "rank_band": [
+              1,
+              2
+            ]
+          },
+          {
+            "omitted_index": 2,
+            "score_100": 90.0,
+            "rank_band": [
+              1,
+              2
+            ]
+          },
+          {
+            "omitted_index": 3,
+            "score_100": 90.0,
+            "rank_band": [
+              2,
+              2
+            ]
+          },
+          {
+            "omitted_index": 4,
+            "score_100": 90.0,
+            "rank_band": [
+              1,
+              2
+            ]
+          },
+          {
+            "omitted_index": 5,
+            "score_100": 100.0,
+            "rank_band": [
+              1,
+              1
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "IPC-295A",
+      "name": "IPC 295A — deliberate malicious religious insult",
+      "era": "IPC",
+      "metadata_parent_hits": [
+        "IPC:295A"
+      ],
+      "status": "historical/savings",
+      "counterpart": "BNS-299",
+      "max_years": 3,
+      "notes": "",
+      "coding_status": "AI-assisted analyst proposal; no independent legal coding or outcome validation",
+      "components": {
+        "speech_reach": {
+          "rating": 2,
+          "reason": "Insult through words or representation is an express route to liability."
+        },
+        "open_texture": {
+          "rating": 1,
+          "reason": "The evaluative trigger is bounded by insult to a class's religion/religious beliefs."
+        },
+        "mental_state_gap": {
+          "rating": 0,
+          "reason": "Deliberate AND malicious intention to outrage religious feelings is expressly required."
+        },
+        "safeguard_gap": {
+          "rating": 2,
+          "reason": "No general reporting/public-interest exception identified; the specific mens rea is coded in its own component."
+        },
+        "custody": {
+          "rating": 2,
+          "reason": "Cognizable and non-bailable in the central schedule."
+        },
+        "penalty": {
+          "rating": 1,
+          "reason": "Maximum three years."
+        }
+      },
+      "sources": [
+        {
+          "source": "ipc",
+          "url": "https://www.indiacode.nic.in/bitstream/123456789/4219/1/THE-INDIAN-PENAL-CODE-1860.pdf",
+          "pdf_pages": [
+            130
+          ],
+          "provisions": "295A"
+        },
+        {
+          "source": "crpc",
+          "url": "https://www.indiacode.nic.in/bitstream/123456789/15272/1/the_code_of_criminal_procedure,_1973.pdf",
+          "pdf_pages": [
+            210
+          ],
+          "provisions": "First Schedule: 295A"
+        }
+      ],
+      "historical_panel": {
+        "metadata_cnr_count": 26,
+        "selected_pdf_count": 6,
+        "one_page_selected_orders": 4,
+        "metadata_scope": [
+          "IPC:295A"
+        ],
+        "verified_specific_charge_examples_cnr": [],
+        "known_metadata_conflicts_cnr": [],
+        "rate_of_abuse": null,
+        "quashing_rate": null,
+        "note": "Metadata counts are retrieval denominators. Subsection rows share the parent denominator. Zero reviewed confirmations is not an absence finding."
+      },
+      "evidence_review_ids": [
+        "ramji-lal"
+      ],
+      "raw_total": 8,
+      "raw_max": 12,
+      "score_100": 67,
+      "baseline_rank_band_within_era": [
+        4,
+        5
+      ],
+      "sensitivity": {
+        "weight_score_p05_p95": [
+          59.2,
+          73.9
+        ],
+        "weight_rank_envelope": [
+          3,
+          5
+        ],
+        "leave_one_criterion_out": [
+          {
+            "omitted_index": 0,
+            "score_100": 60.0,
+            "rank_band": [
+              4,
+              5
+            ]
+          },
+          {
+            "omitted_index": 1,
+            "score_100": 70.0,
+            "rank_band": [
+              3,
+              4
+            ]
+          },
+          {
+            "omitted_index": 2,
+            "score_100": 80.0,
+            "rank_band": [
+              3,
+              4
+            ]
+          },
+          {
+            "omitted_index": 3,
+            "score_100": 60.0,
+            "rank_band": [
+              5,
+              5
+            ]
+          },
+          {
+            "omitted_index": 4,
+            "score_100": 60.0,
+            "rank_band": [
+              5,
+              5
+            ]
+          },
+          {
+            "omitted_index": 5,
+            "score_100": 70.0,
+            "rank_band": [
+              4,
+              5
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "IPC-505-1",
+      "name": "IPC 505(1) — statements conducing to public mischief",
+      "era": "IPC",
+      "metadata_parent_hits": [
+        "IPC:505"
+      ],
+      "status": "historical/savings",
+      "counterpart": "BNS-353-1",
+      "max_years": 3,
+      "notes": "Metadata often records only 505; that does not identify this subsection. State amendments are not coded in this pilot.",
+      "coding_status": "AI-assisted analyst proposal; no independent legal coding or outcome validation",
+      "components": {
+        "speech_reach": {
+          "rating": 2,
+          "reason": "Making, publishing or circulating a statement, rumour or report is an express route to liability."
+        },
+        "open_texture": {
+          "rating": 2,
+          "reason": "Fear/alarm, group enmity, public tranquillity and likelihood formulations are evaluative triggers."
+        },
+        "mental_state_gap": {
+          "rating": 1,
+          "reason": "The text contains intent OR likely-effect alternatives; judicial mental-state requirements must be considered separately."
+        },
+        "safeguard_gap": {
+          "rating": 1,
+          "reason": "Reasonable grounds for believing truth plus good faith and absence of the specified intent provide a conditional exception."
+        },
+        "custody": {
+          "rating": 1,
+          "reason": "Non-cognizable but non-bailable under the central schedule."
+        },
+        "penalty": {
+          "rating": 1,
+          "reason": "Maximum three years in this subsection; the separate worship-setting variant of subsection (2) has five years."
+        }
+      },
+      "sources": [
+        {
+          "source": "ipc",
+          "url": "https://www.indiacode.nic.in/bitstream/123456789/4219/1/THE-INDIAN-PENAL-CODE-1860.pdf",
+          "pdf_pages": [
+            223,
+            224
+          ],
+          "provisions": "505(1), exception"
+        },
+        {
+          "source": "crpc",
+          "url": "https://www.indiacode.nic.in/bitstream/123456789/15272/1/the_code_of_criminal_procedure,_1973.pdf",
+          "pdf_pages": [
+            223
+          ],
+          "provisions": "First Schedule: 505 first row"
+        }
+      ],
+      "historical_panel": {
+        "metadata_cnr_count": 22,
+        "selected_pdf_count": 6,
+        "one_page_selected_orders": 3,
+        "metadata_scope": [
+          "IPC:505"
+        ],
+        "verified_specific_charge_examples_cnr": [],
+        "known_metadata_conflicts_cnr": [],
+        "rate_of_abuse": null,
+        "quashing_rate": null,
+        "note": "Metadata counts are retrieval denominators. Subsection rows share the parent denominator. Zero reviewed confirmations is not an absence finding."
+      },
+      "evidence_review_ids": [],
+      "raw_total": 8,
+      "raw_max": 12,
+      "score_100": 67,
+      "baseline_rank_band_within_era": [
+        4,
+        5
+      ],
+      "sensitivity": {
+        "weight_score_p05_p95": [
+          61.9,
+          71.4
+        ],
+        "weight_rank_envelope": [
+          4,
+          5
+        ],
+        "leave_one_criterion_out": [
+          {
+            "omitted_index": 0,
+            "score_100": 60.0,
+            "rank_band": [
+              4,
+              5
+            ]
+          },
+          {
+            "omitted_index": 1,
+            "score_100": 60.0,
+            "rank_band": [
+              5,
+              5
+            ]
+          },
+          {
+            "omitted_index": 2,
+            "score_100": 70.0,
+            "rank_band": [
+              5,
+              5
+            ]
+          },
+          {
+            "omitted_index": 3,
+            "score_100": 70.0,
+            "rank_band": [
+              4,
+              4
+            ]
+          },
+          {
+            "omitted_index": 4,
+            "score_100": 70.0,
+            "rank_band": [
+              3,
+              4
+            ]
+          },
+          {
+            "omitted_index": 5,
+            "score_100": 70.0,
+            "rank_band": [
+              4,
+              5
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "IPC-505-2",
+      "name": "IPC 505(2) — enmity from false/rumour reports",
+      "era": "IPC",
+      "metadata_parent_hits": [
+        "IPC:505"
+      ],
+      "status": "historical/savings",
+      "counterpart": "BNS-353-2",
+      "max_years": 5,
+      "notes": "The same parent metadata denominator as 505(1) is displayed, not an independently confirmed subsection count.",
+      "coding_status": "AI-assisted analyst proposal; no independent legal coding or outcome validation",
+      "components": {
+        "speech_reach": {
+          "rating": 2,
+          "reason": "Making, publishing or circulating a statement, rumour or report is an express route to liability."
+        },
+        "open_texture": {
+          "rating": 2,
+          "reason": "Fear/alarm, group enmity, public tranquillity and likelihood formulations are evaluative triggers."
+        },
+        "mental_state_gap": {
+          "rating": 1,
+          "reason": "The text contains intent OR likely-effect alternatives; judicial mental-state requirements must be considered separately."
+        },
+        "safeguard_gap": {
+          "rating": 1,
+          "reason": "Reasonable grounds for believing truth plus good faith and absence of the specified intent provide a conditional exception."
+        },
+        "custody": {
+          "rating": 2,
+          "reason": "Cognizable and non-bailable under the central schedule."
+        },
+        "penalty": {
+          "rating": 1,
+          "reason": "Maximum three years in this subsection; the separate worship-setting variant of subsection (2) has five years."
+        }
+      },
+      "sources": [
+        {
+          "source": "ipc",
+          "url": "https://www.indiacode.nic.in/bitstream/123456789/4219/1/THE-INDIAN-PENAL-CODE-1860.pdf",
+          "pdf_pages": [
+            224
+          ],
+          "provisions": "505(2)-(3), exception"
+        },
+        {
+          "source": "crpc",
+          "url": "https://www.indiacode.nic.in/bitstream/123456789/15272/1/the_code_of_criminal_procedure,_1973.pdf",
+          "pdf_pages": [
+            223
+          ],
+          "provisions": "First Schedule: 505 second row"
+        }
+      ],
+      "historical_panel": {
+        "metadata_cnr_count": 22,
+        "selected_pdf_count": 6,
+        "one_page_selected_orders": 3,
+        "metadata_scope": [
+          "IPC:505"
+        ],
+        "verified_specific_charge_examples_cnr": [
+          "HCBM010407652025"
+        ],
+        "known_metadata_conflicts_cnr": [],
+        "rate_of_abuse": null,
+        "quashing_rate": null,
+        "note": "Metadata counts are retrieval denominators. Subsection rows share the parent denominator. Zero reviewed confirmations is not an absence finding."
+      },
+      "evidence_review_ids": [
+        "hc-act-conflict"
+      ],
+      "raw_total": 9,
+      "raw_max": 12,
+      "score_100": 75,
+      "baseline_rank_band_within_era": [
+        3,
+        3
+      ],
+      "sensitivity": {
+        "weight_score_p05_p95": [
+          70.1,
+          80.0
+        ],
+        "weight_rank_envelope": [
+          3,
+          4
+        ],
+        "leave_one_criterion_out": [
+          {
+            "omitted_index": 0,
+            "score_100": 70.0,
+            "rank_band": [
+              3,
+              3
+            ]
+          },
+          {
+            "omitted_index": 1,
+            "score_100": 70.0,
+            "rank_band": [
+              3,
+              4
+            ]
+          },
+          {
+            "omitted_index": 2,
+            "score_100": 80.0,
+            "rank_band": [
+              3,
+              4
+            ]
+          },
+          {
+            "omitted_index": 3,
+            "score_100": 80.0,
+            "rank_band": [
+              3,
+              3
+            ]
+          },
+          {
+            "omitted_index": 4,
+            "score_100": 70.0,
+            "rank_band": [
+              3,
+              4
+            ]
+          },
+          {
+            "omitted_index": 5,
+            "score_100": 80.0,
+            "rank_band": [
+              3,
+              3
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "IPC-499-500",
+      "name": "IPC 499/500 — criminal defamation",
+      "era": "IPC",
+      "metadata_parent_hits": [
+        "IPC:499",
+        "IPC:500"
+      ],
+      "status": "historical/savings",
+      "counterpart": "BNS-356",
+      "max_years": 2,
+      "notes": "Definition (499) and punishment (500) form one row. Metadata counts use the UNION of CNR records, avoiding double counting.",
+      "coding_status": "AI-assisted analyst proposal; no independent legal coding or outcome validation",
+      "components": {
+        "speech_reach": {
+          "rating": 2,
+          "reason": "Making/publishing an imputation through words or representation expressly reaches expression."
+        },
+        "open_texture": {
+          "rating": 1,
+          "reason": "Reputational harm is evaluative, but Explanation 4 specifies forms of lowered estimation."
+        },
+        "mental_state_gap": {
+          "rating": 1,
+          "reason": "Intending harm, knowledge, OR reason to believe are express alternatives."
+        },
+        "safeguard_gap": {
+          "rating": 0,
+          "reason": "Ten exceptions include truth PLUS public good, good-faith opinion on public conduct, and substantially true court reports; truth alone is not universal immunity."
+        },
+        "custody": {
+          "rating": 0,
+          "reason": "The central schedule makes criminal defamation non-cognizable and bailable."
+        },
+        "penalty": {
+          "rating": 0,
+          "reason": "Maximum two years; BNS also permits community service."
+        }
+      },
+      "sources": [
+        {
+          "source": "ipc",
+          "url": "https://www.indiacode.nic.in/bitstream/123456789/4219/1/THE-INDIAN-PENAL-CODE-1860.pdf",
+          "pdf_pages": [
+            218,
+            219,
+            220,
+            221
+          ],
+          "provisions": "499 exceptions and 500"
+        },
+        {
+          "source": "crpc",
+          "url": "https://www.indiacode.nic.in/bitstream/123456789/15272/1/the_code_of_criminal_procedure,_1973.pdf",
+          "pdf_pages": [
+            222
+          ],
+          "provisions": "First Schedule: 500"
+        }
+      ],
+      "historical_panel": {
+        "metadata_cnr_count": 137,
+        "selected_pdf_count": 8,
+        "one_page_selected_orders": 4,
+        "metadata_scope": [
+          "IPC:499",
+          "IPC:500"
+        ],
+        "verified_specific_charge_examples_cnr": [],
+        "known_metadata_conflicts_cnr": [],
+        "rate_of_abuse": null,
+        "quashing_rate": null,
+        "note": "Metadata counts are retrieval denominators. Subsection rows share the parent denominator. Zero reviewed confirmations is not an absence finding."
+      },
+      "evidence_review_ids": [
+        "subramanian-swamy"
+      ],
+      "raw_total": 4,
+      "raw_max": 12,
+      "score_100": 33,
+      "baseline_rank_band_within_era": [
+        6,
+        7
+      ],
+      "sensitivity": {
+        "weight_score_p05_p95": [
+          26.1,
+          40.8
+        ],
+        "weight_rank_envelope": [
+          6,
+          7
+        ],
+        "leave_one_criterion_out": [
+          {
+            "omitted_index": 0,
+            "score_100": 20.0,
+            "rank_band": [
+              7,
+              7
+            ]
+          },
+          {
+            "omitted_index": 1,
+            "score_100": 30.0,
+            "rank_band": [
+              6,
+              7
+            ]
+          },
+          {
+            "omitted_index": 2,
+            "score_100": 30.0,
+            "rank_band": [
+              6,
+              7
+            ]
+          },
+          {
+            "omitted_index": 3,
+            "score_100": 40.0,
+            "rank_band": [
+              6,
+              6
+            ]
+          },
+          {
+            "omitted_index": 4,
+            "score_100": 40.0,
+            "rank_band": [
+              6,
+              7
+            ]
+          },
+          {
+            "omitted_index": 5,
+            "score_100": 40.0,
+            "rank_band": [
+              6,
+              7
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "IPC-186",
+      "name": "IPC 186 — obstructing public functions",
+      "era": "IPC",
+      "metadata_parent_hits": [
+        "IPC:186"
+      ],
+      "status": "historical/savings",
+      "counterpart": "BNS-221",
+      "max_years": 0.25,
+      "notes": "CrPC 195 complaint gate should also be reviewed. A lower textual score does not rule out retaliatory application or charge bundling.",
+      "coding_status": "AI-assisted analyst proposal; no independent legal coding or outcome validation",
+      "components": {
+        "speech_reach": {
+          "rating": 0,
+          "reason": "No independent words/publication limb; prosecution requires obstruction of official functions."
+        },
+        "open_texture": {
+          "rating": 1,
+          "reason": "Obstruction is evaluative, but tied to a public servant discharging public functions."
+        },
+        "mental_state_gap": {
+          "rating": 1,
+          "reason": "Voluntarily is an express qualifier, not a specific malicious-expression purpose."
+        },
+        "safeguard_gap": {
+          "rating": 2,
+          "reason": "No general reporting/public-interest exception in this provision. Complaint/cognizance gates are additional safeguards outside this component."
+        },
+        "custody": {
+          "rating": 0,
+          "reason": "Non-cognizable and bailable under the central schedule."
+        },
+        "penalty": {
+          "rating": 0,
+          "reason": "Maximum three months."
+        }
+      },
+      "sources": [
+        {
+          "source": "ipc",
+          "url": "https://www.indiacode.nic.in/bitstream/123456789/4219/1/THE-INDIAN-PENAL-CODE-1860.pdf",
+          "pdf_pages": [
+            83
+          ],
+          "provisions": "186"
+        },
+        {
+          "source": "crpc",
+          "url": "https://www.indiacode.nic.in/bitstream/123456789/15272/1/the_code_of_criminal_procedure,_1973.pdf",
+          "pdf_pages": [
+            201,
+            202
+          ],
+          "provisions": "First Schedule: 186"
+        }
+      ],
+      "historical_panel": {
+        "metadata_cnr_count": 13,
+        "selected_pdf_count": 4,
+        "one_page_selected_orders": 1,
+        "metadata_scope": [
+          "IPC:186"
+        ],
+        "verified_specific_charge_examples_cnr": [],
+        "known_metadata_conflicts_cnr": [],
+        "rate_of_abuse": null,
+        "quashing_rate": null,
+        "note": "Metadata counts are retrieval denominators. Subsection rows share the parent denominator. Zero reviewed confirmations is not an absence finding."
+      },
+      "evidence_review_ids": [],
+      "raw_total": 4,
+      "raw_max": 12,
+      "score_100": 33,
+      "baseline_rank_band_within_era": [
+        6,
+        7
+      ],
+      "sensitivity": {
+        "weight_score_p05_p95": [
+          26.2,
+          40.7
+        ],
+        "weight_rank_envelope": [
+          6,
+          7
+        ],
+        "leave_one_criterion_out": [
+          {
+            "omitted_index": 0,
+            "score_100": 40.0,
+            "rank_band": [
+              6,
+              6
+            ]
+          },
+          {
+            "omitted_index": 1,
+            "score_100": 30.0,
+            "rank_band": [
+              6,
+              7
+            ]
+          },
+          {
+            "omitted_index": 2,
+            "score_100": 30.0,
+            "rank_band": [
+              6,
+              7
+            ]
+          },
+          {
+            "omitted_index": 3,
+            "score_100": 20.0,
+            "rank_band": [
+              7,
+              7
+            ]
+          },
+          {
+            "omitted_index": 4,
+            "score_100": 40.0,
+            "rank_band": [
+              6,
+              7
+            ]
+          },
+          {
+            "omitted_index": 5,
+            "score_100": 40.0,
+            "rank_band": [
+              6,
+              7
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "BNS-152",
+      "name": "BNS 152 — sovereignty, unity and integrity",
+      "era": "BNS",
+      "metadata_parent_hits": [
+        "BNS:152"
+      ],
+      "status": "current BNS baseline",
+      "counterpart": "IPC-124A",
+      "max_years": "life",
+      "notes": "BNS baseline commenced 1 July 2024. Related subject matter to 124A, but different prohibited conduct, fault words and fixed-term alternative.",
+      "coding_status": "AI-assisted analyst proposal; no independent legal coding or outcome validation",
+      "components": {
+        "speech_reach": {
+          "rating": 2,
+          "reason": "Words, signs, visible representation and electronic communication are expressly covered, along with other conduct."
+        },
+        "open_texture": {
+          "rating": 2,
+          "reason": "Subversive activities, separatist feelings and endangering unity/integrity have evaluative breadth."
+        },
+        "mental_state_gap": {
+          "rating": 1,
+          "reason": "Purposely OR knowingly is explicit; it is stronger textual specification than IPC 124A, but not a malicious-purpose-only threshold."
+        },
+        "safeguard_gap": {
+          "rating": 1,
+          "reason": "Explanation protects lawful-change criticism without exciting the specified activities."
+        },
+        "custody": {
+          "rating": 2,
+          "reason": "BNSS schedule: cognizable and non-bailable."
+        },
+        "penalty": {
+          "rating": 2,
+          "reason": "Maximum life imprisonment; alternative fixed term up to seven years."
+        }
+      },
+      "sources": [
+        {
+          "source": "bns",
+          "url": "https://www.indiacode.nic.in/indiacode/bitstream/123456789/20062/1/a202345.pdf",
+          "pdf_pages": [
+            60
+          ],
+          "provisions": "152"
+        },
+        {
+          "source": "bnss",
+          "url": "https://www.mha.gov.in/sites/default/files/2024-04/250884_2_english_01042024.pdf",
+          "pdf_pages": [
+            168
+          ],
+          "provisions": "First Schedule: 152"
+        }
+      ],
+      "historical_panel": {
+        "metadata_cnr_count": 4,
+        "selected_pdf_count": 4,
+        "one_page_selected_orders": 0,
+        "metadata_scope": [
+          "BNS:152"
+        ],
+        "verified_specific_charge_examples_cnr": [
+          "HCBM010319502025",
+          "HCBM010375472025"
+        ],
+        "known_metadata_conflicts_cnr": [
+          "HCBM010407652025"
+        ],
+        "rate_of_abuse": null,
+        "quashing_rate": null,
+        "note": "Metadata counts are retrieval denominators. Subsection rows share the parent denominator. Zero reviewed confirmations is not an absence finding."
+      },
+      "evidence_review_ids": [
+        "hc-act-conflict",
+        "hc-farah-deeba",
+        "hc-linked-bail-proceeding"
+      ],
+      "raw_total": 10,
+      "raw_max": 12,
+      "score_100": 83,
+      "baseline_rank_band_within_era": [
+        2,
+        2
+      ],
+      "sensitivity": {
+        "weight_score_p05_p95": [
+          78.7,
+          87.9
+        ],
+        "weight_rank_envelope": [
+          1,
+          2
+        ],
+        "leave_one_criterion_out": [
+          {
+            "omitted_index": 0,
+            "score_100": 80.0,
+            "rank_band": [
+              2,
+              2
+            ]
+          },
+          {
+            "omitted_index": 1,
+            "score_100": 80.0,
+            "rank_band": [
+              2,
+              2
+            ]
+          },
+          {
+            "omitted_index": 2,
+            "score_100": 90.0,
+            "rank_band": [
+              1,
+              2
+            ]
+          },
+          {
+            "omitted_index": 3,
+            "score_100": 90.0,
+            "rank_band": [
+              1,
+              2
+            ]
+          },
+          {
+            "omitted_index": 4,
+            "score_100": 80.0,
+            "rank_band": [
+              2,
+              2
+            ]
+          },
+          {
+            "omitted_index": 5,
+            "score_100": 80.0,
+            "rank_band": [
+              2,
+              3
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "BNS-196",
+      "name": "BNS 196(1)(a)-(b) — promoting enmity",
+      "era": "BNS",
+      "metadata_parent_hits": [
+        "BNS:196"
+      ],
+      "status": "current BNS baseline",
+      "counterpart": "IPC-153A",
+      "max_years": 5,
+      "notes": "Explicit electronic-communication wording. Current Supreme Court safeguards in Imran Pratapgadhi (2025) are separately recorded; identical index components do not imply identical law.",
+      "coding_status": "AI-assisted analyst proposal; no independent legal coding or outcome validation",
+      "components": {
+        "speech_reach": {
+          "rating": 2,
+          "reason": "The words/representation limb expressly reaches expressive content."
+        },
+        "open_texture": {
+          "rating": 2,
+          "reason": "Disharmony, enmity, hatred, ill-will and likely disturbance are evaluative group/public-order triggers."
+        },
+        "mental_state_gap": {
+          "rating": 2,
+          "reason": "Clauses (1)(a)-(b) have no express intent qualifier in the text. Supreme Court mens rea requirements are displayed separately."
+        },
+        "safeguard_gap": {
+          "rating": 2,
+          "reason": "No express general public-interest or reporting exception in these clauses; judicial and constitutional safeguards remain relevant."
+        },
+        "custody": {
+          "rating": 2,
+          "reason": "The central procedural schedule classifies the offence as cognizable and non-bailable."
+        },
+        "penalty": {
+          "rating": 1,
+          "reason": "Three years ordinarily; five for the specified worship setting. Both are in the >2 to 7 band."
+        }
+      },
+      "sources": [
+        {
+          "source": "bns",
+          "url": "https://www.indiacode.nic.in/indiacode/bitstream/123456789/20062/1/a202345.pdf",
+          "pdf_pages": [
+            68
+          ],
+          "provisions": "196"
+        },
+        {
+          "source": "bnss",
+          "url": "https://www.mha.gov.in/sites/default/files/2024-04/250884_2_english_01042024.pdf",
+          "pdf_pages": [
+            171,
+            172
+          ],
+          "provisions": "First Schedule: 196"
+        }
+      ],
+      "historical_panel": {
+        "metadata_cnr_count": 14,
+        "selected_pdf_count": 6,
+        "one_page_selected_orders": 2,
+        "metadata_scope": [
+          "BNS:196"
+        ],
+        "verified_specific_charge_examples_cnr": [
+          "HCBM010319502025",
+          "HCBM010375472025"
+        ],
+        "known_metadata_conflicts_cnr": [],
+        "rate_of_abuse": null,
+        "quashing_rate": null,
+        "note": "Metadata counts are retrieval denominators. Subsection rows share the parent denominator. Zero reviewed confirmations is not an absence finding."
+      },
+      "evidence_review_ids": [
+        "imran-current-bns",
+        "hc-farah-deeba",
+        "hc-linked-bail-proceeding"
+      ],
+      "raw_total": 11,
+      "raw_max": 12,
+      "score_100": 92,
+      "baseline_rank_band_within_era": [
+        1,
+        1
+      ],
+      "sensitivity": {
+        "weight_score_p05_p95": [
+          88.1,
+          95.2
+        ],
+        "weight_rank_envelope": [
+          1,
+          2
+        ],
+        "leave_one_criterion_out": [
+          {
+            "omitted_index": 0,
+            "score_100": 90.0,
+            "rank_band": [
+              1,
+              1
+            ]
+          },
+          {
+            "omitted_index": 1,
+            "score_100": 90.0,
+            "rank_band": [
+              1,
+              1
+            ]
+          },
+          {
+            "omitted_index": 2,
+            "score_100": 90.0,
+            "rank_band": [
+              1,
+              2
+            ]
+          },
+          {
+            "omitted_index": 3,
+            "score_100": 90.0,
+            "rank_band": [
+              1,
+              2
+            ]
+          },
+          {
+            "omitted_index": 4,
+            "score_100": 90.0,
+            "rank_band": [
+              1,
+              1
+            ]
+          },
+          {
+            "omitted_index": 5,
+            "score_100": 100.0,
+            "rank_band": [
+              1,
+              1
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "BNS-299",
+      "name": "BNS 299 — deliberate malicious religious insult",
+      "era": "BNS",
+      "metadata_parent_hits": [
+        "BNS:299"
+      ],
+      "status": "current BNS baseline",
+      "counterpart": "IPC-295A",
+      "max_years": 3,
+      "notes": "Explicit electronic-means wording. Judicial construction must be checked independently from the IPC mapping.",
+      "coding_status": "AI-assisted analyst proposal; no independent legal coding or outcome validation",
+      "components": {
+        "speech_reach": {
+          "rating": 2,
+          "reason": "Insult through words or representation is an express route to liability."
+        },
+        "open_texture": {
+          "rating": 1,
+          "reason": "The evaluative trigger is bounded by insult to a class's religion/religious beliefs."
+        },
+        "mental_state_gap": {
+          "rating": 0,
+          "reason": "Deliberate AND malicious intention to outrage religious feelings is expressly required."
+        },
+        "safeguard_gap": {
+          "rating": 2,
+          "reason": "No general reporting/public-interest exception identified; the specific mens rea is coded in its own component."
+        },
+        "custody": {
+          "rating": 2,
+          "reason": "Cognizable and non-bailable in the central schedule."
+        },
+        "penalty": {
+          "rating": 1,
+          "reason": "Maximum three years."
+        }
+      },
+      "sources": [
+        {
+          "source": "bns",
+          "url": "https://www.indiacode.nic.in/indiacode/bitstream/123456789/20062/1/a202345.pdf",
+          "pdf_pages": [
+            87
+          ],
+          "provisions": "299"
+        },
+        {
+          "source": "bnss",
+          "url": "https://www.mha.gov.in/sites/default/files/2024-04/250884_2_english_01042024.pdf",
+          "pdf_pages": [
+            181
+          ],
+          "provisions": "First Schedule: 299"
+        }
+      ],
+      "historical_panel": {
+        "metadata_cnr_count": 14,
+        "selected_pdf_count": 4,
+        "one_page_selected_orders": 1,
+        "metadata_scope": [
+          "BNS:299"
+        ],
+        "verified_specific_charge_examples_cnr": [],
+        "known_metadata_conflicts_cnr": [],
+        "rate_of_abuse": null,
+        "quashing_rate": null,
+        "note": "Metadata counts are retrieval denominators. Subsection rows share the parent denominator. Zero reviewed confirmations is not an absence finding."
+      },
+      "evidence_review_ids": [
+        "imran-current-bns"
+      ],
+      "raw_total": 8,
+      "raw_max": 12,
+      "score_100": 67,
+      "baseline_rank_band_within_era": [
+        4,
+        5
+      ],
+      "sensitivity": {
+        "weight_score_p05_p95": [
+          59.2,
+          73.9
+        ],
+        "weight_rank_envelope": [
+          3,
+          5
+        ],
+        "leave_one_criterion_out": [
+          {
+            "omitted_index": 0,
+            "score_100": 60.0,
+            "rank_band": [
+              4,
+              5
+            ]
+          },
+          {
+            "omitted_index": 1,
+            "score_100": 70.0,
+            "rank_band": [
+              3,
+              4
+            ]
+          },
+          {
+            "omitted_index": 2,
+            "score_100": 80.0,
+            "rank_band": [
+              3,
+              4
+            ]
+          },
+          {
+            "omitted_index": 3,
+            "score_100": 60.0,
+            "rank_band": [
+              5,
+              5
+            ]
+          },
+          {
+            "omitted_index": 4,
+            "score_100": 60.0,
+            "rank_band": [
+              5,
+              5
+            ]
+          },
+          {
+            "omitted_index": 5,
+            "score_100": 70.0,
+            "rank_band": [
+              4,
+              5
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "BNS-353-1",
+      "name": "BNS 353(1) — statements conducing to public mischief",
+      "era": "BNS",
+      "metadata_parent_hits": [
+        "BNS:353"
+      ],
+      "status": "current BNS baseline",
+      "counterpart": "IPC-505-1",
+      "max_years": 3,
+      "notes": "The text expressly adds false information and electronic means; parent metadata does not resolve the subsection.",
+      "coding_status": "AI-assisted analyst proposal; no independent legal coding or outcome validation",
+      "components": {
+        "speech_reach": {
+          "rating": 2,
+          "reason": "Making, publishing or circulating a statement, rumour or report is an express route to liability."
+        },
+        "open_texture": {
+          "rating": 2,
+          "reason": "Fear/alarm, group enmity, public tranquillity and likelihood formulations are evaluative triggers."
+        },
+        "mental_state_gap": {
+          "rating": 1,
+          "reason": "The text contains intent OR likely-effect alternatives; judicial mental-state requirements must be considered separately."
+        },
+        "safeguard_gap": {
+          "rating": 1,
+          "reason": "Reasonable grounds for believing truth plus good faith and absence of the specified intent provide a conditional exception."
+        },
+        "custody": {
+          "rating": 1,
+          "reason": "Non-cognizable but non-bailable under the BNSS schedule."
+        },
+        "penalty": {
+          "rating": 1,
+          "reason": "Maximum three years in this subsection; the separate worship-setting variant of subsection (2) has five years."
+        }
+      },
+      "sources": [
+        {
+          "source": "bns",
+          "url": "https://www.indiacode.nic.in/indiacode/bitstream/123456789/20062/1/a202345.pdf",
+          "pdf_pages": [
+            107
+          ],
+          "provisions": "353(1), exception"
+        },
+        {
+          "source": "bnss",
+          "url": "https://www.mha.gov.in/sites/default/files/2024-04/250884_2_english_01042024.pdf",
+          "pdf_pages": [
+            188
+          ],
+          "provisions": "First Schedule: 353(1)"
+        }
+      ],
+      "historical_panel": {
+        "metadata_cnr_count": 21,
+        "selected_pdf_count": 7,
+        "one_page_selected_orders": 3,
+        "metadata_scope": [
+          "BNS:353"
+        ],
+        "verified_specific_charge_examples_cnr": [],
+        "known_metadata_conflicts_cnr": [
+          "HCBM010407652025"
+        ],
+        "rate_of_abuse": null,
+        "quashing_rate": null,
+        "note": "Metadata counts are retrieval denominators. Subsection rows share the parent denominator. Zero reviewed confirmations is not an absence finding."
+      },
+      "evidence_review_ids": [
+        "hc-act-conflict",
+        "hc-farah-deeba",
+        "hc-linked-bail-proceeding"
+      ],
+      "raw_total": 8,
+      "raw_max": 12,
+      "score_100": 67,
+      "baseline_rank_band_within_era": [
+        4,
+        5
+      ],
+      "sensitivity": {
+        "weight_score_p05_p95": [
+          61.9,
+          71.4
+        ],
+        "weight_rank_envelope": [
+          4,
+          5
+        ],
+        "leave_one_criterion_out": [
+          {
+            "omitted_index": 0,
+            "score_100": 60.0,
+            "rank_band": [
+              4,
+              5
+            ]
+          },
+          {
+            "omitted_index": 1,
+            "score_100": 60.0,
+            "rank_band": [
+              5,
+              5
+            ]
+          },
+          {
+            "omitted_index": 2,
+            "score_100": 70.0,
+            "rank_band": [
+              5,
+              5
+            ]
+          },
+          {
+            "omitted_index": 3,
+            "score_100": 70.0,
+            "rank_band": [
+              4,
+              4
+            ]
+          },
+          {
+            "omitted_index": 4,
+            "score_100": 70.0,
+            "rank_band": [
+              3,
+              4
+            ]
+          },
+          {
+            "omitted_index": 5,
+            "score_100": 70.0,
+            "rank_band": [
+              4,
+              5
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "BNS-353-2",
+      "name": "BNS 353(2) — enmity from false/rumour reports",
+      "era": "BNS",
+      "metadata_parent_hits": [
+        "BNS:353"
+      ],
+      "status": "current BNS baseline",
+      "counterpart": "IPC-505-2",
+      "max_years": 5,
+      "notes": "Parent metadata overlap is retained explicitly. No IPC-to-BNS frequency trend is inferred.",
+      "coding_status": "AI-assisted analyst proposal; no independent legal coding or outcome validation",
+      "components": {
+        "speech_reach": {
+          "rating": 2,
+          "reason": "Making, publishing or circulating a statement, rumour or report is an express route to liability."
+        },
+        "open_texture": {
+          "rating": 2,
+          "reason": "Fear/alarm, group enmity, public tranquillity and likelihood formulations are evaluative triggers."
+        },
+        "mental_state_gap": {
+          "rating": 1,
+          "reason": "The text contains intent OR likely-effect alternatives; judicial mental-state requirements must be considered separately."
+        },
+        "safeguard_gap": {
+          "rating": 1,
+          "reason": "Reasonable grounds for believing truth plus good faith and absence of the specified intent provide a conditional exception."
+        },
+        "custody": {
+          "rating": 2,
+          "reason": "Cognizable and non-bailable under the BNSS schedule."
+        },
+        "penalty": {
+          "rating": 1,
+          "reason": "Maximum three years in this subsection; the separate worship-setting variant of subsection (2) has five years."
+        }
+      },
+      "sources": [
+        {
+          "source": "bns",
+          "url": "https://www.indiacode.nic.in/indiacode/bitstream/123456789/20062/1/a202345.pdf",
+          "pdf_pages": [
+            107
+          ],
+          "provisions": "353(2)-(3), exception"
+        },
+        {
+          "source": "bnss",
+          "url": "https://www.mha.gov.in/sites/default/files/2024-04/250884_2_english_01042024.pdf",
+          "pdf_pages": [
+            188
+          ],
+          "provisions": "First Schedule: 353(2)"
+        }
+      ],
+      "historical_panel": {
+        "metadata_cnr_count": 21,
+        "selected_pdf_count": 7,
+        "one_page_selected_orders": 3,
+        "metadata_scope": [
+          "BNS:353"
+        ],
+        "verified_specific_charge_examples_cnr": [],
+        "known_metadata_conflicts_cnr": [
+          "HCBM010407652025"
+        ],
+        "rate_of_abuse": null,
+        "quashing_rate": null,
+        "note": "Metadata counts are retrieval denominators. Subsection rows share the parent denominator. Zero reviewed confirmations is not an absence finding."
+      },
+      "evidence_review_ids": [
+        "hc-act-conflict",
+        "hc-farah-deeba",
+        "hc-linked-bail-proceeding"
+      ],
+      "raw_total": 9,
+      "raw_max": 12,
+      "score_100": 75,
+      "baseline_rank_band_within_era": [
+        3,
+        3
+      ],
+      "sensitivity": {
+        "weight_score_p05_p95": [
+          70.1,
+          80.0
+        ],
+        "weight_rank_envelope": [
+          3,
+          4
+        ],
+        "leave_one_criterion_out": [
+          {
+            "omitted_index": 0,
+            "score_100": 70.0,
+            "rank_band": [
+              3,
+              3
+            ]
+          },
+          {
+            "omitted_index": 1,
+            "score_100": 70.0,
+            "rank_band": [
+              3,
+              4
+            ]
+          },
+          {
+            "omitted_index": 2,
+            "score_100": 80.0,
+            "rank_band": [
+              3,
+              4
+            ]
+          },
+          {
+            "omitted_index": 3,
+            "score_100": 80.0,
+            "rank_band": [
+              3,
+              3
+            ]
+          },
+          {
+            "omitted_index": 4,
+            "score_100": 70.0,
+            "rank_band": [
+              3,
+              4
+            ]
+          },
+          {
+            "omitted_index": 5,
+            "score_100": 80.0,
+            "rank_band": [
+              2,
+              3
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "BNS-356",
+      "name": "BNS 356(1)-(2) — criminal defamation",
+      "era": "BNS",
+      "metadata_parent_hits": [
+        "BNS:356"
+      ],
+      "status": "current BNS baseline",
+      "counterpart": "IPC-499-500",
+      "max_years": 2,
+      "notes": "The score is for the definition and direct defamation offence; printing/selling variants are not separately rated. Community service is available.",
+      "coding_status": "AI-assisted analyst proposal; no independent legal coding or outcome validation",
+      "components": {
+        "speech_reach": {
+          "rating": 2,
+          "reason": "Making/publishing an imputation through words or representation expressly reaches expression."
+        },
+        "open_texture": {
+          "rating": 1,
+          "reason": "Reputational harm is evaluative, but Explanation 4 specifies forms of lowered estimation."
+        },
+        "mental_state_gap": {
+          "rating": 1,
+          "reason": "Intending harm, knowledge, OR reason to believe are express alternatives."
+        },
+        "safeguard_gap": {
+          "rating": 0,
+          "reason": "Ten exceptions include truth PLUS public good, good-faith opinion on public conduct, and substantially true court reports; truth alone is not universal immunity."
+        },
+        "custody": {
+          "rating": 0,
+          "reason": "The central schedule makes criminal defamation non-cognizable and bailable."
+        },
+        "penalty": {
+          "rating": 0,
+          "reason": "Maximum two years; BNS also permits community service."
+        }
+      },
+      "sources": [
+        {
+          "source": "bns",
+          "url": "https://www.indiacode.nic.in/indiacode/bitstream/123456789/20062/1/a202345.pdf",
+          "pdf_pages": [
+            108,
+            109,
+            110
+          ],
+          "provisions": "356 definition, exceptions, punishment"
+        },
+        {
+          "source": "bnss",
+          "url": "https://www.mha.gov.in/sites/default/files/2024-04/250884_2_english_01042024.pdf",
+          "pdf_pages": [
+            188
+          ],
+          "provisions": "First Schedule: 356(2)"
+        }
+      ],
+      "historical_panel": {
+        "metadata_cnr_count": 64,
+        "selected_pdf_count": 7,
+        "one_page_selected_orders": 4,
+        "metadata_scope": [
+          "BNS:356"
+        ],
+        "verified_specific_charge_examples_cnr": [],
+        "known_metadata_conflicts_cnr": [],
+        "rate_of_abuse": null,
+        "quashing_rate": null,
+        "note": "Metadata counts are retrieval denominators. Subsection rows share the parent denominator. Zero reviewed confirmations is not an absence finding."
+      },
+      "evidence_review_ids": [
+        "hc-defamation-not-confirmed"
+      ],
+      "raw_total": 4,
+      "raw_max": 12,
+      "score_100": 33,
+      "baseline_rank_band_within_era": [
+        6,
+        7
+      ],
+      "sensitivity": {
+        "weight_score_p05_p95": [
+          26.1,
+          40.8
+        ],
+        "weight_rank_envelope": [
+          6,
+          7
+        ],
+        "leave_one_criterion_out": [
+          {
+            "omitted_index": 0,
+            "score_100": 20.0,
+            "rank_band": [
+              7,
+              7
+            ]
+          },
+          {
+            "omitted_index": 1,
+            "score_100": 30.0,
+            "rank_band": [
+              6,
+              7
+            ]
+          },
+          {
+            "omitted_index": 2,
+            "score_100": 30.0,
+            "rank_band": [
+              6,
+              7
+            ]
+          },
+          {
+            "omitted_index": 3,
+            "score_100": 40.0,
+            "rank_band": [
+              6,
+              6
+            ]
+          },
+          {
+            "omitted_index": 4,
+            "score_100": 40.0,
+            "rank_band": [
+              6,
+              7
+            ]
+          },
+          {
+            "omitted_index": 5,
+            "score_100": 40.0,
+            "rank_band": [
+              6,
+              7
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "BNS-221",
+      "name": "BNS 221 — obstructing public functions",
+      "era": "BNS",
+      "metadata_parent_hits": [
+        "BNS:221"
+      ],
+      "status": "current BNS baseline",
+      "counterpart": "IPC-186",
+      "max_years": 0.25,
+      "notes": "Fine increases to INR 2,500 in the linked text; the six-criterion rubric does not measure fines. BNSS 215 complaint gate is outside the six components.",
+      "coding_status": "AI-assisted analyst proposal; no independent legal coding or outcome validation",
+      "components": {
+        "speech_reach": {
+          "rating": 0,
+          "reason": "No independent words/publication limb; prosecution requires obstruction of official functions."
+        },
+        "open_texture": {
+          "rating": 1,
+          "reason": "Obstruction is evaluative, but tied to a public servant discharging public functions."
+        },
+        "mental_state_gap": {
+          "rating": 1,
+          "reason": "Voluntarily is an express qualifier, not a specific malicious-expression purpose."
+        },
+        "safeguard_gap": {
+          "rating": 2,
+          "reason": "No general reporting/public-interest exception in this provision. Complaint/cognizance gates are additional safeguards outside this component."
+        },
+        "custody": {
+          "rating": 0,
+          "reason": "Non-cognizable and bailable under the central schedule."
+        },
+        "penalty": {
+          "rating": 0,
+          "reason": "Maximum three months."
+        }
+      },
+      "sources": [
+        {
+          "source": "bns",
+          "url": "https://www.indiacode.nic.in/indiacode/bitstream/123456789/20062/1/a202345.pdf",
+          "pdf_pages": [
+            73
+          ],
+          "provisions": "221"
+        },
+        {
+          "source": "bnss",
+          "url": "https://www.mha.gov.in/sites/default/files/2024-04/250884_2_english_01042024.pdf",
+          "pdf_pages": [
+            174
+          ],
+          "provisions": "First Schedule: 221"
+        }
+      ],
+      "historical_panel": {
+        "metadata_cnr_count": 12,
+        "selected_pdf_count": 4,
+        "one_page_selected_orders": 3,
+        "metadata_scope": [
+          "BNS:221"
+        ],
+        "verified_specific_charge_examples_cnr": [],
+        "known_metadata_conflicts_cnr": [],
+        "rate_of_abuse": null,
+        "quashing_rate": null,
+        "note": "Metadata counts are retrieval denominators. Subsection rows share the parent denominator. Zero reviewed confirmations is not an absence finding."
+      },
+      "evidence_review_ids": [],
+      "raw_total": 4,
+      "raw_max": 12,
+      "score_100": 33,
+      "baseline_rank_band_within_era": [
+        6,
+        7
+      ],
+      "sensitivity": {
+        "weight_score_p05_p95": [
+          26.2,
+          40.7
+        ],
+        "weight_rank_envelope": [
+          6,
+          7
+        ],
+        "leave_one_criterion_out": [
+          {
+            "omitted_index": 0,
+            "score_100": 40.0,
+            "rank_band": [
+              6,
+              6
+            ]
+          },
+          {
+            "omitted_index": 1,
+            "score_100": 30.0,
+            "rank_band": [
+              6,
+              7
+            ]
+          },
+          {
+            "omitted_index": 2,
+            "score_100": 30.0,
+            "rank_band": [
+              6,
+              7
+            ]
+          },
+          {
+            "omitted_index": 3,
+            "score_100": 20.0,
+            "rank_band": [
+              7,
+              7
+            ]
+          },
+          {
+            "omitted_index": 4,
+            "score_100": 40.0,
+            "rank_band": [
+              6,
+              7
+            ]
+          },
+          {
+            "omitted_index": 5,
+            "score_100": 40.0,
+            "rank_band": [
+              6,
+              7
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "UAPA-13",
+      "name": "UAPA 13 with 2(o) — unlawful activities",
+      "era": "Other",
+      "metadata_parent_hits": [
+        "UAPA:13"
+      ],
+      "status": "continuing statute",
+      "counterpart": null,
+      "max_years": 7,
+      "notes": "Do not import the Chapters IV/VI prima-facie-true bail embargo into section 13 alone. Bundled terrorism charges create distinct exposure.",
+      "coding_status": "AI-assisted analyst proposal; no independent legal coding or outcome validation",
+      "components": {
+        "speech_reach": {
+          "rating": 2,
+          "reason": "Definition expressly includes spoken/written words; section 13 includes advocacy/advice/incitement."
+        },
+        "open_texture": {
+          "rating": 2,
+          "reason": "Disaffection, questioning sovereignty, and supporting secession claims are broad political triggers."
+        },
+        "mental_state_gap": {
+          "rating": 1,
+          "reason": "Definition has mixed intention/support/effect routes; this textual coding does not displace judicial fault requirements."
+        },
+        "safeguard_gap": {
+          "rating": 2,
+          "reason": "Section 13(3) excludes authorized treaty/negotiation activity, not general journalism or public-interest speech."
+        },
+        "custody": {
+          "rating": 2,
+          "reason": "Cognizable; seven-year limb is non-bailable under the other-laws schedule; 43D(4) excludes anticipatory bail. 43D(5) is NOT applicable to section 13 alone."
+        },
+        "penalty": {
+          "rating": 1,
+          "reason": "Section 13(1) maximum seven years; subsection (2) five."
+        }
+      },
+      "sources": [
+        {
+          "source": "uapa",
+          "url": "https://www.mha.gov.in/sites/default/files/A1967-37_0.pdf",
+          "pdf_pages": [
+            6,
+            10,
+            11,
+            20,
+            21
+          ],
+          "provisions": "2(o), 13, 14, 43D(4)-(5)"
+        },
+        {
+          "source": "crpc",
+          "url": "https://www.indiacode.nic.in/bitstream/123456789/15272/1/the_code_of_criminal_procedure,_1973.pdf",
+          "pdf_pages": [
+            223
+          ],
+          "provisions": "First Schedule II"
+        }
+      ],
+      "historical_panel": {
+        "metadata_cnr_count": 10,
+        "selected_pdf_count": 5,
+        "one_page_selected_orders": 2,
+        "metadata_scope": [
+          "UAPA:13"
+        ],
+        "verified_specific_charge_examples_cnr": [
+          "HCBM010024772025"
+        ],
+        "known_metadata_conflicts_cnr": [],
+        "rate_of_abuse": null,
+        "quashing_rate": null,
+        "note": "Metadata counts are retrieval denominators. Subsection rows share the parent denominator. Zero reviewed confirmations is not an absence finding."
+      },
+      "evidence_review_ids": [
+        "thwaha",
+        "hc-bail-not-fir-quashing"
+      ],
+      "raw_total": 10,
+      "raw_max": 12,
+      "score_100": 83,
+      "baseline_rank_band_within_era": [
+        1,
+        2
+      ],
+      "sensitivity": {
+        "weight_score_p05_p95": [
+          78.6,
+          88.0
+        ],
+        "weight_rank_envelope": [
+          1,
+          2
+        ],
+        "leave_one_criterion_out": [
+          {
+            "omitted_index": 0,
+            "score_100": 80.0,
+            "rank_band": [
+              2,
+              3
+            ]
+          },
+          {
+            "omitted_index": 1,
+            "score_100": 80.0,
+            "rank_band": [
+              1,
+              2
+            ]
+          },
+          {
+            "omitted_index": 2,
+            "score_100": 90.0,
+            "rank_band": [
+              1,
+              2
+            ]
+          },
+          {
+            "omitted_index": 3,
+            "score_100": 80.0,
+            "rank_band": [
+              1,
+              3
+            ]
+          },
+          {
+            "omitted_index": 4,
+            "score_100": 80.0,
+            "rank_band": [
+              1,
+              2
+            ]
+          },
+          {
+            "omitted_index": 5,
+            "score_100": 90.0,
+            "rank_band": [
+              1,
+              1
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "IT-67",
+      "name": "IT Act 67 — electronic obscenity (first conviction)",
+      "era": "Other",
+      "metadata_parent_hits": [
+        "IT:67"
+      ],
+      "status": "continuing statute",
+      "counterpart": null,
+      "max_years": 3,
+      "notes": "First-conviction baseline. Repeated-conviction scenario would change custody from 1 to 2, increasing the total by one point. 67A/67B are separate offences and excluded from metadata matching.",
+      "coding_status": "AI-assisted analyst proposal; no independent legal coding or outcome validation",
+      "components": {
+        "speech_reach": {
+          "rating": 2,
+          "reason": "Electronic publishing/transmission is an express route to liability."
+        },
+        "open_texture": {
+          "rating": 2,
+          "reason": "Lascivious/prurient/deprave-or-corrupt formulations are evaluative morality triggers."
+        },
+        "mental_state_gap": {
+          "rating": 2,
+          "reason": "No express fault word in section 67's operative text; this does not assert that courts dispense with mens rea."
+        },
+        "safeguard_gap": {
+          "rating": 0,
+          "reason": "The proviso following 67B expressly extends public-good/science/literature/art/learning and heritage/religious exceptions to section 67."
+        },
+        "custody": {
+          "rating": 1,
+          "reason": "77B: a three-year offence is cognizable and bailable. Subsequent-conviction five-year exposure is a different scenario."
+        },
+        "penalty": {
+          "rating": 1,
+          "reason": "First conviction maximum three years; subsequent conviction five years (same penalty band but different custody component)."
+        }
+      },
+      "sources": [
+        {
+          "source": "it",
+          "url": "https://www.indiacode.nic.in/bitstream/123456789/13116/1/it_act_2000_updated.pdf",
+          "pdf_pages": [
+            25,
+            26,
+            30
+          ],
+          "provisions": "67; proviso after 67B; 77B"
+        }
+      ],
+      "alternative_scenarios": [
+        {
+          "name": "Subsequent conviction",
+          "component_overrides": {
+            "custody": 2
+          },
+          "note": "Five-year maximum remains in penalty band 1; the three-year bailability override does not cover this scenario.",
+          "raw_total": 9,
+          "score_100": 75,
+          "profile": [
+            2,
+            2,
+            2,
+            0,
+            2,
+            1
+          ]
+        }
+      ],
+      "historical_panel": {
+        "metadata_cnr_count": 87,
+        "selected_pdf_count": 5,
+        "one_page_selected_orders": 4,
+        "metadata_scope": [
+          "IT:67"
+        ],
+        "verified_specific_charge_examples_cnr": [],
+        "known_metadata_conflicts_cnr": [],
+        "rate_of_abuse": null,
+        "quashing_rate": null,
+        "note": "Metadata counts are retrieval denominators. Subsection rows share the parent denominator. Zero reviewed confirmations is not an absence finding."
+      },
+      "evidence_review_ids": [],
+      "raw_total": 8,
+      "raw_max": 12,
+      "score_100": 67,
+      "baseline_rank_band_within_era": [
+        4,
+        4
+      ],
+      "sensitivity": {
+        "weight_score_p05_p95": [
+          59.3,
+          74.0
+        ],
+        "weight_rank_envelope": [
+          2,
+          4
+        ],
+        "leave_one_criterion_out": [
+          {
+            "omitted_index": 0,
+            "score_100": 60.0,
+            "rank_band": [
+              4,
+              4
+            ]
+          },
+          {
+            "omitted_index": 1,
+            "score_100": 60.0,
+            "rank_band": [
+              4,
+              4
+            ]
+          },
+          {
+            "omitted_index": 2,
+            "score_100": 60.0,
+            "rank_band": [
+              4,
+              4
+            ]
+          },
+          {
+            "omitted_index": 3,
+            "score_100": 80.0,
+            "rank_band": [
+              1,
+              3
+            ]
+          },
+          {
+            "omitted_index": 4,
+            "score_100": 70.0,
+            "rank_band": [
+              3,
+              4
+            ]
+          },
+          {
+            "omitted_index": 5,
+            "score_100": 70.0,
+            "rank_band": [
+              4,
+              4
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "OSA-3",
+      "name": "Official Secrets Act 3 — defence/code publication branch",
+      "era": "Other",
+      "metadata_parent_hits": [
+        "OSA:3"
+      ],
+      "status": "continuing statute",
+      "counterpart": null,
+      "max_years": 14,
+      "notes": "This row explicitly rates the fourteen-year defence/code branch in the information/publication lens; physical-entry conduct is not independently scored. The other-case three-year branch has penalty rating 1, a separate 9/12 (75/100) scenario.",
+      "coding_status": "AI-assisted analyst proposal; no independent legal coding or outcome validation",
+      "components": {
+        "speech_reach": {
+          "rating": 1,
+          "reason": "Publication/communication concerns a specified class of protected official/security information."
+        },
+        "open_texture": {
+          "rating": 2,
+          "reason": "Useful to an enemy, prejudicial purpose, and security/integrity/friendly-relations terms are broad evaluative triggers."
+        },
+        "mental_state_gap": {
+          "rating": 1,
+          "reason": "Prejudicial purpose is required, but subsection (2) permits purpose inferences/presumptions from circumstances/conduct/known character."
+        },
+        "safeguard_gap": {
+          "rating": 2,
+          "reason": "No general journalism/public-interest publication defence in this section; lawful authority is a separate limitation."
+        },
+        "custody": {
+          "rating": 2,
+          "reason": "Three/fourteen-year alternatives are cognizable and non-bailable under the central other-laws classification."
+        },
+        "penalty": {
+          "rating": 2,
+          "reason": "Maximum fourteen years for specified defence/code cases; three in other cases."
+        }
+      },
+      "sources": [
+        {
+          "source": "osa",
+          "url": "https://www.mha.gov.in/sites/default/files/2022-10/OSA1923_02092022%5B1%5D.pdf",
+          "pdf_pages": [
+            3,
+            4
+          ],
+          "provisions": "3(1)(c), 3(2)"
+        },
+        {
+          "source": "crpc",
+          "url": "https://www.indiacode.nic.in/bitstream/123456789/15272/1/the_code_of_criminal_procedure,_1973.pdf",
+          "pdf_pages": [
+            223
+          ],
+          "provisions": "First Schedule II"
+        },
+        {
+          "source": "bnss",
+          "url": "https://www.mha.gov.in/sites/default/files/2024-04/250884_2_english_01042024.pdf",
+          "pdf_pages": [
+            189
+          ],
+          "provisions": "First Schedule II"
+        }
+      ],
+      "alternative_scenarios": [
+        {
+          "name": "Other-case publication branch (not the specified defence/code branch)",
+          "component_overrides": {
+            "penalty": 1
+          },
+          "note": "Three-year maximum; custody remains cognizable/non-bailable under the other-laws schedule.",
+          "raw_total": 9,
+          "score_100": 75,
+          "profile": [
+            1,
+            2,
+            1,
+            2,
+            2,
+            1
+          ]
+        }
+      ],
+      "historical_panel": {
+        "metadata_cnr_count": 2,
+        "selected_pdf_count": 2,
+        "one_page_selected_orders": 1,
+        "metadata_scope": [
+          "OSA:3"
+        ],
+        "verified_specific_charge_examples_cnr": [],
+        "known_metadata_conflicts_cnr": [],
+        "rate_of_abuse": null,
+        "quashing_rate": null,
+        "note": "Metadata counts are retrieval denominators. Subsection rows share the parent denominator. Zero reviewed confirmations is not an absence finding."
+      },
+      "evidence_review_ids": [],
+      "raw_total": 10,
+      "raw_max": 12,
+      "score_100": 83,
+      "baseline_rank_band_within_era": [
+        1,
+        2
+      ],
+      "sensitivity": {
+        "weight_score_p05_p95": [
+          78.5,
+          88.0
+        ],
+        "weight_rank_envelope": [
+          1,
+          3
+        ],
+        "leave_one_criterion_out": [
+          {
+            "omitted_index": 0,
+            "score_100": 90.0,
+            "rank_band": [
+              1,
+              1
+            ]
+          },
+          {
+            "omitted_index": 1,
+            "score_100": 80.0,
+            "rank_band": [
+              1,
+              2
+            ]
+          },
+          {
+            "omitted_index": 2,
+            "score_100": 90.0,
+            "rank_band": [
+              1,
+              2
+            ]
+          },
+          {
+            "omitted_index": 3,
+            "score_100": 80.0,
+            "rank_band": [
+              1,
+              3
+            ]
+          },
+          {
+            "omitted_index": 4,
+            "score_100": 80.0,
+            "rank_band": [
+              1,
+              2
+            ]
+          },
+          {
+            "omitted_index": 5,
+            "score_100": 80.0,
+            "rank_band": [
+              2,
+              3
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "OSA-5",
+      "name": "Official Secrets Act 5 — wrongful communication",
+      "era": "Other",
+      "metadata_parent_hits": [
+        "OSA:5"
+      ],
+      "status": "continuing statute",
+      "counterpart": null,
+      "max_years": 3,
+      "notes": "Communication, retention, receipt and care limbs differ. A whole-section profile cannot decide whether any particular reporter satisfies an offence.",
+      "coding_status": "AI-assisted analyst proposal; no independent legal coding or outcome validation",
+      "components": {
+        "speech_reach": {
+          "rating": 1,
+          "reason": "Communication/receipt is limited to the specified official/confidential/security information categories."
+        },
+        "open_texture": {
+          "rating": 2,
+          "reason": "Protected-information categories extend to entrusted information and potential security/foreign-relations harm."
+        },
+        "mental_state_gap": {
+          "rating": 1,
+          "reason": "Mixed wilful/knowing/reason-to-believe routes and reasonable-care or retention limbs require separate conduct-level review."
+        },
+        "safeguard_gap": {
+          "rating": 2,
+          "reason": "Authorized communication, a court, or state-interest duty is recognized, but no general public-interest journalism defence is identified."
+        },
+        "custody": {
+          "rating": 2,
+          "reason": "Three-year maximum is cognizable and non-bailable in the central other-laws schedule."
+        },
+        "penalty": {
+          "rating": 1,
+          "reason": "Maximum three years under subsection (4)."
+        }
+      },
+      "sources": [
+        {
+          "source": "osa",
+          "url": "https://www.mha.gov.in/sites/default/files/2022-10/OSA1923_02092022%5B1%5D.pdf",
+          "pdf_pages": [
+            5,
+            6
+          ],
+          "provisions": "5(1)-(4)"
+        },
+        {
+          "source": "crpc",
+          "url": "https://www.indiacode.nic.in/bitstream/123456789/15272/1/the_code_of_criminal_procedure,_1973.pdf",
+          "pdf_pages": [
+            223
+          ],
+          "provisions": "First Schedule II"
+        },
+        {
+          "source": "bnss",
+          "url": "https://www.mha.gov.in/sites/default/files/2024-04/250884_2_english_01042024.pdf",
+          "pdf_pages": [
+            189
+          ],
+          "provisions": "First Schedule II"
+        }
+      ],
+      "historical_panel": {
+        "metadata_cnr_count": 2,
+        "selected_pdf_count": 2,
+        "one_page_selected_orders": 1,
+        "metadata_scope": [
+          "OSA:5"
+        ],
+        "verified_specific_charge_examples_cnr": [],
+        "known_metadata_conflicts_cnr": [],
+        "rate_of_abuse": null,
+        "quashing_rate": null,
+        "note": "Metadata counts are retrieval denominators. Subsection rows share the parent denominator. Zero reviewed confirmations is not an absence finding."
+      },
+      "evidence_review_ids": [],
+      "raw_total": 9,
+      "raw_max": 12,
+      "score_100": 75,
+      "baseline_rank_band_within_era": [
+        3,
+        3
+      ],
+      "sensitivity": {
+        "weight_score_p05_p95": [
+          70.0,
+          80.0
+        ],
+        "weight_rank_envelope": [
+          3,
+          4
+        ],
+        "leave_one_criterion_out": [
+          {
+            "omitted_index": 0,
+            "score_100": 80.0,
+            "rank_band": [
+              2,
+              3
+            ]
+          },
+          {
+            "omitted_index": 1,
+            "score_100": 70.0,
+            "rank_band": [
+              3,
+              3
+            ]
+          },
+          {
+            "omitted_index": 2,
+            "score_100": 80.0,
+            "rank_band": [
+              3,
+              3
+            ]
+          },
+          {
+            "omitted_index": 3,
+            "score_100": 70.0,
+            "rank_band": [
+              4,
+              4
+            ]
+          },
+          {
+            "omitted_index": 4,
+            "score_100": 70.0,
+            "rank_band": [
+              3,
+              4
+            ]
+          },
+          {
+            "omitted_index": 5,
+            "score_100": 80.0,
+            "rank_band": [
+              2,
+              3
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "IT-66A",
+      "name": "IT Act 66A — offensive messages",
+      "era": "Invalid",
+      "status": "struck down in entirety, 24 March 2015",
+      "metadata_parent_hits": [
+        "IT:66A"
+      ],
+      "score_100": null,
+      "raw_total": null,
+      "notes": "Exclude from active scoring. A metadata listing is a verification lead, not proof of a fresh or unlawful charge. See Shreya Singhal, para 119(a).",
+      "components": {},
+      "sources": [
+        {
+          "source": "it",
+          "url": "https://www.indiacode.nic.in/bitstream/123456789/13116/1/it_act_2000_updated.pdf",
+          "pdf_pages": [
+            24
+          ],
+          "provisions": "66A footnote"
+        }
+      ],
+      "coding_status": "Legal-status flag; not assigned a structural score",
+      "historical_panel": {
+        "metadata_cnr_count": 16,
+        "selected_pdf_count": 4,
+        "one_page_selected_orders": 3,
+        "metadata_scope": [
+          "IT:66A"
+        ],
+        "verified_specific_charge_examples_cnr": [],
+        "known_metadata_conflicts_cnr": [],
+        "rate_of_abuse": null,
+        "quashing_rate": null,
+        "note": "Metadata counts are retrieval denominators. Subsection rows share the parent denominator. Zero reviewed confirmations is not an absence finding."
+      },
+      "evidence_review_ids": [
+        "shreya-singhal"
+      ]
+    }
+  ],
+  "criterion_correlations": {
+    "criterion_order": [
+      "speech_reach",
+      "open_texture",
+      "mental_state_gap",
+      "safeguard_gap",
+      "custody",
+      "penalty"
+    ],
+    "matrix": [
+      [
+        1.0,
+        0.354,
+        0.098,
+        -0.447,
+        0.437,
+        0.358
+      ],
+      [
+        0.354,
+        1.0,
+        0.555,
+        0.0,
+        0.618,
+        0.696
+      ],
+      [
+        0.098,
+        0.555,
+        1.0,
+        -0.219,
+        0.026,
+        0.175
+      ],
+      [
+        -0.447,
+        0.0,
+        -0.219,
+        1.0,
+        0.421,
+        0.16
+      ],
+      [
+        0.437,
+        0.618,
+        0.026,
+        0.421,
+        1.0,
+        0.8
+      ],
+      [
+        0.358,
+        0.696,
+        0.175,
+        0.16,
+        0.8,
+        1.0
+      ]
+    ],
+    "interpretation": "Descriptive correlation across the 18 coded profiles, including related IPC/BNS rows; not independent cases or a causal estimate."
+  },
+  "claude_review": {
+    "scope": "Two conceptual/implementation audits through the existing authorized Claude chat; not independent expert legal coding.",
+    "final_result": "Arithmetic checked; requested explicit OSA 3 penalty branch and visible historical 124A status, both implemented.",
+    "screenshot": "claude-score-review.png"
+  }
+}

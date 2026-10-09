@@ -1,0 +1,10 @@
+# Keep original evidence, quotation offsets and SHA-256 hashes byte-for-byte.
+# CSV exports intentionally retain their BOM and CRLF record separators.
+* -text
+
+*.pdf binary
+*.parquet binary
+*.zip binary
+*.png binary
+*.jpg binary
+*.jpeg binary

@@ -1,0 +1,505 @@
+{
+  "hc_bombay_details": [
+    {
+      "key": "metadata/parquet_case_details/court=27_1/bench=hcaurdb/case_details-mobile.parquet",
+      "size": 2520413,
+      "last_modified": "2026-06-25T07:06:54.000Z"
+    },
+    {
+      "key": "metadata/parquet_case_details/court=27_1/bench=hcbgoa/case_details-mobile.parquet",
+      "size": 217407,
+      "last_modified": "2026-06-25T07:06:55.000Z"
+    },
+    {
+      "key": "metadata/parquet_case_details/court=27_1/bench=kolhcdb/case_details-mobile.parquet",
+      "size": 585705,
+      "last_modified": "2026-06-25T07:06:55.000Z"
+    },
+    {
+      "key": "metadata/parquet_case_details/court=27_1/bench=newas/case_details-mobile.parquet",
+      "size": 9552120,
+      "last_modified": "2026-06-25T07:06:59.000Z"
+    },
+    {
+      "key": "metadata/parquet_case_details/court=27_1/bench=newos/case_details-mobile.parquet",
+      "size": 6252554,
+      "last_modified": "2026-06-25T07:07:01.000Z"
+    },
+    {
+      "key": "metadata/parquet_case_details/court=27_1/bench=newos_spl/case_details-mobile.parquet",
+      "size": 19489,
+      "last_modified": "2026-06-25T07:07:02.000Z"
+    },
+    {
+      "key": "metadata/parquet_case_details/court=27_1/bench=testcase/case_details-mobile.parquet",
+      "size": 3249623,
+      "last_modified": "2026-06-25T07:07:03.000Z"
+    }
+  ],
+  "hc_hp_details": [
+    {
+      "key": "metadata/parquet_case_details/court=2_5/bench=cmis/case_details-mobile.parquet",
+      "size": 12449,
+      "last_modified": "2026-06-25T09:47:38.000Z"
+    }
+  ],
+  "hc_bombay_2025": [
+    {
+      "key": "metadata/parquet/year=2025/court=27_1/bench=hcaurdb/metadata-mobile.parquet",
+      "size": 1158040,
+      "last_modified": "2026-06-25T07:05:11.000Z"
+    },
+    {
+      "key": "metadata/parquet/year=2025/court=27_1/bench=hcaurdb/metadata.parquet",
+      "size": 19791129,
+      "last_modified": "2026-08-26T05:49:59.000Z"
+    },
+    {
+      "key": "metadata/parquet/year=2025/court=27_1/bench=hcbgoa/metadata-mobile.parquet",
+      "size": 163016,
+      "last_modified": "2026-06-25T07:05:13.000Z"
+    },
+    {
+      "key": "metadata/parquet/year=2025/court=27_1/bench=hcbgoa/metadata.parquet",
+      "size": 721811,
+      "last_modified": "2026-08-26T05:49:23.000Z"
+    },
+    {
+      "key": "metadata/parquet/year=2025/court=27_1/bench=kolhcdb/metadata-mobile.parquet",
+      "size": 346355,
+      "last_modified": "2026-06-25T07:05:15.000Z"
+    },
+    {
+      "key": "metadata/parquet/year=2025/court=27_1/bench=kolhcdb/metadata.parquet",
+      "size": 4939693,
+      "last_modified": "2026-08-26T05:52:45.000Z"
+    },
+    {
+      "key": "metadata/parquet/year=2025/court=27_1/bench=newas/metadata-mobile.parquet",
+      "size": 7952078,
+      "last_modified": "2026-06-25T07:05:59.000Z"
+    },
+    {
+      "key": "metadata/parquet/year=2025/court=27_1/bench=newas/metadata.parquet",
+      "size": 1617601,
+      "last_modified": "2026-08-26T05:51:55.000Z"
+    },
+    {
+      "key": "metadata/parquet/year=2025/court=27_1/bench=newos/metadata-mobile.parquet",
+      "size": 3947541,
+      "last_modified": "2026-06-25T07:06:16.000Z"
+    },
+    {
+      "key": "metadata/parquet/year=2025/court=27_1/bench=newos/metadata.parquet",
+      "size": 398235,
+      "last_modified": "2026-08-26T05:50:48.000Z"
+    },
+    {
+      "key": "metadata/parquet/year=2025/court=27_1/bench=newos_spl/metadata-mobile.parquet",
+      "size": 13014,
+      "last_modified": "2026-06-25T07:06:16.000Z"
+    },
+    {
+      "key": "metadata/parquet/year=2025/court=27_1/bench=newos_spl/metadata.parquet",
+      "size": 32315,
+      "last_modified": "2026-08-26T05:49:06.000Z"
+    },
+    {
+      "key": "metadata/parquet/year=2025/court=27_1/bench=testcase/metadata-mobile.parquet",
+      "size": 1646401,
+      "last_modified": "2026-06-25T07:06:24.000Z"
+    },
+    {
+      "key": "metadata/parquet/year=2025/court=27_1/bench=testcase/metadata.parquet",
+      "size": 5258123,
+      "last_modified": "2026-08-26T05:49:32.000Z"
+    }
+  ],
+  "sc_metadata": [
+    {
+      "key": "metadata/parquet/year=1950/metadata.parquet",
+      "size": 60343,
+      "last_modified": "2026-04-11T05:46:06.000Z"
+    },
+    {
+      "key": "metadata/parquet/year=1951/metadata.parquet",
+      "size": 85845,
+      "last_modified": "2026-04-11T05:46:06.000Z"
+    },
+    {
+      "key": "metadata/parquet/year=1952/metadata.parquet",
+      "size": 129660,
+      "last_modified": "2026-04-11T05:46:07.000Z"
+    },
+    {
+      "key": "metadata/parquet/year=1953/metadata.parquet",
+      "size": 157920,
+      "last_modified": "2026-04-11T05:46:07.000Z"
+    },
+    {
+      "key": "metadata/parquet/year=1954/metadata.parquet",
+      "size": 202216,
+      "last_modified": "2026-04-11T05:46:07.000Z"
+    },
+    {
+      "key": "metadata/parquet/year=1955/metadata.parquet",
+      "size": 207350,
+      "last_modified": "2026-04-11T06:00:11.000Z"
+    },
+    {
+      "key": "metadata/parquet/year=1956/metadata.parquet",
+      "size": 102049,
+      "last_modified": "2026-04-11T06:00:10.000Z"
+    },
+    {
+      "key": "metadata/parquet/year=1957/metadata.parquet",
+      "size": 160867,
+      "last_modified": "2026-04-11T06:00:11.000Z"
+    },
+    {
+      "key": "metadata/parquet/year=1958/metadata.parquet",
+      "size": 247463,
+      "last_modified": "2026-04-11T06:00:11.000Z"
+    },
+    {
+      "key": "metadata/parquet/year=1959/metadata.parquet",
+      "size": 339910,
+      "last_modified": "2026-04-11T06:00:12.000Z"
+    },
+    {
+      "key": "metadata/parquet/year=1960/metadata.parquet",
+      "size": 436468,
+      "last_modified": "2026-04-11T06:35:04.000Z"
+    },
+    {
+      "key": "metadata/parquet/year=1961/metadata.parquet",
+      "size": 598048,
+      "last_modified": "2026-04-11T06:35:01.000Z"
+    },
+    {
+      "key": "metadata/parquet/year=1962/metadata.parquet",
+      "size": 780567,
+      "last_modified": "2026-04-11T06:35:05.000Z"
+    },
+    {
+      "key": "metadata/parquet/year=1963/metadata.parquet",
+      "size": 597369,
+      "last_modified": "2026-04-11T06:35:03.000Z"
+    },
+    {
+      "key": "metadata/parquet/year=1964/metadata.parquet",
+      "size": 653717,
+      "last_modified": "2026-04-11T06:35:02.000Z"
+    },
+    {
+      "key": "metadata/parquet/year=1965/metadata.parquet",
+      "size": 494417,
+      "last_modified": "2026-04-11T07:05:02.000Z"
+    },
+    {
+      "key": "metadata/parquet/year=1966/metadata.parquet",
+      "size": 524300,
+      "last_modified": "2026-04-11T07:04:59.000Z"
+    },
+    {
+      "key": "metadata/parquet/year=1967/metadata.parquet",
+      "size": 500330,
+      "last_modified": "2026-04-11T07:05:00.000Z"
+    },
+    {
+      "key": "metadata/parquet/year=1968/metadata.parquet",
+      "size": 556969,
+      "last_modified": "2026-04-11T07:05:01.000Z"
+    },
+    {
+      "key": "metadata/parquet/year=1969/metadata.parquet",
+      "size": 640437,
+      "last_modified": "2026-04-11T07:05:01.000Z"
+    },
+    {
+      "key": "metadata/parquet/year=1970/metadata.parquet",
+      "size": 576460,
+      "last_modified": "2026-04-11T07:26:19.000Z"
+    },
+    {
+      "key": "metadata/parquet/year=1971/metadata.parquet",
+      "size": 609078,
+      "last_modified": "2026-04-11T07:26:23.000Z"
+    },
+    {
+      "key": "metadata/parquet/year=1972/metadata.parquet",
+      "size": 549405,
+      "last_modified": "2026-04-11T07:26:23.000Z"
+    },
+    {
+      "key": "metadata/parquet/year=1973/metadata.parquet",
+      "size": 534976,
+      "last_modified": "2026-04-11T07:26:23.000Z"
+    },
+    {
+      "key": "metadata/parquet/year=1974/metadata.parquet",
+      "size": 507287,
+      "last_modified": "2026-04-11T07:26:21.000Z"
+    },
+    {
+      "key": "metadata/parquet/year=1975/metadata.parquet",
+      "size": 588641,
+      "last_modified": "2026-04-11T07:54:53.000Z"
+    },
+    {
+      "key": "metadata/parquet/year=1976/metadata.parquet",
+      "size": 612008,
+      "last_modified": "2026-04-11T07:54:53.000Z"
+    },
+    {
+      "key": "metadata/parquet/year=1977/metadata.parquet",
+      "size": 483843,
+      "last_modified": "2026-04-11T07:54:50.000Z"
+    },
+    {
+      "key": "metadata/parquet/year=1978/metadata.parquet",
+      "size": 417343,
+      "last_modified": "2026-04-11T07:54:51.000Z"
+    },
+    {
+      "key": "metadata/parquet/year=1979/metadata.parquet",
+      "size": 477605,
+      "last_modified": "2026-04-11T07:54:53.000Z"
+    },
+    {
+      "key": "metadata/parquet/year=1980/metadata.parquet",
+      "size": 458668,
+      "last_modified": "2026-04-11T09:20:17.000Z"
+    },
+    {
+      "key": "metadata/parquet/year=1981/metadata.parquet",
+      "size": 362477,
+      "last_modified": "2026-04-11T09:20:16.000Z"
+    },
+    {
+      "key": "metadata/parquet/year=1982/metadata.parquet",
+      "size": 232025,
+      "last_modified": "2026-04-11T09:20:16.000Z"
+    },
+    {
+      "key": "metadata/parquet/year=1983/metadata.parquet",
+      "size": 289003,
+      "last_modified": "2026-04-11T09:20:15.000Z"
+    },
+    {
+      "key": "metadata/parquet/year=1984/metadata.parquet",
+      "size": 363223,
+      "last_modified": "2026-04-11T09:20:17.000Z"
+    },
+    {
+      "key": "metadata/parquet/year=1985/metadata.parquet",
+      "size": 435731,
+      "last_modified": "2026-04-11T09:45:30.000Z"
+    },
+    {
+      "key": "metadata/parquet/year=1986/metadata.parquet",
+      "size": 322638,
+      "last_modified": "2026-04-11T09:45:30.000Z"
+    },
+    {
+      "key": "metadata/parquet/year=1987/metadata.parquet",
+      "size": 503330,
+      "last_modified": "2026-04-11T09:45:34.000Z"
+    },
+    {
+      "key": "metadata/parquet/year=1988/metadata.parquet",
+      "size": 576844,
+      "last_modified": "2026-04-11T09:45:33.000Z"
+    },
+    {
+      "key": "metadata/parquet/year=1989/metadata.parquet",
+      "size": 450064,
+      "last_modified": "2026-04-11T09:45:34.000Z"
+    },
+    {
+      "key": "metadata/parquet/year=1990/metadata.parquet",
+      "size": 456319,
+      "last_modified": "2026-04-11T10:16:58.000Z"
+    },
+    {
+      "key": "metadata/parquet/year=1991/metadata.parquet",
+      "size": 402055,
+      "last_modified": "2026-04-11T10:17:00.000Z"
+    },
+    {
+      "key": "metadata/parquet/year=1992/metadata.parquet",
+      "size": 412490,
+      "last_modified": "2026-04-11T10:16:59.000Z"
+    },
+    {
+      "key": "metadata/parquet/year=1993/metadata.parquet",
+      "size": 449994,
+      "last_modified": "2026-04-11T10:17:00.000Z"
+    },
+    {
+      "key": "metadata/parquet/year=1994/metadata.parquet",
+      "size": 706203,
+      "last_modified": "2026-04-11T10:17:01.000Z"
+    },
+    {
+      "key": "metadata/parquet/year=1995/metadata.parquet",
+      "size": 1033814,
+      "last_modified": "2026-04-11T11:06:23.000Z"
+    },
+    {
+      "key": "metadata/parquet/year=1996/metadata.parquet",
+      "size": 1765084,
+      "last_modified": "2026-04-11T11:06:25.000Z"
+    },
+    {
+      "key": "metadata/parquet/year=1997/metadata.parquet",
+      "size": 971590,
+      "last_modified": "2026-04-11T11:06:22.000Z"
+    },
+    {
+      "key": "metadata/parquet/year=1998/metadata.parquet",
+      "size": 564133,
+      "last_modified": "2026-04-11T11:06:18.000Z"
+    },
+    {
+      "key": "metadata/parquet/year=1999/metadata.parquet",
+      "size": 656646,
+      "last_modified": "2026-04-11T11:06:19.000Z"
+    },
+    {
+      "key": "metadata/parquet/year=2000/metadata.parquet",
+      "size": 692663,
+      "last_modified": "2026-04-11T11:40:59.000Z"
+    },
+    {
+      "key": "metadata/parquet/year=2001/metadata.parquet",
+      "size": 687672,
+      "last_modified": "2026-04-11T11:40:54.000Z"
+    },
+    {
+      "key": "metadata/parquet/year=2002/metadata.parquet",
+      "size": 644927,
+      "last_modified": "2026-04-11T11:40:57.000Z"
+    },
+    {
+      "key": "metadata/parquet/year=2003/metadata.parquet",
+      "size": 832106,
+      "last_modified": "2026-04-11T11:40:59.000Z"
+    },
+    {
+      "key": "metadata/parquet/year=2004/metadata.parquet",
+      "size": 811831,
+      "last_modified": "2026-04-11T11:40:59.000Z"
+    },
+    {
+      "key": "metadata/parquet/year=2005/metadata.parquet",
+      "size": 709554,
+      "last_modified": "2026-04-11T12:19:17.000Z"
+    },
+    {
+      "key": "metadata/parquet/year=2006/metadata.parquet",
+      "size": 1136462,
+      "last_modified": "2026-04-11T12:19:20.000Z"
+    },
+    {
+      "key": "metadata/parquet/year=2007/metadata.parquet",
+      "size": 1448990,
+      "last_modified": "2026-04-11T12:19:27.000Z"
+    },
+    {
+      "key": "metadata/parquet/year=2008/metadata.parquet",
+      "size": 1628969,
+      "last_modified": "2026-04-11T12:19:27.000Z"
+    },
+    {
+      "key": "metadata/parquet/year=2009/metadata.parquet",
+      "size": 1433347,
+      "last_modified": "2026-04-11T12:19:23.000Z"
+    },
+    {
+      "key": "metadata/parquet/year=2010/metadata.parquet",
+      "size": 999108,
+      "last_modified": "2026-04-11T12:56:49.000Z"
+    },
+    {
+      "key": "metadata/parquet/year=2011/metadata.parquet",
+      "size": 932751,
+      "last_modified": "2026-04-11T12:56:50.000Z"
+    },
+    {
+      "key": "metadata/parquet/year=2012/metadata.parquet",
+      "size": 684977,
+      "last_modified": "2026-04-11T12:56:50.000Z"
+    },
+    {
+      "key": "metadata/parquet/year=2013/metadata.parquet",
+      "size": 935967,
+      "last_modified": "2026-04-11T12:56:50.000Z"
+    },
+    {
+      "key": "metadata/parquet/year=2014/metadata.parquet",
+      "size": 879794,
+      "last_modified": "2026-04-11T12:56:50.000Z"
+    },
+    {
+      "key": "metadata/parquet/year=2015/metadata.parquet",
+      "size": 837458,
+      "last_modified": "2026-04-11T13:34:28.000Z"
+    },
+    {
+      "key": "metadata/parquet/year=2016/metadata.parquet",
+      "size": 652076,
+      "last_modified": "2026-04-11T13:34:27.000Z"
+    },
+    {
+      "key": "metadata/parquet/year=2017/metadata.parquet",
+      "size": 807830,
+      "last_modified": "2026-04-11T13:34:28.000Z"
+    },
+    {
+      "key": "metadata/parquet/year=2018/metadata.parquet",
+      "size": 852502,
+      "last_modified": "2026-04-11T13:34:26.000Z"
+    },
+    {
+      "key": "metadata/parquet/year=2019/metadata.parquet",
+      "size": 1136767,
+      "last_modified": "2026-04-11T13:34:27.000Z"
+    },
+    {
+      "key": "metadata/parquet/year=2020/metadata.parquet",
+      "size": 627923,
+      "last_modified": "2026-04-11T13:53:43.000Z"
+    },
+    {
+      "key": "metadata/parquet/year=2021/metadata.parquet",
+      "size": 771190,
+      "last_modified": "2026-04-11T16:56:44.000Z"
+    },
+    {
+      "key": "metadata/parquet/year=2022/metadata.parquet",
+      "size": 1098148,
+      "last_modified": "2026-04-11T13:54:03.000Z"
+    },
+    {
+      "key": "metadata/parquet/year=2023/metadata.parquet",
+      "size": 963467,
+      "last_modified": "2026-04-11T13:53:51.000Z"
+    },
+    {
+      "key": "metadata/parquet/year=2024/metadata.parquet",
+      "size": 895264,
+      "last_modified": "2026-04-11T13:53:49.000Z"
+    },
+    {
+      "key": "metadata/parquet/year=2025/metadata.parquet",
+      "size": 969598,
+      "last_modified": "2026-04-11T14:00:02.000Z"
+    },
+    {
+      "key": "metadata/parquet/year=2026/metadata.parquet",
+      "size": 252096,
+      "last_modified": "2026-10-06T21:11:15.000Z"
+    }
+  ]
+}

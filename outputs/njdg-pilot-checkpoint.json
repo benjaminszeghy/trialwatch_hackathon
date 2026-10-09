@@ -1,0 +1,23 @@
+{
+  "source_url": "https://njdg.ecourts.gov.in/njdg_v3/?p=home&app_token=",
+  "inspection_date": "2026-10-09",
+  "state": "Maharashtra",
+  "district": "Pune",
+  "court_establishment": "District and Session Court ,Pune",
+  "selection": "Alerts > Instituted in last month > Criminal > Maharashtra > Pune > District and Session Court ,Pune",
+  "observed_reported_count_for_selected_establishment": 890,
+  "reported_month_label": "Last Month",
+  "month_date_boundaries_verified": false,
+  "status": "pilot_results_saved",
+  "case_records_retrieved": 25,
+  "case_details_inspected": 2,
+  "requested_sample_size": 20,
+  "case_fields_verified_from_actual_rows": ["case_type", "case_number", "case_year", "cnr", "filing_date", "registration_date", "stage", "next_date", "act_sections", "police_station", "fir_number", "fir_year"],
+  "screenshot": "njdg-bail-detail.jpg",
+  "limitations": [
+    "The 890 value is the portal's aggregate count for this navigation path, not a count of downloaded records or independent FIRs.",
+    "The first 25 list rows and two detail views have been inspected. Each tested detail required a CAPTCHA, completed by the user.",
+    "Act/section search and journalist identification remain unverified. Both inspected details exposed law fields but no visible document-download link.",
+    "The first-25 convenience sample is for data-access and field validation, not incidence estimation."
+  ]
+}

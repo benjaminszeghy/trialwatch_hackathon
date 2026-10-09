@@ -1,0 +1,598 @@
+{
+  "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/metadata/parquet_case_details/court=2_5/bench=cmis/case_details-mobile.parquet": {
+    "path": "work/court-data/indian-high-court-judgments/metadata/parquet_case_details/court=2_5/bench=cmis/case_details-mobile.parquet",
+    "bytes": 12449,
+    "sha256": "52d3f6ac3e9a90113628a982ecb4ebcca81229b0b4156b4fb6b6a0b97a1229d1",
+    "accessed_date": "2026-10-09"
+  },
+  "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/metadata/parquet/year=2025/court=27_1/bench=newos_spl/metadata-mobile.parquet": {
+    "path": "work/court-data/indian-high-court-judgments/metadata/parquet/year=2025/court=27_1/bench=newos_spl/metadata-mobile.parquet",
+    "bytes": 13014,
+    "sha256": "53072ee067eb7f90621402f547564b1348ce15494c31e918aef9784ebb5f99b0",
+    "accessed_date": "2026-10-09"
+  },
+  "https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/metadata/parquet/year=2021/metadata.parquet": {
+    "path": "work/court-data/indian-supreme-court-judgments/metadata/parquet/year=2021/metadata.parquet",
+    "bytes": 771190,
+    "sha256": "0cf3ccc214591e3b9c8c891949a1bf93c1a0c18adfcca51ca531f3a6e6da5439",
+    "accessed_date": "2026-10-09"
+  },
+  "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/metadata/parquet_case_details/court=27_1/bench=newas/case_details-mobile.parquet": {
+    "path": "work/court-data/indian-high-court-judgments/metadata/parquet_case_details/court=27_1/bench=newas/case_details-mobile.parquet",
+    "bytes": 9552120,
+    "sha256": "191c98667d5d8c64b70a5376cb4a7d6ef2b1f2bedb26374b2f9de030d139f59a",
+    "accessed_date": "2026-10-09"
+  },
+  "https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/metadata/parquet/year=1957/metadata.parquet": {
+    "path": "work/court-data/indian-supreme-court-judgments/metadata/parquet/year=1957/metadata.parquet",
+    "bytes": 160867,
+    "sha256": "db07168dbd017994e7768808663b68b188fb8c12e52e70ea24dc9093e7ca2ee4",
+    "accessed_date": "2026-10-09"
+  },
+  "https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/metadata/parquet/year=1962/metadata.parquet": {
+    "path": "work/court-data/indian-supreme-court-judgments/metadata/parquet/year=1962/metadata.parquet",
+    "bytes": 780567,
+    "sha256": "a67e85b5ffa0374e6958dab6e5891fb4a365cbd168a5081340c13843aaeeac58",
+    "accessed_date": "2026-10-09"
+  },
+  "https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/metadata/parquet/year=1997/metadata.parquet": {
+    "path": "work/court-data/indian-supreme-court-judgments/metadata/parquet/year=1997/metadata.parquet",
+    "bytes": 971590,
+    "sha256": "d742d448dacacffe7a95bbdcf419bfc15adf232d0dfaf2dfe1abaa45e8127639",
+    "accessed_date": "2026-10-09"
+  },
+  "https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/metadata/parquet/year=2007/metadata.parquet": {
+    "path": "work/court-data/indian-supreme-court-judgments/metadata/parquet/year=2007/metadata.parquet",
+    "bytes": 1448990,
+    "sha256": "e408f0088efd60779e74a6770636228fd3f2e0f2187ced90991e6328406d565d",
+    "accessed_date": "2026-10-09"
+  },
+  "https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/metadata/parquet/year=2016/metadata.parquet": {
+    "path": "work/court-data/indian-supreme-court-judgments/metadata/parquet/year=2016/metadata.parquet",
+    "bytes": 652076,
+    "sha256": "a3d7c3f5f74ea6a91606d447dc2041e0ab355bf098d93249fcbf5e38a83255fd",
+    "accessed_date": "2026-10-09"
+  },
+  "https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/metadata/parquet/year=2015/metadata.parquet": {
+    "path": "work/court-data/indian-supreme-court-judgments/metadata/parquet/year=2015/metadata.parquet",
+    "bytes": 837458,
+    "sha256": "5c48e39bb04470607b4027a3929ef8d658f47ab7a8f45dc26ce6e0001f9c3520",
+    "accessed_date": "2026-10-09"
+  },
+  "https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/metadata/parquet/year=2020/metadata.parquet": {
+    "path": "work/court-data/indian-supreme-court-judgments/metadata/parquet/year=2020/metadata.parquet",
+    "bytes": 627923,
+    "sha256": "eeb78c99c5b2ed58efab3e4d94198d2b314c805071319962995577596e879fc0",
+    "accessed_date": "2026-10-09"
+  },
+  "https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/metadata/parquet/year=2022/metadata.parquet": {
+    "path": "work/court-data/indian-supreme-court-judgments/metadata/parquet/year=2022/metadata.parquet",
+    "bytes": 1098148,
+    "sha256": "2cb1083586ea297dfa43e92edb576638e932d41def03a8d4734ddfcd4a8371c1",
+    "accessed_date": "2026-10-09"
+  },
+  "https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/metadata/parquet/year=2024/metadata.parquet": {
+    "path": "work/court-data/indian-supreme-court-judgments/metadata/parquet/year=2024/metadata.parquet",
+    "bytes": 895264,
+    "sha256": "07ce1a080d8313ac67fd3374957a7bba044c48c174839eedf3523d9aa2f653ee",
+    "accessed_date": "2026-10-09"
+  },
+  "https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/metadata/parquet/year=2025/metadata.parquet": {
+    "path": "work/court-data/indian-supreme-court-judgments/metadata/parquet/year=2025/metadata.parquet",
+    "bytes": 969598,
+    "sha256": "edfea4bc4dac6fe7f7f2d0f8b92b1ab09b0bdfafd5bf53819b85238a780f17ab",
+    "accessed_date": "2026-10-09"
+  },
+  "https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/metadata/parquet/year=2026/metadata.parquet": {
+    "path": "work/court-data/indian-supreme-court-judgments/metadata/parquet/year=2026/metadata.parquet",
+    "bytes": 252096,
+    "sha256": "5b042ff777e8ea4435229499317b1a09c77d4c487e55f87231081a1a022a904f",
+    "accessed_date": "2026-10-09"
+  },
+  "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/metadata/parquet_case_details/court=27_1/bench=hcbgoa/case_details-mobile.parquet": {
+    "path": "work/court-data/indian-high-court-judgments/metadata/parquet_case_details/court=27_1/bench=hcbgoa/case_details-mobile.parquet",
+    "bytes": 217407,
+    "sha256": "e4423911bc3d9e22e9fb07433d9b99a8877e88fb8b6241000e25b4414abc34d5",
+    "accessed_date": "2026-10-09"
+  },
+  "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/metadata/parquet_case_details/court=27_1/bench=hcaurdb/case_details-mobile.parquet": {
+    "path": "work/court-data/indian-high-court-judgments/metadata/parquet_case_details/court=27_1/bench=hcaurdb/case_details-mobile.parquet",
+    "bytes": 2520413,
+    "sha256": "3af71696368b3ec52a15267bb53afa36285335f2c7199b07350b53bfb53ea898",
+    "accessed_date": "2026-10-09"
+  },
+  "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/metadata/parquet_case_details/court=27_1/bench=kolhcdb/case_details-mobile.parquet": {
+    "path": "work/court-data/indian-high-court-judgments/metadata/parquet_case_details/court=27_1/bench=kolhcdb/case_details-mobile.parquet",
+    "bytes": 585705,
+    "sha256": "f4be13755754171402779023107bd04f0bfe21a0be1062e828e0c8667e7c7786",
+    "accessed_date": "2026-10-09"
+  },
+  "https://www.indiacode.nic.in/bitstream/123456789/4219/1/THE-INDIAN-PENAL-CODE-1860.pdf": {
+    "path": "work/court-data/statutes/ipc.pdf",
+    "bytes": 842456,
+    "sha256": "ef8945c5d1b02904da67959e245b87bd5751ed5563d03ab0079758909f145309",
+    "accessed_date": "2026-10-09"
+  },
+  "https://www.indiacode.nic.in/indiacode/bitstream/123456789/20062/1/a202345.pdf": {
+    "path": "work/court-data/statutes/bns.pdf",
+    "bytes": 896392,
+    "sha256": "ff92dcc72778944011807644b6033b1140ddbe6d7e9f82ac32fd419dae03aa86",
+    "accessed_date": "2026-10-09"
+  },
+  "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/metadata/parquet/year=2024/court=27_1/bench=hcbgoa/metadata-mobile.parquet": {
+    "path": "work/court-data/indian-high-court-judgments/metadata/parquet/year=2024/court=27_1/bench=hcbgoa/metadata-mobile.parquet",
+    "bytes": 64986,
+    "sha256": "5cb39b84b3fda84e571fa4a77db06a9d2faf34372db889fbb73025d5c58d7965",
+    "accessed_date": "2026-10-09"
+  },
+  "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/metadata/parquet/year=2024/court=27_1/bench=kolhcdb/metadata-mobile.parquet": {
+    "path": "work/court-data/indian-high-court-judgments/metadata/parquet/year=2024/court=27_1/bench=kolhcdb/metadata-mobile.parquet",
+    "bytes": 147729,
+    "sha256": "0ebd635d8595f44c09a4843b65943beae8f37889627d4061c5d5af95d213ed10",
+    "accessed_date": "2026-10-09"
+  },
+  "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/metadata/parquet/year=2024/court=27_1/bench=hcaurdb/metadata-mobile.parquet": {
+    "path": "work/court-data/indian-high-court-judgments/metadata/parquet/year=2024/court=27_1/bench=hcaurdb/metadata-mobile.parquet",
+    "bytes": 407387,
+    "sha256": "6b589098a03229e5582cde4e0d3f035e10f1036f19cc65c20eaa4ab9f49dc8c0",
+    "accessed_date": "2026-10-09"
+  },
+  "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/metadata/parquet/year=2025/court=27_1/bench=hcbgoa/metadata-mobile.parquet": {
+    "path": "work/court-data/indian-high-court-judgments/metadata/parquet/year=2025/court=27_1/bench=hcbgoa/metadata-mobile.parquet",
+    "bytes": 163016,
+    "sha256": "98d0f2886a42b3c5c36bb9350f2d28efe7dcece4a8abf61d68416b6d0bbcc752",
+    "accessed_date": "2026-10-09"
+  },
+  "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/metadata/parquet/year=2025/court=27_1/bench=hcaurdb/metadata-mobile.parquet": {
+    "path": "work/court-data/indian-high-court-judgments/metadata/parquet/year=2025/court=27_1/bench=hcaurdb/metadata-mobile.parquet",
+    "bytes": 1158040,
+    "sha256": "9f12e973a137473257f62e0b233036e1848ef977130e78ce4f5aa54f9fc1475b",
+    "accessed_date": "2026-10-09"
+  },
+  "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/metadata/parquet/year=2025/court=27_1/bench=kolhcdb/metadata-mobile.parquet": {
+    "path": "work/court-data/indian-high-court-judgments/metadata/parquet/year=2025/court=27_1/bench=kolhcdb/metadata-mobile.parquet",
+    "bytes": 346355,
+    "sha256": "b886eeced326a0416603732c7a71297c7a437eb9dd26c1d04ab0edf2338b84b6",
+    "accessed_date": "2026-10-09"
+  },
+  "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/metadata/parquet/year=2025/court=27_1/bench=newas/metadata-mobile.parquet": {
+    "path": "work/court-data/indian-high-court-judgments/metadata/parquet/year=2025/court=27_1/bench=newas/metadata-mobile.parquet",
+    "bytes": 7952078,
+    "sha256": "4a17c475956614093556c4504a9a14befa502c49f115c525599aacf36baead39",
+    "accessed_date": "2026-10-09"
+  },
+  "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/metadata/parquet/year=2024/court=27_1/bench=newas/metadata-mobile.parquet": {
+    "path": "work/court-data/indian-high-court-judgments/metadata/parquet/year=2024/court=27_1/bench=newas/metadata-mobile.parquet",
+    "bytes": 5008981,
+    "sha256": "b9497426da1ca908d009b1cbdfbaf4621795ad1369185d38c6ebe488177d2724",
+    "accessed_date": "2026-10-09"
+  },
+  "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233100030432025_10.pdf": {
+    "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233100030432025_10.pdf",
+    "bytes": 92212,
+    "sha256": "dc0e2b68c4bf76a396fae715f8eb7ed28107fe4c22548c8cd54a6677b4415527",
+    "accessed_date": "2026-10-09"
+  },
+  "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800032572025_2.pdf": {
+    "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800032572025_2.pdf",
+    "bytes": 79958,
+    "sha256": "85b42652679d32cff8810b174b5035778124f15c768148285473073360e72ea6",
+    "accessed_date": "2026-10-09"
+  },
+  "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=hcaurdb/orders_2025_231800013482025_3.pdf": {
+    "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=hcaurdb/orders_2025_231800013482025_3.pdf",
+    "bytes": 23144,
+    "sha256": "f9272f930ac77a7b002e2af9175d9078adebe3eb497404eb16e6755eba819549",
+    "accessed_date": "2026-10-09"
+  },
+  "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200019322025_2.pdf": {
+    "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200019322025_2.pdf",
+    "bytes": 49071,
+    "sha256": "a01034149dd0b36cbe69b1e7df28eb38eb2f321978f24569e5f227a324ed7311",
+    "accessed_date": "2026-10-09"
+  },
+  "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200011532025_7.pdf": {
+    "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200011532025_7.pdf",
+    "bytes": 26903,
+    "sha256": "290c8c7b65b0e37de71c7dc7b90a8ad567e4701b8d59dfc8e49f881843497617",
+    "accessed_date": "2026-10-09"
+  },
+  "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=hcaurdb/orders_2025_231800015012025_2.pdf": {
+    "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=hcaurdb/orders_2025_231800015012025_2.pdf",
+    "bytes": 53537,
+    "sha256": "aa4a1b82f0a85b5b9441b0e08df886447b798ac311d58d367193f8ea08c6fc7b",
+    "accessed_date": "2026-10-09"
+  },
+  "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=hcaurdb/orders_2025_231800024722025_1.pdf": {
+    "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=hcaurdb/orders_2025_231800024722025_1.pdf",
+    "bytes": 53539,
+    "sha256": "4793a85854dc30d9f04bbfc0dc01b356b13735c6b2ffcf67ca5e93be98035fe4",
+    "accessed_date": "2026-10-09"
+  },
+  "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200008462025_7.pdf": {
+    "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200008462025_7.pdf",
+    "bytes": 36551,
+    "sha256": "f5fb08a7756b5cc2a497505af31ff0eeeb83498a7741e00c5ae692440ad8613c",
+    "accessed_date": "2026-10-09"
+  },
+  "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800055672025_5.pdf": {
+    "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800055672025_5.pdf",
+    "bytes": 31129,
+    "sha256": "8ca6624f48e7c03e7b5d6094553cda71477a10d8c11f0fcaef559338db475eaa",
+    "accessed_date": "2026-10-09"
+  },
+  "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200017592025_1.pdf": {
+    "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200017592025_1.pdf",
+    "bytes": 34654,
+    "sha256": "863fea8832fdee7fd0a595cd4072fbd0e6ce67f47888c873e5cf1fe911bdf9d5",
+    "accessed_date": "2026-10-09"
+  },
+  "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200029572025_1.pdf": {
+    "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200029572025_1.pdf",
+    "bytes": 25026,
+    "sha256": "87ff3392789d8834fd708b1ff3b696a3c5dbba666fb6ee2c34648af926818804",
+    "accessed_date": "2026-10-09"
+  },
+  "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200014462025_3.pdf": {
+    "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200014462025_3.pdf",
+    "bytes": 87746,
+    "sha256": "d0e2dc65bacfd431cbd84f8ab72cc620f1ac394bbf9c456677ce2435350bad34",
+    "accessed_date": "2026-10-09"
+  },
+  "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200018132025_1.pdf": {
+    "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200018132025_1.pdf",
+    "bytes": 26585,
+    "sha256": "b6fdfa10ca6ada03a86ed4fd3ecb29a0dfafe952d5390ad7e5260f89b8a14feb",
+    "accessed_date": "2026-10-09"
+  },
+  "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_230800052312024_2.pdf": {
+    "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_230800052312024_2.pdf",
+    "bytes": 101004,
+    "sha256": "bf648daabd76f6057306c365795efccd4aa21840f19891e0f98e2605618990e6",
+    "accessed_date": "2026-10-09"
+  },
+  "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800049062025_1.pdf": {
+    "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800049062025_1.pdf",
+    "bytes": 55864,
+    "sha256": "9bf870eb3a110a49ee8f9fb803e726475216c5dce43e328c220f8d3079a7e527",
+    "accessed_date": "2026-10-09"
+  },
+  "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=hcaurdb/orders_2025_230500008202025_3.pdf": {
+    "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=hcaurdb/orders_2025_230500008202025_3.pdf",
+    "bytes": 40829,
+    "sha256": "2cf7b134a5e00fb277336bae0437741940484d3211f63209da6ea684f457c0fa",
+    "accessed_date": "2026-10-09"
+  },
+  "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233100013042025_3.pdf": {
+    "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233100013042025_3.pdf",
+    "bytes": 46318,
+    "sha256": "e03ef4e1e9e4b40c52253d403c56c7677d32cba395aeedb4dce933f854dd50ce",
+    "accessed_date": "2026-10-09"
+  },
+  "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800041582025_2.pdf": {
+    "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800041582025_2.pdf",
+    "bytes": 90999,
+    "sha256": "6267c735d6b3c4a3051bb85560b594ad74034b6de77f9432f162bb766cbd1a77",
+    "accessed_date": "2026-10-09"
+  },
+  "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233100006252025_5.pdf": {
+    "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233100006252025_5.pdf",
+    "bytes": 117946,
+    "sha256": "33f53d02bf2fdce36d5069c62050e566e0755dea6713cca862a3e9f7aefdeca3",
+    "accessed_date": "2026-10-09"
+  },
+  "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800028072025_1.pdf": {
+    "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800028072025_1.pdf",
+    "bytes": 56188,
+    "sha256": "0a3ffec9b6ec9107226fbb3d826c14a198698a506711d39f2b769e92e42d31db",
+    "accessed_date": "2026-10-09"
+  },
+  "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_233000016702024_3.pdf": {
+    "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_233000016702024_3.pdf",
+    "bytes": 90418,
+    "sha256": "a04d47ff2e33c538528886064382716270c05bfd51cd2867bf15fc2d4fd6402e",
+    "accessed_date": "2026-10-09"
+  },
+  "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2024/court=27_1/bench=newas/orders_2024_233700024872024_2.pdf": {
+    "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2024/court=27_1/bench=newas/orders_2024_233700024872024_2.pdf",
+    "bytes": 42792,
+    "sha256": "15f13e8c1b691fd31b5026afc1887f4f0eba272bac2e19dd9aabd37795c2416f",
+    "accessed_date": "2026-10-09"
+  },
+  "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2024/court=27_1/bench=newas/orders_2024_230800023192024_4.pdf": {
+    "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2024/court=27_1/bench=newas/orders_2024_230800023192024_4.pdf",
+    "bytes": 73397,
+    "sha256": "ce0dc7f2c7e3259c27827847334ac009d871b24ff238a2097da2c43707e5933c",
+    "accessed_date": "2026-10-09"
+  },
+  "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_230800054792024_1.pdf": {
+    "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_230800054792024_1.pdf",
+    "bytes": 34092,
+    "sha256": "f2a61aa3888a7641bfcf163b652e4a5e3bfa7910d7c5e4608ecc1f6921991efa",
+    "accessed_date": "2026-10-09"
+  },
+  "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_230800030062024_12.pdf": {
+    "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_230800030062024_12.pdf",
+    "bytes": 37975,
+    "sha256": "7dbd355ee1d004dae5c13d6fec492f75054508bed35054358e7d11afe3ef9130",
+    "accessed_date": "2026-10-09"
+  },
+  "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_230900003872024_1.pdf": {
+    "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_230900003872024_1.pdf",
+    "bytes": 25717,
+    "sha256": "f41770efe200661c298fe88b81053adc860f6ba05d5d2d65da611b5e34b943c1",
+    "accessed_date": "2026-10-09"
+  },
+  "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2024/court=27_1/bench=newas/orders_2024_233100032982024_9.pdf": {
+    "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2024/court=27_1/bench=newas/orders_2024_233100032982024_9.pdf",
+    "bytes": 28013,
+    "sha256": "844274b089210c8b9f58a57cfa77cf3691f5ec6765268226281c690ede46fce1",
+    "accessed_date": "2026-10-09"
+  },
+  "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233100014392025_5.pdf": {
+    "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233100014392025_5.pdf",
+    "bytes": 59076,
+    "sha256": "dcd4ace7cd7b643f55219926390562642f2542929b78eb16e5f02be100a3b07c",
+    "accessed_date": "2026-10-09"
+  },
+  "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2024/court=27_1/bench=newas/orders_2023_230800006582024_3.pdf": {
+    "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2024/court=27_1/bench=newas/orders_2023_230800006582024_3.pdf",
+    "bytes": 30986,
+    "sha256": "f510a027921bb4122f2a37baa801096015eed73893f10e6add7b292bbdc32107",
+    "accessed_date": "2026-10-09"
+  },
+  "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233100017322025_6.pdf": {
+    "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233100017322025_6.pdf",
+    "bytes": 44866,
+    "sha256": "48e8b207b110a18ca7cd2816fcea3c8984a67537d77861187be7c263f429be3d",
+    "accessed_date": "2026-10-09"
+  },
+  "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2024/court=27_1/bench=newas/orders_2024_230800021732024_1.pdf": {
+    "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2024/court=27_1/bench=newas/orders_2024_230800021732024_1.pdf",
+    "bytes": 54578,
+    "sha256": "e46c47b62f64be9c0b2150cd6e8d7b112e36d52c4be4a49e7201c25c05dd1f36",
+    "accessed_date": "2026-10-09"
+  },
+  "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800046872025_3.pdf": {
+    "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800046872025_3.pdf",
+    "bytes": 36046,
+    "sha256": "e9210507de4ad3d3053a2b51cf41e544b2a3b51921616de33f8039909971bd47",
+    "accessed_date": "2026-10-09"
+  },
+  "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_230800040812024_5.pdf": {
+    "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_230800040812024_5.pdf",
+    "bytes": 40077,
+    "sha256": "f67569c611ec46f6f99dbcf902df4229e4619e7ca85338e40817430e5cfa4a74",
+    "accessed_date": "2026-10-09"
+  },
+  "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800029232025_2.pdf": {
+    "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800029232025_2.pdf",
+    "bytes": 28376,
+    "sha256": "5e5e283b4d1ed3dd36d9969ddb8db84787a450846d0f2e7e8d98c829ea2a9417",
+    "accessed_date": "2026-10-09"
+  },
+  "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233000012212025_2.pdf": {
+    "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233000012212025_2.pdf",
+    "bytes": 81088,
+    "sha256": "eb175761ec84d7440b4635aac2b5110b65aa132de275498cd0e9e9f4cbeb68e2",
+    "accessed_date": "2026-10-09"
+  },
+  "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_230800005692025_1.pdf": {
+    "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_230800005692025_1.pdf",
+    "bytes": 32870,
+    "sha256": "22d6a9c7481c10e569d221cac400f6e005b6138ffc8075492b7f0428608dfa7d",
+    "accessed_date": "2026-10-09"
+  },
+  "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233700015002025_1.pdf": {
+    "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233700015002025_1.pdf",
+    "bytes": 75370,
+    "sha256": "fbd3d004f69953e42734be9062e043c08388e2db6e09d72e4be2861836ed0dd0",
+    "accessed_date": "2026-10-09"
+  },
+  "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_233100016502024_8.pdf": {
+    "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_233100016502024_8.pdf",
+    "bytes": 32616,
+    "sha256": "653a23b9c631f00f0730fee268547d982fb77e31481a0448758a82378f2e3f37",
+    "accessed_date": "2026-10-09"
+  },
+  "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233000012782025_1.pdf": {
+    "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233000012782025_1.pdf",
+    "bytes": 69401,
+    "sha256": "34b7287dc1d908083f45b56807308afb158f2a3e26ed28d22d23aab5d5869be4",
+    "accessed_date": "2026-10-09"
+  },
+  "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_233100032242024_12.pdf": {
+    "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_233100032242024_12.pdf",
+    "bytes": 72210,
+    "sha256": "c97c43a48fc58591f2a9cce92c3da0e639d294705bf9dff7a5abff39fce7e5fe",
+    "accessed_date": "2026-10-09"
+  },
+  "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2024/court=27_1/bench=newas/orders_2024_231000003582024_5.pdf": {
+    "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2024/court=27_1/bench=newas/orders_2024_231000003582024_5.pdf",
+    "bytes": 69409,
+    "sha256": "416aa758ffb21e985a9315b93b06a6f34f06fc9db1d3674531700e05968b32c9",
+    "accessed_date": "2026-10-09"
+  },
+  "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2024/court=27_1/bench=newas/orders_2023_230800059882024_2.pdf": {
+    "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2024/court=27_1/bench=newas/orders_2023_230800059882024_2.pdf",
+    "bytes": 40474,
+    "sha256": "6e0be513263317f0b8c240bb24b09fb2d7f4974e091396e8caf3cd7ee40fa0fa",
+    "accessed_date": "2026-10-09"
+  },
+  "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233100023612025_7.pdf": {
+    "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233100023612025_7.pdf",
+    "bytes": 1729,
+    "sha256": "4e7d61d07dc46fbbb2d87b6462ce0d8c3edd8d6eeaf15c2f7b188ee38b8d4094",
+    "accessed_date": "2026-10-09"
+  },
+  "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_233200036272024_3.pdf": {
+    "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_233200036272024_3.pdf",
+    "bytes": 39306,
+    "sha256": "bf40173981ea56a40785a00d03d968967433f6245e533e94368b1844a61d25e8",
+    "accessed_date": "2026-10-09"
+  },
+  "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233000001282025_3.pdf": {
+    "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233000001282025_3.pdf",
+    "bytes": 50964,
+    "sha256": "297b982b1f96e43137b87bdc7023795179b595dd48393bd72b1aacda5b784bda",
+    "accessed_date": "2026-10-09"
+  },
+  "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2024/court=27_1/bench=newas/orders_2024_233200030492024_2.pdf": {
+    "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2024/court=27_1/bench=newas/orders_2024_233200030492024_2.pdf",
+    "bytes": 42689,
+    "sha256": "3c8835b64069c66cc607fb6e5bb3c2be9397815c3910b096db5ac1405aea3cf7",
+    "accessed_date": "2026-10-09"
+  },
+  "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233100037352025_3.pdf": {
+    "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233100037352025_3.pdf",
+    "bytes": 1730,
+    "sha256": "e67d8282d3b711e4c9470572746ca449e009849d2d25ef09c72f567f8ddb5cb5",
+    "accessed_date": "2026-10-09"
+  },
+  "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_230800062412024_2.pdf": {
+    "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_230800062412024_2.pdf",
+    "bytes": 33904,
+    "sha256": "92e2824ae3f24485f44db0254778c2124f6e567a024d671275d6c29e9004996b",
+    "accessed_date": "2026-10-09"
+  },
+  "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233100016742025_10.pdf": {
+    "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233100016742025_10.pdf",
+    "bytes": 35424,
+    "sha256": "cf3bb1315cdd8a31bf04e2d78f1e006a2f7abcd0b7c15cb6d5679ea6d2d0a33b",
+    "accessed_date": "2026-10-09"
+  },
+  "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_233100027742024_21.pdf": {
+    "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_233100027742024_21.pdf",
+    "bytes": 25953,
+    "sha256": "00d465ad2f80c9a32a6481bb1672003911e801b357f199d53f92b7ed9c34d7fc",
+    "accessed_date": "2026-10-09"
+  },
+  "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_231000010292024_16.pdf": {
+    "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_231000010292024_16.pdf",
+    "bytes": 109218,
+    "sha256": "2d18235514dfc078cf13664d1fff609bdbbb9a51bd165c598a2ed375bac3234e",
+    "accessed_date": "2026-10-09"
+  },
+  "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_231000010172025_5.pdf": {
+    "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_231000010172025_5.pdf",
+    "bytes": 45677,
+    "sha256": "a23536181f94f50b872ca5efaca23d8305b22e791bf0d63ad88c8e7b2a45ac5f",
+    "accessed_date": "2026-10-09"
+  },
+  "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2019_231000013422024_21.pdf": {
+    "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2019_231000013422024_21.pdf",
+    "bytes": 22875,
+    "sha256": "5c5318a471cdd9454d1f07a6e9b928970e33bb1737c01e70235f8c001018d3e8",
+    "accessed_date": "2026-10-09"
+  },
+  "https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=1957/english/1957_1_860_868_EN.pdf": {
+    "path": "work/court-data/indian-supreme-court-judgments/data/pdf/year=1957/english/1957_1_860_868_EN.pdf",
+    "bytes": 279841,
+    "sha256": "6b078593e69e4117c63a3233059dfa51696c24c370888eef96836e15b0548c07",
+    "accessed_date": "2026-10-09"
+  },
+  "https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=1962/english/S_1962_2_769_812_EN.pdf": {
+    "path": "work/court-data/indian-supreme-court-judgments/data/pdf/year=1962/english/S_1962_2_769_812_EN.pdf",
+    "bytes": 1273875,
+    "sha256": "bbb991c4a8a716283c70d6eea7e181a9d86ff76b88925d9f86edba8d52371c7d",
+    "accessed_date": "2026-10-09"
+  },
+  "https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2007/english/2007_4_907_917_EN.pdf": {
+    "path": "work/court-data/indian-supreme-court-judgments/data/pdf/year=2007/english/2007_4_907_917_EN.pdf",
+    "bytes": 493589,
+    "sha256": "86e21cd46bc13d9e6925a5af83793151388612aec00e290433f15ba1597abc0a",
+    "accessed_date": "2026-10-09"
+  },
+  "https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2015/english/2015_5_963_1074_EN.pdf": {
+    "path": "work/court-data/indian-supreme-court-judgments/data/pdf/year=2015/english/2015_5_963_1074_EN.pdf",
+    "bytes": 3319270,
+    "sha256": "f75d497f2e03cb1e8c6d1a6f0501a1bafc7d07b9a59375edd35f3fb99e1a3484",
+    "accessed_date": "2026-10-09"
+  },
+  "https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2016/english/2016_3_865_1017_EN.pdf": {
+    "path": "work/court-data/indian-supreme-court-judgments/data/pdf/year=2016/english/2016_3_865_1017_EN.pdf",
+    "bytes": 5502082,
+    "sha256": "5ca0820a2339ddea28f83131ff7afc89425e7b8a0fc67f39453c4708c5dffef6",
+    "accessed_date": "2026-10-09"
+  },
+  "https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2020/english/2020_8_222_271_EN.pdf": {
+    "path": "work/court-data/indian-supreme-court-judgments/data/pdf/year=2020/english/2020_8_222_271_EN.pdf",
+    "bytes": 552360,
+    "sha256": "e8cd0c0dcf0eb9c4dd3ec39cfd68e5a962ba7784f611d16c2301f4266e51802a",
+    "accessed_date": "2026-10-09"
+  },
+  "https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2020/english/2020_14_198_293_EN.pdf": {
+    "path": "work/court-data/indian-supreme-court-judgments/data/pdf/year=2020/english/2020_14_198_293_EN.pdf",
+    "bytes": 1263101,
+    "sha256": "bd2cf66debc3674e4b16149b544e434251a1d08efdd362f5d011482bbfc54fdb",
+    "accessed_date": "2026-10-09"
+  },
+  "https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2021/english/2021_7_65_77_EN.pdf": {
+    "path": "work/court-data/indian-supreme-court-judgments/data/pdf/year=2021/english/2021_7_65_77_EN.pdf",
+    "bytes": 378463,
+    "sha256": "35f1a320cc8c9a739b333b649745d4fa8577c493e7f509bd5bcc6462136404f2",
+    "accessed_date": "2026-10-09"
+  },
+  "https://indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2021/english/2021_8_797_834_EN.pdf": {
+    "path": "work/court-data/indian-supreme-court-judgments/data/pdf/year=2021/english/2021_8_797_834_EN.pdf",
+    "bytes": 401315,
+    "sha256": "070997d9e76a96ac5d5bdfb2b90fe83653085e5793f9a2ad6b71dad9409fd431",
+    "accessed_date": "2026-10-09"
+  },
+  "https://www.mha.gov.in/sites/default/files/A1967-37_0.pdf": {
+    "path": "work/court-data/statutes/uapa.pdf",
+    "bytes": 462441,
+    "sha256": "15201c51c6e8168eb22245296353b38ba1f63bb17ecdde52689a4a8021eac98f",
+    "accessed_date": "2026-10-09"
+  },
+  "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_233700042232024_8.pdf": {
+    "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_233700042232024_8.pdf",
+    "bytes": 42999,
+    "sha256": "36a318ac3a776a068dd57306b6123b568b79e3c79d8045f40bb9520ab8817a44",
+    "accessed_date": "2026-10-09"
+  },
+  "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_230800019382024_3.pdf": {
+    "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_230800019382024_3.pdf",
+    "bytes": 23263,
+    "sha256": "d0ea416e12c3701f30c18f035701cb51c7b05129e290a2d498c033c5256e9aac",
+    "accessed_date": "2026-10-09"
+  },
+  "https://www.mha.gov.in/sites/default/files/2022-10/OSA1923_02092022%5B1%5D.pdf": {
+    "path": "work/court-data/statutes/osa.pdf",
+    "bytes": 342537,
+    "sha256": "982a4b7a7912d374dadbed8c180abd1a7322d09584b6a5ecec2bf736a001d288",
+    "accessed_date": "2026-10-09"
+  },
+  "https://www.indiacode.nic.in/bitstream/123456789/15272/1/the_code_of_criminal_procedure,_1973.pdf": {
+    "path": "work/court-data/statutes/crpc.pdf",
+    "bytes": 1879339,
+    "sha256": "5bb6514251a9ec6375b2c894cef5280dab0d1c3cca1e0f4a1e57f29b54033d72",
+    "accessed_date": "2026-10-09"
+  },
+  "https://www.mha.gov.in/sites/default/files/2024-04/250884_2_english_01042024.pdf": {
+    "path": "work/court-data/statutes/bnss.pdf",
+    "bytes": 2033181,
+    "sha256": "5e60e2afe30d0fe7eca4f8126301146b76c86a444e690581f81eb564843517fe",
+    "accessed_date": "2026-10-09"
+  },
+  "https://api.sci.gov.in/supremecourt/2021/14059/14059_2021_1_301_35891_Order_11-May-2022.pdf": {
+    "path": "work/court-data/supplemental/vombatkere-2022.pdf",
+    "bytes": 56710,
+    "sha256": "5cc2db68fa3b9ccd14fb1eab61d4f322ae5e85c999afadd5d3a5570de4297d4b",
+    "accessed_date": "2026-10-09"
+  },
+  "https://api.sci.gov.in/supremecourt/2025/3511/3511_2025_4_1501_60508_Judgement_28-Mar-2025.pdf": {
+    "path": "work/court-data/supplemental/imran-2025.pdf",
+    "bytes": 776472,
+    "sha256": "896f08f97519248a7f004350d43b72ffc296144e817c0be8b0365bd28f0d5a58",
+    "accessed_date": "2026-10-09"
+  },
+  "https://www.mha.gov.in/sites/default/files/BhartiyaNyayaSanhita_24022024.pdf": {
+    "accessed_date": "2026-10-09",
+    "access_method": "web tool; no cached-byte hash available"
+  },
+  "https://www.indiacode.nic.in/bitstream/123456789/13116/1/it_act_2000_updated.pdf": {
+    "accessed_date": "2026-10-09",
+    "access_method": "web tool; no cached-byte hash available"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_cnrs": 107,
+  "attempted_documents": 177,
+  "retrieved_documents": 177,
+  "page_count": 500,
+  "metadata_section_counts": {
+    "152": 4,
+    "196": 14,
+    "299": 14,
+    "353": 21,
+    "356": 64,
+    "221": 12
+  },
+  "snapshot": "Existing four-bench Bombay case-details joined to 2024\u20132025 order metadata",
+  "selection_unit": "CNR proceeding; not necessarily an independent FIR",
+  "metadata_only_is_not_charge_confirmation": true
+}

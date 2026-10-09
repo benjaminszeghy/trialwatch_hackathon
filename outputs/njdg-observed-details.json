@@ -1,0 +1,140 @@
+[
+  {
+    "case_label": "Sessions Case / 619 / 2026",
+    "cnr": "MHPU010089732026",
+    "cnr_raw": "MHPU01-008973-2026",
+    "filing_date": "2026-08-07",
+    "registration_date": "2026-09-21",
+    "next_date": "2026-10-23",
+    "case_status": null,
+    "stage": "Argument on Exh.____Unready",
+    "purpose": null,
+    "act_sections": "Bharatiya Nyaya Sanhita: 124(1),352",
+    "police_station": "Kothrud Police Station",
+    "fir_number": "140",
+    "fir_year": 2026,
+    "document_urls": [],
+    "document_link_observation": "No judgment/order download link was visible in this inspected detail view.",
+    "journalist_status": "unknown",
+    "source_url": "https://njdg.ecourts.gov.in/njdg_v3/?p=home/index&state_code=27~1&dist_code=25&app_token=",
+    "collected_at": "2026-10-09T21:35:32.688Z",
+    "source_text_sha256": "4585a5be112624bec369578eecb84c9495ce3b5f2f09d5b77ee8a0705bdd1fce",
+    "evidence": {
+      "cnr_raw": {
+        "text": "MHPU01-008973-2026",
+        "start": 222,
+        "end": 240
+      },
+      "filing_date": {
+        "text": "07-08-2026",
+        "start": 130,
+        "end": 140
+      },
+      "registration_date": {
+        "text": "21-09-2026",
+        "start": 196,
+        "end": 206
+      },
+      "next_date": {
+        "text": "23rd October 2026",
+        "start": 318,
+        "end": 335
+      },
+      "stage": {
+        "text": "Argument on Exh.____Unready",
+        "start": 354,
+        "end": 381
+      },
+      "act_sections": {
+        "text": "Bharatiya Nyaya Sanhita\t124(1),352",
+        "start": 656,
+        "end": 690
+      },
+      "police_station": {
+        "text": "Kothrud Police Station",
+        "start": 922,
+        "end": 944
+      },
+      "fir_number": {
+        "text": "140",
+        "start": 957,
+        "end": 960
+      },
+      "fir_year": {
+        "text": "2026",
+        "start": 967,
+        "end": 971
+      }
+    },
+    "notes": "Dates normalized from the displayed labels. Stage is preserved verbatim. No pending/disposed label, journalist identity, custody status, or law score is inferred."
+  },
+  {
+    "case_label": "Bail Application / 4780 / 2026",
+    "cnr": "MHPU010101402026",
+    "cnr_raw": "MHPU01-010140-2026",
+    "filing_date": "2026-09-05",
+    "registration_date": "2026-09-05",
+    "next_date": "2026-10-12",
+    "case_status": null,
+    "stage": "Order",
+    "purpose": null,
+    "act_sections": "Bharatiya Nagarik Suraksha Sanhita: 483\nBharatiya Nyaya Sanhita: 103, 3(5)",
+    "police_station": "Chatushrungi Police Station",
+    "fir_number": "272",
+    "fir_year": 2026,
+    "document_urls": [],
+    "document_link_observation": "No judgment/order download link was visible in this inspected detail view.",
+    "journalist_status": "unknown",
+    "source_url": "https://njdg.ecourts.gov.in/njdg_v3/?p=home/index&state_code=27~1&dist_code=25&app_token=",
+    "collected_at": "2026-10-09T21:39:42.328Z",
+    "source_text_sha256": "926c14c1d1103a02a6cde063927d65a42e53dbebdfadc1cd34de759ea85f3367",
+    "evidence": {
+      "cnr_raw": {
+        "text": "MHPU01-010140-2026",
+        "start": 224,
+        "end": 242
+      },
+      "filing_date": {
+        "text": "05-09-2026",
+        "start": 132,
+        "end": 142
+      },
+      "registration_date": {
+        "text": "05-09-2026",
+        "start": 198,
+        "end": 208
+      },
+      "next_date": {
+        "text": "12th October 2026",
+        "start": 320,
+        "end": 337
+      },
+      "stage": {
+        "text": "Order",
+        "start": 356,
+        "end": 361
+      },
+      "act_sections": {
+        "text": "Bharatiya Nagarik Suraksha Sanhita\t483\nBharatiya Nyaya Sanhita\t103, 3(5)",
+        "start": 694,
+        "end": 766
+      },
+      "police_station": {
+        "text": "Chatushrungi Police Station",
+        "start": 971,
+        "end": 998
+      },
+      "fir_number": {
+        "text": "272",
+        "start": 1011,
+        "end": 1014
+      },
+      "fir_year": {
+        "text": "2026",
+        "start": 1021,
+        "end": 1025
+      }
+    },
+    "notes": "Dates normalized from the displayed labels. Stage is preserved verbatim. No pending/disposed label, journalist identity, custody status, or law score is inferred."
+  }
+]

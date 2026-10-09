@@ -1,0 +1,17 @@
+# Machine-local dependencies and generated runtime files
+node_modules/
+.venv/
+work/deps/
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# Local credentials
+.env
+.env.*
+
+# Supplied participant packet working extraction
+work/pdf-read/
+
+# Reconstruct this expanded intermediate from the included source Parquets
+work/court-data/hc_case_details.json

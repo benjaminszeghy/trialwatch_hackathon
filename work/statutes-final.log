@@ -1,0 +1,7 @@
+ipc pages 227 bytes 842456
+bns pages 112 bytes 896392
+uapa pages 28 bytes 462441
+it download failed Command '['curl', '-fLsS', '--max-time', '20', 'https://www.indiacode.nic.in/bitstream/123456789/13116/1/it_act_2000_updated.pdf', '-o', '/Users/zhangkai/Documents/Codex/2026-10-09/wo/work/court-data/statutes/it.pdf']' returned non-zero exit status 28.
+osa pages 9 bytes 342537
+crpc pages 263 bytes 1879339
+bnss pages 249 bytes 2033181

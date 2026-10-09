@@ -1,0 +1,4414 @@
+{
+  "project": "TrialWatch Legal Tripwire: India",
+  "snapshot_date": "2026-10-09",
+  "files": [
+    {
+      "path": "export-bns-corpus.mjs",
+      "bytes": 2795,
+      "sha256": "f7939429c8ebf320348e9142c421d9fbc74536636115a1cb1b7b72c165a571a0"
+    },
+    {
+      "path": "export-law-scores.mjs",
+      "bytes": 2603,
+      "sha256": "3ca22e654e92265b0165852b0eaa85d9dd43698a5301678e944ddf32ceea2969"
+    },
+    {
+      "path": "export-njdg-sample.mjs",
+      "bytes": 3201,
+      "sha256": "cf561eae52b56f210bf6aab9f440a4275d0cb39595dd97e1652a8857eee2cff8"
+    },
+    {
+      "path": "outputs/bns-training-starter/README.md",
+      "bytes": 14139,
+      "sha256": "757c5e9d7b4890ba8760cb3ab1f53c50b434f7061223345a2932a661002f0e17"
+    },
+    {
+      "path": "outputs/bns-training-starter/acquisition-manifest.json",
+      "bytes": 926176,
+      "sha256": "4d571b5c5ca1b9844cd900814f84df7fef966928f5b0eb3542f31d9df07b8d36"
+    },
+    {
+      "path": "outputs/bns-training-starter/annotation-template.csv",
+      "bytes": 8461,
+      "sha256": "d3ac82fb55a7bde0f43a74c2eb9981c6c0b7843278fb79d5beec062a5485544e"
+    },
+    {
+      "path": "outputs/bns-training-starter/annotation-template.json",
+      "bytes": 21181,
+      "sha256": "6cf192f94e050fea41331573cc8ce4951c661db71ccb1b50a8e6d64c65357322"
+    },
+    {
+      "path": "outputs/bns-training-starter/case-candidates.csv",
+      "bytes": 58512,
+      "sha256": "fce473da878bfa6bdd8897f2a9f8d2264ac92b92c5f34646d374068e3d97dbcb"
+    },
+    {
+      "path": "outputs/bns-training-starter/case-candidates.json",
+      "bytes": 117057,
+      "sha256": "0e7472a04f63843237f82b76620a79672e927a870a039ea49408d91a00b32d4b"
+    },
+    {
+      "path": "outputs/bns-training-starter/case-preview.png",
+      "bytes": 83355,
+      "sha256": "db13ced86affe83035234ef685ef980c64cbb964a465ad5e93ed5bdbcad2a016"
+    },
+    {
+      "path": "outputs/bns-training-starter/documents.jsonl",
+      "bytes": 1433300,
+      "sha256": "55186c2632afe7154361f3a235445781e9a025e60aae8f4c3b90f94ef873c345"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/00ca2716b09934b956a0.pdf",
+      "bytes": 30447,
+      "sha256": "c7486b8dd70c371a503052cac9ed79e9f534bf7f53342a11fba090c8a3d82a0c"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/0503f462ac801395a109.pdf",
+      "bytes": 32202,
+      "sha256": "0d870a173a41381b0fc4cb4c1cea415ce1559f7f73f09af41ab6b172543bbdb2"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/0684cc5955d8fcee627b.pdf",
+      "bytes": 42851,
+      "sha256": "cdc38bcc323b6ce1902ab56ea945cfad79f670168c093534409ff8cd2f17adcb"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/0b07992a92888903fd32.pdf",
+      "bytes": 46600,
+      "sha256": "98b5005f071b7a497f65383855292978c40792af6dd48163ff37b1e3d657c0d3"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/0d27671f3a852f58af4f.pdf",
+      "bytes": 101004,
+      "sha256": "bf648daabd76f6057306c365795efccd4aa21840f19891e0f98e2605618990e6"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/0e4bc5ce353e01f4e879.pdf",
+      "bytes": 56188,
+      "sha256": "0a3ffec9b6ec9107226fbb3d826c14a198698a506711d39f2b769e92e42d31db"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/0f3815cd9e2985179c18.pdf",
+      "bytes": 52188,
+      "sha256": "68b2d4ab894807bdbcaadf4df56e091cb630e63f7e61215a467da376d5265b06"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/103d089e9c19ca1c705c.pdf",
+      "bytes": 27686,
+      "sha256": "104fa7855d1dfe4e040b6b4d72b7608d8ac9c0db245b74b0f1b313e8442f6571"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/11351c70abfc284986bb.pdf",
+      "bytes": 33606,
+      "sha256": "4ad54b8b2ce697aba61da5e48f2efcc9bc9eced5268d0aa20a9dce6836af7729"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/128a80d0afe6d34f552c.pdf",
+      "bytes": 1761,
+      "sha256": "ddd3e3ec08da8f77251e8a5a46d49b760044b1a0b512549b04dc3d0299ca53b0"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/15714bc512a81e24d76a.pdf",
+      "bytes": 56679,
+      "sha256": "6cb59936b4c5cef1491b61224a92aa45a5f758985d0f92385748ffbcc5317277"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/1dbf3af50f8329f07f7a.pdf",
+      "bytes": 39224,
+      "sha256": "7d47b42da544c9044e5a0ef204160f9aa156a2fd801acdee592100b9009440e6"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/1ec5b0528de79890d55e.pdf",
+      "bytes": 33721,
+      "sha256": "1e05a85ac58f4942589b6372fb45ed62b97abc6ded794db13270cd76f2c66c4c"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/1fb5473c7ca7dccc78bf.pdf",
+      "bytes": 47850,
+      "sha256": "c517d981035dc1537fc45d3bd19dbbdd433cfc22e42e9e498f04f9954867e768"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/20cbd6bd5707fc566d01.pdf",
+      "bytes": 26646,
+      "sha256": "2e090cdde4705a20842182d303ec8c5aae0ba4a8f6a68b08de9b587222c603a4"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/22e4ae86702727dda1b7.pdf",
+      "bytes": 31129,
+      "sha256": "8ca6624f48e7c03e7b5d6094553cda71477a10d8c11f0fcaef559338db475eaa"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/233e5a54ff26b0d9fbf4.pdf",
+      "bytes": 55879,
+      "sha256": "7d8d97ea2ae15a3e649a4db4c9557add3cd50b2965f1c7360de3fc9fae1252e9"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/23661a972a4d34f10061.pdf",
+      "bytes": 28627,
+      "sha256": "d2d5a5a13c93c07dd063bfef383641a3cd0d61bea1bde512a515346ed8dde7e4"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/23cc378eafc8bbd91113.pdf",
+      "bytes": 22306,
+      "sha256": "4a32d14a6e37a68357429c29c79fd06556f087b35f663136db62dea5b16548e5"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/24600696aac18b4d6840.pdf",
+      "bytes": 47021,
+      "sha256": "9dafb6f4557811eaa8dbdba452161c689bcb5e4e74bfd90efc911a01d3c40ef3"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/258e4ba580787603f02c.pdf",
+      "bytes": 30287,
+      "sha256": "d9ca73250730f167dcfd37ace85b2d56cd0ae6a2ba265adb0ec5e974f93248c0"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/26ecd6d1d32b5d3a1dc2.pdf",
+      "bytes": 49071,
+      "sha256": "a01034149dd0b36cbe69b1e7df28eb38eb2f321978f24569e5f227a324ed7311"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/270da75c4d90a9539899.pdf",
+      "bytes": 35004,
+      "sha256": "806f83a5d50faa8f0f60a003c8dfe683eb01e425d7a0711195ca3c32a782cee9"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/2ae2336dc99985cfdcc8.pdf",
+      "bytes": 101004,
+      "sha256": "80343842848419967f319bfd37eeb8cb4a006034f7735a64f276f9d88e4fd146"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/2b30eff259634c55d1c2.pdf",
+      "bytes": 33313,
+      "sha256": "2fb0472217839d9a5f76dee7f448fe4975c681dc200cfaa401ef872a0820e14c"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/2bffc150810827688916.pdf",
+      "bytes": 24378,
+      "sha256": "62c0ddc3383c19097ac8e2d79abb36f1f34f3b035b08f74d8b96e6d134ea58d8"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/2fd9cf741b9a62be5046.pdf",
+      "bytes": 40018,
+      "sha256": "69a74684e187fe58c0b64c4d93901dac6bc7740a2f27eb1ed38af005670358c8"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/302b2865af55195b182e.pdf",
+      "bytes": 39306,
+      "sha256": "bf40173981ea56a40785a00d03d968967433f6245e533e94368b1844a61d25e8"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/30fddd8c804e1f69ecc6.pdf",
+      "bytes": 54821,
+      "sha256": "e19314db2260995d8eafd3630b479845fc4e6781698c3ac5b70fb2d3c883cbd2"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/31112dbd6bffb20243b7.pdf",
+      "bytes": 56327,
+      "sha256": "9e23eee9793f1773ba7771626090f84a902951fc363d0464e20fdf9cc165d543"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/3293c7d697544a116f15.pdf",
+      "bytes": 52724,
+      "sha256": "7eb277a76566160cd1759fa7494de1a0a5689f29219342d4b7c62ffcc77ccf0c"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/332dc47893301971414f.pdf",
+      "bytes": 65182,
+      "sha256": "172bb827ec596f9687a6dce9e8537ea8369a17f2a5684b0f31dd4cf532ea001c"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/362841d66be602d02f4e.pdf",
+      "bytes": 26249,
+      "sha256": "6ec850f12a17506919b4309fee7f2f6ee5fe8dc90c88ab757ddcbc1dbfd22135"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/377f1a2ccae097e5e3df.pdf",
+      "bytes": 153501,
+      "sha256": "904ad7d937c86698d8954f55f6dc4cf6a327ad78d7b80fb4226579847d839f3c"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/37ee24d588d19bc2ebbc.pdf",
+      "bytes": 48571,
+      "sha256": "fadacc70bce1ef0c66dfebe4a89e84451acffbfe834647cd1b952e01d42fbe8e"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/38c39aa804d184c4db76.pdf",
+      "bytes": 1770,
+      "sha256": "93db085a25fe380456a6e5f05b96bc82f6f4e4e2a18c6d5a0b4902bbbfcad8d1"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/3bfa7fad19f566aa2ce9.pdf",
+      "bytes": 48696,
+      "sha256": "01756c21e4c9f06f42fdbfc1052ab194e4a724407ed249880aa4164ca8d6f388"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/3c060ff038fdee47f08a.pdf",
+      "bytes": 29709,
+      "sha256": "eadb6050323ca6b9e22563de7b876e976646ee1dc33320641c5a559856cc54e7"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/3d52962f824fad687457.pdf",
+      "bytes": 90999,
+      "sha256": "6267c735d6b3c4a3051bb85560b594ad74034b6de77f9432f162bb766cbd1a77"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/3dd12f4d868928c29583.pdf",
+      "bytes": 87746,
+      "sha256": "d0e2dc65bacfd431cbd84f8ab72cc620f1ac394bbf9c456677ce2435350bad34"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/40d5fc5057b0eb562e14.pdf",
+      "bytes": 72551,
+      "sha256": "d057a62976a9524e2dcff32ec23587e7a1bf875ea8bc40637d6b06bfdb12fa33"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/40d617e137cf2ac0b248.pdf",
+      "bytes": 1786,
+      "sha256": "48df0b538410a16624a74694880a3312218b69139c48bf3b4fe375b4ec3fdfe1"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/41a242e5d99ef91057d7.pdf",
+      "bytes": 65158,
+      "sha256": "772fc8cde1b70a6c8f31759a3d1d0b0c33deb6f40bbd923c485c87c706e4b600"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/4263a798cf80fc7462ab.pdf",
+      "bytes": 13757,
+      "sha256": "0df5e6e59622b27633ae78452eaecf17ea270189f296d2eef49e7c31d66d6c3b"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/433b540481cbae417acd.pdf",
+      "bytes": 27146,
+      "sha256": "3144299d1a897169eff9f09a99c8439d971ef239aa9dacf7d3d375ce325c34a8"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/43cdba8773806bbe1292.pdf",
+      "bytes": 1693,
+      "sha256": "e61b3a6b7c91b50c9f8f40ef4f1c56026c0157337262f667ebfb9a3080ac4e3f"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/442bbdb3f48bdf6bb893.pdf",
+      "bytes": 84421,
+      "sha256": "4ae4281b77f4c817043a25590bfadc1379661b93fd59189d48fafa4f108c178f"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/46b7d754d6c919ec92d8.pdf",
+      "bytes": 26903,
+      "sha256": "290c8c7b65b0e37de71c7dc7b90a8ad567e4701b8d59dfc8e49f881843497617"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/49571de15d19dbd95fcb.pdf",
+      "bytes": 25026,
+      "sha256": "87ff3392789d8834fd708b1ff3b696a3c5dbba666fb6ee2c34648af926818804"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/4d05a6839c5304326ef4.pdf",
+      "bytes": 53521,
+      "sha256": "919afb12f5531d35785f4176e9737a04e9d00f2782e12515303d8a0ec9d12c76"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/4d92ec5f3309b83726ee.pdf",
+      "bytes": 64237,
+      "sha256": "2824aa3a65a92a1587a9027bdebbbb509ec70f770c4f9554fde1ca432cd701ca"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/4e83e4b4c856a05ae973.pdf",
+      "bytes": 57830,
+      "sha256": "03ad8f22b5a743d13248a7c136cc8ca78abcd01332085ebbca5ba5c2b162922a"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/502e1d656440fc768233.pdf",
+      "bytes": 27242,
+      "sha256": "0af82cce9d2bb41a2fd6d32f59b707423682a29958cc1d060d874ea44b77b8ea"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/51aa8a33c819722ada00.pdf",
+      "bytes": 16085,
+      "sha256": "2f832912c597b84ed83ddc788fd3426e1e62fe7226df9bb84c088648ab954b44"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/51c3d45883098945b745.pdf",
+      "bytes": 92212,
+      "sha256": "dc0e2b68c4bf76a396fae715f8eb7ed28107fe4c22548c8cd54a6677b4415527"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/521feecd7b33ec2f9b5e.pdf",
+      "bytes": 72786,
+      "sha256": "59a83d1f66600601152957cb1e8d0234a650a309bb3de4f91b53b08b4672200d"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/53c37d830f37a7e6c98b.pdf",
+      "bytes": 28180,
+      "sha256": "f484126278f19946b70f8d57cd21b077b3a78cb41c6d861f705a8fa0b83cda8f"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/564fcd19d33b5e3428dd.pdf",
+      "bytes": 25075,
+      "sha256": "66d0776790799b90991ba5ec77c1400948a185b5a80797f33cc373eea4caea23"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/5650e30ea2e012f17f66.pdf",
+      "bytes": 48092,
+      "sha256": "3e83f218ebd3ee9c9960bf76afa27c33bf9a4c95c06637420aedd5e749968228"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/56bceec5c2323557dd05.pdf",
+      "bytes": 44921,
+      "sha256": "38c208a5f3c4a699de98ed4d6bbda35f630c48ba194e93006af5bd8a696488a4"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/5734cb9834f8616d8dde.pdf",
+      "bytes": 44693,
+      "sha256": "854ac8731f6831b0ead61cd2c6b427e9b7551fa2c7a8c544ab85a61fa64053c5"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/5743331577ed02b4ad24.pdf",
+      "bytes": 62524,
+      "sha256": "591abd7549e951881348005d2479aa04377c6fabcae0e96af6494236422ac8ad"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/58941b566e9c3d8f9b70.pdf",
+      "bytes": 52828,
+      "sha256": "463f992dc2255eb9484c5c47d414975ac7e02d9580e127fc526bd60d048d7346"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/58fc83f8de3c65e045cf.pdf",
+      "bytes": 23568,
+      "sha256": "85213c7afe139b0b37c5703c1ffe947c0d93020392e6ab36c7c1e6b8e4753ab5"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/5b6dec4f1470bd1e2c0a.pdf",
+      "bytes": 30409,
+      "sha256": "686ec7abbab8574b5c447342742792bdfa4398eca52aeaf24833cea68e7aa5b2"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/5b85a90425e4edb78ff4.pdf",
+      "bytes": 31377,
+      "sha256": "60006bd4ec3641eb4a31cc5b6a638f4d585e62230ff33ba4b648506061bdcb8c"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/5d3fb63a3882aa3c7d49.pdf",
+      "bytes": 1868,
+      "sha256": "1c5fffec6e40aadeb80cd2a9ffd8ed2047a74249937fa33e09d8a766cdd493be"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/5f392f49c1e07618eed8.pdf",
+      "bytes": 73271,
+      "sha256": "ac65c5b39f835bca59cc405b3e25a85794fe4821bbc0af8ad3cb47974bb6b9f3"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/605e19011157940a0039.pdf",
+      "bytes": 36629,
+      "sha256": "67fdf2f3bfbf248221f87e32bbcca4265e24f11950b869a3e38f8afd9eb4fb67"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/60c979db3bc56c17bd6b.pdf",
+      "bytes": 27017,
+      "sha256": "7e04c10ec61510179916ccb53bc5236162a76b8e9fde45d65715a898b8be01f0"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/6391feabd2bfc0c67c5f.pdf",
+      "bytes": 53391,
+      "sha256": "64370aec12a76683c9f2ab4741f67100cf9afe4cf95fb1808350e586114dfc9a"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/68013b110ac80ec2bc9b.pdf",
+      "bytes": 1809,
+      "sha256": "b4e4550c5a89439e07a26c6d0702878531a50d7c84761f033b7596bbb2279b10"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/6b1899146c4de38e03de.pdf",
+      "bytes": 33773,
+      "sha256": "32ebff6e4fae49ff843caa044aa8d4947e7ee777e70cd3a9cf142fe71d2ac1b0"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/6ebeda255fc7d2a1ecd2.pdf",
+      "bytes": 38143,
+      "sha256": "206677476c60bf7a784d94dcdb91a36e5befabe4624602f3e59014c866b327d4"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/700a7d3a46bd3250ed4b.pdf",
+      "bytes": 55864,
+      "sha256": "9bf870eb3a110a49ee8f9fb803e726475216c5dce43e328c220f8d3079a7e527"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/71e0f358e8c0932e0d48.pdf",
+      "bytes": 31909,
+      "sha256": "847763248785e2cd6f5e8ae990e2b27632445eca723ae1c77a9cbb1bc6b1881c"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/7465cbba78ad78009516.pdf",
+      "bytes": 73785,
+      "sha256": "8469f9acebb63b1b4bd7eb3dfd0b7d24bc48e43aed1502b5cc0d842a9fce8575"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/74c06446cb6f55dfd88b.pdf",
+      "bytes": 1847,
+      "sha256": "6d0d9c186cb78a254b2d47a5b4d229c99ef966fd9ae01ba9c941efdb7faf0313"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/7634f60dd261606e1024.pdf",
+      "bytes": 1718,
+      "sha256": "227189f8beddcd3c099b4a4010c75fd6caf3c6c00322f3ff12c8cde7431ddabf"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/765e2bef754a27ea3762.pdf",
+      "bytes": 1881,
+      "sha256": "12376922329eabec42309af2fd2c35618d4bb5991dc7d2cf19b890de229e3fd4"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/76d4a57515715e69b980.pdf",
+      "bytes": 40829,
+      "sha256": "2cf7b134a5e00fb277336bae0437741940484d3211f63209da6ea684f457c0fa"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/7e8b2589d69dc4f9ad33.pdf",
+      "bytes": 53537,
+      "sha256": "aa4a1b82f0a85b5b9441b0e08df886447b798ac311d58d367193f8ea08c6fc7b"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/7f785c87b9ebe05ef5c7.pdf",
+      "bytes": 53539,
+      "sha256": "4793a85854dc30d9f04bbfc0dc01b356b13735c6b2ffcf67ca5e93be98035fe4"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/82251e67cae4b453a41b.pdf",
+      "bytes": 26853,
+      "sha256": "8543e400e8ff22386ba014f4da31a4f87b1cd1b53146eb941e97f66ef7db9514"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/87c938f9a5c691765582.pdf",
+      "bytes": 63187,
+      "sha256": "0e547592530c8558b08c1e4a0818779c91ff5c6e0a4d401a7d76d1cbfdfdd023"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/892fd98b95516708083d.pdf",
+      "bytes": 89506,
+      "sha256": "2d10a62e809b1fa3b3ac7737c432517dba3991306070aeeedaf207b02fd637b1"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/89e9ef4a2274e9fc8ab0.pdf",
+      "bytes": 90257,
+      "sha256": "bb6e3b926fb0640db7a4a3b9cbed0b8c5468b1fd3a27e0583e5836f7b500d2a4"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/8ad722033ccc99c7f953.pdf",
+      "bytes": 1821,
+      "sha256": "5fb7061d405334b72aa3f23d95e3515853c31331dee6594107bceb9bff5dc86d"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/8cb4124019f7fea09516.pdf",
+      "bytes": 1749,
+      "sha256": "b1083a1f7a1be076a43f001f2bb4276bd4fce45544a1a989978199a53dbff3c6"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/8eb2158150fed02dce88.pdf",
+      "bytes": 73785,
+      "sha256": "a828ba8646281711dce4a72573d6c3c2e8aac00a9903c156d597a8130db4a77b"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/8eb9825a3171678db5d4.pdf",
+      "bytes": 32315,
+      "sha256": "4326f7f7074d3b1eeaad219a34ed0b59eded9073806e92162f185bba166bab1a"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/8ff06d6f6e5c88dfccd4.pdf",
+      "bytes": 1731,
+      "sha256": "0c9811d5165238ff3fdc3b44c2c72b2e9b9ca78cd72a18cb6991cc7d5a28f9a3"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/91a7e644ce63304aa524.pdf",
+      "bytes": 87746,
+      "sha256": "d0e2dc65bacfd431cbd84f8ab72cc620f1ac394bbf9c456677ce2435350bad34"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/91b28edd8031212d4229.pdf",
+      "bytes": 25805,
+      "sha256": "4269ab681729c2203ef787753ca476772bf60d13e810c5dd1c2fb3dab76b6ff5"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/93f959838bde4d95f256.pdf",
+      "bytes": 70879,
+      "sha256": "0c0bfec752dd210b1a6b28f9fbec19967e13e0b5fe145ff15469d9de2337dedb"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/95a3f5af9bb84a5b751d.pdf",
+      "bytes": 1780,
+      "sha256": "ea55bf78f43aca427a1b46e861110b029b537f15d3bea7c155c1c9721ef5d770"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/96b1cad0c502ef822b74.pdf",
+      "bytes": 84957,
+      "sha256": "7712433660418b2f86b96126012bc249dcd22a9239ffa1e7bbdd8eefecf40393"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/97353a4aa6bd1560537e.pdf",
+      "bytes": 90243,
+      "sha256": "30788bb742d2df34ed4535c36a79c01fd1dd61c7b316b26d1d04760502770ed6"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/98c62b42337ee727f3f6.pdf",
+      "bytes": 31859,
+      "sha256": "821117f809baae9d34dbdc79a8d6ee6985662b9fb9687aa6eb2429eb5f6a1760"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/98dd51b47c6f498a757c.pdf",
+      "bytes": 36867,
+      "sha256": "bf248da09207b3669af5492b020938e61c506746dd88a31a240aa474b1f154c7"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/9bbcca3ed3d7dd05f273.pdf",
+      "bytes": 56205,
+      "sha256": "ac6a6adbec23e7268ea58756693584d55d32b6a4f49ecb553883c72250ec9efe"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/9c098a072c0ff33dc18e.pdf",
+      "bytes": 1783,
+      "sha256": "cac26e02e1f8ceac622c5af6f1889b4fe7068d5b306da7c323ab42eb95c8e047"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/9dc823d395c5de5da38a.pdf",
+      "bytes": 34803,
+      "sha256": "cdef2ec0a789eb9a4092361a756cc2520768e1ebb8ab54c5098d11400cbebb9e"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/a0d350b296d0892cf467.pdf",
+      "bytes": 31219,
+      "sha256": "c3b5debfcc056f80337b598dcd582925b5aadbd921580fde881d9d714cb2dab6"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/a157974fd63740b90593.pdf",
+      "bytes": 56679,
+      "sha256": "c3f638d1941dc8f0ed13b571cb663ec99e644f06489bb6ef8ffab3bdccfa4ec0"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/a19dd9e0159a103e9608.pdf",
+      "bytes": 55758,
+      "sha256": "7138e7a9f4fb8be00d22cf65d1dba1c79930585ba8d05fff1793bf6b04d03732"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/a2d878fa4daa08930231.pdf",
+      "bytes": 90418,
+      "sha256": "a04d47ff2e33c538528886064382716270c05bfd51cd2867bf15fc2d4fd6402e"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/a2f25a807e0a135e2c5c.pdf",
+      "bytes": 71124,
+      "sha256": "e5fb8bea4227aacf1a0295b73a9491c52d3527d2eee80a321841410119806f86"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/a36990dc74406c01d57f.pdf",
+      "bytes": 67326,
+      "sha256": "2fc68045dd6c9a469738f8768b6be6bed960ada9cbd1f9d635cedbf8b52bdce5"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/a4d7cb98e2c1888b8fc9.pdf",
+      "bytes": 117946,
+      "sha256": "33f53d02bf2fdce36d5069c62050e566e0755dea6713cca862a3e9f7aefdeca3"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/a55773bdf38800b8e735.pdf",
+      "bytes": 24660,
+      "sha256": "4520475573f673d107a2fba59ec7636637c7accc32333dfbeed0931352b25da3"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/a5e5723675a5bf3f08be.pdf",
+      "bytes": 193177,
+      "sha256": "ff1adfce3cf01d51b77ef13a91254a270424ddd833a87131db5127c750045c95"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/a6ded8e15bf159bc4cb0.pdf",
+      "bytes": 34654,
+      "sha256": "863fea8832fdee7fd0a595cd4072fbd0e6ce67f47888c873e5cf1fe911bdf9d5"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/a713a7b472fa35fbee69.pdf",
+      "bytes": 26663,
+      "sha256": "c0b65b585c0a3faabe95ea3c9a7deadc4d30f0bcf6844cd9bbcda0fef52a765b"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/ab891fecf148cd3d461c.pdf",
+      "bytes": 46553,
+      "sha256": "50a3c74b4c54d5b54f9922f95e90526139f4a67c9640af8233545745c6ea4651"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/ac8391b5caea9843c780.pdf",
+      "bytes": 80525,
+      "sha256": "f50f615d8aac17c8b9dd8be100332445e5969cf36ce03b0a49041c4181fba657"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/acb3f064c0b45233e21f.pdf",
+      "bytes": 1840,
+      "sha256": "77182b573f027a5b42b3c18249a231d1ebc112ee0242a382a01c3cacedf9ff9c"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/adc424c8a767bebbdcdb.pdf",
+      "bytes": 31923,
+      "sha256": "0d212dd8a803b6c0d5c50d572aa5bd394eef91a230dfb165afafe9a0ca7e1e69"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/ae35ea482a83d458931d.pdf",
+      "bytes": 47588,
+      "sha256": "eb8748f21b5dc33b804888c7612ec3a319a66adefa55f82d3c53a0b773836cc3"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/aef4461a532a6ea199f9.pdf",
+      "bytes": 1742,
+      "sha256": "defad1b49a3d92098e610992d0f7f36b45ad79dee34a9a386ec4009f8dc1a0a0"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/b03c035d978d199d7f45.pdf",
+      "bytes": 33426,
+      "sha256": "aee67d7a2bdc5a7d081474e78322674e4b1956d09d22d3f096876c56d3e8f636"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/b222899e76c35956ed29.pdf",
+      "bytes": 27097,
+      "sha256": "fd169d1c63fabfa9d992dd6b697e060a498d3512bf9f50c07b2552be28276494"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/b2a1070315f2d9606563.pdf",
+      "bytes": 36272,
+      "sha256": "79f1050f6bf76ad320fdbe2f27c65810011c4e12f03d353bdd114b31812d83a5"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/b2a84ad9992d9133da95.pdf",
+      "bytes": 1723,
+      "sha256": "e0f5dd67d0ba22bfd096cef35cd479ddf9c2d30485731d777fb0b3b3a9fc4e2d"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/b2f7c3c7c11b9bc1241e.pdf",
+      "bytes": 41361,
+      "sha256": "13554b288702c0f8a4d64190f28558982a69e77d70c062f43e2340bc5b6e109f"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/b582983b253ea26bbe39.pdf",
+      "bytes": 26894,
+      "sha256": "bec4f2bbb69507254ddb544dd27f605ffaa49caa7073ceac32f12cdfd1e02d96"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/b6977ab9fc9526881cfc.pdf",
+      "bytes": 38183,
+      "sha256": "316b8b7399bf27f357ed835332455e8dbb4a6b1cb8d4ab81cce0c11a10526ae2"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/b70ddc531eaf35c35d84.pdf",
+      "bytes": 79958,
+      "sha256": "85b42652679d32cff8810b174b5035778124f15c768148285473073360e72ea6"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/b727860f9b02de688cce.pdf",
+      "bytes": 23144,
+      "sha256": "f9272f930ac77a7b002e2af9175d9078adebe3eb497404eb16e6755eba819549"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/b76a885244f2229c9790.pdf",
+      "bytes": 32654,
+      "sha256": "35765226f186f357b9590b991d59b9b6dfaec0f61b1fc3465bbe7b3803848feb"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/b7d0b30d633f7523e307.pdf",
+      "bytes": 33137,
+      "sha256": "7a2f9629f68cdb3ab645f258f615c6f25d38bc2b11963887069e246cdf42e622"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/b80ff486afc3687354a5.pdf",
+      "bytes": 26585,
+      "sha256": "b6fdfa10ca6ada03a86ed4fd3ecb29a0dfafe952d5390ad7e5260f89b8a14feb"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/bc7bd723400c86ce85fd.pdf",
+      "bytes": 84957,
+      "sha256": "fa24948ada4bd2f7878d3e9f08ba957aecd5c1e35d75c775e90df6a07d39442a"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/be10f36baf6cbd93aa68.pdf",
+      "bytes": 46318,
+      "sha256": "e03ef4e1e9e4b40c52253d403c56c7677d32cba395aeedb4dce933f854dd50ce"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/bf05ed5d56c1ac4c8e0e.pdf",
+      "bytes": 122391,
+      "sha256": "466fa9c73d0ce78aab9f1c2b4338aabf23b79f50923e2766cecac7dd69fb3670"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/c6546954c64898801c25.pdf",
+      "bytes": 34115,
+      "sha256": "c8b5b8b1f5ce90f594bbfcd0fc5cfb6dbef46021345c64be4d1dc2dacfd2f03c"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/c99f91cdc17b23a36060.pdf",
+      "bytes": 1810,
+      "sha256": "e295a71e4a7cf084197c54114d8bddbee59ad6a5abc073368bef3b3fca41ac7f"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/cda0a748480a884a7013.pdf",
+      "bytes": 1833,
+      "sha256": "904fc9b4dfb0c533b00f4d565d27175a6c2e65ea6b0bb577b095f00688201147"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/ce5483568823ceedab75.pdf",
+      "bytes": 31360,
+      "sha256": "d6e7534e7bf73bf623035b3179c9b81b508f8d9c48792f8f89c1995a8411bdde"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/ce5888e63f73d112f06e.pdf",
+      "bytes": 47030,
+      "sha256": "60efd53c7b525f0bb568dad194f2f6f992ced2cc90687355c2e4aebf333a038f"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/d00e0485d70c0f10a0d2.pdf",
+      "bytes": 95007,
+      "sha256": "d0594bfde3058340d404077e0c8022645f28681419ae74bff474fc14dd357c96"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/d1d184a4ee3e69f17b74.pdf",
+      "bytes": 1728,
+      "sha256": "b011a84f7b7b8916e0af69b176e8566853d89731c55e360e2a3c105a46571d0e"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/d33dd4a8ba1da1182fa8.pdf",
+      "bytes": 19452,
+      "sha256": "f94e09bb5eb69b264763e73d3ad093e81539a28c643d16c94bad212a8003aa52"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/d374348787ac66ebdc21.pdf",
+      "bytes": 1720,
+      "sha256": "3774f1975c7fa09df67dbebdc2851f7b4b7b7ed9ee1823980f4df6aeae9ce6f6"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/d40401b33ab6fdf01b06.pdf",
+      "bytes": 28182,
+      "sha256": "cd1f0092ab5bcbf69bcfcaa7fda94c0245230d52584900220edc89e7a933d4df"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/d5339011ca988da3ab06.pdf",
+      "bytes": 1844,
+      "sha256": "925009628df6bc11418fb5e4e1b8fa326e11c35e6eb90fc706647d76a3e98a99"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/d6e35ae02a9cac3b399f.pdf",
+      "bytes": 33628,
+      "sha256": "f6b3316e57ea13711cdff7b9236a592dc65f912790bbbdc440495cb6006db74f"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/d96e342c82d993329374.pdf",
+      "bytes": 34558,
+      "sha256": "cf7c2ff4c665b5f69dc431ed80c1c0d742a35399f0b3ec10a7fde6aea15aa83c"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/e034c182c24e08ebd590.pdf",
+      "bytes": 44345,
+      "sha256": "b094c72a6477990f81f169dd9c2567f4df8c0625697b5d98cc3a44e3eb3816af"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/e0e73caa13860842dcab.pdf",
+      "bytes": 44691,
+      "sha256": "365f2ec78bdef8315b5f2017a9944f01fa95fcbb9686f3f7caa52f97536ebea9"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/e12a879540d06588c381.pdf",
+      "bytes": 136434,
+      "sha256": "d2468e6e44e4a3ee00ac02b60ab5df09f93244e6b825217b8737d9f1a1d5a5f8"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/e17b93bc57288e9b6d32.pdf",
+      "bytes": 32812,
+      "sha256": "055c1e25748090ea88605cd71672b9c451a645fb037ce4acef433ecfa0676be0"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/e26ac513b5ce51a066cd.pdf",
+      "bytes": 1881,
+      "sha256": "12376922329eabec42309af2fd2c35618d4bb5991dc7d2cf19b890de229e3fd4"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/e2704b9bd5a7ac685168.pdf",
+      "bytes": 51094,
+      "sha256": "dfc7f294953add4bfce1b99f5c3f2f7517f9bea09fd5aff50b0fe42d30950cff"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/e50995d42f6168e63fcd.pdf",
+      "bytes": 25324,
+      "sha256": "d3431dbad2486b04df4b1c7b1e0d54df3af154d55f806605513f36676fb6370c"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/eb75e545b301879ae43e.pdf",
+      "bytes": 1882,
+      "sha256": "432d212adbb6bbe6ccc27814f45e33c056aa4c39e9cdb4393e09e4c38feaba15"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/ec7863ba755c8d8d58ba.pdf",
+      "bytes": 41578,
+      "sha256": "8598c422b22dae114db2b9ee601d24a9590d10e7aaaace14c097efd6ca4fcdc6"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/ed29aab27f7364cb5636.pdf",
+      "bytes": 1797,
+      "sha256": "b64d774f42051b947a63ab7f1008cda67d6e24bb8e600080f3fd2a68710eb9c0"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/ed9d8c8d366da14cba54.pdf",
+      "bytes": 1734,
+      "sha256": "2548aa48b9c2827b6c04f40c48e484c3038f3815f591ee48e46c16991c3c3ebb"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/f05243d2e17cd92cb385.pdf",
+      "bytes": 31763,
+      "sha256": "cb3daab389092bf563c511eb34996fcb924770dc2b743c48cffbef330e72c07d"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/f151768266ab520af241.pdf",
+      "bytes": 36551,
+      "sha256": "f5fb08a7756b5cc2a497505af31ff0eeeb83498a7741e00c5ae692440ad8613c"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/f185b596bb588ad390d1.pdf",
+      "bytes": 25663,
+      "sha256": "88265f6aebb54ebd684dc6791afe324ddb7fe56045e2c2138d56b0923a214068"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/f2b59c57cec798fe41b4.pdf",
+      "bytes": 1781,
+      "sha256": "b460754641f21d2aa3f7b39883e1c8599726ef8646b449d630c736e7b2836352"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/f2ce66a206ab777c5d25.pdf",
+      "bytes": 90105,
+      "sha256": "ae47480128dd965925a1d9743455ce486bd8688624a036b43ed6ad7ee751d420"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/f32901e274ec1cc27b7c.pdf",
+      "bytes": 26036,
+      "sha256": "7d50e60ddffe72b16ef27f43eaadfa515dc46121a8ebe3cbafdb85ba359a54fc"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/f36c3ddbf23e12222f0f.pdf",
+      "bytes": 62161,
+      "sha256": "d2440b50c86f532433796f2b74612e592eadc789f62e0ec175aec52a79cc6a79"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/f3c35d44add3a3ccbb94.pdf",
+      "bytes": 49655,
+      "sha256": "5cafeecae6164e8215f37a4b1fb9eccb407810d5d58227e71e0fbaec2dfefd6a"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/f7364412bb6410507bcf.pdf",
+      "bytes": 57831,
+      "sha256": "9695ee38c4f9c66e4423567cf0ade40325c04b165f1fcc893a26e8916d878ba8"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/f73d19fc6cd2c32c972f.pdf",
+      "bytes": 24768,
+      "sha256": "9d671d00c63fcb3def727ede8daed1c83fb4b9eacda41680603b1c6378d4b480"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/f842b587d7a859fa13a7.pdf",
+      "bytes": 26470,
+      "sha256": "86d6be4d918524a0d22aeeb882817e5de86ab1f25cef6be9dc49ae28810a4b1c"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/f98dfa61137f1e2b25cb.pdf",
+      "bytes": 41743,
+      "sha256": "d1dc9fd182719df57ebe0c91e406aca703c26b376b4b1e73081b6a6cc47913bc"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/f99ea089d0507ac34183.pdf",
+      "bytes": 1828,
+      "sha256": "fe5f31de9626bec1f6b4d358fd288bad93bb71d503042c0d6dae20119a6ae39e"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/fae9b731912835ee5e8c.pdf",
+      "bytes": 27097,
+      "sha256": "fd169d1c63fabfa9d992dd6b697e060a498d3512bf9f50c07b2552be28276494"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/fbac2d12f958ac2c326a.pdf",
+      "bytes": 1791,
+      "sha256": "5b18230bb67a4e93561f4ee9af887937f4b751ac044b89b08bb43bb5a4d4dea1"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/fcb3a89df28f430fb829.pdf",
+      "bytes": 96825,
+      "sha256": "147b593c64ed1fd6c866fe51a2d9ba77cbf29a4b741d57683a250b5dfd235a78"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/fe4b92f8018a01fde70a.pdf",
+      "bytes": 1783,
+      "sha256": "533e40d97cea1fa45e561c9c92a2799ef69548bc3b697bbad15fc3aaf24a06e2"
+    },
+    {
+      "path": "outputs/bns-training-starter/pdfs/ff1605ea63b2c7384ad3.pdf",
+      "bytes": 85869,
+      "sha256": "10c594e125f802f10246061e8305348556487bda9350be93966584f5ef92489b"
+    },
+    {
+      "path": "outputs/bns-training-starter/review-seeds.json",
+      "bytes": 49556,
+      "sha256": "42605e8eec8c377e228db23e428b4d0a0251a02b0bce91070d9b4e1692fba1c1"
+    },
+    {
+      "path": "outputs/bns-training-starter/summary.json",
+      "bytes": 878,
+      "sha256": "a350681b7d1a66189e58c089dd4ab8ed68095f9bd7f91e0181c8806562af5872"
+    },
+    {
+      "path": "outputs/bns-training-starter/supplements/ashish-dave-2026.pages.json",
+      "bytes": 30535,
+      "sha256": "72bb9c0dacf895f13b906715285afdb55d293cfd3c2fcb7bfc164d92b52dd0e7"
+    },
+    {
+      "path": "outputs/bns-training-starter/supplements/ashish-dave-2026.pdf",
+      "bytes": 251491,
+      "sha256": "3350c58215253837483fbe01397717b841f08cbb25ac2d5cbfb31edaff81bc0b"
+    },
+    {
+      "path": "outputs/bns-training-starter/supplements/claude-collaboration.md",
+      "bytes": 1938,
+      "sha256": "a41dee7896842ae76deb80e9a35e3d91247688caf149ac5759a525e9aca0e589"
+    },
+    {
+      "path": "outputs/bns-training-starter/supplements/imran-pratapgarhi-2025.pages.json",
+      "bytes": 80300,
+      "sha256": "8fa8a7a1a6bda98b815872441a35a9480e53d0bd6e88f21f9a51eea88eeaa1cf"
+    },
+    {
+      "path": "outputs/bns-training-starter/supplements/imran-pratapgarhi-2025.pdf",
+      "bytes": 776472,
+      "sha256": "896f08f97519248a7f004350d43b72ffc296144e817c0be8b0365bd28f0d5a58"
+    },
+    {
+      "path": "outputs/bns-training-starter/supplements/manifest.json",
+      "bytes": 56621,
+      "sha256": "6972ba403ad3b9677f0171cce578ce8e44370e026e6e92f93cbb97765be5be5b"
+    },
+    {
+      "path": "outputs/bns-training-starter/supplements/pawan-khera-2026.pages.json",
+      "bytes": 30971,
+      "sha256": "7bc4a43bfd0e5dbcf8e8d6cee8328446f16e4e5c5ac4a691f2101786acad3ef2"
+    },
+    {
+      "path": "outputs/bns-training-starter/supplements/pawan-khera-2026.pdf",
+      "bytes": 350593,
+      "sha256": "fcc1bdf4a5091138a53289cc588fddab7394079c60445b5bd6b4a2533e5f9d02"
+    },
+    {
+      "path": "outputs/bns-training-starter/supplements/ranveer-allahbadia-2025.pages.json",
+      "bytes": 3504,
+      "sha256": "e5c7fd771072232318a963a4442d569edc0fef1cdeed518bf1f7a0ca053a4731"
+    },
+    {
+      "path": "outputs/bns-training-starter/supplements/ranveer-allahbadia-2025.pdf",
+      "bytes": 58199,
+      "sha256": "0c4f2780f43e663c9c978fba5186aaaad76728359ab85fe7d76a3ff553849f5e"
+    },
+    {
+      "path": "outputs/bns-training-starter/supplements/reviewed-evidence.json",
+      "bytes": 5099,
+      "sha256": "67ea152425c8d136d22e690516c6689d399ea7ff1e78689bfb953ae89f3b911b"
+    },
+    {
+      "path": "outputs/bns-training-starter/supplements/ruchika-mitra-2026.pages.json",
+      "bytes": 3713,
+      "sha256": "09fd442bce3fa46b4fb9c30d93011dcb55cb8ed74abf25152f3f81c7f63a067c"
+    },
+    {
+      "path": "outputs/bns-training-starter/supplements/ruchika-mitra-2026.pdf",
+      "bytes": 400847,
+      "sha256": "bceb341befcc2713722889cb58717c6ac308bba7dc6d4e5254f552f2ef345897"
+    },
+    {
+      "path": "outputs/bns-training-starter/supplements/vombatkere-bns-152-challenge-2025.pages.json",
+      "bytes": 3711,
+      "sha256": "5507cd813444c06b47386f6f18bc5e4db06e8fddd2eba19576b7e06c61109443"
+    },
+    {
+      "path": "outputs/bns-training-starter/supplements/vombatkere-bns-152-challenge-2025.pdf",
+      "bytes": 47528,
+      "sha256": "c998df7f1fbdc239b3f6dcbfa4975227a9737a02c35a51582a1286e5e1f34832"
+    },
+    {
+      "path": "outputs/bns-training-starter/\u5f00\u59cb\u8fd9\u91cc.md",
+      "bytes": 3005,
+      "sha256": "db8fc8fd8c657901c2afcaacce6aac3306e548d7a12ca03f233bf6884661babc"
+    },
+    {
+      "path": "outputs/bns-training-starter.zip",
+      "bytes": 27206341,
+      "sha256": "ad2ab82d9db22bdce1cb28baa546b444fed50d94fc178f980683ced2401acc7d"
+    },
+    {
+      "path": "outputs/claude-bns-review.jpg",
+      "bytes": 510092,
+      "sha256": "6c6c94665040eb528eff0cebbe9409977474986be08b1985af869daa8587e4b5"
+    },
+    {
+      "path": "outputs/claude-ml-discussion.png",
+      "bytes": 622920,
+      "sha256": "f71d50e84b80aab8f23af5fe5a6bc1723df3f9218f3aa1ac1f772486d422c040"
+    },
+    {
+      "path": "outputs/claude-score-review.png",
+      "bytes": 608255,
+      "sha256": "a1f11783e5e6ab2a969720367389172250724bad624772e055ae779aa9006125"
+    },
+    {
+      "path": "outputs/corpus-summary.json",
+      "bytes": 3165,
+      "sha256": "3c6268ad2876abc41c2219c64b674d8a435d1c1774a18c8b7fcd11efe933e0e7"
+    },
+    {
+      "path": "outputs/court-evidence.json",
+      "bytes": 105842,
+      "sha256": "19b595ecba47ff05f24240ff343767fe2b56fef69ec1daa943095f7d472ab577"
+    },
+    {
+      "path": "outputs/law-scores.csv",
+      "bytes": 4986,
+      "sha256": "0eae6fe890815825f880ebc49fe48c3079c571dd026ab99de6ee8f2ed09538fa"
+    },
+    {
+      "path": "outputs/law-scores.json",
+      "bytes": 85994,
+      "sha256": "30ccef4cb0708b9372ce482f58b7bc75d83f3872643735339cbdfe111ec6553c"
+    },
+    {
+      "path": "outputs/law-scores.md",
+      "bytes": 43193,
+      "sha256": "6bb184842f9656cfd92f5e6358cdc8323a180f83e3e609988ff1be398c7f65ef"
+    },
+    {
+      "path": "outputs/njdg-bail-detail.jpg",
+      "bytes": 76560,
+      "sha256": "78ba8124387baf0cf184322a075f44c8b03fa4d683989f591ff22ea877a5d4c2"
+    },
+    {
+      "path": "outputs/njdg-case-detail.jpg",
+      "bytes": 75628,
+      "sha256": "5fef99fcb371e0092022dfe80a8fea5a17df6384de90429f1a2be3e5b63a2616"
+    },
+    {
+      "path": "outputs/njdg-detail-verification.jpg",
+      "bytes": 35500,
+      "sha256": "da383492f0b14495c8c053f6fc3928818703078935ed7f9edd17ec89054896d1"
+    },
+    {
+      "path": "outputs/njdg-field-audit.md",
+      "bytes": 5455,
+      "sha256": "504235a0ddcae6511b4f12a64482e4514e1705a08873cc898021890c1151f6ba"
+    },
+    {
+      "path": "outputs/njdg-observed-details.json",
+      "bytes": 4209,
+      "sha256": "26f5624625a84c63b93af2338ecc039b71025015ddade44f6af32d8111871946"
+    },
+    {
+      "path": "outputs/njdg-observed-list.json",
+      "bytes": 1346,
+      "sha256": "c9fda1934a3e6f107130ba3059ac31b59c953aa54373928f6eb285bfc74d9ad5"
+    },
+    {
+      "path": "outputs/njdg-pilot-checkpoint.json",
+      "bytes": 1417,
+      "sha256": "0fe80f94de851278035781d140907fb442ae568039aedb53477d72edf53becb3"
+    },
+    {
+      "path": "outputs/njdg-pune-case-sample.csv",
+      "bytes": 5133,
+      "sha256": "2ffd02041f4d63e656c1455638327de933fa0f17b26fb5574238cd6b0685a935"
+    },
+    {
+      "path": "outputs/njdg-raw-details.json",
+      "bytes": 4773,
+      "sha256": "12e00da4edcf58d7a24d7b1359c3b72a10fd1e72e8e27bc3c411437de677de59"
+    },
+    {
+      "path": "outputs/njdg-verification.jpg",
+      "bytes": 36296,
+      "sha256": "df882359144c59a4dd478c05830ad8eccf7ac5fb0a443c0f3b46a797b20c03d0"
+    },
+    {
+      "path": "outputs/source-manifest.json",
+      "bytes": 39727,
+      "sha256": "a831a15a00715faaa114762ea0cea99423b2bee731c937755aeeb55a70c0faa8"
+    },
+    {
+      "path": "outputs/track1-ml-design-en.md",
+      "bytes": 15903,
+      "sha256": "12d44e721f2c7f3939dc05e24e2e6de6f16307b584aba22b266a86c6bb3e61ce"
+    },
+    {
+      "path": "outputs/track1-ml-design.md",
+      "bytes": 11708,
+      "sha256": "8cda596972620fbb2c00e99d958cd484614a8d4183ac138950533e73ef63c499"
+    },
+    {
+      "path": "outputs/trialwatch-pilot.zip",
+      "bytes": 52602911,
+      "sha256": "214f321799850a5d54c6c2fdb85f94932cf6fc9976a28f48d4eed294fb9af6b7"
+    },
+    {
+      "path": "research/README.md",
+      "bytes": 5561,
+      "sha256": "728350e0311f0208a6ee4b2ce7bbd397a73b8bedb766ec47dbc1c5a9a1223292"
+    },
+    {
+      "path": "research/acquire_bns.py",
+      "bytes": 5023,
+      "sha256": "287b7e80ca91bd7ca3e5cc3d0f6f5f107d4d7ede222d7952e6b854eb4c36fe4d"
+    },
+    {
+      "path": "research/acquire_bns_supplements.py",
+      "bytes": 4134,
+      "sha256": "15eb0d202ce23c04174169e25c2bb60533327940e1c452bdf14c10cda7afdeb6"
+    },
+    {
+      "path": "research/acquire_judgments.py",
+      "bytes": 3863,
+      "sha256": "083bc0e7e375c40a199e4af6254530e73a2508fe2fcdbf7546a0310d294cb5ec"
+    },
+    {
+      "path": "research/acquire_supplemental.py",
+      "bytes": 676,
+      "sha256": "d2ff10afa691eedec48182a24b11a405b09c5c9fb0b293bbad173fd1d36f88dc"
+    },
+    {
+      "path": "research/bns_review_seeds.py",
+      "bytes": 11368,
+      "sha256": "dff433e276c5cf067a9f729634a846d1881da423258c7ae7511b9a659fe66dc7"
+    },
+    {
+      "path": "research/build_bns_corpus.py",
+      "bytes": 10917,
+      "sha256": "af99501e0b591d0ce603d9c9a202194d0b7505c665154a0c1f11ba656d7c12d8"
+    },
+    {
+      "path": "research/build_results.py",
+      "bytes": 21284,
+      "sha256": "4d64087bc81f764c9a9679f121438fabb4c9dff4e0eecebde21f1f8068287f61"
+    },
+    {
+      "path": "research/data_access.py",
+      "bytes": 3264,
+      "sha256": "2f732368a87daabb9acbeba086d03ae3ba4af7b8c28e4e76c0f405ded6e329f5"
+    },
+    {
+      "path": "research/evidence_review.py",
+      "bytes": 9651,
+      "sha256": "5b56a83f436cf0327d164dbe2945ce78c93fbc1795cf87899313d75b0e61a067"
+    },
+    {
+      "path": "research/fetch_statutes.py",
+      "bytes": 1596,
+      "sha256": "b3007176ecc4ed7434a1e479fcda5e9b97e67b6e09f140c7d98f7338c0ecfee8"
+    },
+    {
+      "path": "research/inspect_data.py",
+      "bytes": 1693,
+      "sha256": "cf2af354db0fb3f6ea250519fe44552e065feecf71a08a7a13494ee297d982d9"
+    },
+    {
+      "path": "research/law_catalog.py",
+      "bytes": 19041,
+      "sha256": "c45693bfa6621caf84bcd10bde3640a4dc417167e9bf8197665541cc1833ceb3"
+    },
+    {
+      "path": "research/law_identity.py",
+      "bytes": 1795,
+      "sha256": "f903bba2974c3da431db139ec68807b0789f906b1b345982f2c0e2b888b09dd3"
+    },
+    {
+      "path": "research/njdg_parse_details.py",
+      "bytes": 3904,
+      "sha256": "b2e08ad6d740cb132b95cc83edc70a054e183284cb10ad4c182a41778f3939ca"
+    },
+    {
+      "path": "research/njdg_profile_export.py",
+      "bytes": 2939,
+      "sha256": "a712ccdfd26b9eedb9dd244c2e935838fb530b2da0340e671aa30a337fa19dd1"
+    },
+    {
+      "path": "research/package_bns_corpus.py",
+      "bytes": 4108,
+      "sha256": "f5bff6455a30febb52f87187723c293081f16d142e57ef74992a8dfab67f49eb"
+    },
+    {
+      "path": "research/package_pilot.py",
+      "bytes": 1460,
+      "sha256": "da840b91f2f32ed88c203f28b773c4f8c8b95d0b037fbbad51bdf0708b94352e"
+    },
+    {
+      "path": "research/prepare_corpus.py",
+      "bytes": 2997,
+      "sha256": "169ab6debaf13c2c2e287a55c6fba24d9400b8f8925123eacec227d5d8ec2194"
+    },
+    {
+      "path": "research/recover_sc.py",
+      "bytes": 1032,
+      "sha256": "2c6909a8149e8d54e9f8f98420896e94661edabb837433688de2b9976fb4c16d"
+    },
+    {
+      "path": "research/requirements.txt",
+      "bytes": 28,
+      "sha256": "8e94f4ec92f655bc271009a98a7e705d3e12a5870430805be007ccd890ea1bab"
+    },
+    {
+      "path": "research/review_bns_supplements.py",
+      "bytes": 3316,
+      "sha256": "9a02d8e3c54652476d6255b42d02fb4c4fd009350b44638ae8dc313cf9b1c986"
+    },
+    {
+      "path": "research/review_passages.py",
+      "bytes": 1578,
+      "sha256": "1cf75fe50a286d0021b51eb6c6196f5a14e777701471b06a1047dea7e42f6092"
+    },
+    {
+      "path": "research/scoring.py",
+      "bytes": 2528,
+      "sha256": "a236961da4ebe24699f6ec9665133be900d69025d9160c5bfdb7680c9576c789"
+    },
+    {
+      "path": "research/test_bns_corpus.py",
+      "bytes": 4520,
+      "sha256": "b5f472e837b78ef4075069c1bf2249044c55012e0ee39c9ca19af8df2ccd5dae"
+    },
+    {
+      "path": "research/test_pilot.py",
+      "bytes": 5742,
+      "sha256": "c7078ec20087634e3703da703cb3edf166da2d4ba7787aa9221ca728ff550370"
+    },
+    {
+      "path": "work/acquire-final.log",
+      "bytes": 3032,
+      "sha256": "7367239269b8704e27a261f4d396e067fed8de47df0c12f188555891b62b425d"
+    },
+    {
+      "path": "work/bns-corpus/00ca2716b09934b956a0.pages.json",
+      "bytes": 1707,
+      "sha256": "ad29f5f9b37b8749a96476fed66d1d7e6fd364647be110790f18b4df823392e8"
+    },
+    {
+      "path": "work/bns-corpus/0503f462ac801395a109.pages.json",
+      "bytes": 1364,
+      "sha256": "46f6cd93e660d604a90717840b79ef98c39d18ebbb50134003e3cb0cd2b7e7be"
+    },
+    {
+      "path": "work/bns-corpus/0684cc5955d8fcee627b.pages.json",
+      "bytes": 1656,
+      "sha256": "30324d692e1cb26195271d0d6ed0b7601151cd710dfff74e60aa1a37db55bb47"
+    },
+    {
+      "path": "work/bns-corpus/0b07992a92888903fd32.pages.json",
+      "bytes": 4958,
+      "sha256": "b60703d6c0f988bac28f42c1067f2291c26aab4e5dec0ef3c11f236aa137804e"
+    },
+    {
+      "path": "work/bns-corpus/0d27671f3a852f58af4f.pages.json",
+      "bytes": 17754,
+      "sha256": "557f027220ebae45ebf88c53b993ba1a7e4cdd09dec142a7847a6d1043c58702"
+    },
+    {
+      "path": "work/bns-corpus/0e4bc5ce353e01f4e879.pages.json",
+      "bytes": 1433,
+      "sha256": "1c4c06be98b431c6194036f4db7b8f77db38df73890cbb82109bae8da1bb4190"
+    },
+    {
+      "path": "work/bns-corpus/0f3815cd9e2985179c18.pages.json",
+      "bytes": 8656,
+      "sha256": "927f7e82382ffb44177fd40f00198873467ef8251a54b1a728ec2f96d1d96bfb"
+    },
+    {
+      "path": "work/bns-corpus/103d089e9c19ca1c705c.pages.json",
+      "bytes": 2302,
+      "sha256": "7a4769b4583a949822404a4a1cccb7d5d4460fdf1cebf0fc556fc87683a0e9cc"
+    },
+    {
+      "path": "work/bns-corpus/11351c70abfc284986bb.pages.json",
+      "bytes": 3741,
+      "sha256": "9ccd9ed363de06b561c542af69b83bf192268c7dbc2f1e3bd976da76d1ecdf43"
+    },
+    {
+      "path": "work/bns-corpus/128a80d0afe6d34f552c.pages.json",
+      "bytes": 556,
+      "sha256": "148e57dde3ddb18a7a350dc0b66787ee127add7c32fb82023f95eadb2849ea07"
+    },
+    {
+      "path": "work/bns-corpus/15714bc512a81e24d76a.pages.json",
+      "bytes": 7110,
+      "sha256": "5f64726af3880df313e5de989dc7a5980ca8c0cd880032a0bbb3a74d05207396"
+    },
+    {
+      "path": "work/bns-corpus/1dbf3af50f8329f07f7a.pages.json",
+      "bytes": 2634,
+      "sha256": "5b91a9f0399765094522f57ca59929f96aa7d841538d8f9d631224596f0f238e"
+    },
+    {
+      "path": "work/bns-corpus/1ec5b0528de79890d55e.pages.json",
+      "bytes": 1212,
+      "sha256": "9a47f4b16b6f024a13a125f38170de02a212b844619f5467af9121011f8bd993"
+    },
+    {
+      "path": "work/bns-corpus/1fb5473c7ca7dccc78bf.pages.json",
+      "bytes": 6159,
+      "sha256": "9a3435a9234c5dbe785d910800cefba5c03f3265d49044126f44dc807206d822"
+    },
+    {
+      "path": "work/bns-corpus/20cbd6bd5707fc566d01.pages.json",
+      "bytes": 1028,
+      "sha256": "6c99f99c5a822659251996f0440406885b8963f1946d64600f0959c0b07bdc62"
+    },
+    {
+      "path": "work/bns-corpus/22e4ae86702727dda1b7.pages.json",
+      "bytes": 1512,
+      "sha256": "b47db938d7757acbde1f6efb7532d5e1677881b79d55723e9544647e5e51d399"
+    },
+    {
+      "path": "work/bns-corpus/233e5a54ff26b0d9fbf4.pages.json",
+      "bytes": 3623,
+      "sha256": "d29a83c0511470f26503b7fd6c42c54e14084ebd2090b202607f701dfc99180d"
+    },
+    {
+      "path": "work/bns-corpus/23661a972a4d34f10061.pages.json",
+      "bytes": 1834,
+      "sha256": "d8a1f7d12a7b14d610cd200cff103754b718b1dd13e7a067ea3854293b8741c2"
+    },
+    {
+      "path": "work/bns-corpus/23cc378eafc8bbd91113.pages.json",
+      "bytes": 1518,
+      "sha256": "ae19186d58cc50eec6fb145288fcda899349925414a686627774f9c59a9d24be"
+    },
+    {
+      "path": "work/bns-corpus/24600696aac18b4d6840.pages.json",
+      "bytes": 1997,
+      "sha256": "9579a5acce6e251174c8447d90a2a17306c3497d1f28dea5404205c227bd62e9"
+    },
+    {
+      "path": "work/bns-corpus/258e4ba580787603f02c.pages.json",
+      "bytes": 1049,
+      "sha256": "008e025fbce829690e977981386e971662b8a29d502c6732647232b1367a3d39"
+    },
+    {
+      "path": "work/bns-corpus/26ecd6d1d32b5d3a1dc2.pages.json",
+      "bytes": 9206,
+      "sha256": "06b44dbdc73676066af2b620d259d916b5215fc26af33bf5570dce84837d0720"
+    },
+    {
+      "path": "work/bns-corpus/270da75c4d90a9539899.pages.json",
+      "bytes": 1202,
+      "sha256": "9d66e983e58bbaab4425fc5829fbcd027146f20c0f7ab85bc827c2f9be1a099b"
+    },
+    {
+      "path": "work/bns-corpus/2ae2336dc99985cfdcc8.pages.json",
+      "bytes": 17754,
+      "sha256": "557f027220ebae45ebf88c53b993ba1a7e4cdd09dec142a7847a6d1043c58702"
+    },
+    {
+      "path": "work/bns-corpus/2b30eff259634c55d1c2.pages.json",
+      "bytes": 1381,
+      "sha256": "fba8cc355c7d1dcbff17c57c3d6fd11910b22f806100d98d718f56fcf73d5b88"
+    },
+    {
+      "path": "work/bns-corpus/2bffc150810827688916.pages.json",
+      "bytes": 1148,
+      "sha256": "c9e68d9663b704d3731815b9df64bc733a13747c912a7c1c05b1421f0f1bf3b6"
+    },
+    {
+      "path": "work/bns-corpus/2fd9cf741b9a62be5046.pages.json",
+      "bytes": 3713,
+      "sha256": "75987b78b3539831d9e08464b36f55c55cbaa78ef8fa317d5d6f769faddac0df"
+    },
+    {
+      "path": "work/bns-corpus/302b2865af55195b182e.pages.json",
+      "bytes": 1031,
+      "sha256": "05c708493a3bdb36b532cccedb6ed1a1297b111297ad87148540e1c5a4a48aa2"
+    },
+    {
+      "path": "work/bns-corpus/30fddd8c804e1f69ecc6.pages.json",
+      "bytes": 1140,
+      "sha256": "15fa9e40282738df899055eafe751ad4f232f7ba5711fe384181243a433af405"
+    },
+    {
+      "path": "work/bns-corpus/31112dbd6bffb20243b7.pages.json",
+      "bytes": 1202,
+      "sha256": "3b6673dcbb35611f287636e83d121bc677ab5324a91929fcb095b11069b9a72f"
+    },
+    {
+      "path": "work/bns-corpus/3293c7d697544a116f15.pages.json",
+      "bytes": 851,
+      "sha256": "c0cd6c66a4e1b011dabd147220f04093782875c0c9ab182e7c6176913756e738"
+    },
+    {
+      "path": "work/bns-corpus/332dc47893301971414f.pages.json",
+      "bytes": 3403,
+      "sha256": "8a0ed77f0a2bd98d9ec819a1eeb3744765a4afb53720c60584babfebfd91f91e"
+    },
+    {
+      "path": "work/bns-corpus/362841d66be602d02f4e.pages.json",
+      "bytes": 965,
+      "sha256": "b4f0f8eba10041b9ec7cb37873a9f6215d4020410afe744db1b7d0a8271f158d"
+    },
+    {
+      "path": "work/bns-corpus/377f1a2ccae097e5e3df.pages.json",
+      "bytes": 20676,
+      "sha256": "42574b05e09ef977d939ecb6920488557429f8a86f884b5bd945532f00e8f08c"
+    },
+    {
+      "path": "work/bns-corpus/37ee24d588d19bc2ebbc.pages.json",
+      "bytes": 666,
+      "sha256": "e5d3a4ea783f85b1920ac0678756b983c66fc2aa2bca05a665d11fc271c760e7"
+    },
+    {
+      "path": "work/bns-corpus/38c39aa804d184c4db76.pages.json",
+      "bytes": 553,
+      "sha256": "2b3898554afaea890b4fc2a441c9c9215f59140164d6b3a0147aa6a3c513e4fc"
+    },
+    {
+      "path": "work/bns-corpus/3bfa7fad19f566aa2ce9.pages.json",
+      "bytes": 2338,
+      "sha256": "fa1ed3286aec4214a4e7848ccea57d61fc5c39a2245b0c645cbc447ae1fe6554"
+    },
+    {
+      "path": "work/bns-corpus/3c060ff038fdee47f08a.pages.json",
+      "bytes": 1458,
+      "sha256": "24de4507af205fb4d2b5a64884f29a26dd501c3593bf076d6739d3635b0e45a8"
+    },
+    {
+      "path": "work/bns-corpus/3d52962f824fad687457.pages.json",
+      "bytes": 3184,
+      "sha256": "60d2b2b628c390ccfbb0256c2a6a487069356a14e56bbbae4db5e155e82d7c8c"
+    },
+    {
+      "path": "work/bns-corpus/3dd12f4d868928c29583.pages.json",
+      "bytes": 1939,
+      "sha256": "663ef40a4f0eb8770a1e21baea0f3f303cf256b9c12cc6c7c481fd52b3242929"
+    },
+    {
+      "path": "work/bns-corpus/40d5fc5057b0eb562e14.pages.json",
+      "bytes": 8264,
+      "sha256": "b916dc92ba25e4cee534dc308c9b81d8eadccaa78cf0d04274052779b8d3a383"
+    },
+    {
+      "path": "work/bns-corpus/40d617e137cf2ac0b248.pages.json",
+      "bytes": 602,
+      "sha256": "c809f47212f45bbb6fe2e711374ab1b149788feedc3953cb738cfa211b17b0f1"
+    },
+    {
+      "path": "work/bns-corpus/41a242e5d99ef91057d7.pages.json",
+      "bytes": 6594,
+      "sha256": "5ae1464380c530a873aeda00b52c6353c3d12b6768b946128d74713222e8a62e"
+    },
+    {
+      "path": "work/bns-corpus/4263a798cf80fc7462ab.pages.json",
+      "bytes": 1334,
+      "sha256": "652f30de65e433612e6ac815161deed905c8909f185ba24d8fe2c254700eb3a1"
+    },
+    {
+      "path": "work/bns-corpus/433b540481cbae417acd.pages.json",
+      "bytes": 2006,
+      "sha256": "83fb435e5739cb5109317ba44da4ed4a84f36fc42de51acd01d844ee0991d023"
+    },
+    {
+      "path": "work/bns-corpus/43cdba8773806bbe1292.pages.json",
+      "bytes": 468,
+      "sha256": "1e564a3d8c8bc2bef3d28de2c4c86dca2e0b16667689d8c396d13c78c9a12d18"
+    },
+    {
+      "path": "work/bns-corpus/442bbdb3f48bdf6bb893.pages.json",
+      "bytes": 3510,
+      "sha256": "fe77bc512bc1335e1bea130539c6a6f463441e272cda15415ad44b43299a64c2"
+    },
+    {
+      "path": "work/bns-corpus/46b7d754d6c919ec92d8.pages.json",
+      "bytes": 1087,
+      "sha256": "0fb7a7f2bfdc3b229b447c2b9f8f0305b916d0ad0c2e97e336ae2d3d729ad4a9"
+    },
+    {
+      "path": "work/bns-corpus/49571de15d19dbd95fcb.pages.json",
+      "bytes": 994,
+      "sha256": "f136c4e5c77fb590f9ceb36f62146849a17e1ef41e0e8788b85d3b826d33cc4f"
+    },
+    {
+      "path": "work/bns-corpus/4d05a6839c5304326ef4.pages.json",
+      "bytes": 3098,
+      "sha256": "6f51eae29f905181ff6f4ffa2a34db55f7624e5708921c81377f8d28a5c43c7d"
+    },
+    {
+      "path": "work/bns-corpus/4d92ec5f3309b83726ee.pages.json",
+      "bytes": 2884,
+      "sha256": "4a854f3d85ac928c86eebcb9f7afe044d20214a65961c93d623ae93933aaea4c"
+    },
+    {
+      "path": "work/bns-corpus/4e83e4b4c856a05ae973.pages.json",
+      "bytes": 15989,
+      "sha256": "29d26b02d7a30e34f8d54ad359d315942bb71d14cd6a17e584acae89b3ee65d5"
+    },
+    {
+      "path": "work/bns-corpus/502e1d656440fc768233.pages.json",
+      "bytes": 1241,
+      "sha256": "40ace1fa7edc44be51bd52f5682b6ab05442be30e477c48c32dd11827013e81f"
+    },
+    {
+      "path": "work/bns-corpus/51aa8a33c819722ada00.pages.json",
+      "bytes": 807,
+      "sha256": "e927eafcdb4fb74e1ff14d10bcc0ab8e51b50e439007f995b8ed3d3bd45704de"
+    },
+    {
+      "path": "work/bns-corpus/51c3d45883098945b745.pages.json",
+      "bytes": 25532,
+      "sha256": "a762d0db9d9a9f9caaa539e38d3c265faed95feafe6145b915e24bca0051f147"
+    },
+    {
+      "path": "work/bns-corpus/521feecd7b33ec2f9b5e.pages.json",
+      "bytes": 1109,
+      "sha256": "5ec4b2c6081e0d42b74c580e20225afbc9d1ece3482299b17ab85a3f23e04d9f"
+    },
+    {
+      "path": "work/bns-corpus/53c37d830f37a7e6c98b.pages.json",
+      "bytes": 936,
+      "sha256": "c133f74982b3fe46aed3c5ae6123b79c5f40896dc891878fbc0d1a7cae882ce7"
+    },
+    {
+      "path": "work/bns-corpus/564fcd19d33b5e3428dd.pages.json",
+      "bytes": 1342,
+      "sha256": "9f55b3956cf9543f5dd9b552d9a0465d96ea21f641d74c7b9c642b687cae6655"
+    },
+    {
+      "path": "work/bns-corpus/5650e30ea2e012f17f66.pages.json",
+      "bytes": 1398,
+      "sha256": "46bde71ca6fded1823f194d95853db13929a5f4001b7263fabca1096b81d88d2"
+    },
+    {
+      "path": "work/bns-corpus/56bceec5c2323557dd05.pages.json",
+      "bytes": 865,
+      "sha256": "aaf152d879680d2cff68b6fd9ad35cf2973ef19824e26772ad30ef7fe7d0ee3a"
+    },
+    {
+      "path": "work/bns-corpus/5734cb9834f8616d8dde.pages.json",
+      "bytes": 2043,
+      "sha256": "f7aab0c21eef4255cfda51bf8ed871aa5d31f572b25a43636ce46e129e812218"
+    },
+    {
+      "path": "work/bns-corpus/5743331577ed02b4ad24.pages.json",
+      "bytes": 570,
+      "sha256": "5fae054ea16827c15c7792d7cf4bb43117fc08d0289406d02ab52fcf8a2a6d67"
+    },
+    {
+      "path": "work/bns-corpus/58941b566e9c3d8f9b70.pages.json",
+      "bytes": 3493,
+      "sha256": "ae87fb31a48eb3b7686be3756e9cf370d8591008fe14ccca36b8425521255823"
+    },
+    {
+      "path": "work/bns-corpus/58fc83f8de3c65e045cf.pages.json",
+      "bytes": 3651,
+      "sha256": "dfb5de215dc5a5b47484f41b225cfa58f4a825e58f360f45562725cbae291add"
+    },
+    {
+      "path": "work/bns-corpus/5b6dec4f1470bd1e2c0a.pages.json",
+      "bytes": 782,
+      "sha256": "c3492c0792414f53c790eaba72c4648bb593003ca17e97fbe58e52b5ab68c866"
+    },
+    {
+      "path": "work/bns-corpus/5b85a90425e4edb78ff4.pages.json",
+      "bytes": 1191,
+      "sha256": "bfa91a4ee43c0ca6706cbf64a062a5319ca201a4c48f592d8262d7a02bf779fe"
+    },
+    {
+      "path": "work/bns-corpus/5d3fb63a3882aa3c7d49.pages.json",
+      "bytes": 695,
+      "sha256": "00547cb35af4d65132f1c950f388d35744ac0744e7c15cfd60a4ec64024302e5"
+    },
+    {
+      "path": "work/bns-corpus/5f392f49c1e07618eed8.pages.json",
+      "bytes": 3823,
+      "sha256": "7375ee973fb4c20604b210044f894a998ef71caa69ab9c7622394164809c0582"
+    },
+    {
+      "path": "work/bns-corpus/605e19011157940a0039.pages.json",
+      "bytes": 2863,
+      "sha256": "93ca9b24319f3a1488fa125d0f437a4c7fc20fc8eb7e4719c8dfeff7653f187f"
+    },
+    {
+      "path": "work/bns-corpus/60c979db3bc56c17bd6b.pages.json",
+      "bytes": 995,
+      "sha256": "e131fb3b3c02bcad8032f27db64c8954cbcfdf6e37263983da933c4678ba07d0"
+    },
+    {
+      "path": "work/bns-corpus/6391feabd2bfc0c67c5f.pages.json",
+      "bytes": 2247,
+      "sha256": "f5fff48b3b8bea311185b27a1ec36f6a1bcf5970836726cbc8f5b064fd7f86ed"
+    },
+    {
+      "path": "work/bns-corpus/68013b110ac80ec2bc9b.pages.json",
+      "bytes": 602,
+      "sha256": "5adc290c1427c55a775129ed8eeea0ebb7ddfd9e0327a2097bddd30c2b62622b"
+    },
+    {
+      "path": "work/bns-corpus/6b1899146c4de38e03de.pages.json",
+      "bytes": 1002,
+      "sha256": "d507c964490c9a01fec27528a88000c6fd0f65f8cb0d821e30800ddf596cbbf8"
+    },
+    {
+      "path": "work/bns-corpus/6ebeda255fc7d2a1ecd2.pages.json",
+      "bytes": 2897,
+      "sha256": "3ba764f27ce97f21308eebdacf67bb7ed0391d3f166b62d79b6a9ece0b0195f2"
+    },
+    {
+      "path": "work/bns-corpus/700a7d3a46bd3250ed4b.pages.json",
+      "bytes": 999,
+      "sha256": "b57b4b0ab7e38caced1f3df35fadea8e5d816aca3d48608df519eba5a28cf999"
+    },
+    {
+      "path": "work/bns-corpus/71e0f358e8c0932e0d48.pages.json",
+      "bytes": 1098,
+      "sha256": "62a1955b5c8673d701ed0dd0977af85c7c6c63a32dd001c3abb5a3a7233bdb42"
+    },
+    {
+      "path": "work/bns-corpus/7465cbba78ad78009516.pages.json",
+      "bytes": 16737,
+      "sha256": "a7c86584759e961936428101dd96ef9b370209861dd23a40a50e5dd997eb91f7"
+    },
+    {
+      "path": "work/bns-corpus/74c06446cb6f55dfd88b.pages.json",
+      "bytes": 659,
+      "sha256": "ac74bf2c48ee65013912941129b81331708676dfe1f9fbea51ee0add6fee2bcb"
+    },
+    {
+      "path": "work/bns-corpus/7634f60dd261606e1024.pages.json",
+      "bytes": 511,
+      "sha256": "9d965c42b4d71d6e60c55f3f31c72f3ec87f79073cbc5acc90e16273387135f9"
+    },
+    {
+      "path": "work/bns-corpus/765e2bef754a27ea3762.pages.json",
+      "bytes": 732,
+      "sha256": "e53c589b43586a8fa02af15a0f6017933c38f52d6e33fd0ce8352df3c9fb9c60"
+    },
+    {
+      "path": "work/bns-corpus/76d4a57515715e69b980.pages.json",
+      "bytes": 1145,
+      "sha256": "aec3e87a9b8d8a6701cabd08e7639128e081482620b4bd9b528309cdc73b78c7"
+    },
+    {
+      "path": "work/bns-corpus/7e8b2589d69dc4f9ad33.pages.json",
+      "bytes": 2160,
+      "sha256": "f5c55739b91d05e82c095d6cc289b425c55b9e472ea3b5afc67561382814b272"
+    },
+    {
+      "path": "work/bns-corpus/7f785c87b9ebe05ef5c7.pages.json",
+      "bytes": 2160,
+      "sha256": "f5c55739b91d05e82c095d6cc289b425c55b9e472ea3b5afc67561382814b272"
+    },
+    {
+      "path": "work/bns-corpus/82251e67cae4b453a41b.pages.json",
+      "bytes": 2169,
+      "sha256": "aa2eb70b23904234cd79ee0fe20049baf062103b2fcb7c0781bc1028061191de"
+    },
+    {
+      "path": "work/bns-corpus/87c938f9a5c691765582.pages.json",
+      "bytes": 2499,
+      "sha256": "9b42311b5aca6544e90d49593c0afb599919981aafdf5a1da897e953fb84916b"
+    },
+    {
+      "path": "work/bns-corpus/892fd98b95516708083d.pages.json",
+      "bytes": 724,
+      "sha256": "336e49d130445b06de69717baf33fec2825b9d417bfb2864191e4fd5c9debe6e"
+    },
+    {
+      "path": "work/bns-corpus/89e9ef4a2274e9fc8ab0.pages.json",
+      "bytes": 669,
+      "sha256": "932f5400f2b914ccccb60866862ccb423b05d7874bab1e850240036ab85b13e6"
+    },
+    {
+      "path": "work/bns-corpus/8ad722033ccc99c7f953.pages.json",
+      "bytes": 625,
+      "sha256": "67681b4e4a237fd7483fec021e91110cdd6117f6401b43543021d8e5c21891ea"
+    },
+    {
+      "path": "work/bns-corpus/8cb4124019f7fea09516.pages.json",
+      "bytes": 538,
+      "sha256": "fcd67a97ec881bbe0e8ee48fdc6a1f0eb6e95d972095d0af7e429dd4f085ad42"
+    },
+    {
+      "path": "work/bns-corpus/8eb2158150fed02dce88.pages.json",
+      "bytes": 16737,
+      "sha256": "a7c86584759e961936428101dd96ef9b370209861dd23a40a50e5dd997eb91f7"
+    },
+    {
+      "path": "work/bns-corpus/8eb9825a3171678db5d4.pages.json",
+      "bytes": 1573,
+      "sha256": "ba429fc85a16728cc54d955fd92bdf6816af92ecb473971ff58085c4189e786e"
+    },
+    {
+      "path": "work/bns-corpus/8ff06d6f6e5c88dfccd4.pages.json",
+      "bytes": 494,
+      "sha256": "64be5a7e770b60160938b64d273e2fbd21ff7d77f85cf323083709bc79d455b9"
+    },
+    {
+      "path": "work/bns-corpus/91a7e644ce63304aa524.pages.json",
+      "bytes": 1939,
+      "sha256": "663ef40a4f0eb8770a1e21baea0f3f303cf256b9c12cc6c7c481fd52b3242929"
+    },
+    {
+      "path": "work/bns-corpus/91b28edd8031212d4229.pages.json",
+      "bytes": 813,
+      "sha256": "42ee463adc0e644fede1299a32ad8e05244073300e059f1b6e8dae699c3b78fb"
+    },
+    {
+      "path": "work/bns-corpus/93f959838bde4d95f256.pages.json",
+      "bytes": 2375,
+      "sha256": "0d7ba88ebb244450b2e16b726ab15e9da24aac360c5839928dd4565f00ebbf58"
+    },
+    {
+      "path": "work/bns-corpus/95a3f5af9bb84a5b751d.pages.json",
+      "bytes": 586,
+      "sha256": "12c5df0e30a7aaeb83ed8b475838500eac5cea985f742430a45b7b2a2015a141"
+    },
+    {
+      "path": "work/bns-corpus/96b1cad0c502ef822b74.pages.json",
+      "bytes": 7591,
+      "sha256": "e861c3afef3b4398cd72f319aad5e17f865dd3df5ba288810790b8a0026bc350"
+    },
+    {
+      "path": "work/bns-corpus/97353a4aa6bd1560537e.pages.json",
+      "bytes": 750,
+      "sha256": "2171d3ca357f71d154073adb77c893c12263bae185ca705646123454fb7aa174"
+    },
+    {
+      "path": "work/bns-corpus/98c62b42337ee727f3f6.pages.json",
+      "bytes": 705,
+      "sha256": "140a49a583993ac1a8135ef1c1a76359fc586e7b87ebbd23e632dbbd6cfb03dd"
+    },
+    {
+      "path": "work/bns-corpus/98dd51b47c6f498a757c.pages.json",
+      "bytes": 1085,
+      "sha256": "ec04cf838f11a2cea7ca735c3d36faac23618e98c4022140ba46fcf5d4e452f3"
+    },
+    {
+      "path": "work/bns-corpus/9bbcca3ed3d7dd05f273.pages.json",
+      "bytes": 1289,
+      "sha256": "26c3e944535591ea64830b91b7d50e1b29ba995d924f164716bf0bc82f24a429"
+    },
+    {
+      "path": "work/bns-corpus/9c098a072c0ff33dc18e.pages.json",
+      "bytes": 569,
+      "sha256": "e17ce895148151133a6a94530fef1b50427327708039d163b0aea687794d6d27"
+    },
+    {
+      "path": "work/bns-corpus/9dc823d395c5de5da38a.pages.json",
+      "bytes": 1051,
+      "sha256": "1a30bad5afa82e509f4f15fc8bf714584ef3213e599a28f846c0521229ec51da"
+    },
+    {
+      "path": "work/bns-corpus/a0d350b296d0892cf467.pages.json",
+      "bytes": 1217,
+      "sha256": "1920a5ae4f884b2f5dfbccc4b370c2377977eba3cfe38f770cd18b8f7b62cb1e"
+    },
+    {
+      "path": "work/bns-corpus/a157974fd63740b90593.pages.json",
+      "bytes": 7110,
+      "sha256": "5f64726af3880df313e5de989dc7a5980ca8c0cd880032a0bbb3a74d05207396"
+    },
+    {
+      "path": "work/bns-corpus/a19dd9e0159a103e9608.pages.json",
+      "bytes": 5909,
+      "sha256": "46082716e9cc7d39863f9d896660d3a398793c0e4d158028b9f68959546620ca"
+    },
+    {
+      "path": "work/bns-corpus/a2d878fa4daa08930231.pages.json",
+      "bytes": 777,
+      "sha256": "159a68433775ecd0f266795f0d5d10fc1bea7d493601b564c4a1aeefa1b30354"
+    },
+    {
+      "path": "work/bns-corpus/a2f25a807e0a135e2c5c.pages.json",
+      "bytes": 6129,
+      "sha256": "376a7f7dafeabcf668c3f626707da6bf3bd540fec2414b31361db5da719d3c4c"
+    },
+    {
+      "path": "work/bns-corpus/a36990dc74406c01d57f.pages.json",
+      "bytes": 1397,
+      "sha256": "fd59afc8d3178f050859163b0caece46267ccfddefa3db779a48c75980faeaca"
+    },
+    {
+      "path": "work/bns-corpus/a4d7cb98e2c1888b8fc9.pages.json",
+      "bytes": 27539,
+      "sha256": "1716b769861c548448f8ca5d3b79250e76cc03fe09707ffde10b2190c62332dd"
+    },
+    {
+      "path": "work/bns-corpus/a55773bdf38800b8e735.pages.json",
+      "bytes": 723,
+      "sha256": "35f4032939b3eb068647f3cb75e797415f8df219d6314560bf0d3af02fb68619"
+    },
+    {
+      "path": "work/bns-corpus/a5e5723675a5bf3f08be.pages.json",
+      "bytes": 66468,
+      "sha256": "ee6ba529634a3fc77bf4a342261964c206423efb2c886bd60ee02653128d83ce"
+    },
+    {
+      "path": "work/bns-corpus/a6ded8e15bf159bc4cb0.pages.json",
+      "bytes": 1218,
+      "sha256": "57b4105743ecc2454e08eb3ade08e3df276ef8a1e3b1294c5cce137592e33509"
+    },
+    {
+      "path": "work/bns-corpus/a713a7b472fa35fbee69.pages.json",
+      "bytes": 1057,
+      "sha256": "cdef8fd0b4567ad8c446dbda22129e586510564b66237c1dcd060f40b296fd11"
+    },
+    {
+      "path": "work/bns-corpus/ab891fecf148cd3d461c.pages.json",
+      "bytes": 792,
+      "sha256": "71f9b0c53e6cca12add93e7eeca19ecf84ae6755aafc787dd09d4ec4aa0bc515"
+    },
+    {
+      "path": "work/bns-corpus/ac8391b5caea9843c780.pages.json",
+      "bytes": 6422,
+      "sha256": "232ceb9ced3b147a7e0dd2cc5c9e7343e6cf9824f984dfef6b37b43bb53aba66"
+    },
+    {
+      "path": "work/bns-corpus/acb3f064c0b45233e21f.pages.json",
+      "bytes": 650,
+      "sha256": "5fead344f0ba27fe6bbe6b5339edbff31b038fb2629f034010ddbdca52c9599e"
+    },
+    {
+      "path": "work/bns-corpus/acquisition_summary.json",
+      "bytes": 455,
+      "sha256": "396e8808c91c69306982ca2b108e55e3e691a93369cd2508cd1747925a6e226f"
+    },
+    {
+      "path": "work/bns-corpus/adc424c8a767bebbdcdb.pages.json",
+      "bytes": 3528,
+      "sha256": "285ae3ecb026ca11eff00921bb8b621b96b33b338a02b1ba98dfc7748b908180"
+    },
+    {
+      "path": "work/bns-corpus/ae35ea482a83d458931d.pages.json",
+      "bytes": 905,
+      "sha256": "926e19baa71a22f6eced7761f24dbae38969f95e24be70aa54e4c675fd276412"
+    },
+    {
+      "path": "work/bns-corpus/aef4461a532a6ea199f9.pages.json",
+      "bytes": 528,
+      "sha256": "d4a0e75f18001a7a3dee198aaa5ab843017e210597c0041eb0dfb23d52fbf2f1"
+    },
+    {
+      "path": "work/bns-corpus/b03c035d978d199d7f45.pages.json",
+      "bytes": 1179,
+      "sha256": "9d099aeae3ca45006a470ce5a058f5fcd69a4a3b24bb9e9ae9ab475e086ccee4"
+    },
+    {
+      "path": "work/bns-corpus/b222899e76c35956ed29.pages.json",
+      "bytes": 1059,
+      "sha256": "5838fca0fa0f4f36c366528847edcedeb8fbb6bf59302cc84b068bfb6be31b00"
+    },
+    {
+      "path": "work/bns-corpus/b2a1070315f2d9606563.pages.json",
+      "bytes": 1222,
+      "sha256": "2eb0ee3b83b9f5f4f17cf1887e8b94002fd237a73891d99caac5c4c40ea2bc19"
+    },
+    {
+      "path": "work/bns-corpus/b2a84ad9992d9133da95.pages.json",
+      "bytes": 517,
+      "sha256": "4e2f1088bc2c7fa6df56396659a06923e82ed1e008ed98ca5b879e13f10ee080"
+    },
+    {
+      "path": "work/bns-corpus/b2f7c3c7c11b9bc1241e.pages.json",
+      "bytes": 6287,
+      "sha256": "81fa0fc6c8f7f3d83051a68c5a2acf894d87126904cfb9b14c424026484b9a20"
+    },
+    {
+      "path": "work/bns-corpus/b582983b253ea26bbe39.pages.json",
+      "bytes": 913,
+      "sha256": "514678b2cc00c42fe31489834fe84a7cd01bb9b9b83ccdcba4973b405293346f"
+    },
+    {
+      "path": "work/bns-corpus/b6977ab9fc9526881cfc.pages.json",
+      "bytes": 1005,
+      "sha256": "9e84ce52af2e25ea5e7ed42985f1033547ba60d2a3fe1cb2db2d7a1367800683"
+    },
+    {
+      "path": "work/bns-corpus/b70ddc531eaf35c35d84.pages.json",
+      "bytes": 14971,
+      "sha256": "faba400c75a4254901547b009caebe61df20b4605e47d732cc3c536bbf82b2e8"
+    },
+    {
+      "path": "work/bns-corpus/b727860f9b02de688cce.pages.json",
+      "bytes": 4828,
+      "sha256": "1aa1f3cd5904c92747b6dc6fcf34d8f325bc7225b7a36bde87a5634edf749a31"
+    },
+    {
+      "path": "work/bns-corpus/b76a885244f2229c9790.pages.json",
+      "bytes": 1031,
+      "sha256": "bb5a412b443ec96424d53e9b3c8ccc2410396f3f82902195806ba258e17fce95"
+    },
+    {
+      "path": "work/bns-corpus/b7d0b30d633f7523e307.pages.json",
+      "bytes": 1058,
+      "sha256": "7f78837570af203e2334062a5f5dbf905f4e20bf56bd5cdadfe5647faa8c595a"
+    },
+    {
+      "path": "work/bns-corpus/b80ff486afc3687354a5.pages.json",
+      "bytes": 970,
+      "sha256": "faeda761ec8884425b18ad0cfb7a616d5a39b50f14fd33365b22cb8fc9ee0f4d"
+    },
+    {
+      "path": "work/bns-corpus/bc7bd723400c86ce85fd.pages.json",
+      "bytes": 7591,
+      "sha256": "e861c3afef3b4398cd72f319aad5e17f865dd3df5ba288810790b8a0026bc350"
+    },
+    {
+      "path": "work/bns-corpus/be10f36baf6cbd93aa68.pages.json",
+      "bytes": 3291,
+      "sha256": "ffea1cd7c7bcc3a870c7ead93edd1195ba963f2149e8489d2f21cfe1875c6639"
+    },
+    {
+      "path": "work/bns-corpus/bf05ed5d56c1ac4c8e0e.pages.json",
+      "bytes": 5606,
+      "sha256": "9112563546c5cdf3d3f75d59995a12376602ec1957f07fc317b1ad30c7a83115"
+    },
+    {
+      "path": "work/bns-corpus/c6546954c64898801c25.pages.json",
+      "bytes": 2128,
+      "sha256": "0f9066b5504de9a4539941a09ffe74886bc84555d24bd55f1d0f774894237c7d"
+    },
+    {
+      "path": "work/bns-corpus/c99f91cdc17b23a36060.pages.json",
+      "bytes": 619,
+      "sha256": "36d6f9844cec21e918e0af0531f0ccfe6adf3bb64eeb290c60b5aae80051a4b4"
+    },
+    {
+      "path": "work/bns-corpus/cda0a748480a884a7013.pages.json",
+      "bytes": 639,
+      "sha256": "de1f9f68015a9fd3450c4f4c82857e816824f80dabe3cdf62330b189ac55fa92"
+    },
+    {
+      "path": "work/bns-corpus/ce5483568823ceedab75.pages.json",
+      "bytes": 4509,
+      "sha256": "d1bc1feeea82e57466aa8c02a6bae36e39b26adf1ec5e31ff611d0d57c2e8e4b"
+    },
+    {
+      "path": "work/bns-corpus/ce5888e63f73d112f06e.pages.json",
+      "bytes": 2001,
+      "sha256": "6d0b2d53f7a8c068796f5665c46438d36ced0924702c24fcdeecbc2eff723bfd"
+    },
+    {
+      "path": "work/bns-corpus/d00e0485d70c0f10a0d2.pages.json",
+      "bytes": 2999,
+      "sha256": "994a0908e48b4693382bfd69f7abea6af661633825bc05b2c6216b9dd1532c8b"
+    },
+    {
+      "path": "work/bns-corpus/d1d184a4ee3e69f17b74.pages.json",
+      "bytes": 495,
+      "sha256": "f0582d43ecf7bfc62ed00ea3430de2241cf98759763884cbb92c3943910e7d65"
+    },
+    {
+      "path": "work/bns-corpus/d33dd4a8ba1da1182fa8.pages.json",
+      "bytes": 833,
+      "sha256": "22820350e25d000844bd6485fc32068dd77572261cd1e9534855f78e05402d3a"
+    },
+    {
+      "path": "work/bns-corpus/d374348787ac66ebdc21.pages.json",
+      "bytes": 481,
+      "sha256": "cb91dd4768fa7be4a129dc17d49dae0a0530da9259cb0c9f2f3d5e0aaaf57903"
+    },
+    {
+      "path": "work/bns-corpus/d40401b33ab6fdf01b06.pages.json",
+      "bytes": 2403,
+      "sha256": "87e5c5129c3647831118d01ab4c04c469f29a41b41e10fe46d79ff2feb313494"
+    },
+    {
+      "path": "work/bns-corpus/d5339011ca988da3ab06.pages.json",
+      "bytes": 653,
+      "sha256": "8c4a48983da05b6e213ecc018f31ee941bddaf97c5bdee121d554191b44efcdf"
+    },
+    {
+      "path": "work/bns-corpus/d6e35ae02a9cac3b399f.pages.json",
+      "bytes": 993,
+      "sha256": "baf75374571fa7b1690dac2e134415a951a989544715c86a448d7f0cab6af3fe"
+    },
+    {
+      "path": "work/bns-corpus/d96e342c82d993329374.pages.json",
+      "bytes": 1027,
+      "sha256": "e7eefafd5dd1b37809805ab9a085e42e0f5a59c97a7292f1214fd7673f192195"
+    },
+    {
+      "path": "work/bns-corpus/documents.json",
+      "bytes": 910423,
+      "sha256": "88f31c3ee307da9b4a077544dc16132469bc78bc905ce21d061e05b053824ad1"
+    },
+    {
+      "path": "work/bns-corpus/e034c182c24e08ebd590.pages.json",
+      "bytes": 832,
+      "sha256": "2d22e07eb1fba307f8e0e75c9c66546a13a22d8f70af22bc78f136bd9e2c5e27"
+    },
+    {
+      "path": "work/bns-corpus/e0e73caa13860842dcab.pages.json",
+      "bytes": 999,
+      "sha256": "546069417219aff76a7da745d395a8b1010a530f2b9f0241c1bbc96b708d001a"
+    },
+    {
+      "path": "work/bns-corpus/e12a879540d06588c381.pages.json",
+      "bytes": 32692,
+      "sha256": "7175d982858f03b7c828e60f502edabcda4fc2a077047273374061bb15f020e3"
+    },
+    {
+      "path": "work/bns-corpus/e17b93bc57288e9b6d32.pages.json",
+      "bytes": 1156,
+      "sha256": "afc435638822a0bcd44056569bc28e8f49085c20ae6ddb985125a2bcb5e93adb"
+    },
+    {
+      "path": "work/bns-corpus/e26ac513b5ce51a066cd.pages.json",
+      "bytes": 732,
+      "sha256": "e53c589b43586a8fa02af15a0f6017933c38f52d6e33fd0ce8352df3c9fb9c60"
+    },
+    {
+      "path": "work/bns-corpus/e2704b9bd5a7ac685168.pages.json",
+      "bytes": 10282,
+      "sha256": "4adc5b98296ba87a7dff664136851b418320cf9fa0be23bb3331fbe06cdc09f0"
+    },
+    {
+      "path": "work/bns-corpus/e50995d42f6168e63fcd.pages.json",
+      "bytes": 1640,
+      "sha256": "1cab13d47ea3e4b6cda51b130d1af7eaac0d3883325bbfcb00684ce1f50f54e5"
+    },
+    {
+      "path": "work/bns-corpus/eb75e545b301879ae43e.pages.json",
+      "bytes": 688,
+      "sha256": "769aaa81fecead54f5c56e070ae98ef93ddbf86086fee2ddacfcd39087119b0b"
+    },
+    {
+      "path": "work/bns-corpus/ec7863ba755c8d8d58ba.pages.json",
+      "bytes": 1737,
+      "sha256": "0e0b768f33973cc7c258b1af1e3f54de82d611a9c55a3251546349db4ade4c9b"
+    },
+    {
+      "path": "work/bns-corpus/ed29aab27f7364cb5636.pages.json",
+      "bytes": 609,
+      "sha256": "afd38603bcaa2f499d48b6f254822d77e9961889b76f0f41673daa026df47f90"
+    },
+    {
+      "path": "work/bns-corpus/ed9d8c8d366da14cba54.pages.json",
+      "bytes": 501,
+      "sha256": "16ead70b4c80ddf5c2d49b978c6bde9bedf67849ba67727f6ab787d72e919dce"
+    },
+    {
+      "path": "work/bns-corpus/f05243d2e17cd92cb385.pages.json",
+      "bytes": 920,
+      "sha256": "9900233fe459d81ddca4a53299816ab1efc021c4468e2220f90f7ee74827bae0"
+    },
+    {
+      "path": "work/bns-corpus/f151768266ab520af241.pages.json",
+      "bytes": 1366,
+      "sha256": "a6de7458f113ce9533265057ddd62003519f5f47de1348f46e1f714a45834793"
+    },
+    {
+      "path": "work/bns-corpus/f185b596bb588ad390d1.pages.json",
+      "bytes": 1352,
+      "sha256": "d61288539891c4c81e1258ee2963fa0b24292756d77d57c921c92165ed85f4eb"
+    },
+    {
+      "path": "work/bns-corpus/f2b59c57cec798fe41b4.pages.json",
+      "bytes": 609,
+      "sha256": "7a93dc3b3cef300185f5af17f21daeeef14188891f41db445dd41f11a9b642fa"
+    },
+    {
+      "path": "work/bns-corpus/f2ce66a206ab777c5d25.pages.json",
+      "bytes": 742,
+      "sha256": "a4120ccfa6c338623c715cf6e3b553bb515ecc63f84a1ca0675eba4e0080b4aa"
+    },
+    {
+      "path": "work/bns-corpus/f32901e274ec1cc27b7c.pages.json",
+      "bytes": 810,
+      "sha256": "8f6afacaa9a239375172cffcb1c463a13a95f77ca38387d9c9272f7f7fa60b30"
+    },
+    {
+      "path": "work/bns-corpus/f36c3ddbf23e12222f0f.pages.json",
+      "bytes": 15537,
+      "sha256": "bbdcfc0b665fb1ba87fb3dc6229b6813c937c3b25751c86b05fc6d8b097cbdc9"
+    },
+    {
+      "path": "work/bns-corpus/f3c35d44add3a3ccbb94.pages.json",
+      "bytes": 744,
+      "sha256": "a5c4a1d07d9e215051aaf72b123a9410042f5d540a15f629562aab871add01e1"
+    },
+    {
+      "path": "work/bns-corpus/f7364412bb6410507bcf.pages.json",
+      "bytes": 15989,
+      "sha256": "29d26b02d7a30e34f8d54ad359d315942bb71d14cd6a17e584acae89b3ee65d5"
+    },
+    {
+      "path": "work/bns-corpus/f73d19fc6cd2c32c972f.pages.json",
+      "bytes": 751,
+      "sha256": "95e5b8898dd03f2a3ae65ebe2d514964bacc1c9012110f9ecd2ef950da5a4d7e"
+    },
+    {
+      "path": "work/bns-corpus/f842b587d7a859fa13a7.pages.json",
+      "bytes": 972,
+      "sha256": "c539918b19834492370cc11f72dc7fb5c55b88e63b6df762b250710294f03f23"
+    },
+    {
+      "path": "work/bns-corpus/f98dfa61137f1e2b25cb.pages.json",
+      "bytes": 1220,
+      "sha256": "d1e929c5d4e6adbe7f29d622d33b11c31eb6e2b8b1489a0868e47516864e3e4e"
+    },
+    {
+      "path": "work/bns-corpus/f99ea089d0507ac34183.pages.json",
+      "bytes": 634,
+      "sha256": "869176dddceb83a09705e11e181736cc055d3a15c2c499aa63de72c99172c073"
+    },
+    {
+      "path": "work/bns-corpus/fae9b731912835ee5e8c.pages.json",
+      "bytes": 1059,
+      "sha256": "5838fca0fa0f4f36c366528847edcedeb8fbb6bf59302cc84b068bfb6be31b00"
+    },
+    {
+      "path": "work/bns-corpus/fbac2d12f958ac2c326a.pages.json",
+      "bytes": 583,
+      "sha256": "ac278938e724a2412f91a125d79b1c0f890208dd84b283117978f17e11e3fadd"
+    },
+    {
+      "path": "work/bns-corpus/fcb3a89df28f430fb829.pages.json",
+      "bytes": 3452,
+      "sha256": "6a55a29283b6b379eaa6d8b65bac5e6f3769f54138773e4fd33c0a355501e6e9"
+    },
+    {
+      "path": "work/bns-corpus/fe4b92f8018a01fde70a.pages.json",
+      "bytes": 567,
+      "sha256": "4916a344da5fb4b81f793374cdbaf454360b1db9c019f783202bfc70a5011e41"
+    },
+    {
+      "path": "work/bns-corpus/ff1605ea63b2c7384ad3.pages.json",
+      "bytes": 1279,
+      "sha256": "697b2112b0ef70d0493af2cd2cd96caa37cc5c62d08d73a6d7b5fb1b1af47553"
+    },
+    {
+      "path": "work/bns-corpus/retrieval_frame.json",
+      "bytes": 265860,
+      "sha256": "4513d425fcc8df037a6a28c80b13af91948399d8c80587b07fbfb2c1d48a1354"
+    },
+    {
+      "path": "work/bns-corpus/review-snippets.txt",
+      "bytes": 54431,
+      "sha256": "abeb45fab8cc56e814a674534fc438c707c2c312412cdc0397087a8793cbbb7d"
+    },
+    {
+      "path": "work/court-data/bns-supplements/ashish-dave-2026.pdf",
+      "bytes": 251491,
+      "sha256": "3350c58215253837483fbe01397717b841f08cbb25ac2d5cbfb31edaff81bc0b"
+    },
+    {
+      "path": "work/court-data/bns-supplements/imran-pratapgarhi-2025.pdf",
+      "bytes": 776472,
+      "sha256": "896f08f97519248a7f004350d43b72ffc296144e817c0be8b0365bd28f0d5a58"
+    },
+    {
+      "path": "work/court-data/bns-supplements/pawan-khera-2026.pdf",
+      "bytes": 350593,
+      "sha256": "fcc1bdf4a5091138a53289cc588fddab7394079c60445b5bd6b4a2533e5f9d02"
+    },
+    {
+      "path": "work/court-data/bns-supplements/ranveer-allahbadia-2025.pdf",
+      "bytes": 58199,
+      "sha256": "0c4f2780f43e663c9c978fba5186aaaad76728359ab85fe7d76a3ff553849f5e"
+    },
+    {
+      "path": "work/court-data/bns-supplements/ruchika-mitra-2026.pdf",
+      "bytes": 400847,
+      "sha256": "bceb341befcc2713722889cb58717c6ac308bba7dc6d4e5254f552f2ef345897"
+    },
+    {
+      "path": "work/court-data/bns-supplements/vombatkere-bns-152-challenge-2025.pdf",
+      "bytes": 47528,
+      "sha256": "c998df7f1fbdc239b3f6dcbfa4975227a9737a02c35a51582a1286e5e1f34832"
+    },
+    {
+      "path": "work/court-data/catalog.json",
+      "bytes": 15176,
+      "sha256": "aa0c40a447e7a41c8a1abd87d594b8c2bed29cf1fd42252f7b7221fe150c38c0"
+    },
+    {
+      "path": "work/court-data/corpus_inventory.json",
+      "bytes": 2202,
+      "sha256": "de9e862fe686015cf93639a4a1cac65e17a066191a71b242e2a87c9eadcce6df"
+    },
+    {
+      "path": "work/court-data/hc_documents.json",
+      "bytes": 288140,
+      "sha256": "b33ca247191b53ada6a167930ca654cc3f6e48ee204fccb4e018f6b789087362"
+    },
+    {
+      "path": "work/court-data/hc_eligible_cases.json",
+      "bytes": 1218224,
+      "sha256": "88bf3c794125781c75a6edbd3ff3bab1b1086ad57e31c76bf3452bdfa2bce8a9"
+    },
+    {
+      "path": "work/court-data/hc_sampling_frame.json",
+      "bytes": 1057726,
+      "sha256": "095a2407af6f42d020de88d8db04cdcda639f08018475117e9fb20136490eb43"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2024/court=27_1/bench=hcaurdb/orders_2024_230500007922024_1.pdf",
+      "bytes": 62524,
+      "sha256": "591abd7549e951881348005d2479aa04377c6fabcae0e96af6494236422ac8ad"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2024/court=27_1/bench=hcaurdb/orders_2024_230500007922024_4.pdf",
+      "bytes": 80525,
+      "sha256": "f50f615d8aac17c8b9dd8be100332445e5969cf36ce03b0a49041c4181fba657"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2024/court=27_1/bench=newas/orders_2023_230800006582024_3.pages.json",
+      "bytes": 1220,
+      "sha256": "c2d1850d41c823754cb7c98257044e221e6be649833af6dd398ff50a5f91dc19"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2024/court=27_1/bench=newas/orders_2023_230800006582024_3.pdf",
+      "bytes": 30986,
+      "sha256": "f510a027921bb4122f2a37baa801096015eed73893f10e6add7b292bbdc32107"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2024/court=27_1/bench=newas/orders_2023_230800006582024_3.txt",
+      "bytes": 1171,
+      "sha256": "595d0b5bfce09840db23eac2e8ee7e4d2a26d135435cb72bb734359f3f0c03fc"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2024/court=27_1/bench=newas/orders_2023_230800059882024_2.pages.json",
+      "bytes": 1069,
+      "sha256": "c037d15c948ed2300077619fe1698d6ded0e1d0faed20e9beeae41327ec3770b"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2024/court=27_1/bench=newas/orders_2023_230800059882024_2.pdf",
+      "bytes": 40474,
+      "sha256": "6e0be513263317f0b8c240bb24b09fb2d7f4974e091396e8caf3cd7ee40fa0fa"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2024/court=27_1/bench=newas/orders_2023_230800059882024_2.txt",
+      "bytes": 1017,
+      "sha256": "d1ba781b1a2097bbfcaa0697662979e55d7b1ed8399bdec00c8e14327c62da3b"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2024/court=27_1/bench=newas/orders_2024_230800021732024_1.pages.json",
+      "bytes": 1143,
+      "sha256": "04c44d7d10db6024c6a7de5c9ad2d742cd462e17996f0880900adbdfe8bae677"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2024/court=27_1/bench=newas/orders_2024_230800021732024_1.pdf",
+      "bytes": 54578,
+      "sha256": "e46c47b62f64be9c0b2150cd6e8d7b112e36d52c4be4a49e7201c25c05dd1f36"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2024/court=27_1/bench=newas/orders_2024_230800021732024_1.txt",
+      "bytes": 1101,
+      "sha256": "ab70cf57e34ee1f4c7487ca694291f2837d64f31484caf80f41f438d9ceb9077"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2024/court=27_1/bench=newas/orders_2024_230800023192024_4.pages.json",
+      "bytes": 1609,
+      "sha256": "9489346329b9f82dd9b86d935fabaef2324e98ff30c483e0f07d49c78ddd59a1"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2024/court=27_1/bench=newas/orders_2024_230800023192024_4.pdf",
+      "bytes": 73397,
+      "sha256": "ce0dc7f2c7e3259c27827847334ac009d871b24ff238a2097da2c43707e5933c"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2024/court=27_1/bench=newas/orders_2024_230800023192024_4.txt",
+      "bytes": 1543,
+      "sha256": "ba031f0656bb9d95bf15f1addbc4bdfc6760b30de12fdf68fc6d9e3706338bb8"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2024/court=27_1/bench=newas/orders_2024_230800028392024_2.pages.json",
+      "bytes": 1378,
+      "sha256": "7101cea395cbfca2a6cf5566252d1899fa552da15a207947a19cfa3f1330b568"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2024/court=27_1/bench=newas/orders_2024_230800028392024_2.pdf",
+      "bytes": 31584,
+      "sha256": "23637e42f6a428f77a34d1b348b03523cc5db97a5d93a95aa7d5ab7ae645e393"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2024/court=27_1/bench=newas/orders_2024_230800028392024_2.txt",
+      "bytes": 1327,
+      "sha256": "34d20b69bf0b37bf2091f66936a761022932379abcada6200a4a46653bd55ec4"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2024/court=27_1/bench=newas/orders_2024_230800034302024_1.pdf",
+      "bytes": 34115,
+      "sha256": "c8b5b8b1f5ce90f594bbfcd0fc5cfb6dbef46021345c64be4d1dc2dacfd2f03c"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2024/court=27_1/bench=newas/orders_2024_230800034302024_5.pdf",
+      "bytes": 1770,
+      "sha256": "93db085a25fe380456a6e5f05b96bc82f6f4e4e2a18c6d5a0b4902bbbfcad8d1"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2024/court=27_1/bench=newas/orders_2024_230800038792024_1.pdf",
+      "bytes": 31377,
+      "sha256": "60006bd4ec3641eb4a31cc5b6a638f4d585e62230ff33ba4b648506061bdcb8c"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2024/court=27_1/bench=newas/orders_2024_230800038792024_3.pdf",
+      "bytes": 62161,
+      "sha256": "d2440b50c86f532433796f2b74612e592eadc789f62e0ec175aec52a79cc6a79"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2024/court=27_1/bench=newas/orders_2024_230800045742024_1.pdf",
+      "bytes": 39224,
+      "sha256": "7d47b42da544c9044e5a0ef204160f9aa156a2fd801acdee592100b9009440e6"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2024/court=27_1/bench=newas/orders_2024_230800052312024_1.pdf",
+      "bytes": 1783,
+      "sha256": "cac26e02e1f8ceac622c5af6f1889b4fe7068d5b306da7c323ab42eb95c8e047"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2024/court=27_1/bench=newas/orders_2024_230800052332024_1.pdf",
+      "bytes": 1791,
+      "sha256": "5b18230bb67a4e93561f4ee9af887937f4b751ac044b89b08bb43bb5a4d4dea1"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2024/court=27_1/bench=newas/orders_2024_231000003582024_5.pages.json",
+      "bytes": 1065,
+      "sha256": "512e172347eb81a5fd4c93945c43798287bb66a0cf86fbc416b67150706edc03"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2024/court=27_1/bench=newas/orders_2024_231000003582024_5.pdf",
+      "bytes": 69409,
+      "sha256": "416aa758ffb21e985a9315b93b06a6f34f06fc9db1d3674531700e05968b32c9"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2024/court=27_1/bench=newas/orders_2024_231000003582024_5.txt",
+      "bytes": 1022,
+      "sha256": "abafbd97a358be2907cd39221628e72e39fcdc4b18a8fea5d70fd28d68b1c2d9"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2024/court=27_1/bench=newas/orders_2024_231000011262024_1.pdf",
+      "bytes": 71124,
+      "sha256": "e5fb8bea4227aacf1a0295b73a9491c52d3527d2eee80a321841410119806f86"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2024/court=27_1/bench=newas/orders_2024_233000016702024_1.pdf",
+      "bytes": 24660,
+      "sha256": "4520475573f673d107a2fba59ec7636637c7accc32333dfbeed0931352b25da3"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2024/court=27_1/bench=newas/orders_2024_233100030742024_7.pages.json",
+      "bytes": 31480,
+      "sha256": "38db22ae3bd56bbddf9e98b4cd4ce69f4d4788bc377a052bd6018dfade383838"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2024/court=27_1/bench=newas/orders_2024_233100030742024_7.pdf",
+      "bytes": 127792,
+      "sha256": "c31049471eb42e2d72b5f5ff912f818b55f9d3487aad4e1f15f82063fba91b50"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2024/court=27_1/bench=newas/orders_2024_233100030742024_7.txt",
+      "bytes": 30499,
+      "sha256": "7cd285ffa265b93970029e3f410ff1ef10ab4d748359b87436f52383e9310b23"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2024/court=27_1/bench=newas/orders_2024_233100032982024_9.pages.json",
+      "bytes": 2975,
+      "sha256": "104898554a0117c156a3b4dc16426e431f6a362db486a2e28921c254667ce07b"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2024/court=27_1/bench=newas/orders_2024_233100032982024_9.pdf",
+      "bytes": 28013,
+      "sha256": "844274b089210c8b9f58a57cfa77cf3691f5ec6765268226281c690ede46fce1"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2024/court=27_1/bench=newas/orders_2024_233100032982024_9.txt",
+      "bytes": 2866,
+      "sha256": "3ff32b80300c38d71e532671a1c10805429c4dee7d85916183a9a80ef54464e7"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2024/court=27_1/bench=newas/orders_2024_233200030492024_2.pages.json",
+      "bytes": 905,
+      "sha256": "4c8140ac06081e54006a25f912a853dff3143404676d6c3de5451877cf43cb2c"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2024/court=27_1/bench=newas/orders_2024_233200030492024_2.pdf",
+      "bytes": 42689,
+      "sha256": "3c8835b64069c66cc607fb6e5bb3c2be9397815c3910b096db5ac1405aea3cf7"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2024/court=27_1/bench=newas/orders_2024_233200030492024_2.txt",
+      "bytes": 858,
+      "sha256": "0fb8469b2fccec812027149ab7badaea198a626c50aadcf089bf421bf263e182"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2024/court=27_1/bench=newas/orders_2024_233200032062024_1.pdf",
+      "bytes": 72551,
+      "sha256": "d057a62976a9524e2dcff32ec23587e7a1bf875ea8bc40637d6b06bfdb12fa33"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2024/court=27_1/bench=newas/orders_2024_233200033492024_1.pdf",
+      "bytes": 26036,
+      "sha256": "7d50e60ddffe72b16ef27f43eaadfa515dc46121a8ebe3cbafdb85ba359a54fc"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2024/court=27_1/bench=newas/orders_2024_233200033492024_2.pdf",
+      "bytes": 47850,
+      "sha256": "c517d981035dc1537fc45d3bd19dbbdd433cfc22e42e9e498f04f9954867e768"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2024/court=27_1/bench=newas/orders_2024_233200033702024_1.pdf",
+      "bytes": 33313,
+      "sha256": "2fb0472217839d9a5f76dee7f448fe4975c681dc200cfaa401ef872a0820e14c"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2024/court=27_1/bench=newas/orders_2024_233200033702024_2.pdf",
+      "bytes": 122391,
+      "sha256": "466fa9c73d0ce78aab9f1c2b4338aabf23b79f50923e2766cecac7dd69fb3670"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2024/court=27_1/bench=newas/orders_2024_233200036002024_1.pdf",
+      "bytes": 31763,
+      "sha256": "cb3daab389092bf563c511eb34996fcb924770dc2b743c48cffbef330e72c07d"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2024/court=27_1/bench=newas/orders_2024_233700024872024_2.pages.json",
+      "bytes": 4574,
+      "sha256": "11c901935e86dfc608435e4fed5d3031146a2ccd556d966e7f314fb1e9ef44ba"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2024/court=27_1/bench=newas/orders_2024_233700024872024_2.pdf",
+      "bytes": 42792,
+      "sha256": "15f13e8c1b691fd31b5026afc1887f4f0eba272bac2e19dd9aabd37795c2416f"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2024/court=27_1/bench=newas/orders_2024_233700024872024_2.txt",
+      "bytes": 4422,
+      "sha256": "d669e34593a94c5d408f30c41f39310be2fbe904df4a4a08c8f389b9028c77bd"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=hcaurdb/orders_2025_230200018812025_1.pdf",
+      "bytes": 52724,
+      "sha256": "7eb277a76566160cd1759fa7494de1a0a5689f29219342d4b7c62ffcc77ccf0c"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=hcaurdb/orders_2025_230300013622025_1.pdf",
+      "bytes": 49655,
+      "sha256": "5cafeecae6164e8215f37a4b1fb9eccb407810d5d58227e71e0fbaec2dfefd6a"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=hcaurdb/orders_2025_230300013622025_4.pdf",
+      "bytes": 27686,
+      "sha256": "104fa7855d1dfe4e040b6b4d72b7608d8ac9c0db245b74b0f1b313e8442f6571"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=hcaurdb/orders_2025_230300014042025_1.pdf",
+      "bytes": 48571,
+      "sha256": "fadacc70bce1ef0c66dfebe4a89e84451acffbfe834647cd1b952e01d42fbe8e"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=hcaurdb/orders_2025_230300014042025_2.pdf",
+      "bytes": 25324,
+      "sha256": "d3431dbad2486b04df4b1c7b1e0d54df3af154d55f806605513f36676fb6370c"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=hcaurdb/orders_2025_230500008202025_1.pdf",
+      "bytes": 31859,
+      "sha256": "821117f809baae9d34dbdc79a8d6ee6985662b9fb9687aa6eb2429eb5f6a1760"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=hcaurdb/orders_2025_230500008202025_3.pages.json",
+      "bytes": 1145,
+      "sha256": "aec3e87a9b8d8a6701cabd08e7639128e081482620b4bd9b528309cdc73b78c7"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=hcaurdb/orders_2025_230500008202025_3.pdf",
+      "bytes": 40829,
+      "sha256": "2cf7b134a5e00fb277336bae0437741940484d3211f63209da6ea684f457c0fa"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=hcaurdb/orders_2025_230500008202025_3.txt",
+      "bytes": 1099,
+      "sha256": "5f35be3dd7fabec7b49076098fd1ac488c286bc05e1f92b04dfd8cf1710166c2"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=hcaurdb/orders_2025_231800013482025_1.pdf",
+      "bytes": 23568,
+      "sha256": "85213c7afe139b0b37c5703c1ffe947c0d93020392e6ab36c7c1e6b8e4753ab5"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=hcaurdb/orders_2025_231800013482025_3.pages.json",
+      "bytes": 4828,
+      "sha256": "1aa1f3cd5904c92747b6dc6fcf34d8f325bc7225b7a36bde87a5634edf749a31"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=hcaurdb/orders_2025_231800013482025_3.pdf",
+      "bytes": 23144,
+      "sha256": "f9272f930ac77a7b002e2af9175d9078adebe3eb497404eb16e6755eba819549"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=hcaurdb/orders_2025_231800013482025_3.txt",
+      "bytes": 4676,
+      "sha256": "785ec2ca559ecfec3d5ba46b72c8301cd0c0b4db0f156d1c8b4942512db85238"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=hcaurdb/orders_2025_231800015012025_1.pdf",
+      "bytes": 53391,
+      "sha256": "64370aec12a76683c9f2ab4741f67100cf9afe4cf95fb1808350e586114dfc9a"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=hcaurdb/orders_2025_231800015012025_2.pages.json",
+      "bytes": 2160,
+      "sha256": "f5c55739b91d05e82c095d6cc289b425c55b9e472ea3b5afc67561382814b272"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=hcaurdb/orders_2025_231800015012025_2.pdf",
+      "bytes": 53537,
+      "sha256": "aa4a1b82f0a85b5b9441b0e08df886447b798ac311d58d367193f8ea08c6fc7b"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=hcaurdb/orders_2025_231800015012025_2.txt",
+      "bytes": 2027,
+      "sha256": "64a89c41ca557cc8a108b390b6e0d6634090d3eba95da64f753fc9cf0e00e9e0"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=hcaurdb/orders_2025_231800024722025_1.pages.json",
+      "bytes": 2160,
+      "sha256": "f5c55739b91d05e82c095d6cc289b425c55b9e472ea3b5afc67561382814b272"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=hcaurdb/orders_2025_231800024722025_1.pdf",
+      "bytes": 53539,
+      "sha256": "4793a85854dc30d9f04bbfc0dc01b356b13735c6b2ffcf67ca5e93be98035fe4"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=hcaurdb/orders_2025_231800024722025_1.txt",
+      "bytes": 2027,
+      "sha256": "64a89c41ca557cc8a108b390b6e0d6634090d3eba95da64f753fc9cf0e00e9e0"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=hcaurdb/orders_2025_231900021102025_1.pdf",
+      "bytes": 40018,
+      "sha256": "69a74684e187fe58c0b64c4d93901dac6bc7740a2f27eb1ed38af005670358c8"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=hcaurdb/orders_2025_231900021102025_2.pdf",
+      "bytes": 30409,
+      "sha256": "686ec7abbab8574b5c447342742792bdfa4398eca52aeaf24833cea68e7aa5b2"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=kolhcdb/orders_2025_233000009902025_1.pdf",
+      "bytes": 1786,
+      "sha256": "48df0b538410a16624a74694880a3312218b69139c48bf3b4fe375b4ec3fdfe1"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=kolhcdb/orders_2025_233200018172025_1.pdf",
+      "bytes": 27097,
+      "sha256": "fd169d1c63fabfa9d992dd6b697e060a498d3512bf9f50c07b2552be28276494"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=kolhcdb/orders_2025_233200018172025_4.pdf",
+      "bytes": 36629,
+      "sha256": "67fdf2f3bfbf248221f87e32bbcca4265e24f11950b869a3e38f8afd9eb4fb67"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=kolhcdb/orders_2025_233200023212025_1.pdf",
+      "bytes": 27146,
+      "sha256": "3144299d1a897169eff9f09a99c8439d971ef239aa9dacf7d3d375ce325c34a8"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=kolhcdb/orders_2025_233200023212025_7.pdf",
+      "bytes": 36867,
+      "sha256": "bf248da09207b3669af5492b020938e61c506746dd88a31a240aa474b1f154c7"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2019_231000013422024_21.pages.json",
+      "bytes": 1073,
+      "sha256": "6ea1cd386ae855d01ae44831799a899db794392eb740e4be316e944b79d898b2"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2019_231000013422024_21.pdf",
+      "bytes": 22875,
+      "sha256": "5c5318a471cdd9454d1f07a6e9b928970e33bb1737c01e70235f8c001018d3e8"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2019_231000013422024_21.txt",
+      "bytes": 1029,
+      "sha256": "95f287e4bcda2ade5072f738c049f9fda1cf0e86464a78358bb9eba4e0dffcfe"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_230800000832025_1.pdf",
+      "bytes": 1821,
+      "sha256": "5fb7061d405334b72aa3f23d95e3515853c31331dee6594107bceb9bff5dc86d"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_230800000832025_4.pdf",
+      "bytes": 90243,
+      "sha256": "30788bb742d2df34ed4535c36a79c01fd1dd61c7b316b26d1d04760502770ed6"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_230800001192025_1.pdf",
+      "bytes": 1833,
+      "sha256": "904fc9b4dfb0c533b00f4d565d27175a6c2e65ea6b0bb577b095f00688201147"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_230800001192025_10.pdf",
+      "bytes": 57830,
+      "sha256": "03ad8f22b5a743d13248a7c136cc8ca78abcd01332085ebbca5ba5c2b162922a"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_230800005692025_1.pages.json",
+      "bytes": 2505,
+      "sha256": "ebf742823808641ce8ae6c72b035cef1610eee73bb0af96a8aa0c35041ce3ca0"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_230800005692025_1.pdf",
+      "bytes": 32870,
+      "sha256": "22d6a9c7481c10e569d221cac400f6e005b6138ffc8075492b7f0428608dfa7d"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_230800005692025_1.txt",
+      "bytes": 2414,
+      "sha256": "22dbe2662ca40ae5e5b78dbfd41302e17c8a2e334caf5bc7925a958b0a810d5a"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_230800019382024_3.pages.json",
+      "bytes": 1547,
+      "sha256": "141535e79912e59b4dd2a9074d66b88e388fbccd231019c40b504cd2b93dd683"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_230800019382024_3.pdf",
+      "bytes": 23263,
+      "sha256": "d0ea416e12c3701f30c18f035701cb51c7b05129e290a2d498c033c5256e9aac"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_230800019382024_3.txt",
+      "bytes": 1484,
+      "sha256": "654c3c93cafe4c46296a0d28c8248e982a3da67d7da285c54d939045275867ed"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_230800030062024_12.pages.json",
+      "bytes": 2030,
+      "sha256": "09d6b819a03003ddae6d205c165ccb857998694929dc4003607750a053093d25"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_230800030062024_12.pdf",
+      "bytes": 37975,
+      "sha256": "7dbd355ee1d004dae5c13d6fec492f75054508bed35054358e7d11afe3ef9130"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_230800030062024_12.txt",
+      "bytes": 1946,
+      "sha256": "c93bda8abde5723b870f7ee6981e04f808e7cfd90b902ef951d50000993ee626"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_230800040812024_5.pages.json",
+      "bytes": 908,
+      "sha256": "1e16eea030ba6ae1a13c0c81854f054b84847af4a79657a2f751b124e9f2a21b"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_230800040812024_5.pdf",
+      "bytes": 40077,
+      "sha256": "f67569c611ec46f6f99dbcf902df4229e4619e7ca85338e40817430e5cfa4a74"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_230800040812024_5.txt",
+      "bytes": 859,
+      "sha256": "1a9a86eab0fa8fedf941a5cfdbe7e6164bde8d1c4507e09be7a9f0ad95065528"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_230800052312024_2.pages.json",
+      "bytes": 17754,
+      "sha256": "557f027220ebae45ebf88c53b993ba1a7e4cdd09dec142a7847a6d1043c58702"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_230800052312024_2.pdf",
+      "bytes": 101004,
+      "sha256": "bf648daabd76f6057306c365795efccd4aa21840f19891e0f98e2605618990e6"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_230800052312024_2.txt",
+      "bytes": 17207,
+      "sha256": "f993fa4b117571dbba318bb83052dbff30e8caabfd0613779bb1f64fc3c9917b"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_230800052332024_2.pdf",
+      "bytes": 101004,
+      "sha256": "80343842848419967f319bfd37eeb8cb4a006034f7735a64f276f9d88e4fd146"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_230800053092024_1.pdf",
+      "bytes": 1840,
+      "sha256": "77182b573f027a5b42b3c18249a231d1ebc112ee0242a382a01c3cacedf9ff9c"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_230800053092024_10.pdf",
+      "bytes": 57831,
+      "sha256": "9695ee38c4f9c66e4423567cf0ade40325c04b165f1fcc893a26e8916d878ba8"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_230800054792024_1.pages.json",
+      "bytes": 1283,
+      "sha256": "d82aa20783a9636a02ee03cb46cde65971086afc46149a13d439a46470571827"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_230800054792024_1.pdf",
+      "bytes": 34092,
+      "sha256": "f2a61aa3888a7641bfcf163b652e4a5e3bfa7910d7c5e4608ecc1f6921991efa"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_230800054792024_1.txt",
+      "bytes": 1227,
+      "sha256": "318d323d625205d4e6b8458aaf74cee4f71aecaa3297322b9ec168d47e317e71"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_230800056202024_1.pdf",
+      "bytes": 56327,
+      "sha256": "9e23eee9793f1773ba7771626090f84a902951fc363d0464e20fdf9cc165d543"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_230800056202024_4.pdf",
+      "bytes": 90257,
+      "sha256": "bb6e3b926fb0640db7a4a3b9cbed0b8c5468b1fd3a27e0583e5836f7b500d2a4"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_230800062412024_2.pages.json",
+      "bytes": 935,
+      "sha256": "bf9213b85a787bba9d9547013c065a75828f3a7235fa1a99940842ef165d6bdc"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_230800062412024_2.pdf",
+      "bytes": 33904,
+      "sha256": "92e2824ae3f24485f44db0254778c2124f6e567a024d671275d6c29e9004996b"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_230800062412024_2.txt",
+      "bytes": 881,
+      "sha256": "5378e56baad76dee79c5f346f349e7a9a6004e9346e8c6aab4ecb594dd487820"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_230900003872024_1.pages.json",
+      "bytes": 819,
+      "sha256": "9da04f4a4e79bd458dab0e529b4f244069605bf0e619fa36606398a44ba716fe"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_230900003872024_1.pdf",
+      "bytes": 25717,
+      "sha256": "f41770efe200661c298fe88b81053adc860f6ba05d5d2d65da611b5e34b943c1"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_230900003872024_1.txt",
+      "bytes": 773,
+      "sha256": "dfa86a89331828e0032717e6bff61fe8ee5635cf42e0b85870a07f8c10c2e77f"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_231000010292024_16.pages.json",
+      "bytes": 19599,
+      "sha256": "b13c61436b34b46c4cf7cd50c2b28cd21d716abca998e6010dcbda8392b6af98"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_231000010292024_16.pdf",
+      "bytes": 109218,
+      "sha256": "2d18235514dfc078cf13664d1fff609bdbbb9a51bd165c598a2ed375bac3234e"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_231000010292024_16.txt",
+      "bytes": 19001,
+      "sha256": "f5c3b9762fbd8f078c40db9944a5c5911733112d1ec8ad13d858b9a8fe86c499"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_233000016702024_3.pages.json",
+      "bytes": 777,
+      "sha256": "159a68433775ecd0f266795f0d5d10fc1bea7d493601b564c4a1aeefa1b30354"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_233000016702024_3.pdf",
+      "bytes": 90418,
+      "sha256": "a04d47ff2e33c538528886064382716270c05bfd51cd2867bf15fc2d4fd6402e"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_233000016702024_3.txt",
+      "bytes": 740,
+      "sha256": "167bc044dd7a885d45a98c2c38622f8c2c069f82ef146be9c6d3f15b14957b4a"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_233000017652024_1.pages.json",
+      "bytes": 4602,
+      "sha256": "6b8e7df335c120a4c6f002381478ea05c37487f07d6e23ebe50f49c35577cfe2"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_233000017652024_1.pdf",
+      "bytes": 37053,
+      "sha256": "25c9fb039522a9e4627b53a64c6c832a783b207e5600f82a617f2dce6a997778"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_233000017652024_1.txt",
+      "bytes": 4438,
+      "sha256": "4c3a3bfa313681974a28752564ac465a319aa97b7d55ab36229dc77b1a1d1e57"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_233000018362024_1.pdf",
+      "bytes": 32202,
+      "sha256": "0d870a173a41381b0fc4cb4c1cea415ce1559f7f73f09af41ab6b172543bbdb2"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_233100016502024_8.pages.json",
+      "bytes": 1057,
+      "sha256": "e2f0d11a43826419cafdfd67d186fd68c60356c25f03bd934c0014c6f03b1eb5"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_233100016502024_8.pdf",
+      "bytes": 32616,
+      "sha256": "653a23b9c631f00f0730fee268547d982fb77e31481a0448758a82378f2e3f37"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_233100016502024_8.txt",
+      "bytes": 1005,
+      "sha256": "78ab95097d9b914a40d334f10f6381d444e5ad1cc51af693384d96a0a852312b"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_233100027742024_21.pages.json",
+      "bytes": 862,
+      "sha256": "eab36820972c2d5ac4c9f3f39ac8482c64c73b1192eec3e4ff7b91dafa636ea9"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_233100027742024_21.pdf",
+      "bytes": 25953,
+      "sha256": "00d465ad2f80c9a32a6481bb1672003911e801b357f199d53f92b7ed9c34d7fc"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_233100027742024_21.txt",
+      "bytes": 812,
+      "sha256": "042c7212fc40fb9f33bbec3a89f79c5a1a5b4ec85ec2629e5b8b4a9db119112a"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_233100032242024_12.pages.json",
+      "bytes": 3511,
+      "sha256": "ee67594661e18bdb7d3cea0c342eb6e4f5ad7a2f3fd75a54995bae947383bdf9"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_233100032242024_12.pdf",
+      "bytes": 72210,
+      "sha256": "c97c43a48fc58591f2a9cce92c3da0e639d294705bf9dff7a5abff39fce7e5fe"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_233100032242024_12.txt",
+      "bytes": 3388,
+      "sha256": "323c12b764807bdbcafe820f703e238c943e8e7b71e5a442fc8307cdfc60c8df"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_233200036002024_5.pdf",
+      "bytes": 56679,
+      "sha256": "c3f638d1941dc8f0ed13b571cb663ec99e644f06489bb6ef8ffab3bdccfa4ec0"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_233200036272024_1.pdf",
+      "bytes": 55758,
+      "sha256": "7138e7a9f4fb8be00d22cf65d1dba1c79930585ba8d05fff1793bf6b04d03732"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_233200036272024_3.pages.json",
+      "bytes": 1031,
+      "sha256": "05c708493a3bdb36b532cccedb6ed1a1297b111297ad87148540e1c5a4a48aa2"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_233200036272024_3.pdf",
+      "bytes": 39306,
+      "sha256": "bf40173981ea56a40785a00d03d968967433f6245e533e94368b1844a61d25e8"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_233200036272024_3.txt",
+      "bytes": 975,
+      "sha256": "0208542e2ff0909f7c55dd6e8e9f75cb34270f72c410eecc63c2f01eae2a240a"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_233700042232024_8.pages.json",
+      "bytes": 2084,
+      "sha256": "28d7778b05ae07135bbd1d76ab03ef4de5e621e20036951606cdd3eb3eeee0a5"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_233700042232024_8.pdf",
+      "bytes": 42999,
+      "sha256": "36a318ac3a776a068dd57306b6123b568b79e3c79d8045f40bb9520ab8817a44"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2024_233700042232024_8.txt",
+      "bytes": 1998,
+      "sha256": "0915687e92e63e13fc0e0471c344a9c417a6b4229c3b6d040b6c64f3f1e69fe8"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230200001252025_1.pdf",
+      "bytes": 31360,
+      "sha256": "d6e7534e7bf73bf623035b3179c9b81b508f8d9c48792f8f89c1995a8411bdde"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800013902025_1.pdf",
+      "bytes": 36272,
+      "sha256": "79f1050f6bf76ad320fdbe2f27c65810011c4e12f03d353bdd114b31812d83a5"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800014112025_1.pdf",
+      "bytes": 1797,
+      "sha256": "b64d774f42051b947a63ab7f1008cda67d6e24bb8e600080f3fd2a68710eb9c0"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800014112025_5.pdf",
+      "bytes": 32315,
+      "sha256": "4326f7f7074d3b1eeaad219a34ed0b59eded9073806e92162f185bba166bab1a"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800015972025_1.pdf",
+      "bytes": 24768,
+      "sha256": "9d671d00c63fcb3def727ede8daed1c83fb4b9eacda41680603b1c6378d4b480"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800016142025_1.pdf",
+      "bytes": 29709,
+      "sha256": "eadb6050323ca6b9e22563de7b876e976646ee1dc33320641c5a559856cc54e7"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800016832025_1.pdf",
+      "bytes": 1882,
+      "sha256": "432d212adbb6bbe6ccc27814f45e33c056aa4c39e9cdb4393e09e4c38feaba15"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800016832025_6.pdf",
+      "bytes": 72786,
+      "sha256": "59a83d1f66600601152957cb1e8d0234a650a309bb3de4f91b53b08b4672200d"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800019752025_1.pdf",
+      "bytes": 89506,
+      "sha256": "2d10a62e809b1fa3b3ac7737c432517dba3991306070aeeedaf207b02fd637b1"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800019752025_2.pdf",
+      "bytes": 90105,
+      "sha256": "ae47480128dd965925a1d9743455ce486bd8688624a036b43ed6ad7ee751d420"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800019852025_1.pdf",
+      "bytes": 34803,
+      "sha256": "cdef2ec0a789eb9a4092361a756cc2520768e1ebb8ab54c5098d11400cbebb9e"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800019852025_6.pdf",
+      "bytes": 85869,
+      "sha256": "10c594e125f802f10246061e8305348556487bda9350be93966584f5ef92489b"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800022732025_1.pdf",
+      "bytes": 30447,
+      "sha256": "c7486b8dd70c371a503052cac9ed79e9f534bf7f53342a11fba090c8a3d82a0c"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800024662025_1.pdf",
+      "bytes": 33606,
+      "sha256": "4ad54b8b2ce697aba61da5e48f2efcc9bc9eced5268d0aa20a9dce6836af7729"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800028072025_1.pages.json",
+      "bytes": 1433,
+      "sha256": "1c4c06be98b431c6194036f4db7b8f77db38df73890cbb82109bae8da1bb4190"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800028072025_1.pdf",
+      "bytes": 56188,
+      "sha256": "0a3ffec9b6ec9107226fbb3d826c14a198698a506711d39f2b769e92e42d31db"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800028072025_1.txt",
+      "bytes": 1387,
+      "sha256": "da24a9409e7588a8d7141bc38cff457b0609f5cc6b2d7fe92e79b8556c7aefa0"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800029232025_2.pages.json",
+      "bytes": 926,
+      "sha256": "8b5e1af931e1526754b30db671571d83df5db12772a896cdf0d6282d9e2a2a96"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800029232025_2.pdf",
+      "bytes": 28376,
+      "sha256": "5e5e283b4d1ed3dd36d9969ddb8db84787a450846d0f2e7e8d98c829ea2a9417"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800029232025_2.txt",
+      "bytes": 887,
+      "sha256": "582430683087357920801f85132bcfc09e2d1c23cbc232570451b181be7400b2"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800032032025_1.pdf",
+      "bytes": 54821,
+      "sha256": "e19314db2260995d8eafd3630b479845fc4e6781698c3ac5b70fb2d3c883cbd2"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800032572025_1.pdf",
+      "bytes": 16085,
+      "sha256": "2f832912c597b84ed83ddc788fd3426e1e62fe7226df9bb84c088648ab954b44"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800032572025_2.pages.json",
+      "bytes": 14971,
+      "sha256": "faba400c75a4254901547b009caebe61df20b4605e47d732cc3c536bbf82b2e8"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800032572025_2.pdf",
+      "bytes": 79958,
+      "sha256": "85b42652679d32cff8810b174b5035778124f15c768148285473073360e72ea6"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800032572025_2.txt",
+      "bytes": 14588,
+      "sha256": "f55468928a6c5ef454aa7d5ce1dbaa0ee0776a3f97a1c37f0b770a2d19059f68"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800033152025_1.pdf",
+      "bytes": 1783,
+      "sha256": "533e40d97cea1fa45e561c9c92a2799ef69548bc3b697bbad15fc3aaf24a06e2"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800033152025_3.pdf",
+      "bytes": 56205,
+      "sha256": "ac6a6adbec23e7268ea58756693584d55d32b6a4f49ecb553883c72250ec9efe"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800034642025_2.pages.json",
+      "bytes": 2524,
+      "sha256": "547e86901d18ae8263b17335384189fa4ea865fc10b9431d57898c4d0a937748"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800034642025_2.pdf",
+      "bytes": 76529,
+      "sha256": "d7d3439f5adeb53e7d29f74d2ea3a0f6c4ea6a9bf9874f9855e557335ec54754"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800034642025_2.txt",
+      "bytes": 2442,
+      "sha256": "eb428151d10bc4f63d2773125028e40b8ac43b1d5ed4d02c23cfb4169e3dbaf6"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800041532025_1.pdf",
+      "bytes": 41578,
+      "sha256": "8598c422b22dae114db2b9ee601d24a9590d10e7aaaace14c097efd6ca4fcdc6"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800041532025_3.pdf",
+      "bytes": 136434,
+      "sha256": "d2468e6e44e4a3ee00ac02b60ab5df09f93244e6b825217b8737d9f1a1d5a5f8"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800041582025_1.pdf",
+      "bytes": 67326,
+      "sha256": "2fc68045dd6c9a469738f8768b6be6bed960ada9cbd1f9d635cedbf8b52bdce5"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800041582025_2.pages.json",
+      "bytes": 3184,
+      "sha256": "60d2b2b628c390ccfbb0256c2a6a487069356a14e56bbbae4db5e155e82d7c8c"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800041582025_2.pdf",
+      "bytes": 90999,
+      "sha256": "6267c735d6b3c4a3051bb85560b594ad74034b6de77f9432f162bb766cbd1a77"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800041582025_2.txt",
+      "bytes": 3084,
+      "sha256": "9f72c0a1ecacbbbd747afad6f3e5d1ff5d2724517818fccf085d70951af453c9"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800046872025_3.pages.json",
+      "bytes": 2939,
+      "sha256": "3d1134a74844006ddc208d3bd2b895a402474bfe2e1d3918b7f62a18e990312c"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800046872025_3.pdf",
+      "bytes": 36046,
+      "sha256": "e9210507de4ad3d3053a2b51cf41e544b2a3b51921616de33f8039909971bd47"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800046872025_3.txt",
+      "bytes": 2853,
+      "sha256": "9f2469b1ded2bb26618809a9380159b5bd6eb57d07e96640b25cff05487caf43"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800047022025_1.pdf",
+      "bytes": 1828,
+      "sha256": "fe5f31de9626bec1f6b4d358fd288bad93bb71d503042c0d6dae20119a6ae39e"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800047022025_2.pdf",
+      "bytes": 63187,
+      "sha256": "0e547592530c8558b08c1e4a0818779c91ff5c6e0a4d401a7d76d1cbfdfdd023"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800049062025_1.pages.json",
+      "bytes": 999,
+      "sha256": "b57b4b0ab7e38caced1f3df35fadea8e5d816aca3d48608df519eba5a28cf999"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800049062025_1.pdf",
+      "bytes": 55864,
+      "sha256": "9bf870eb3a110a49ee8f9fb803e726475216c5dce43e328c220f8d3079a7e527"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800049062025_1.txt",
+      "bytes": 952,
+      "sha256": "d47835b36642bbe1ce6c321ed35c88e5f82b019de51e3b2fd63b6b92c929f747"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800049292025_1.pdf",
+      "bytes": 1810,
+      "sha256": "e295a71e4a7cf084197c54114d8bddbee59ad6a5abc073368bef3b3fca41ac7f"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800049292025_2.pdf",
+      "bytes": 84421,
+      "sha256": "4ae4281b77f4c817043a25590bfadc1379661b93fd59189d48fafa4f108c178f"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800052202025_1.pdf",
+      "bytes": 73271,
+      "sha256": "ac65c5b39f835bca59cc405b3e25a85794fe4821bbc0af8ad3cb47974bb6b9f3"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800055442025_1.pdf",
+      "bytes": 70879,
+      "sha256": "0c0bfec752dd210b1a6b28f9fbec19967e13e0b5fe145ff15469d9de2337dedb"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800055672025_1.pdf",
+      "bytes": 30287,
+      "sha256": "d9ca73250730f167dcfd37ace85b2d56cd0ae6a2ba265adb0ec5e974f93248c0"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800055672025_5.pages.json",
+      "bytes": 1512,
+      "sha256": "b47db938d7757acbde1f6efb7532d5e1677881b79d55723e9544647e5e51d399"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800055672025_5.pdf",
+      "bytes": 31129,
+      "sha256": "8ca6624f48e7c03e7b5d6094553cda71477a10d8c11f0fcaef559338db475eaa"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800055672025_5.txt",
+      "bytes": 1457,
+      "sha256": "a50d00d5901caec24ff1b977653dd49dbf082e62f49b776d1c8629995b6017b8"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800056342025_1.pdf",
+      "bytes": 153501,
+      "sha256": "904ad7d937c86698d8954f55f6dc4cf6a327ad78d7b80fb4226579847d839f3c"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800056622025_1.pdf",
+      "bytes": 31219,
+      "sha256": "c3b5debfcc056f80337b598dcd582925b5aadbd921580fde881d9d714cb2dab6"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800056622025_5.pdf",
+      "bytes": 32812,
+      "sha256": "055c1e25748090ea88605cd71672b9c451a645fb037ce4acef433ecfa0676be0"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800056832025_1.pdf",
+      "bytes": 1780,
+      "sha256": "ea55bf78f43aca427a1b46e861110b029b537f15d3bea7c155c1c9721ef5d770"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800057572025_1.pdf",
+      "bytes": 1844,
+      "sha256": "925009628df6bc11418fb5e4e1b8fa326e11c35e6eb90fc706647d76a3e98a99"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800057572025_3.pdf",
+      "bytes": 33137,
+      "sha256": "7a2f9629f68cdb3ab645f258f615c6f25d38bc2b11963887069e246cdf42e622"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800057642025_1.pdf",
+      "bytes": 1761,
+      "sha256": "ddd3e3ec08da8f77251e8a5a46d49b760044b1a0b512549b04dc3d0299ca53b0"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800057642025_6.pdf",
+      "bytes": 193177,
+      "sha256": "ff1adfce3cf01d51b77ef13a91254a270424ddd833a87131db5127c750045c95"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800057962025_1.pdf",
+      "bytes": 73785,
+      "sha256": "8469f9acebb63b1b4bd7eb3dfd0b7d24bc48e43aed1502b5cc0d842a9fce8575"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800058292025_1.pdf",
+      "bytes": 73785,
+      "sha256": "a828ba8646281711dce4a72573d6c3c2e8aac00a9903c156d597a8130db4a77b"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800059512025_1.pdf",
+      "bytes": 33426,
+      "sha256": "aee67d7a2bdc5a7d081474e78322674e4b1956d09d22d3f096876c56d3e8f636"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_230800059512025_3.pdf",
+      "bytes": 38143,
+      "sha256": "206677476c60bf7a784d94dcdb91a36e5befabe4624602f3e59014c866b327d4"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_231000002482025_1.pdf",
+      "bytes": 38183,
+      "sha256": "316b8b7399bf27f357ed835332455e8dbb4a6b1cb8d4ab81cce0c11a10526ae2"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_231000002482025_7.pdf",
+      "bytes": 46600,
+      "sha256": "98b5005f071b7a497f65383855292978c40792af6dd48163ff37b1e3d657c0d3"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_231000009452025_1.pdf",
+      "bytes": 41743,
+      "sha256": "d1dc9fd182719df57ebe0c91e406aca703c26b376b4b1e73081b6a6cc47913bc"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_231000009452025_3.pdf",
+      "bytes": 1693,
+      "sha256": "e61b3a6b7c91b50c9f8f40ef4f1c56026c0157337262f667ebfb9a3080ac4e3f"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_231000010172025_5.pages.json",
+      "bytes": 11763,
+      "sha256": "e9a7d45c9377b10ec0fcc3f170a5cc39c3e77d81795beefb244072773e7a33b6"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_231000010172025_5.pdf",
+      "bytes": 45677,
+      "sha256": "a23536181f94f50b872ca5efaca23d8305b22e791bf0d63ad88c8e7b2a45ac5f"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_231000010172025_5.txt",
+      "bytes": 11467,
+      "sha256": "bd87b18ae509f841a5518fe507b7fe105af21cb5f6862bee63cf3025605e722c"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233000001282025_3.pages.json",
+      "bytes": 821,
+      "sha256": "cb20206071af4b194fa0517173c04612112b07501abdc84a013947a82edcec7c"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233000001282025_3.pdf",
+      "bytes": 50964,
+      "sha256": "297b982b1f96e43137b87bdc7023795179b595dd48393bd72b1aacda5b784bda"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233000001282025_3.txt",
+      "bytes": 783,
+      "sha256": "02ef916266981e607b40b977e7d02568ed9e32a83583bc65c1ba9ea907cc0d5c"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233000003062025_1.pdf",
+      "bytes": 28180,
+      "sha256": "f484126278f19946b70f8d57cd21b077b3a78cb41c6d861f705a8fa0b83cda8f"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233000005742025_4.pages.json",
+      "bytes": 7551,
+      "sha256": "25173dec63ba2ecaf72793ff8251d302c4c3f6934d5c2f27a9a765dda29ab450"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233000005742025_4.pdf",
+      "bytes": 58663,
+      "sha256": "1c7046b1fb7731a9c6a327c3df5a45deb18b56a5f724c987ecddf09e8318e41b"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233000005742025_4.txt",
+      "bytes": 7313,
+      "sha256": "b2c7a9a24039dc4a40df6c091a91094e51b01d0770499f4428295aa8a66fa2dc"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233000010902025_1.pdf",
+      "bytes": 95007,
+      "sha256": "d0594bfde3058340d404077e0c8022645f28681419ae74bff474fc14dd357c96"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233000012212025_2.pages.json",
+      "bytes": 2456,
+      "sha256": "8460f506e17a0c36101f612fe549d5c576694c79bb64a532caca2bded4dc4dff"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233000012212025_2.pdf",
+      "bytes": 81088,
+      "sha256": "eb175761ec84d7440b4635aac2b5110b65aa132de275498cd0e9e9f4cbeb68e2"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233000012212025_2.txt",
+      "bytes": 2366,
+      "sha256": "bd51686f675f06202a5d8a37cd845383192ad992ec4c8c40c954cde2154919ab"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233000012782025_1.pages.json",
+      "bytes": 1775,
+      "sha256": "2094ab23ed127bcf8aa769dc9749bc96de0db3c9726dd0e46e41f4153fb3c7a5"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233000012782025_1.pdf",
+      "bytes": 69401,
+      "sha256": "34b7287dc1d908083f45b56807308afb158f2a3e26ed28d22d23aab5d5869be4"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233000012782025_1.txt",
+      "bytes": 1708,
+      "sha256": "5c27bcc27c0cd71f74e7fdc33c5ca003a5fdc57f419c0818059cdc7c5a99777c"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233000012792025_1.pdf",
+      "bytes": 1781,
+      "sha256": "b460754641f21d2aa3f7b39883e1c8599726ef8646b449d630c736e7b2836352"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233000012792025_2.pdf",
+      "bytes": 96825,
+      "sha256": "147b593c64ed1fd6c866fe51a2d9ba77cbf29a4b741d57683a250b5dfd235a78"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233100006252025_1.pdf",
+      "bytes": 42851,
+      "sha256": "cdc38bcc323b6ce1902ab56ea945cfad79f670168c093534409ff8cd2f17adcb"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233100006252025_5.pages.json",
+      "bytes": 27539,
+      "sha256": "1716b769861c548448f8ca5d3b79250e76cc03fe09707ffde10b2190c62332dd"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233100006252025_5.pdf",
+      "bytes": 117946,
+      "sha256": "33f53d02bf2fdce36d5069c62050e566e0755dea6713cca862a3e9f7aefdeca3"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233100006252025_5.txt",
+      "bytes": 26829,
+      "sha256": "f98e057169c34921eaa85a2c9aa3ac5248971e6b26611c7e4013e6471eea1153"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233100013042025_1.pdf",
+      "bytes": 1809,
+      "sha256": "b4e4550c5a89439e07a26c6d0702878531a50d7c84761f033b7596bbb2279b10"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233100013042025_3.pages.json",
+      "bytes": 3291,
+      "sha256": "ffea1cd7c7bcc3a870c7ead93edd1195ba963f2149e8489d2f21cfe1875c6639"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233100013042025_3.pdf",
+      "bytes": 46318,
+      "sha256": "e03ef4e1e9e4b40c52253d403c56c7677d32cba395aeedb4dce933f854dd50ce"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233100013042025_3.txt",
+      "bytes": 3171,
+      "sha256": "4cac597d3a064916f79620787958ce8b04cb6edabc00fc70a20cf67ace1d6aa3"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233100014392025_5.pages.json",
+      "bytes": 11527,
+      "sha256": "0c0655e47dc4cf6e8cce0606928fba85d64ad344ac94561581ae31710dbabcac"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233100014392025_5.pdf",
+      "bytes": 59076,
+      "sha256": "dcd4ace7cd7b643f55219926390562642f2542929b78eb16e5f02be100a3b07c"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233100014392025_5.txt",
+      "bytes": 11213,
+      "sha256": "8839aa03b65fa21bb6602748fe3d0706c1b24553ca12ba4eb276262df9f1367f"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233100016742025_10.pages.json",
+      "bytes": 4567,
+      "sha256": "762c4add90e0e88b13a6b04828bfa99feab53a041d9226efa8490eda72432c4a"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233100016742025_10.pdf",
+      "bytes": 35424,
+      "sha256": "cf3bb1315cdd8a31bf04e2d78f1e006a2f7abcd0b7c15cb6d5679ea6d2d0a33b"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233100016742025_10.txt",
+      "bytes": 4445,
+      "sha256": "04f4134bcf9ad6840ab9f6da2b7e37354089c17d5e7db685225044289ab25315"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233100017322025_6.pages.json",
+      "bytes": 8158,
+      "sha256": "7a60416605eb58f4349990f4e6efa26852958f3c98eff083fc28f6dd20e34e6e"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233100017322025_6.pdf",
+      "bytes": 44866,
+      "sha256": "48e8b207b110a18ca7cd2816fcea3c8984a67537d77861187be7c263f429be3d"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233100017322025_6.txt",
+      "bytes": 7905,
+      "sha256": "f80a72f6d8769716c83805523d2561dd5c36af5e71b6977f9606d3ef85911bb4"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233100023462025_1.pdf",
+      "bytes": 31909,
+      "sha256": "847763248785e2cd6f5e8ae990e2b27632445eca723ae1c77a9cbb1bc6b1881c"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233100023462025_5.pdf",
+      "bytes": 22306,
+      "sha256": "4a32d14a6e37a68357429c29c79fd06556f087b35f663136db62dea5b16548e5"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233100023612025_7.pages.json",
+      "bytes": 494,
+      "sha256": "25a719cb4aa1bb705471c7a0bb49cefde0ea103d2d4c7e41f662aef7d22cd652"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233100023612025_7.pdf",
+      "bytes": 1729,
+      "sha256": "4e7d61d07dc46fbbb2d87b6462ce0d8c3edd8d6eeaf15c2f7b188ee38b8d4094"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233100023612025_7.txt",
+      "bytes": 460,
+      "sha256": "b57c680be39ea18eedc5be8c7351aa18a9b9b19ea9c5c4c64e551fe95e1f9594"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233100028652025_1.pdf",
+      "bytes": 32654,
+      "sha256": "35765226f186f357b9590b991d59b9b6dfaec0f61b1fc3465bbe7b3803848feb"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233100030432025_1.pdf",
+      "bytes": 1723,
+      "sha256": "e0f5dd67d0ba22bfd096cef35cd479ddf9c2d30485731d777fb0b3b3a9fc4e2d"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233100030432025_10.pages.json",
+      "bytes": 25532,
+      "sha256": "a762d0db9d9a9f9caaa539e38d3c265faed95feafe6145b915e24bca0051f147"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233100030432025_10.pdf",
+      "bytes": 92212,
+      "sha256": "dc0e2b68c4bf76a396fae715f8eb7ed28107fe4c22548c8cd54a6677b4415527"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233100030432025_10.txt",
+      "bytes": 24790,
+      "sha256": "9ba0f58527ae25ea4906aa84e6964aff0e8dc55eaf9d781b836da57e77421fb3"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233100036682025_1.pdf",
+      "bytes": 19452,
+      "sha256": "f94e09bb5eb69b264763e73d3ad093e81539a28c643d16c94bad212a8003aa52"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233100037352025_3.pages.json",
+      "bytes": 495,
+      "sha256": "ed943aab8dab2059987f160d40d96919b51ec6f9039117f4598aca93d803ac9f"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233100037352025_3.pdf",
+      "bytes": 1730,
+      "sha256": "e67d8282d3b711e4c9470572746ca449e009849d2d25ef09c72f567f8ddb5cb5"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233100037352025_3.txt",
+      "bytes": 461,
+      "sha256": "d1901351af211a807373dd074c12ff28cafbc44f41c8b50c6a3ab1f35af932fa"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200003632025_1.pdf",
+      "bytes": 65158,
+      "sha256": "772fc8cde1b70a6c8f31759a3d1d0b0c33deb6f40bbd923c485c87c706e4b600"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200005172025_1.pdf",
+      "bytes": 1734,
+      "sha256": "2548aa48b9c2827b6c04f40c48e484c3038f3815f591ee48e46c16991c3c3ebb"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200005172025_3.pdf",
+      "bytes": 46553,
+      "sha256": "50a3c74b4c54d5b54f9922f95e90526139f4a67c9640af8233545745c6ea4651"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200007362025_1.pdf",
+      "bytes": 1847,
+      "sha256": "6d0d9c186cb78a254b2d47a5b4d229c99ef966fd9ae01ba9c941efdb7faf0313"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200007362025_5.pdf",
+      "bytes": 52188,
+      "sha256": "68b2d4ab894807bdbcaadf4df56e091cb630e63f7e61215a467da376d5265b06"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200007942025_1.pdf",
+      "bytes": 13757,
+      "sha256": "0df5e6e59622b27633ae78452eaecf17ea270189f296d2eef49e7c31d66d6c3b"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200007942025_2.pdf",
+      "bytes": 47030,
+      "sha256": "60efd53c7b525f0bb568dad194f2f6f992ced2cc90687355c2e4aebf333a038f"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200008462025_1.pdf",
+      "bytes": 47588,
+      "sha256": "eb8748f21b5dc33b804888c7612ec3a319a66adefa55f82d3c53a0b773836cc3"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200008462025_7.pages.json",
+      "bytes": 1366,
+      "sha256": "a6de7458f113ce9533265057ddd62003519f5f47de1348f46e1f714a45834793"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200008462025_7.pdf",
+      "bytes": 36551,
+      "sha256": "f5fb08a7756b5cc2a497505af31ff0eeeb83498a7741e00c5ae692440ad8613c"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200008462025_7.txt",
+      "bytes": 1306,
+      "sha256": "0a4f2a8304e1e213123573185174c6d70e80df6dcdb4cb7a498813fb62ea53a5"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200011122025_1.pdf",
+      "bytes": 33773,
+      "sha256": "32ebff6e4fae49ff843caa044aa8d4947e7ee777e70cd3a9cf142fe71d2ac1b0"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200011122025_4.pdf",
+      "bytes": 51094,
+      "sha256": "dfc7f294953add4bfce1b99f5c3f2f7517f9bea09fd5aff50b0fe42d30950cff"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200011532025_1.pdf",
+      "bytes": 48696,
+      "sha256": "01756c21e4c9f06f42fdbfc1052ab194e4a724407ed249880aa4164ca8d6f388"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200011532025_7.pages.json",
+      "bytes": 1087,
+      "sha256": "0fb7a7f2bfdc3b229b447c2b9f8f0305b916d0ad0c2e97e336ae2d3d729ad4a9"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200011532025_7.pdf",
+      "bytes": 26903,
+      "sha256": "290c8c7b65b0e37de71c7dc7b90a8ad567e4701b8d59dfc8e49f881843497617"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200011532025_7.txt",
+      "bytes": 1039,
+      "sha256": "9788312873797b6480460dc55bce76e3708ea19395e71efe6ec13375e10f7f83"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200012322025_1.pdf",
+      "bytes": 34558,
+      "sha256": "cf7c2ff4c665b5f69dc431ed80c1c0d742a35399f0b3ec10a7fde6aea15aa83c"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200012322025_5.pdf",
+      "bytes": 44345,
+      "sha256": "b094c72a6477990f81f169dd9c2567f4df8c0625697b5d98cc3a44e3eb3816af"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200012352025_1.pdf",
+      "bytes": 1718,
+      "sha256": "227189f8beddcd3c099b4a4010c75fd6caf3c6c00322f3ff12c8cde7431ddabf"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200012352025_3.pdf",
+      "bytes": 52828,
+      "sha256": "463f992dc2255eb9484c5c47d414975ac7e02d9580e127fc526bd60d048d7346"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200012742025_1.pdf",
+      "bytes": 48092,
+      "sha256": "3e83f218ebd3ee9c9960bf76afa27c33bf9a4c95c06637420aedd5e749968228"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200012742025_3.pdf",
+      "bytes": 26470,
+      "sha256": "86d6be4d918524a0d22aeeb882817e5de86ab1f25cef6be9dc49ae28810a4b1c"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200014142025_1.pdf",
+      "bytes": 44691,
+      "sha256": "365f2ec78bdef8315b5f2017a9944f01fa95fcbb9686f3f7caa52f97536ebea9"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200014172025_1.pdf",
+      "bytes": 24378,
+      "sha256": "62c0ddc3383c19097ac8e2d79abb36f1f34f3b035b08f74d8b96e6d134ea58d8"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200014172025_3.pdf",
+      "bytes": 44693,
+      "sha256": "854ac8731f6831b0ead61cd2c6b427e9b7551fa2c7a8c544ab85a61fa64053c5"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200014292025_1.pdf",
+      "bytes": 28182,
+      "sha256": "cd1f0092ab5bcbf69bcfcaa7fda94c0245230d52584900220edc89e7a933d4df"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200014292025_2.pdf",
+      "bytes": 84957,
+      "sha256": "fa24948ada4bd2f7878d3e9f08ba957aecd5c1e35d75c775e90df6a07d39442a"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200014322025_1.pdf",
+      "bytes": 26853,
+      "sha256": "8543e400e8ff22386ba014f4da31a4f87b1cd1b53146eb941e97f66ef7db9514"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200014322025_2.pdf",
+      "bytes": 84957,
+      "sha256": "7712433660418b2f86b96126012bc249dcd22a9239ffa1e7bbdd8eefecf40393"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200014432025_1.pdf",
+      "bytes": 25075,
+      "sha256": "66d0776790799b90991ba5ec77c1400948a185b5a80797f33cc373eea4caea23"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200014432025_3.pdf",
+      "bytes": 87746,
+      "sha256": "d0e2dc65bacfd431cbd84f8ab72cc620f1ac394bbf9c456677ce2435350bad34"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200014462025_1.pdf",
+      "bytes": 25663,
+      "sha256": "88265f6aebb54ebd684dc6791afe324ddb7fe56045e2c2138d56b0923a214068"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200014462025_3.pages.json",
+      "bytes": 1939,
+      "sha256": "663ef40a4f0eb8770a1e21baea0f3f303cf256b9c12cc6c7c481fd52b3242929"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200014462025_3.pdf",
+      "bytes": 87746,
+      "sha256": "d0e2dc65bacfd431cbd84f8ab72cc620f1ac394bbf9c456677ce2435350bad34"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200014462025_3.txt",
+      "bytes": 1861,
+      "sha256": "05c23f08d5bb9f88c04f0443668627c3927f7144917443777c887b07377c45bf"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200015832025_1.pdf",
+      "bytes": 27017,
+      "sha256": "7e04c10ec61510179916ccb53bc5236162a76b8e9fde45d65715a898b8be01f0"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200015832025_2.pdf",
+      "bytes": 1881,
+      "sha256": "12376922329eabec42309af2fd2c35618d4bb5991dc7d2cf19b890de229e3fd4"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200016432025_1.pdf",
+      "bytes": 27242,
+      "sha256": "0af82cce9d2bb41a2fd6d32f59b707423682a29958cc1d060d874ea44b77b8ea"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200016432025_16.pdf",
+      "bytes": 41361,
+      "sha256": "13554b288702c0f8a4d64190f28558982a69e77d70c062f43e2340bc5b6e109f"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200016442025_1.pdf",
+      "bytes": 1742,
+      "sha256": "defad1b49a3d92098e610992d0f7f36b45ad79dee34a9a386ec4009f8dc1a0a0"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200016442025_2.pdf",
+      "bytes": 25805,
+      "sha256": "4269ab681729c2203ef787753ca476772bf60d13e810c5dd1c2fb3dab76b6ff5"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200016532025_1.pdf",
+      "bytes": 26249,
+      "sha256": "6ec850f12a17506919b4309fee7f2f6ee5fe8dc90c88ab757ddcbc1dbfd22135"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200016532025_2.pdf",
+      "bytes": 26646,
+      "sha256": "2e090cdde4705a20842182d303ec8c5aae0ba4a8f6a68b08de9b587222c603a4"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200016642025_1.pdf",
+      "bytes": 26663,
+      "sha256": "c0b65b585c0a3faabe95ea3c9a7deadc4d30f0bcf6844cd9bbcda0fef52a765b"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200016642025_2.pdf",
+      "bytes": 1881,
+      "sha256": "12376922329eabec42309af2fd2c35618d4bb5991dc7d2cf19b890de229e3fd4"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200017592025_1.pages.json",
+      "bytes": 1218,
+      "sha256": "57b4105743ecc2454e08eb3ade08e3df276ef8a1e3b1294c5cce137592e33509"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200017592025_1.pdf",
+      "bytes": 34654,
+      "sha256": "863fea8832fdee7fd0a595cd4072fbd0e6ce67f47888c873e5cf1fe911bdf9d5"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200017592025_1.txt",
+      "bytes": 1158,
+      "sha256": "b77afef0f5ead140af9760ba41e0236163bf8c3b7592b57bc0a58f58e39270f5"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200018132025_1.pages.json",
+      "bytes": 970,
+      "sha256": "faeda761ec8884425b18ad0cfb7a616d5a39b50f14fd33365b22cb8fc9ee0f4d"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200018132025_1.pdf",
+      "bytes": 26585,
+      "sha256": "b6fdfa10ca6ada03a86ed4fd3ecb29a0dfafe952d5390ad7e5260f89b8a14feb"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200018132025_1.txt",
+      "bytes": 923,
+      "sha256": "8984d11e3c80cba951a8278bf45ace566b4e76d64dd3c85b0c0ebb0f82b9c359"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200018172025_1.pdf",
+      "bytes": 27097,
+      "sha256": "fd169d1c63fabfa9d992dd6b697e060a498d3512bf9f50c07b2552be28276494"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200018172025_2.pdf",
+      "bytes": 1720,
+      "sha256": "3774f1975c7fa09df67dbebdc2851f7b4b7b7ed9ee1823980f4df6aeae9ce6f6"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200019322025_1.pdf",
+      "bytes": 26894,
+      "sha256": "bec4f2bbb69507254ddb544dd27f605ffaa49caa7073ceac32f12cdfd1e02d96"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200019322025_2.pages.json",
+      "bytes": 9206,
+      "sha256": "06b44dbdc73676066af2b620d259d916b5215fc26af33bf5570dce84837d0720"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200019322025_2.pdf",
+      "bytes": 49071,
+      "sha256": "a01034149dd0b36cbe69b1e7df28eb38eb2f321978f24569e5f227a324ed7311"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200019322025_2.txt",
+      "bytes": 8941,
+      "sha256": "61adf6720d8ca03697638cef9d0d388ec784e7eb33ac8aea527ec211ca4340e1"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200019682025_1.pdf",
+      "bytes": 28627,
+      "sha256": "d2d5a5a13c93c07dd063bfef383641a3cd0d61bea1bde512a515346ed8dde7e4"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200019842025_1.pdf",
+      "bytes": 35004,
+      "sha256": "806f83a5d50faa8f0f60a003c8dfe683eb01e425d7a0711195ca3c32a782cee9"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200019842025_6.pdf",
+      "bytes": 44921,
+      "sha256": "38c208a5f3c4a699de98ed4d6bbda35f630c48ba194e93006af5bd8a696488a4"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200021152025_1.pdf",
+      "bytes": 33721,
+      "sha256": "1e05a85ac58f4942589b6372fb45ed62b97abc6ded794db13270cd76f2c66c4c"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200022472025_1.pdf",
+      "bytes": 33628,
+      "sha256": "f6b3316e57ea13711cdff7b9236a592dc65f912790bbbdc440495cb6006db74f"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200022472025_8.pdf",
+      "bytes": 1731,
+      "sha256": "0c9811d5165238ff3fdc3b44c2c72b2e9b9ca78cd72a18cb6991cc7d5a28f9a3"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200025812025_1.pdf",
+      "bytes": 1749,
+      "sha256": "b1083a1f7a1be076a43f001f2bb4276bd4fce45544a1a989978199a53dbff3c6"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200025812025_3.pdf",
+      "bytes": 64237,
+      "sha256": "2824aa3a65a92a1587a9027bdebbbb509ec70f770c4f9554fde1ca432cd701ca"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200026002025_1.pdf",
+      "bytes": 1728,
+      "sha256": "b011a84f7b7b8916e0af69b176e8566853d89731c55e360e2a3c105a46571d0e"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200026002025_4.pdf",
+      "bytes": 55879,
+      "sha256": "7d8d97ea2ae15a3e649a4db4c9557add3cd50b2965f1c7360de3fc9fae1252e9"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200026802025_1.pdf",
+      "bytes": 53521,
+      "sha256": "919afb12f5531d35785f4176e9737a04e9d00f2782e12515303d8a0ec9d12c76"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200029572025_1.pages.json",
+      "bytes": 994,
+      "sha256": "f136c4e5c77fb590f9ceb36f62146849a17e1ef41e0e8788b85d3b826d33cc4f"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200029572025_1.pdf",
+      "bytes": 25026,
+      "sha256": "87ff3392789d8834fd708b1ff3b696a3c5dbba666fb6ee2c34648af926818804"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200029572025_1.txt",
+      "bytes": 941,
+      "sha256": "7d9f5be2e049795844b324ad4a5de3bc8fb696e12cef56e1b46e3953d53b729d"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200029762025_1.pdf",
+      "bytes": 31923,
+      "sha256": "0d212dd8a803b6c0d5c50d572aa5bd394eef91a230dfb165afafe9a0ca7e1e69"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233200029772025_1.pdf",
+      "bytes": 65182,
+      "sha256": "172bb827ec596f9687a6dce9e8537ea8369a17f2a5684b0f31dd4cf532ea001c"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233700000882025_1.pdf",
+      "bytes": 1868,
+      "sha256": "1c5fffec6e40aadeb80cd2a9ffd8ed2047a74249937fa33e09d8a766cdd493be"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233700000882025_2.pdf",
+      "bytes": 56679,
+      "sha256": "6cb59936b4c5cef1491b61224a92aa45a5f758985d0f92385748ffbcc5317277"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233700011792025_1.pdf",
+      "bytes": 47021,
+      "sha256": "9dafb6f4557811eaa8dbdba452161c689bcb5e4e74bfd90efc911a01d3c40ef3"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233700015002025_1.pages.json",
+      "bytes": 1401,
+      "sha256": "30386dfd30e3a9ffedaeeed9d0f079b346891a3a61982538005eef5c136d8d7f"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233700015002025_1.pdf",
+      "bytes": 75370,
+      "sha256": "fbd3d004f69953e42734be9062e043c08388e2db6e09d72e4be2861836ed0dd0"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/data/pdf/year=2025/court=27_1/bench=newas/orders_2025_233700015002025_1.txt",
+      "bytes": 1354,
+      "sha256": "c227b4ea453b5cf36c7c1fe99b39785e4ae9758e5082e7e57e3dcaba8d8e6de4"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/metadata/parquet/year=2024/court=27_1/bench=hcaurdb/metadata-mobile.parquet",
+      "bytes": 407387,
+      "sha256": "6b589098a03229e5582cde4e0d3f035e10f1036f19cc65c20eaa4ab9f49dc8c0"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/metadata/parquet/year=2024/court=27_1/bench=hcbgoa/metadata-mobile.parquet",
+      "bytes": 64986,
+      "sha256": "5cb39b84b3fda84e571fa4a77db06a9d2faf34372db889fbb73025d5c58d7965"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/metadata/parquet/year=2024/court=27_1/bench=kolhcdb/metadata-mobile.parquet",
+      "bytes": 147729,
+      "sha256": "0ebd635d8595f44c09a4843b65943beae8f37889627d4061c5d5af95d213ed10"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/metadata/parquet/year=2024/court=27_1/bench=newas/metadata-mobile.parquet",
+      "bytes": 5008981,
+      "sha256": "b9497426da1ca908d009b1cbdfbaf4621795ad1369185d38c6ebe488177d2724"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/metadata/parquet/year=2025/court=27_1/bench=hcaurdb/metadata-mobile.parquet",
+      "bytes": 1158040,
+      "sha256": "9f12e973a137473257f62e0b233036e1848ef977130e78ce4f5aa54f9fc1475b"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/metadata/parquet/year=2025/court=27_1/bench=hcbgoa/metadata-mobile.parquet",
+      "bytes": 163016,
+      "sha256": "98d0f2886a42b3c5c36bb9350f2d28efe7dcece4a8abf61d68416b6d0bbcc752"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/metadata/parquet/year=2025/court=27_1/bench=kolhcdb/metadata-mobile.parquet",
+      "bytes": 346355,
+      "sha256": "b886eeced326a0416603732c7a71297c7a437eb9dd26c1d04ab0edf2338b84b6"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/metadata/parquet/year=2025/court=27_1/bench=newas/metadata-mobile.parquet",
+      "bytes": 7952078,
+      "sha256": "4a17c475956614093556c4504a9a14befa502c49f115c525599aacf36baead39"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/metadata/parquet/year=2025/court=27_1/bench=newos_spl/metadata-mobile.parquet",
+      "bytes": 13014,
+      "sha256": "53072ee067eb7f90621402f547564b1348ce15494c31e918aef9784ebb5f99b0"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/metadata/parquet_case_details/court=27_1/bench=hcaurdb/case_details-mobile.parquet",
+      "bytes": 2520413,
+      "sha256": "3af71696368b3ec52a15267bb53afa36285335f2c7199b07350b53bfb53ea898"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/metadata/parquet_case_details/court=27_1/bench=hcbgoa/case_details-mobile.parquet",
+      "bytes": 217407,
+      "sha256": "e4423911bc3d9e22e9fb07433d9b99a8877e88fb8b6241000e25b4414abc34d5"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/metadata/parquet_case_details/court=27_1/bench=kolhcdb/case_details-mobile.parquet",
+      "bytes": 585705,
+      "sha256": "f4be13755754171402779023107bd04f0bfe21a0be1062e828e0c8667e7c7786"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/metadata/parquet_case_details/court=27_1/bench=newas/case_details-mobile.parquet",
+      "bytes": 9552120,
+      "sha256": "191c98667d5d8c64b70a5376cb4a7d6ef2b1f2bedb26374b2f9de030d139f59a"
+    },
+    {
+      "path": "work/court-data/indian-high-court-judgments/metadata/parquet_case_details/court=2_5/bench=cmis/case_details-mobile.parquet",
+      "bytes": 12449,
+      "sha256": "52d3f6ac3e9a90113628a982ecb4ebcca81229b0b4156b4fb6b6a0b97a1229d1"
+    },
+    {
+      "path": "work/court-data/indian-supreme-court-judgments/data/pdf/year=1957/english/1957_1_860_868_EN.pages.json",
+      "bytes": 21264,
+      "sha256": "f9350ffdd673e4ad9398b1de7303a506d5a1b69253fd80b8cc56055251cefa16"
+    },
+    {
+      "path": "work/court-data/indian-supreme-court-judgments/data/pdf/year=1957/english/1957_1_860_868_EN.pdf",
+      "bytes": 279841,
+      "sha256": "6b078593e69e4117c63a3233059dfa51696c24c370888eef96836e15b0548c07"
+    },
+    {
+      "path": "work/court-data/indian-supreme-court-judgments/data/pdf/year=1957/english/1957_1_860_868_EN.txt",
+      "bytes": 20657,
+      "sha256": "e88aaf56a6d51e126ee1149c5117713b5bc6f7478390717b22e1d92f04478948"
+    },
+    {
+      "path": "work/court-data/indian-supreme-court-judgments/data/pdf/year=1962/english/S_1962_2_769_812_EN.pages.json",
+      "bytes": 90153,
+      "sha256": "4b8471587df1754ea4e1550dc70f374a40b4e64fb3f2a22e08162c22cdac28e8"
+    },
+    {
+      "path": "work/court-data/indian-supreme-court-judgments/data/pdf/year=1962/english/S_1962_2_769_812_EN.pdf",
+      "bytes": 1273875,
+      "sha256": "bbb991c4a8a716283c70d6eea7e181a9d86ff76b88925d9f86edba8d52371c7d"
+    },
+    {
+      "path": "work/court-data/indian-supreme-court-judgments/data/pdf/year=1962/english/S_1962_2_769_812_EN.txt",
+      "bytes": 87286,
+      "sha256": "8e3d5420b9c51eaa031da4cd50b6c1e95119c96c81d3921a61995590251157ac"
+    },
+    {
+      "path": "work/court-data/indian-supreme-court-judgments/data/pdf/year=2007/english/2007_4_907_917_EN.pages.json",
+      "bytes": 29671,
+      "sha256": "39a594211034e9c301b71ace8e82b461fcdb4cb2ce7cad1609c57e645086ae00"
+    },
+    {
+      "path": "work/court-data/indian-supreme-court-judgments/data/pdf/year=2007/english/2007_4_907_917_EN.pdf",
+      "bytes": 493589,
+      "sha256": "86e21cd46bc13d9e6925a5af83793151388612aec00e290433f15ba1597abc0a"
+    },
+    {
+      "path": "work/court-data/indian-supreme-court-judgments/data/pdf/year=2007/english/2007_4_907_917_EN.txt",
+      "bytes": 29039,
+      "sha256": "f296dbad6d10cf63dfac622709924a1b0ea343736c7f8caae4d0de75a608a2a3"
+    },
+    {
+      "path": "work/court-data/indian-supreme-court-judgments/data/pdf/year=2015/english/2015_5_963_1074_EN.pages.json",
+      "bytes": 213590,
+      "sha256": "a8f47be4783ee6e493e7633c6bde8221623870a6f6f110e9443686669047c708"
+    },
+    {
+      "path": "work/court-data/indian-supreme-court-judgments/data/pdf/year=2015/english/2015_5_963_1074_EN.pdf",
+      "bytes": 3319270,
+      "sha256": "f75d497f2e03cb1e8c6d1a6f0501a1bafc7d07b9a59375edd35f3fb99e1a3484"
+    },
+    {
+      "path": "work/court-data/indian-supreme-court-judgments/data/pdf/year=2015/english/2015_5_963_1074_EN.txt",
+      "bytes": 207363,
+      "sha256": "cbab956879939cd59ee84699472c4a8c2b2116da45155340afc3e2e78751ba3e"
+    },
+    {
+      "path": "work/court-data/indian-supreme-court-judgments/data/pdf/year=2016/english/2016_3_865_1017_EN.pages.json",
+      "bytes": 389199,
+      "sha256": "42e52f36c758ef1671baa14226110346fac6e2f863560cf06003cdf3bc8b7d56"
+    },
+    {
+      "path": "work/court-data/indian-supreme-court-judgments/data/pdf/year=2016/english/2016_3_865_1017_EN.pdf",
+      "bytes": 5502082,
+      "sha256": "5ca0820a2339ddea28f83131ff7afc89425e7b8a0fc67f39453c4708c5dffef6"
+    },
+    {
+      "path": "work/court-data/indian-supreme-court-judgments/data/pdf/year=2016/english/2016_3_865_1017_EN.txt",
+      "bytes": 378719,
+      "sha256": "bd1c6d1da1d2c73958063c77866e2ffdfe8f368620b49eb2d9448a147c8f4b5d"
+    },
+    {
+      "path": "work/court-data/indian-supreme-court-judgments/data/pdf/year=2020/english/2020_14_198_293_EN.pages.json",
+      "bytes": 239009,
+      "sha256": "ef5fd981e3ea2d1dffdf1a7fb5d9940682302159d676ddad330f4490fb54af79"
+    },
+    {
+      "path": "work/court-data/indian-supreme-court-judgments/data/pdf/year=2020/english/2020_14_198_293_EN.pdf",
+      "bytes": 1263101,
+      "sha256": "bd2cf66debc3674e4b16149b544e434251a1d08efdd362f5d011482bbfc54fdb"
+    },
+    {
+      "path": "work/court-data/indian-supreme-court-judgments/data/pdf/year=2020/english/2020_14_198_293_EN.txt",
+      "bytes": 233085,
+      "sha256": "3f6d85a93987e4ed18e447b2e598704649a9591877b6e816dc620870b895508e"
+    },
+    {
+      "path": "work/court-data/indian-supreme-court-judgments/data/pdf/year=2020/english/2020_8_222_271_EN.pages.json",
+      "bytes": 114142,
+      "sha256": "51502aad83e5efe7ddf0a09edfc2607ae89c20d7df7111bbb87e83a74b84787f"
+    },
+    {
+      "path": "work/court-data/indian-supreme-court-judgments/data/pdf/year=2020/english/2020_8_222_271_EN.pdf",
+      "bytes": 552360,
+      "sha256": "e8cd0c0dcf0eb9c4dd3ec39cfd68e5a962ba7784f611d16c2301f4266e51802a"
+    },
+    {
+      "path": "work/court-data/indian-supreme-court-judgments/data/pdf/year=2020/english/2020_8_222_271_EN.txt",
+      "bytes": 111099,
+      "sha256": "e531a206a4b2b045a5e8b1a17ae110e245499d8c8dec32a45315c7316d86a871"
+    },
+    {
+      "path": "work/court-data/indian-supreme-court-judgments/data/pdf/year=2021/english/2021_7_65_77_EN.pages.json",
+      "bytes": 29190,
+      "sha256": "babe3f12507a532f813a4873391f78986df2442e81d01d3196b637cba9cc98a3"
+    },
+    {
+      "path": "work/court-data/indian-supreme-court-judgments/data/pdf/year=2021/english/2021_7_65_77_EN.pdf",
+      "bytes": 378463,
+      "sha256": "35f1a320cc8c9a739b333b649745d4fa8577c493e7f509bd5bcc6462136404f2"
+    },
+    {
+      "path": "work/court-data/indian-supreme-court-judgments/data/pdf/year=2021/english/2021_7_65_77_EN.txt",
+      "bytes": 28421,
+      "sha256": "b23ce86f9500fff278a5c2c6a61045ac7a66e5059c733d75ec1478aa9b9a91fe"
+    },
+    {
+      "path": "work/court-data/indian-supreme-court-judgments/data/pdf/year=2021/english/2021_8_797_834_EN.pages.json",
+      "bytes": 89083,
+      "sha256": "eec00316dafa0f6b7950d7177dc0d0a76917f5421c684739aaac18ac0b8833e4"
+    },
+    {
+      "path": "work/court-data/indian-supreme-court-judgments/data/pdf/year=2021/english/2021_8_797_834_EN.pdf",
+      "bytes": 401315,
+      "sha256": "070997d9e76a96ac5d5bdfb2b90fe83653085e5793f9a2ad6b71dad9409fd431"
+    },
+    {
+      "path": "work/court-data/indian-supreme-court-judgments/data/pdf/year=2021/english/2021_8_797_834_EN.txt",
+      "bytes": 86740,
+      "sha256": "009b257bcc54779b59fb59fa429668572bc27a0679396d8484d6ca9f2baeb4fb"
+    },
+    {
+      "path": "work/court-data/indian-supreme-court-judgments/metadata/parquet/year=1957/metadata.parquet",
+      "bytes": 160867,
+      "sha256": "db07168dbd017994e7768808663b68b188fb8c12e52e70ea24dc9093e7ca2ee4"
+    },
+    {
+      "path": "work/court-data/indian-supreme-court-judgments/metadata/parquet/year=1962/metadata.parquet",
+      "bytes": 780567,
+      "sha256": "a67e85b5ffa0374e6958dab6e5891fb4a365cbd168a5081340c13843aaeeac58"
+    },
+    {
+      "path": "work/court-data/indian-supreme-court-judgments/metadata/parquet/year=1997/metadata.parquet",
+      "bytes": 971590,
+      "sha256": "d742d448dacacffe7a95bbdcf419bfc15adf232d0dfaf2dfe1abaa45e8127639"
+    },
+    {
+      "path": "work/court-data/indian-supreme-court-judgments/metadata/parquet/year=2007/metadata.parquet",
+      "bytes": 1448990,
+      "sha256": "e408f0088efd60779e74a6770636228fd3f2e0f2187ced90991e6328406d565d"
+    },
+    {
+      "path": "work/court-data/indian-supreme-court-judgments/metadata/parquet/year=2015/metadata.parquet",
+      "bytes": 837458,
+      "sha256": "5c48e39bb04470607b4027a3929ef8d658f47ab7a8f45dc26ce6e0001f9c3520"
+    },
+    {
+      "path": "work/court-data/indian-supreme-court-judgments/metadata/parquet/year=2016/metadata.parquet",
+      "bytes": 652076,
+      "sha256": "a3d7c3f5f74ea6a91606d447dc2041e0ab355bf098d93249fcbf5e38a83255fd"
+    },
+    {
+      "path": "work/court-data/indian-supreme-court-judgments/metadata/parquet/year=2020/metadata.parquet",
+      "bytes": 627923,
+      "sha256": "eeb78c99c5b2ed58efab3e4d94198d2b314c805071319962995577596e879fc0"
+    },
+    {
+      "path": "work/court-data/indian-supreme-court-judgments/metadata/parquet/year=2021/metadata.parquet",
+      "bytes": 771190,
+      "sha256": "0cf3ccc214591e3b9c8c891949a1bf93c1a0c18adfcca51ca531f3a6e6da5439"
+    },
+    {
+      "path": "work/court-data/indian-supreme-court-judgments/metadata/parquet/year=2022/metadata.parquet",
+      "bytes": 1098148,
+      "sha256": "2cb1083586ea297dfa43e92edb576638e932d41def03a8d4734ddfcd4a8371c1"
+    },
+    {
+      "path": "work/court-data/indian-supreme-court-judgments/metadata/parquet/year=2024/metadata.parquet",
+      "bytes": 895264,
+      "sha256": "07ce1a080d8313ac67fd3374957a7bba044c48c174839eedf3523d9aa2f653ee"
+    },
+    {
+      "path": "work/court-data/indian-supreme-court-judgments/metadata/parquet/year=2025/metadata.parquet",
+      "bytes": 969598,
+      "sha256": "edfea4bc4dac6fe7f7f2d0f8b92b1ab09b0bdfafd5bf53819b85238a780f17ab"
+    },
+    {
+      "path": "work/court-data/indian-supreme-court-judgments/metadata/parquet/year=2026/metadata.parquet",
+      "bytes": 252096,
+      "sha256": "5b042ff777e8ea4435229499317b1a09c77d4c487e55f87231081a1a022a904f"
+    },
+    {
+      "path": "work/court-data/ipc-official.pdf",
+      "bytes": 842456,
+      "sha256": "ef8945c5d1b02904da67959e245b87bd5751ed5563d03ab0079758909f145309"
+    },
+    {
+      "path": "work/court-data/lists/indian-high-court-judgments-5f4724d39bb6ef6b.xml",
+      "bytes": 5381,
+      "sha256": "8a3fec1dbc2ca6fe6c06de5a3194b63af1abc9fd2244c2363749db34aa429b64"
+    },
+    {
+      "path": "work/court-data/lists/indian-high-court-judgments-6af17ff9b365c8df.xml",
+      "bytes": 676,
+      "sha256": "61eeb3852dc71c56885fbdb769f87fa0c529ca5d76fb91600912ba43863fe78c"
+    },
+    {
+      "path": "work/court-data/lists/indian-high-court-judgments-94d3a3a6beda7c0e.xml",
+      "bytes": 5369,
+      "sha256": "a2e3f2721379bdf54670eb5eee240c9b8918e9229ceaa732c0aec98752f42588"
+    },
+    {
+      "path": "work/court-data/lists/indian-high-court-judgments-bda0e83f8b1e44b0.xml",
+      "bytes": 657,
+      "sha256": "20846b9157e00c95cead5c62c9e18f6101d46e39770a3c015dcb8038f7857575"
+    },
+    {
+      "path": "work/court-data/lists/indian-high-court-judgments-ca56cda0f88d54e5.xml",
+      "bytes": 2914,
+      "sha256": "c2aa8b3282d7f92d9bd7c7bc1f16a04e305481a277da7fd0c772c394a4fcddec"
+    },
+    {
+      "path": "work/court-data/lists/indian-supreme-court-judgments-06faa35cb46602c7.xml",
+      "bytes": 344995,
+      "sha256": "03c5fa44ca83ec1778194290f241ebbc6fa0a82d3792ca9243f2073c96d1b87d"
+    },
+    {
+      "path": "work/court-data/lists/indian-supreme-court-judgments-40a1f7a3f9c98477.xml",
+      "bytes": 112383,
+      "sha256": "993c497748dd9029bbd4c3f4998efabb2e83e59ebdf0c2bc25186f5d6a6c6562"
+    },
+    {
+      "path": "work/court-data/lists/indian-supreme-court-judgments-69301575c9710cd4.xml",
+      "bytes": 26113,
+      "sha256": "72f3124315b2e04c85e466650d018eacfdd664398ce57c9d0c874a774fd46d78"
+    },
+    {
+      "path": "work/court-data/manifest.json",
+      "bytes": 111820,
+      "sha256": "c342a2fdde3da3d7fd9140c1ea7c30da79d98af1b327ae5fd180078c0d708874"
+    },
+    {
+      "path": "work/court-data/sc_candidates.json",
+      "bytes": 3260,
+      "sha256": "c9a96eb7bec5b320297ea852af64557baaf8dec8110c73d7fb67c672a670e2dd"
+    },
+    {
+      "path": "work/court-data/sc_documents.json",
+      "bytes": 5336,
+      "sha256": "2dfaaf218cba0c6e3b806dc36ff21598d6aab21a63f374459df9ed332b75cb69"
+    },
+    {
+      "path": "work/court-data/sc_review_passages.json",
+      "bytes": 38780,
+      "sha256": "d4c27145dba1d65cebb80a4598519e078af0ee25f72af02e80a8e19f4e92b77f"
+    },
+    {
+      "path": "work/court-data/statutes/bns.json",
+      "bytes": 415573,
+      "sha256": "537d8d1a618bec982d3026d5211dbff94ff97af71187a5af3d70f4eeb6ae9f9b"
+    },
+    {
+      "path": "work/court-data/statutes/bns.pdf",
+      "bytes": 896392,
+      "sha256": "ff92dcc72778944011807644b6033b1140ddbe6d7e9f82ac32fd419dae03aa86"
+    },
+    {
+      "path": "work/court-data/statutes/bns.txt",
+      "bytes": 403754,
+      "sha256": "5bc8a553956adce35d71b5b66ed5389537b9dc550f08f415012ef5357d43148f"
+    },
+    {
+      "path": "work/court-data/statutes/bnss.json",
+      "bytes": 886314,
+      "sha256": "690beb28d2636041eecfa6836960f3b2d9f8106e2fbe226e6ec67b409431a0f5"
+    },
+    {
+      "path": "work/court-data/statutes/bnss.pdf",
+      "bytes": 2033181,
+      "sha256": "5e60e2afe30d0fe7eca4f8126301146b76c86a444e690581f81eb564843517fe"
+    },
+    {
+      "path": "work/court-data/statutes/bnss.txt",
+      "bytes": 861273,
+      "sha256": "b23c901465c09d6de963ca2c959cced7da6c0434ee43000ec9194259e8cdffc6"
+    },
+    {
+      "path": "work/court-data/statutes/crpc.json",
+      "bytes": 910816,
+      "sha256": "7817522895c921ec9bcfbae0382a0f4c0b601fbf39275fc369725685f3b86acd"
+    },
+    {
+      "path": "work/court-data/statutes/crpc.pdf",
+      "bytes": 1879339,
+      "sha256": "5bb6514251a9ec6375b2c894cef5280dab0d1c3cca1e0f4a1e57f29b54033d72"
+    },
+    {
+      "path": "work/court-data/statutes/crpc.txt",
+      "bytes": 883460,
+      "sha256": "93afaf678c8e0230072336d61e65fefb4ec284994b3bbc3072791c3bc93422b0"
+    },
+    {
+      "path": "work/court-data/statutes/ipc.json",
+      "bytes": 588093,
+      "sha256": "b59b8f8868c09329f625b014d65d1f1b22e500bfa1f9ff035aa73a36e3b134b7"
+    },
+    {
+      "path": "work/court-data/statutes/ipc.pdf",
+      "bytes": 842456,
+      "sha256": "ef8945c5d1b02904da67959e245b87bd5751ed5563d03ab0079758909f145309"
+    },
+    {
+      "path": "work/court-data/statutes/ipc.txt",
+      "bytes": 559628,
+      "sha256": "2bb7003dbe18e75fb640c8f0a17959c4711784309773e9f9ed9540ac098e9608"
+    },
+    {
+      "path": "work/court-data/statutes/osa.json",
+      "bytes": 30160,
+      "sha256": "db8dcbe6fa395931e134c2953b85383222e6090d0bfb6586fa80372b5d160844"
+    },
+    {
+      "path": "work/court-data/statutes/osa.pdf",
+      "bytes": 342537,
+      "sha256": "982a4b7a7912d374dadbed8c180abd1a7322d09584b6a5ecec2bf736a001d288"
+    },
+    {
+      "path": "work/court-data/statutes/osa.txt",
+      "bytes": 29246,
+      "sha256": "8157ed79a07629271127d28bc1f820d01fa31aa4f38e5a85f3abbf8d3a29d8c3"
+    },
+    {
+      "path": "work/court-data/statutes/uapa.json",
+      "bytes": 90870,
+      "sha256": "ad528f4729791815e2f6153f20ee3cc15684966a1c026ec5ff7a2468727bac61"
+    },
+    {
+      "path": "work/court-data/statutes/uapa.pdf",
+      "bytes": 462441,
+      "sha256": "15201c51c6e8168eb22245296353b38ba1f63bb17ecdde52689a4a8021eac98f"
+    },
+    {
+      "path": "work/court-data/statutes/uapa.txt",
+      "bytes": 88098,
+      "sha256": "2e8f16936e0ff42b0bb7293d012c892a8043811752b3031f9b5dc23af32dd418"
+    },
+    {
+      "path": "work/court-data/supplemental/imran-2025.pages.json",
+      "bytes": 81287,
+      "sha256": "80bd79af94ba0ba9b857864fd1dec42029bf3c3b8344bfa2afabdfc48d9846fb"
+    },
+    {
+      "path": "work/court-data/supplemental/imran-2025.pdf",
+      "bytes": 776472,
+      "sha256": "896f08f97519248a7f004350d43b72ffc296144e817c0be8b0365bd28f0d5a58"
+    },
+    {
+      "path": "work/court-data/supplemental/vombatkere-2022.pages.json",
+      "bytes": 13870,
+      "sha256": "29ccb1b49c995f09113a04c694d3558f0c1f7fd3b2af2da084508a42a8c46ada"
+    },
+    {
+      "path": "work/court-data/supplemental/vombatkere-2022.pdf",
+      "bytes": 56710,
+      "sha256": "5cc2db68fa3b9ccd14fb1eab61d4f322ae5e85c999afadd5d3a5570de4297d4b"
+    },
+    {
+      "path": "work/hc-dataset-readme.md",
+      "bytes": 7722,
+      "sha256": "ba10033be6d05268e83a49ea9c96a3e748c32897524e22a99515ec4e52f1d800"
+    },
+    {
+      "path": "work/hc-overview.json",
+      "bytes": 11564,
+      "sha256": "2c743f76bbbe297caafb2a6095662a0a1ebf95e5f05675ed3dcd5dbbd3bf9fed"
+    },
+    {
+      "path": "work/ml-design/review-notes.md",
+      "bytes": 1633,
+      "sha256": "88a096bbd2f1089b076007427e83cd400a3991f938c217dec41f010762cb66dc"
+    },
+    {
+      "path": "work/prepare-final.log",
+      "bytes": 8808,
+      "sha256": "6177edc22cf3c25d687455711a24f57f9784d6f4fdf78ec443b4df54a9219152"
+    },
+    {
+      "path": "work/sc-dataset-readme.md",
+      "bytes": 5929,
+      "sha256": "726318017de58138d5f6c0f5a6db159542c7f495feeefdfdf116fc782dfc734c"
+    },
+    {
+      "path": "work/statutes-final.log",
+      "bytes": 436,
+      "sha256": "d168ebe8825df2b033f3ceb9e7bbbae2ab0dfe3d1a87413316afdab9c9d1f32b"
+    }
+  ],
+  "excluded": [
+    {
+      "path": "node_modules/",
+      "reason": "Machine-local runtime dependency link"
+    },
+    {
+      "path": "research/__pycache__/",
+      "reason": "Generated Python bytecode"
+    },
+    {
+      "path": "work/deps/",
+      "reason": "Installed third-party runtime packages"
+    },
+    {
+      "path": "work/pdf-read/",
+      "reason": "Working extraction of the user-supplied participant packet; not a project deliverable"
+    },
+    {
+      "path": "work/court-data/hc_case_details.json",
+      "bytes": 220891568,
+      "reason": "Expanded intermediate exceeds GitHub per-file limit; original source Parquets and prepare_corpus.py are included"
+    }
+  ]
+}

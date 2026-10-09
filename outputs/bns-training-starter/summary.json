@@ -1,0 +1,30 @@
+{
+  "retrieval_cnrs": 107,
+  "document_records": 177,
+  "distinct_pdf_hashes": 174,
+  "pdf_page_records": 500,
+  "documents_with_at_least_3_pages": 47,
+  "ai_reviewed_documents": 39,
+  "cnrs_with_text_confirmed_target": 30,
+  "text_confirmed_counts_by_parent_section": {
+    "152": 2,
+    "196": 5,
+    "299": 1,
+    "353": 6,
+    "356": 18,
+    "221": 3
+  },
+  "annotation_starter_documents": 16,
+  "human_gold_labels": 0,
+  "leakage_groups": 94,
+  "all_splits_unassigned": true,
+  "review_counts": {
+    "operative BNS target recorded; human check pending": 30,
+    "IPC/BNS metadata conflict": 1,
+    "reviewed; target charge not established": 8,
+    "metadata-only; charge review pending": 68
+  },
+  "scope": "Four Bombay benches; recorded 2024\u20132025 order window; BNS target metadata retrieval only",
+  "is_journalist_only": false,
+  "is_representative_sample": false
+}

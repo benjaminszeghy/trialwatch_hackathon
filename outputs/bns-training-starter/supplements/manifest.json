@@ -1,0 +1,560 @@
+[
+  {
+    "document_id": "imran-pratapgarhi-2025",
+    "kind": "BNS interpretation benchmark",
+    "source_url": "https://api.sci.gov.in/supremecourt/2025/3511/3511_2025_4_1501_60508_Judgement_28-Mar-2025.pdf",
+    "note": "Fixed Supreme Court interpretation reference from the earlier pilot; not an HC training-family observation.",
+    "selection": "purposive official-source supplement; separate from the AWS retrieval frame",
+    "human_labels": null,
+    "review_status": "downloaded text; independent human/legal check pending",
+    "retrieval_status": "success",
+    "pdf_sha256": "896f08f97519248a7f004350d43b72ffc296144e817c0be8b0365bd28f0d5a58",
+    "page_count": 54,
+    "pdf_file": "imran-pratapgarhi-2025.pdf",
+    "pages_file": "imran-pratapgarhi-2025.pages.json",
+    "retrieval_passages": [
+      {
+        "page": 2,
+        "char_start": 862,
+        "char_end": 1286,
+        "quote": "t at whose instance a \nFirst Information Report (for short, ‘FIR’)  was registered \nwith Jamnagar Police Station for the offences punishable \nunder Sections 196, 197(1), 302, 299, 57 and 3(5) of the \nBharatiya Nyaya Sanhita, 2023 (for short, ‘the BNS’). In \nthe complaint of the 2nd respondent, he stated that on 29th \nDecember 2024, on the occasion of the birthday of one \nAltaf Ghafarbhai Khafi, a member of the Municipal ",
+        "status": "retrieval snippet; human support check required"
+      },
+      {
+        "page": 2,
+        "char_start": 909,
+        "char_end": 1286,
+        "quote": " (for short, ‘FIR’)  was registered \nwith Jamnagar Police Station for the offences punishable \nunder Sections 196, 197(1), 302, 299, 57 and 3(5) of the \nBharatiya Nyaya Sanhita, 2023 (for short, ‘the BNS’). In \nthe complaint of the 2nd respondent, he stated that on 29th \nDecember 2024, on the occasion of the birthday of one \nAltaf Ghafarbhai Khafi, a member of the Municipal ",
+        "status": "retrieval snippet; human support check required"
+      },
+      {
+        "page": 3,
+        "char_start": 879,
+        "char_end": 1481,
+        "quote": "tred towards each other. It was further alleged that it \nhad a detrimental effect on national unity.  \nPROCEEDINGS BEFORE THE HIGH COURT   \n4. The appellant filed a petition under Section 528 of the \nBharatiya Nagarik Suraksha Sanhita (for short, ‘ the \nBNSS’) read with Article 226 of the Constitution of India , \npraying for quashing the said FIR. While issuing notice on \nthe said petition, the learned Judge had directed the \nappellant to file an affidavit disclosing the poem's source. \nAccordingly, an affidavit was filed by the appellant. In \nparagraphs 3 to 5 of the affidavit, he stated thus: ",
+        "status": "retrieval snippet; human support check required"
+      },
+      {
+        "page": 10,
+        "char_start": 389,
+        "char_end": 1142,
+        "quote": "ect national unity. On \nits plain reading, the poem does not purport to affect \nanyone's religious feelings.  \n13. Now, let us examine whether any offence as alleged \nis attracted. Section 196 of the BNS reads thus:  \n“\n196. Promoting enmity between different \ngroups on grounds of religion, race, place of \nbirth, residence, language, etc., and doing \nacts prejudicial to maintenance of \nharmony\n.—(1) Whoever— \n(a) by words, either spoken or written, or \nby signs or by visible representations or \nthrough electronic communication or \notherwise, promotes or attempts to \npromote, on grounds of religion, race, place \nof birth, residence, language, caste or \ncommunity or any other ground \nwhatsoever, disharmony or feelings of \nenmity, hatred or ill -",
+        "status": "retrieval snippet; human support check required"
+      },
+      {
+        "page": 14,
+        "char_start": 918,
+        "char_end": 1400,
+        "quote": ", plea or appeal likely to cause disharmony or \nfeeling of enmity or hatred or ill will. The poem does not \npublish or make any false or misleading information.  \n17. Offence under Section 299 of the BNS is also alleged \nagainst the appellant, which reads thus: \n“\n299. Deliberate and malicious acts, \nintended to outrage religious feelings of any \nclass by insulting its religion or religious \nbeliefs\n.—Whoever, with deliberate and \nmalicious intention of outraging the religious ",
+        "status": "retrieval snippet; human support check required"
+      },
+      {
+        "page": 15,
+        "char_start": 588,
+        "char_end": 1341,
+        "quote": " by insulting its religion or religious beliefs. The \npoem only tells the rulers what the reaction will be  if the \nfight for rights is met with injustice.  \n18. Even offence under Section 302 of the BNS has been \nalleged, which reads thus: \n“\n302. Uttering words, etc., with deliberate \nintent to wound religious feelings of any \nperson.—Whoever, with the deliberate \nintention of wounding the religious feelings of \nany person, utters any word or makes any \nsound in the hearing of that person or makes \nany gesture in the sight of that person or \nplaces any object in the sight of that person, \nshall be punished with imprisonment of \neither description for a term which may \nextend to one year, or with fine, or with both.” \nAn offence under Section",
+        "status": "retrieval snippet; human support check required"
+      },
+      {
+        "page": 16,
+        "char_start": 0,
+        "char_end": 731,
+        "quote": " \n \n               Criminal Appeal No.1545 of 2025  Page 16 of 54 \n \nreligious feelings of any person.  Even this section is not \napplicable on its face.  \n19. Section 57 of the BNS is alleged to be applicable , \nwhich reads thus: \n“\n57. Abetting commission of offence by public \nor by more than ten persons\n.—Whoever abets \nthe commission of an offence by the public \ngenerally or by any number or class of \npersons exceeding ten, shall be punished \nwith imprisonment of either description for a \nterm which may extend to seven years and \nwith fine.” \nWe fail to understand , even if it is assumed that the \nappellant has committed some offence, how he has abetted \nthe commission of an offence by the public generally or by \nany ",
+        "status": "retrieval snippet; human support check required"
+      },
+      {
+        "page": 17,
+        "char_start": 796,
+        "char_end": 1555,
+        "quote": "ion 64, Section  65, Section  66, \nSection 67, Section  68, Section  69, \nSection 70, Section  71, Section  74, \nSection 75, Section  76, Section  77, \nSection 78, Section  79 or S ection 124 of \nthe Bharatiya Nyaya Sanhita, 2023  is alleged \nto have been committed or attempted, then \nsuch information shall be recorded, by a \nwoman police officer or any woman officer: \nProvided further that— \n(a) in the event that the person against \nwhom an offence under Section  64, \nSection 65, Section  66, Section  67, \nSection 68, Section  69, Section  70, \nSection 71, Section  74, Section  75, \nSection 76, Section  77, Section  78, \nSection 79 or Section  124 of the  Bharatiya \nNyaya Sanhita, 2023  is alleged to have been \ncommitted or attempted, is temporaril",
+        "status": "retrieval snippet; human support check required"
+      },
+      {
+        "page": 17,
+        "char_start": 1261,
+        "char_end": 1560,
+        "quote": "on  64, \nSection 65, Section  66, Section  67, \nSection 68, Section  69, Section  70, \nSection 71, Section  74, Section  75, \nSection 76, Section  77, Section  78, \nSection 79 or Section  124 of the  Bharatiya \nNyaya Sanhita, 2023  is alleged to have been \ncommitted or attempted, is temporarily or ",
+        "status": "retrieval snippet; human support check required"
+      },
+      {
+        "page": 26,
+        "char_start": 598,
+        "char_end": 1351,
+        "quote": "ersonally or by electronic communication and \nalleges that he has seen ‘A’ assaulting ‘X’ with a stick. If \nthe injury caused is simple, it will be an offence punishable \nunder Section 115 (2) of the BNS. As per the first Schedule \nof the BNSS, it is a non -cognizable off ence. Therefore, \nbased on  such information, FIR cannot be registered. If \ngrievous hurt is caused, it will be an offence punishable \nunder Section 117 (2) of the BNS, which is a cognizable \noffence. Therefore, the allegations made in the information \nfurnished to an officer -in-charge of a police station must \nbe examined by the officer only with a view to ascertain \nwhether a cognizable offence is made out. Taking the \ninformation as correct, the officer has to determine \n",
+        "status": "retrieval snippet; human support check required"
+      },
+      {
+        "page": 26,
+        "char_start": 835,
+        "char_end": 1579,
+        "quote": "e BNSS, it is a non -cognizable off ence. Therefore, \nbased on  such information, FIR cannot be registered. If \ngrievous hurt is caused, it will be an offence punishable \nunder Section 117 (2) of the BNS, which is a cognizable \noffence. Therefore, the allegations made in the information \nfurnished to an officer -in-charge of a police station must \nbe examined by the officer only with a view to ascertain \nwhether a cognizable offence is made out. Taking the \ninformation as correct, the officer has to determine \nwhether it makes out a case of the commission of a \ncognizable offence. If the allegation makes out a case of a \ncognizable offence, unless the offence falls in sub-Section \n(3) of Section 173, it is mandatory to register FIR.  ",
+        "status": "retrieval snippet; human support check required"
+      },
+      {
+        "page": 27,
+        "char_start": 0,
+        "char_end": 690,
+        "quote": " \n \n               Criminal Appeal No.1545 of 2025  Page 27 of 54 \n \n26. Coming back to the offence punishable under Section \n196 of the BNS to decide whether the words, either spoken \nor written or by sign or by visible representations or \nthrough electronic communication or otherwise,  lead to \nthe consequences provided in the Section. The police \nofficer to whom information is furnished will have to read \nor hear the words  written or spoken , and by taking the \nsame as correct, decide whether an offence under Section \n196 is made out. Reading  of written words , or hearing \nspoken words will be necessary to determine whether the \ncontents make out a case of the commission of a ",
+        "status": "retrieval snippet; human support check required"
+      },
+      {
+        "page": 27,
+        "char_start": 598,
+        "char_end": 1351,
+        "quote": "will be necessary to determine whether the \ncontents make out a case of the commission of a \ncognizable offence. The same  is the case with offences \npunishable under Sections 197, 299 and 302 of the BNS. \nTherefore, to ascertain whether the information received \nby an officer -in-charge of the police station makes out a \ncognizable offence, the officer must consider the meaning \nof the spoken or written words. This act on the part of the \npolice officer will not amount to making a preliminary \ninquiry which is not permissible under sub -Section (1) of \nSection 173.  \n27. We will give an example. A person utters the following \nwords. “If the rulers attack me, I will not retaliate and, on \nthe contrary, face the attack with love. If I do that ,",
+        "status": "retrieval snippet; human support check required"
+      },
+      {
+        "page": 28,
+        "char_start": 648,
+        "char_end": 1395,
+        "quote": "his option is available when the offence \nalleged is made punishable for 3 years or more but less \nthan 7 years. In the facts of the case, all the offences except \nthe offence under Section 57 of the BNS are punishable by \nimprisonment for less than 7 years. Section 57, on the face \nof it, is not applicable. Therefore, this option was  also \navailable to the police officer in the present case. The \nofficer did not exercise the said option.  \n29. At this stage, we may refer to clause (a) of Article 51-\nA of the Constitution, which reads thus: \n“\n51-A. Fundamental duties .—It shall be \nthe duty of every citizen of India— \n(a) to abide by the Constitution and \nrespect its ideals and institutions, the \nNational Flag and the National Anthem; ",
+        "status": "retrieval snippet; human support check required"
+      },
+      {
+        "page": 31,
+        "char_start": 1201,
+        "char_end": 1409,
+        "quote": "aking recourse \nto sub -Section (3) of Section 173  of the BNSS, the \ninformation furnished to the police officer did not attract \nthe offences punishable under Sections 196, 197, 299 and \n302 of the BNS.  \n ",
+        "status": "retrieval snippet; human support check required"
+      },
+      {
+        "page": 35,
+        "char_start": 0,
+        "char_end": 641,
+        "quote": " \n \n               Criminal Appeal No.1545 of 2025  Page 35 of 54 \n \nSection 196 of the BNS. The only difference is that the \nwords ‘or through electric communication’ have been \nadded in clause (a) of Section 196 of the BNS, which were \nnot in clause (a) of Section 153 -A of the IPC. When an \noffence punishable under  Section 196 of BNS  is alleged, \nthe effect of the spoken or written words  will have to be \nconsidered based on  standards of reasonable, strong-\nminded, firm and courageous individuals and not based \non the standards of people with weak and oscillating \nminds. The effect of the spoken or written words cannot be \njudg",
+        "status": "retrieval snippet; human support check required"
+      },
+      {
+        "page": 35,
+        "char_start": 21,
+        "char_end": 774,
+        "quote": "iminal Appeal No.1545 of 2025  Page 35 of 54 \n \nSection 196 of the BNS. The only difference is that the \nwords ‘or through electric communication’ have been \nadded in clause (a) of Section 196 of the BNS, which were \nnot in clause (a) of Section 153 -A of the IPC. When an \noffence punishable under  Section 196 of BNS  is alleged, \nthe effect of the spoken or written words  will have to be \nconsidered based on  standards of reasonable, strong-\nminded, firm and courageous individuals and not based \non the standards of people with weak and oscillating \nminds. The effect of the spoken or written words cannot be \njudged on the basis of the standards of people who always \nhave a sense of insecurity or of those who always perceive \ncriticism as a thr",
+        "status": "retrieval snippet; human support check required"
+      },
+      {
+        "page": 35,
+        "char_start": 136,
+        "char_end": 889,
+        "quote": "through electric communication’ have been \nadded in clause (a) of Section 196 of the BNS, which were \nnot in clause (a) of Section 153 -A of the IPC. When an \noffence punishable under  Section 196 of BNS  is alleged, \nthe effect of the spoken or written words  will have to be \nconsidered based on  standards of reasonable, strong-\nminded, firm and courageous individuals and not based \non the standards of people with weak and oscillating \nminds. The effect of the spoken or written words cannot be \njudged on the basis of the standards of people who always \nhave a sense of insecurity or of those who always perceive \ncriticism as a threat to their power or position. \nINGREDIENT OF MENS REA \n34. In the case of Manzar Sayeed Khan 4 and the case \nof P",
+        "status": "retrieval snippet; human support check required"
+      },
+      {
+        "page": 40,
+        "char_start": 1187,
+        "char_end": 1555,
+        "quote": "rictions imposed in \naccordance with clause (2) of Article 19. In the \npresent case, the appellant has not at all \ncrossed the line.” \n \nHence, mens rea will have to be read into Section  196 of \nthe BNS . In this case, looking to the text of the words \nspoken and the context in which those were spoken, it is \nimpossible to attribute any mens rea to the appellant.  ",
+        "status": "retrieval snippet; human support check required"
+      },
+      {
+        "page": 49,
+        "char_start": 0,
+        "char_end": 752,
+        "quote": " \n \n               Criminal Appeal No.1545 of 2025  Page 49 of 54 \n \nhe can avail a remedy under sub -Section (4) of \nSection 173. \n(iii) In case of the offence punishable under Section  \n196 of the BNS to decide whether the words, \neither spoken or written or by sign or by visible \nrepresentations or through electronic \ncommunication or otherwise, lead to the \nconsequences provided in the Section, the police \nofficer to whom information is furnished will have \nto read or hear the words written or spoken, and \nby taking the same as correct, decide whether an \noffence under Section 196 is made out. Reading \nof written words, or hearing spoken words will be \nnecessary to determine whether the contents \nmake out a case of the commission of a \nco",
+        "status": "retrieval snippet; human support check required"
+      },
+      {
+        "page": 49,
+        "char_start": 653,
+        "char_end": 1227,
+        "quote": "ds will be \nnecessary to determine whether the contents \nmake out a case of the commission of a \ncognizable offence. The same is the case with \noffences punishable under Sections 197, 299 and \n302 of BNS. Therefore, to ascertain whether the \ninformation received by an o fficer-in-charge of \nthe police station makes out a cognizable offence, \nthe officer must consider the meaning of the \nspoken or written words. This act on the part of \nthe police officer will not amount to making a \npreliminary inquiry which is not permissible  \nunder sub-Section (1) of Section 173.  ",
+        "status": "retrieval snippet; human support check required"
+      },
+      {
+        "page": 51,
+        "char_start": 626,
+        "char_end": 1295,
+        "quote": "officer referred to in sub-\nSection (3) of Section 173 must normally grant \npermission to the police officer to conduct a \npreliminary inquiry.  \n(vi) When an offence punishable under Section 196 \nof BNS is alleged, the effect of the spoken or \nwritten words will have to be considered based on \nstandards of reasonable, strong -minded, firm \nand courageous individuals and not based on the \nstandards of people with weak and oscillating \nminds. The effect of the spoken or written words \ncannot be judged on the basis of the standards of \npeople who always have a sense of insecurity or \nof those who always perceive criticism as a threat \nto their power or position. ",
+        "status": "retrieval snippet; human support check required"
+      },
+      {
+        "page": 54,
+        "char_start": 279,
+        "char_end": 741,
+        "quote": " on valuable inputs by Ujjal \nBhuyan, J. \n44. In the circumstances, the impugned order deserves \nto be set aside. We, accordingly, quash and set aside the \nimpugned order. We also quash and set aside FIR No.  \n11202008250014 of 2025, registered with City A-Division \nPolice Station, Jamnagar, and further proceedings based \nthereon. The Appeal is accordingly allowed. \n \n……………………..J. \n(Abhay S. Oka) \n \n……………………..J. \n(Ujjal Bhuyan) \nNew Delhi; \nMarch 28, 2025 \n ",
+        "status": "retrieval snippet; human support check required"
+      }
+    ]
+  },
+  {
+    "document_id": "pawan-khera-2026",
+    "kind": "supplemental target-charge candidate",
+    "source_url": "https://api.sci.gov.in/supremecourt/2026/25523/25523_2026_3_62_70689_Judgement_30-Apr-2026.pdf",
+    "note": "Claude identified BNS parent 353 and 356 in the charge narrative. Independently inspect the stored passages; outside the Bombay 2024–2025 frame.",
+    "selection": "purposive official-source supplement; separate from the AWS retrieval frame",
+    "human_labels": null,
+    "review_status": "downloaded text; independent human/legal check pending",
+    "retrieval_status": "success",
+    "pdf_sha256": "fcc1bdf4a5091138a53289cc588fddab7394079c60445b5bd6b4a2533e5f9d02",
+    "page_count": 22,
+    "pdf_file": "pawan-khera-2026.pdf",
+    "pages_file": "pawan-khera-2026.pages.json",
+    "retrieval_passages": [
+      {
+        "page": 2,
+        "char_start": 0,
+        "char_end": 628,
+        "quote": "2 \nfiled.  4) The Appellant has been made an accused in connection with FIR No. 04/2026 dated 06.04.2026 registered by the Crime Branch Police Station, Guwahati under Sections 175, 3(5), 3(6), 318, 336(4), 337, 338, 340, 341(1), 351(1), 352, 353, 356, and 61(2) of Bharatiya Nyaya Sanhita, 2023 (hereinafter, ‘BNS’). 5) In the FIR, it is alleged that the Appellant, who is an office bearer of a national political party, addressed two press conferences on 05.04.2026, one at All India Congress Committee headquarters, New Delhi, and other at Hotel Lily, Gauhati. In the press conferences, the Appellant displayed certain documen",
+        "status": "retrieval snippet; human support check required"
+      },
+      {
+        "page": 2,
+        "char_start": 65,
+        "char_end": 824,
+        "quote": "n with FIR No. 04/2026 dated 06.04.2026 registered by the Crime Branch Police Station, Guwahati under Sections 175, 3(5), 3(6), 318, 336(4), 337, 338, 340, 341(1), 351(1), 352, 353, 356, and 61(2) of Bharatiya Nyaya Sanhita, 2023 (hereinafter, ‘BNS’). 5) In the FIR, it is alleged that the Appellant, who is an office bearer of a national political party, addressed two press conferences on 05.04.2026, one at All India Congress Committee headquarters, New Delhi, and other at Hotel Lily, Gauhati. In the press conferences, the Appellant displayed certain documents on the stage with a large screen in the background, inter alia, stating that the complainant is the wife of the present Chief Minister of Assam and she holds three passports of (i) Egypt; (ii) ",
+        "status": "retrieval snippet; human support check required"
+      },
+      {
+        "page": 2,
+        "char_start": 110,
+        "char_end": 863,
+        "quote": "tered by the Crime Branch Police Station, Guwahati under Sections 175, 3(5), 3(6), 318, 336(4), 337, 338, 340, 341(1), 351(1), 352, 353, 356, and 61(2) of Bharatiya Nyaya Sanhita, 2023 (hereinafter, ‘BNS’). 5) In the FIR, it is alleged that the Appellant, who is an office bearer of a national political party, addressed two press conferences on 05.04.2026, one at All India Congress Committee headquarters, New Delhi, and other at Hotel Lily, Gauhati. In the press conferences, the Appellant displayed certain documents on the stage with a large screen in the background, inter alia, stating that the complainant is the wife of the present Chief Minister of Assam and she holds three passports of (i) Egypt; (ii) United Arab Emirates; (iii) Antigua and",
+        "status": "retrieval snippet; human support check required"
+      },
+      {
+        "page": 5,
+        "char_start": 184,
+        "char_end": 937,
+        "quote": "m with certain other documents. However, merely attending such press conferences and exhibition of the documents, as contended, would not prima facie make out a case under Sections 337 and 338 of the BNS. He further submits that the offences under Sections 175, 318, 336(4), 356, 340, 341(1), 351(1), 352 and 339 of BNS are bailable. It is only offences under Sections 337, 338 and 353 of BNS that are cognizable and non-bailable.  So far as the offences under Section 3(5), 3(6) and 61(2) of BNS are concerned, they have to be read with the offences alongwith which these are invoked. Therefore, most of the offences as attracted in the present case are bailable. It is further urged that on the basis of the contents of the FIR, prima facie, offences ",
+        "status": "retrieval snippet; human support check required"
+      },
+      {
+        "page": 5,
+        "char_start": 300,
+        "char_end": 1053,
+        "quote": " contended, would not prima facie make out a case under Sections 337 and 338 of the BNS. He further submits that the offences under Sections 175, 318, 336(4), 356, 340, 341(1), 351(1), 352 and 339 of BNS are bailable. It is only offences under Sections 337, 338 and 353 of BNS that are cognizable and non-bailable.  So far as the offences under Section 3(5), 3(6) and 61(2) of BNS are concerned, they have to be read with the offences alongwith which these are invoked. Therefore, most of the offences as attracted in the present case are bailable. It is further urged that on the basis of the contents of the FIR, prima facie, offences under Sections 337, 338 and 339 of BNS cannot be made out. It is further contended that Section 353 of BNS deals wit",
+        "status": "retrieval snippet; human support check required"
+      },
+      {
+        "page": 5,
+        "char_start": 373,
+        "char_end": 1126,
+        "quote": "338 of the BNS. He further submits that the offences under Sections 175, 318, 336(4), 356, 340, 341(1), 351(1), 352 and 339 of BNS are bailable. It is only offences under Sections 337, 338 and 353 of BNS that are cognizable and non-bailable.  So far as the offences under Section 3(5), 3(6) and 61(2) of BNS are concerned, they have to be read with the offences alongwith which these are invoked. Therefore, most of the offences as attracted in the present case are bailable. It is further urged that on the basis of the contents of the FIR, prima facie, offences under Sections 337, 338 and 339 of BNS cannot be made out. It is further contended that Section 353 of BNS deals with the statements conducing to public mischief, however, any statement mad",
+        "status": "retrieval snippet; human support check required"
+      },
+      {
+        "page": 5,
+        "char_start": 477,
+        "char_end": 1230,
+        "quote": "351(1), 352 and 339 of BNS are bailable. It is only offences under Sections 337, 338 and 353 of BNS that are cognizable and non-bailable.  So far as the offences under Section 3(5), 3(6) and 61(2) of BNS are concerned, they have to be read with the offences alongwith which these are invoked. Therefore, most of the offences as attracted in the present case are bailable. It is further urged that on the basis of the contents of the FIR, prima facie, offences under Sections 337, 338 and 339 of BNS cannot be made out. It is further contended that Section 353 of BNS deals with the statements conducing to public mischief, however, any statement made purely against an individual would not fall within the purview of such provision. It is not a case in ",
+        "status": "retrieval snippet; human support check required"
+      },
+      {
+        "page": 5,
+        "char_start": 772,
+        "char_end": 1357,
+        "quote": "erefore, most of the offences as attracted in the present case are bailable. It is further urged that on the basis of the contents of the FIR, prima facie, offences under Sections 337, 338 and 339 of BNS cannot be made out. It is further contended that Section 353 of BNS deals with the statements conducing to public mischief, however, any statement made purely against an individual would not fall within the purview of such provision. It is not a case in which the Appellant has himself prepared false and fabricated documents. It is a case where the Appellant while addressing the ",
+        "status": "retrieval snippet; human support check required"
+      },
+      {
+        "page": 5,
+        "char_start": 840,
+        "char_end": 1357,
+        "quote": "ailable. It is further urged that on the basis of the contents of the FIR, prima facie, offences under Sections 337, 338 and 339 of BNS cannot be made out. It is further contended that Section 353 of BNS deals with the statements conducing to public mischief, however, any statement made purely against an individual would not fall within the purview of such provision. It is not a case in which the Appellant has himself prepared false and fabricated documents. It is a case where the Appellant while addressing the ",
+        "status": "retrieval snippet; human support check required"
+      },
+      {
+        "page": 7,
+        "char_start": 573,
+        "char_end": 1236,
+        "quote": "tigation has already begun and the documents which were exhibited by the Appellant in the press conferences have been found to be forged. Therefore, prima facie offences under Sections 337 and 338 of BNS are made out.  It is also urged that during the time when the press conferences were being organized, legislative assembly elections were ensuing in the State of Assam. Viewed in this context, giving such statements would amount to public mischief and cannot be said to be confined to a certain individual i.e., complainant. He further contends that the FIR was registered on 06.04.2026 and since then the Appellant \n 1 (1980) 2 SCC 565 2 2025 SCC OnLine 457 ",
+        "status": "retrieval snippet; human support check required"
+      },
+      {
+        "page": 8,
+        "char_start": 745,
+        "char_end": 1338,
+        "quote": " the documents have been fabricated and where custodial interrogation is necessary in such cases, the grant of anticipatory bail is not justified. In addition, while referring to Section 2(31) of the BNS, he further contends that passport falls within the definition of valuable security; and if the act of the Appellant is considered where he has exhibited forged passport of the complainant in the press conference, it is a serious offence. Therefore, in connection with the passport, it would be essential to find out as to how and in what manner this passport has been  3 (2012) 9 SCC 235 ",
+        "status": "retrieval snippet; human support check required"
+      },
+      {
+        "page": 9,
+        "char_start": 787,
+        "char_end": 1312,
+        "quote": "ve been found forged by the police and it is not the case of Appellant that the claim of the prosecution is fabricated or he has been falsely implicated. Although the offence under Section 339 of the BNS is not mentioned in the FIR, however, on the statement of the learned Advocate General, impugned order records that the case of the Appellant may fall under Section 339 of BNS. It was further observed that the complainant is not in politics, but her husband is in politics who is the Chief Minister of Assam. In case the ",
+        "status": "retrieval snippet; human support check required"
+      },
+      {
+        "page": 9,
+        "char_start": 963,
+        "char_end": 1312,
+        "quote": "nder Section 339 of the BNS is not mentioned in the FIR, however, on the statement of the learned Advocate General, impugned order records that the case of the Appellant may fall under Section 339 of BNS. It was further observed that the complainant is not in politics, but her husband is in politics who is the Chief Minister of Assam. In case the ",
+        "status": "retrieval snippet; human support check required"
+      },
+      {
+        "page": 10,
+        "char_start": 478,
+        "char_end": 1231,
+        "quote": " she owns companies as alleged in the press conference. In the said conspectus, the Court opined that it is not merely a case of simpliciter defamation but prima facie an offence under Section 339 of BNS, for which custodial interrogation may be required.  14) Before adverting to the rival contentions of the parties and the findings as recorded by the Gauhati High Court, it is imperative to refer to the Constitution Bench judgment of this Court in the case of Gurbaksh Singh Sibbia (supra), wherein this Court observed as thus:  “31. In regard to anticipatory bail, if the proposed accusation appears to stem not from motives of furthering the ends of justice but from some ulterior motive, the object being to injure and humiliate the applicant by ",
+        "status": "retrieval snippet; human support check required"
+      },
+      {
+        "page": 21,
+        "char_start": 0,
+        "char_end": 740,
+        "quote": "21 \nmaterial which has been placed on record and appears to be erroneous, in particular shifting the burden on the accused. In addition, without alleging any offence under Section 339 of BNS and merely on the basis of statement made by the learned Advocate General, observations made regarding Section 339 of BNS do not appear to be correct. Accordingly, the present appeal stands allowed with following directions –  a) The Appellant is directed to be released on anticipatory bail in the event of his arrest in Crime Branch P.S. Case No. 04/2026 and on such reasonable terms and conditions which may be put by the Investigating Officer as deemed fit;  b) The Appellant is directed to co-operate in the investigation and to appear before t",
+        "status": "retrieval snippet; human support check required"
+      },
+      {
+        "page": 21,
+        "char_start": 109,
+        "char_end": 862,
+        "quote": "n the accused. In addition, without alleging any offence under Section 339 of BNS and merely on the basis of statement made by the learned Advocate General, observations made regarding Section 339 of BNS do not appear to be correct. Accordingly, the present appeal stands allowed with following directions –  a) The Appellant is directed to be released on anticipatory bail in the event of his arrest in Crime Branch P.S. Case No. 04/2026 and on such reasonable terms and conditions which may be put by the Investigating Officer as deemed fit;  b) The Appellant is directed to co-operate in the investigation and to appear before the police station as and when required and intimated;   c) The Appellant shall not influence or tamper with any of the evi",
+        "status": "retrieval snippet; human support check required"
+      }
+    ]
+  },
+  {
+    "document_id": "ranveer-allahbadia-2025",
+    "kind": "supplemental target-charge candidate",
+    "source_url": "https://api.sci.gov.in/supremecourt/2025/8375/8375_2025_3_47_59435_Order_18-Feb-2025.pdf",
+    "note": "Claude identified BNS 196 and 299 in one of several FIRs. Record of Proceedings/interim order; multiple FIRs need connected-family grouping.",
+    "selection": "purposive official-source supplement; separate from the AWS retrieval frame",
+    "human_labels": null,
+    "review_status": "downloaded text; independent human/legal check pending",
+    "retrieval_status": "success",
+    "pdf_sha256": "0c4f2780f43e663c9c978fba5186aaaad76728359ab85fe7d76a3ff553849f5e",
+    "page_count": 3,
+    "pdf_file": "ranveer-allahbadia-2025.pdf",
+    "pages_file": "ranveer-allahbadia-2025.pages.json",
+    "retrieval_passages": [
+      {
+        "page": 1,
+        "char_start": 1048,
+        "char_end": 1592,
+        "quote": "t(s) : \n          UPON hearing the counsel the Court made the following\n                             O R D E R\n1. Issue notice, returnable on 03.03.2025.\n2. Meanwhile, arrest of the petitioner in (i) FIR No. 5 of 2025\nregistered under Sections 79, 196, 296, 299 of the Bharatiya Nyaya\nSanhita, 2023 (“BNS”) read with Section 67 of the Information\nTechnology Act, 2000 registered at P.S. Nodal Cyber Police, Thane\nand (ii) FIR No. 3 of 2025 under Sections 79/95/294/296 of the BNS\nread with Section 4 and 7 of Cinematograph Act, 1952 read with\n1",
+        "status": "retrieval snippet; human support check required"
+      },
+      {
+        "page": 1,
+        "char_start": 1117,
+        "char_end": 1592,
+        "quote": "ng\n                             O R D E R\n1. Issue notice, returnable on 03.03.2025.\n2. Meanwhile, arrest of the petitioner in (i) FIR No. 5 of 2025\nregistered under Sections 79, 196, 296, 299 of the Bharatiya Nyaya\nSanhita, 2023 (“BNS”) read with Section 67 of the Information\nTechnology Act, 2000 registered at P.S. Nodal Cyber Police, Thane\nand (ii) FIR No. 3 of 2025 under Sections 79/95/294/296 of the BNS\nread with Section 4 and 7 of Cinematograph Act, 1952 read with\n1",
+        "status": "retrieval snippet; human support check required"
+      },
+      {
+        "page": 1,
+        "char_start": 1149,
+        "char_end": 1592,
+        "quote": "O R D E R\n1. Issue notice, returnable on 03.03.2025.\n2. Meanwhile, arrest of the petitioner in (i) FIR No. 5 of 2025\nregistered under Sections 79, 196, 296, 299 of the Bharatiya Nyaya\nSanhita, 2023 (“BNS”) read with Section 67 of the Information\nTechnology Act, 2000 registered at P.S. Nodal Cyber Police, Thane\nand (ii) FIR No. 3 of 2025 under Sections 79/95/294/296 of the BNS\nread with Section 4 and 7 of Cinematograph Act, 1952 read with\n1",
+        "status": "retrieval snippet; human support check required"
+      },
+      {
+        "page": 1,
+        "char_start": 1270,
+        "char_end": 1592,
+        "quote": "stered under Sections 79, 196, 296, 299 of the Bharatiya Nyaya\nSanhita, 2023 (“BNS”) read with Section 67 of the Information\nTechnology Act, 2000 registered at P.S. Nodal Cyber Police, Thane\nand (ii) FIR No. 3 of 2025 under Sections 79/95/294/296 of the BNS\nread with Section 4 and 7 of Cinematograph Act, 1952 read with\n1",
+        "status": "retrieval snippet; human support check required"
+      },
+      {
+        "page": 1,
+        "char_start": 1324,
+        "char_end": 1592,
+        "quote": "ya Nyaya\nSanhita, 2023 (“BNS”) read with Section 67 of the Information\nTechnology Act, 2000 registered at P.S. Nodal Cyber Police, Thane\nand (ii) FIR No. 3 of 2025 under Sections 79/95/294/296 of the BNS\nread with Section 4 and 7 of Cinematograph Act, 1952 read with\n1",
+        "status": "retrieval snippet; human support check required"
+      }
+    ]
+  },
+  {
+    "document_id": "ruchika-mitra-2026",
+    "kind": "supplemental target-charge candidate",
+    "source_url": "https://delhihighcourt.nic.in/app/showFileJudgment/60915012026CRLMM3472026_125440.pdf",
+    "note": "Claude identified BNS 356(2) in a private dispute. Settlement-based quashing is not an abuse label; speech and dispute type need separate review.",
+    "selection": "purposive official-source supplement; separate from the AWS retrieval frame",
+    "human_labels": null,
+    "review_status": "downloaded text; independent human/legal check pending",
+    "retrieval_status": "success",
+    "pdf_sha256": "bceb341befcc2713722889cb58717c6ac308bba7dc6d4e5254f552f2ef345897",
+    "page_count": 3,
+    "pdf_file": "ruchika-mitra-2026.pdf",
+    "pages_file": "ruchika-mitra-2026.pages.json",
+    "retrieval_passages": [
+      {
+        "page": 1,
+        "char_start": 522,
+        "char_end": 1278,
+        "quote": "n Arora, Advocate for  \n      respondent No.2 with respondent No.2 \n      in person. \n CORAM: \n HON'BLE MR. JUSTICE MANOJ JAIN \n    J U D G M E N T (oral) \n \n1. The present petition seeks quashing of FIR No. 224/2025 dated \n02.06.2025, registered at Police Station Maurya Enclave , Delhi for \ncommission of offence s under Sections 126(2)/61(2)/356(2)/351(2)/3(5) of \nBharatiya Nyaya Sanhita (BNS), 2023  (corresponding Sections \n341/120B/500/506/34 IPC) , along with all consequential proceedings \nemanating therefrom, on the basis of compromise arrived at between the \nparties. \n2. Respondent No.2 is Principal in Abhinav Public School, Pitampura and \non the date of incident, when she came to the school, she was prevented from \nentering the school prem",
+        "status": "retrieval snippet; human support check required"
+      },
+      {
+        "page": 1,
+        "char_start": 690,
+        "char_end": 1332,
+        "quote": "sent petition seeks quashing of FIR No. 224/2025 dated \n02.06.2025, registered at Police Station Maurya Enclave , Delhi for \ncommission of offence s under Sections 126(2)/61(2)/356(2)/351(2)/3(5) of \nBharatiya Nyaya Sanhita (BNS), 2023  (corresponding Sections \n341/120B/500/506/34 IPC) , along with all consequential proceedings \nemanating therefrom, on the basis of compromise arrived at between the \nparties. \n2. Respondent No.2 is Principal in Abhinav Public School, Pitampura and \non the date of incident, when she came to the school, she was prevented from \nentering the school premises by two school teachers i.e. petitioner Nos.1 and ",
+        "status": "retrieval snippet; human support check required"
+      },
+      {
+        "page": 1,
+        "char_start": 715,
+        "char_end": 1332,
+        "quote": "ing of FIR No. 224/2025 dated \n02.06.2025, registered at Police Station Maurya Enclave , Delhi for \ncommission of offence s under Sections 126(2)/61(2)/356(2)/351(2)/3(5) of \nBharatiya Nyaya Sanhita (BNS), 2023  (corresponding Sections \n341/120B/500/506/34 IPC) , along with all consequential proceedings \nemanating therefrom, on the basis of compromise arrived at between the \nparties. \n2. Respondent No.2 is Principal in Abhinav Public School, Pitampura and \non the date of incident, when she came to the school, she was prevented from \nentering the school premises by two school teachers i.e. petitioner Nos.1 and ",
+        "status": "retrieval snippet; human support check required"
+      },
+      {
+        "page": 2,
+        "char_start": 1485,
+        "char_end": 1707,
+        "quote": "\n11. Accordingly, exercising inherent powers vested in this Court under \nSection 528 of the BNSS, it is deemed appropriate to quash the instant FIR. \n12. Consequently, to s ecure the ends of justice, FIR No.224/2025 dated ",
+        "status": "retrieval snippet; human support check required"
+      },
+      {
+        "page": 3,
+        "char_start": 24,
+        "char_end": 526,
+        "quote": "                                                       3 \n \n02.06.2025, registered at Police Station Maurya Enclave , Delhi for  the \nalleged offences under Section 126(2)/61(2)/356(2)/351(2)/3(5) of Bharatiya \nNyaya Sanhita (BNS), along with all consequential proceeding s emanating \ntherefrom, is hereby, quashed. \n13. The petition stands disposed of in aforesaid terms.  \n \n(MANOJ JAIN)                                                                                 \nJUDGE \nJANUARY 15, 2026 \nst/js ",
+        "status": "retrieval snippet; human support check required"
+      },
+      {
+        "page": 3,
+        "char_start": 50,
+        "char_end": 526,
+        "quote": "                             3 \n \n02.06.2025, registered at Police Station Maurya Enclave , Delhi for  the \nalleged offences under Section 126(2)/61(2)/356(2)/351(2)/3(5) of Bharatiya \nNyaya Sanhita (BNS), along with all consequential proceeding s emanating \ntherefrom, is hereby, quashed. \n13. The petition stands disposed of in aforesaid terms.  \n \n(MANOJ JAIN)                                                                                 \nJUDGE \nJANUARY 15, 2026 \nst/js ",
+        "status": "retrieval snippet; human support check required"
+      }
+    ]
+  },
+  {
+    "document_id": "vombatkere-bns-152-challenge-2025",
+    "kind": "constitutional-challenge reference; not a charge case",
+    "source_url": "https://api.sci.gov.in/officereport/2025/37157/37157_2025_2025-08-08_1607@1.pdf",
+    "note": "Office report about a constitutional challenge to BNS 152. This must not be counted as a defendant charged under 152.",
+    "selection": "purposive official-source supplement; separate from the AWS retrieval frame",
+    "human_labels": null,
+    "review_status": "downloaded text; independent human/legal check pending",
+    "retrieval_status": "success",
+    "pdf_sha256": "c998df7f1fbdc239b3f6dcbfa4975227a9737a02c35a51582a1286e5e1f34832",
+    "page_count": 3,
+    "pdf_file": "vombatkere-bns-152-challenge-2025.pdf",
+    "pages_file": "vombatkere-bns-152-challenge-2025.pages.json",
+    "retrieval_passages": [
+      {
+        "page": 1,
+        "char_start": 354,
+        "char_end": 1113,
+        "quote": "en filed by Mr. PRASANNA S.   Advocate on-\nRecord, on 12-07-2025, praying therein as under:\na) Issue a writ of mandamus or any other appropriate writ, order,\nor direction declaring Section 152 of the Bharatiya Nyaya\nSanhita, 2023 as void and inoperative for being ultra vires Article\n19(1)(a) of the Constitution of India, read with Articles 14 and 21\nthereof;\nb) Issue a writ of mandamus or any other appropriate writ, order,\nor direction declaring that all subsisting criminal proceedings\nbefore any court, to the extent that such proceedings relate to or\narise from a charge under Section 152 of the Bharatiya Nyaya\nSanhita, 2023, stand closed to such extent;\nc) Issue a writ of mandamus or any other appropriate writ, order,\nor direction declaring that al",
+        "status": "retrieval snippet; human support check required"
+      },
+      {
+        "page": 1,
+        "char_start": 757,
+        "char_end": 1339,
+        "quote": "ppropriate writ, order,\nor direction declaring that all subsisting criminal proceedings\nbefore any court, to the extent that such proceedings relate to or\narise from a charge under Section 152 of the Bharatiya Nyaya\nSanhita, 2023, stand closed to such extent;\nc) Issue a writ of mandamus or any other appropriate writ, order,\nor direction declaring that all complaints, reports or FIRs under\nSection 154(1) of the Code of Criminal Procedure, 1973, which in\nany way allege commission of an offence under Section 152 of the\nBharatiya Nyaya Sanhita, 2023, stand quashed to such extent;",
+        "status": "retrieval snippet; human support check required"
+      },
+      {
+        "page": 1,
+        "char_start": 1079,
+        "char_end": 1339,
+        "quote": "er,\nor direction declaring that all complaints, reports or FIRs under\nSection 154(1) of the Code of Criminal Procedure, 1973, which in\nany way allege commission of an offence under Section 152 of the\nBharatiya Nyaya Sanhita, 2023, stand quashed to such extent;",
+        "status": "retrieval snippet; human support check required"
+      },
+      {
+        "page": 2,
+        "char_start": 106,
+        "char_end": 865,
+        "quote": "ment authorities, including\nstate and central police agencies, from taking any coercive step in\nfurtherance of any investigation or 26 prosecution concerning\nalleged offences under Section 152 of the Bharatiya Nyaya\nSanhita, 2023;\n2. The Advocate on-record for the petitioner/appellant has also filed\nfollowing document(s)/ Interlocutory application(s):\nS.No. Application\nNo.\nDescription of\nDocument\nFiling\ndate\nVerification\nStatus\nPage\nNo.\n1 179655-2025 STAY\nAPPLICATION 30-07-2025\n2 187888/2025\nPERMISSION TO\nFILE SYNOPSIS\nAND LIST OF\nDATES\n06-08-2025\n3 187499/2025 MISC.\nDOCUMENT/OTHER 06-08-2025\n4 188446/2025 LETTER 07-08-2025\n5 188730/2025 MISC.\nDOCUMENT/OTHER 07-08-2025\n3. The similarity found in the present case is based on:\nS.No. Diary\nNo. Case No.",
+        "status": "retrieval snippet; human support check required"
+      }
+    ]
+  },
+  {
+    "document_id": "ashish-dave-2026",
+    "kind": "BNS case outside the six target sections",
+    "source_url": "https://api.sci.gov.in/supremecourt/2025/68616/68616_2025_2_34_68884_FinalOrder_27-Feb-2026.pdf",
+    "note": "Claude identified BNS 308(2), 318(4), 351(2), and a media-employment context. Reference for a possible future expansion; not a current target-law positive.",
+    "selection": "purposive official-source supplement; separate from the AWS retrieval frame",
+    "human_labels": null,
+    "review_status": "downloaded text; independent human/legal check pending",
+    "retrieval_status": "success",
+    "pdf_sha256": "3350c58215253837483fbe01397717b841f08cbb25ac2d5cbfb31edaff81bc0b",
+    "page_count": 23,
+    "pdf_file": "ashish-dave-2026.pdf",
+    "pages_file": "ashish-dave-2026.pages.json",
+    "retrieval_passages": [
+      {
+        "page": 2,
+        "char_start": 287,
+        "char_end": 1044,
+        "quote": " to which the \nauthorised representative of the company \napproached Police Station Ashok Nagar, District \nJaipur City (South), Rajasthan with a complaint, \nwhich straightaway came to be registered as FIR \nNo.257 of 2025 dated 4 th September, 2025 for the \noffences punishable under Sections 308(2), 318(4) \nand 351(2) of the Bharatiya Nyaya Sanhita, 2023 2 \n(corresponding to Sections 384, 420, and 506 of the \nIndian Penal Code, 18603 respectively). \n5. The complaint is extracted hereinbelow for the \nsake of ready reference: - \n \n“We, Zee Media Corporation Limited (ZMCL/ \nCompany) having our Regional office at E -151 \nRamesh Marg, -Scheme, Jaipur 302001, through \nour authorized representative Mr. Sanju Raju, \nhereby file this criminal complaint again",
+        "status": "retrieval snippet; human support check required"
+      },
+      {
+        "page": 2,
+        "char_start": 412,
+        "char_end": 1171,
+        "quote": ", Rajasthan with a complaint, \nwhich straightaway came to be registered as FIR \nNo.257 of 2025 dated 4 th September, 2025 for the \noffences punishable under Sections 308(2), 318(4) \nand 351(2) of the Bharatiya Nyaya Sanhita, 2023 2 \n(corresponding to Sections 384, 420, and 506 of the \nIndian Penal Code, 18603 respectively). \n5. The complaint is extracted hereinbelow for the \nsake of ready reference: - \n \n“We, Zee Media Corporation Limited (ZMCL/ \nCompany) having our Regional office at E -151 \nRamesh Marg, -Scheme, Jaipur 302001, through \nour authorized representative Mr. Sanju Raju, \nhereby file this criminal complaint against Ashish \nDave s/o Sri Mohan Chandra Nagar resident of 33, \n \n1 Hereinafter, referred to as the “complainant-company”. \n2 For ",
+        "status": "retrieval snippet; human support check required"
+      },
+      {
+        "page": 2,
+        "char_start": 979,
+        "char_end": 1206,
+        "quote": "tative Mr. Sanju Raju, \nhereby file this criminal complaint against Ashish \nDave s/o Sri Mohan Chandra Nagar resident of 33, \n \n1 Hereinafter, referred to as the “complainant-company”. \n2 For short, ‘BNS’. \n3 For short, ‘IPC’. ",
+        "status": "retrieval snippet; human support check required"
+      },
+      {
+        "page": 4,
+        "char_start": 938,
+        "char_end": 1593,
+        "quote": "he Company’s reputation, credibility, and \ngoodwill in the industry.  In view of the above -\nmentioned facts, we resp ectfully request that an \nFIR be registered under the relevant provisions of \nthe Bharatiya Nyaya Sanhita, 2023, and any other \napplicable laws, to initiate a thorough investigation \ninto the financial and reputational harm caused, \nand to take appropriate legal action against Ashish \nDave and any other individual responsible for these \nacts.” \n6. A bare perusal of the complaint/FIR would \nreveal that the allegations set out therein are \nabsolutely vague , and no  prudent person can \nperceive therefrom that the same disclose s the ",
+        "status": "retrieval snippet; human support check required"
+      },
+      {
+        "page": 5,
+        "char_start": 916,
+        "char_end": 1126,
+        "quote": "ein by semblance \nof a preliminary enquiry, straightaway proceeded to \nregister the FIR for grave offences. \n9. Be that as it may, the appellant filed the \ncaptioned petition under Section 528 of the Bharatiya ",
+        "status": "retrieval snippet; human support check required"
+      },
+      {
+        "page": 10,
+        "char_start": 578,
+        "char_end": 1222,
+        "quote": "authority by \nusing the name of the complainant -company to \nengage with external businesses in an unethical or \ncoercive manner may give rise to civil liability , but \ndefinitely not those under the Bharatiya Nyaya \nSanhita, 2023. \n20. The allegation that the appellant demanded \nmonetary favours from vendors under the threat of \nbroadcasting negative or damaging news would have \nto be supported by specific names and instances if , \nat all , the same were to be treated as cognizable \noffences. The allegation that the appellant used the \ncomplainant-company’s news channel to broadcast \nnegative, threatening or defamatory content has not ",
+        "status": "retrieval snippet; human support check required"
+      },
+      {
+        "page": 13,
+        "char_start": 549,
+        "char_end": 1245,
+        "quote": "nder \nSection 64, Section 65, Section 67, Section 70, \nSection 75, Section 78, Section 68, Section 71, \nSection 76, Section 79 or Section 66, Section \n69, Section 74, Section 77, S ection 124 of the \nBharatiya Nyaya Sanhita, 2023 is alleged to \nhave been committed or attempted, then such \ninformation shall be recorded, by a woman \npolice officer or any woman officer:  \n \n   Provided further that—  \n \n(a) in the event that the person against \nwhom an offence under Section 64, \nSection 65, Section 66, Section 68, \nSection 71, Section 76, Section 69, \nSection 74, Section 77, Section 67, \nSection 70, Section 75, Section 78, \nSection 79 or Section 124 of the \nBharatiya Nyaya Sanhita, 2023 is ",
+        "status": "retrieval snippet; human support check required"
+      },
+      {
+        "page": 13,
+        "char_start": 1012,
+        "char_end": 1245,
+        "quote": "nder Section 64, \nSection 65, Section 66, Section 68, \nSection 71, Section 76, Section 69, \nSection 74, Section 77, Section 67, \nSection 70, Section 75, Section 78, \nSection 79 or Section 124 of the \nBharatiya Nyaya Sanhita, 2023 is ",
+        "status": "retrieval snippet; human support check required"
+      },
+      {
+        "page": 18,
+        "char_start": 70,
+        "char_end": 823,
+        "quote": "sonally or by electronic \ncommunication and alleges that he has seen ‘A’ \nassaulting ‘X’ with a stick. If the injury caused is \nsimple, it will be an offence punishable under \nSection 115 (2) of the  BNS. As per the first \nSchedule of the BNSS, it is a non -cognizable \noffence. Therefore, based on such information, \nFIR cannot be registered. If grievous hurt is \ncaused, it will be an offence punishable under \nSection 117 (2) of the BNS, which is a cognizable \noffence. Therefore, the allegations made in the \ninformation furnished to an officer-in-charge of a \npolice station must be examined by the officer \nonly with a view to ascertain whether a \ncognizable offence is made out. Taking the \ninformation as correct, t he officer has to \ndetermine ",
+        "status": "retrieval snippet; human support check required"
+      },
+      {
+        "page": 18,
+        "char_start": 306,
+        "char_end": 1059,
+        "quote": "he BNSS, it is a non -cognizable \noffence. Therefore, based on such information, \nFIR cannot be registered. If grievous hurt is \ncaused, it will be an offence punishable under \nSection 117 (2) of the BNS, which is a cognizable \noffence. Therefore, the allegations made in the \ninformation furnished to an officer-in-charge of a \npolice station must be examined by the officer \nonly with a view to ascertain whether a \ncognizable offence is made out. Taking the \ninformation as correct, t he officer has to \ndetermine whether it makes out a case of the \ncommission of a cognizable offence. If the \nallegation makes out a case of a cognizable \noffence, unless the offence falls in sub-Section (3) \nof Section 173, it is mandatory to register FIR. \n \n[……] ",
+        "status": "retrieval snippet; human support check required"
+      },
+      {
+        "page": 18,
+        "char_start": 1318,
+        "char_end": 1589,
+        "quote": "s opt ion is available when \nthe offence alleged is made punishable for 3 \nyears or more but less than 7 years. In the facts \nof the case, all the offences except the offence \nunder Section 57 of the BNS are punishable by \nimprisonment for less than 7 years. Section 57, ",
+        "status": "retrieval snippet; human support check required"
+      },
+      {
+        "page": 23,
+        "char_start": 161,
+        "char_end": 858,
+        "quote": "IR against the appellant is nothing short \nof a gross abuse of the process of law. \n29. Hence, the impugned order dated 26 th \nNovember, 2025 passed by the High Court is set \naside. As a consequence, FIR No.257  of 2025 dated \n4th September, 2025 registered at Police Station \nAshok Nagar, District Jaipur City (South), Rajasthan \nand all proceedings sought to be taken against the \nappellant in pursuance thereof, are quashed. \n30. The appeal stands allowed accordingly. \n31. Pending application(s), if any, shall stand \ndisposed of. \n \n \n….……………………J. \n                         (VIKRAM NATH) \n \n \n \n...…………………….J. \n                               (SANDEEP MEHTA) \n \nNEW DELHI; \nFEBRUARY 27, 2026. ",
+        "status": "retrieval snippet; human support check required"
+      }
+    ]
+  }
+]
