@@ -1,0 +1,2 @@
+# Replace these comments with one permitted public HTTPS judgment/PDF URL per line.
+# https://example.org/path/to/judgment.pdf

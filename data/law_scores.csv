@@ -1,0 +1,13 @@
+law_id,label,law_family,score,total_points,status,notes
+BNS-152,"BNS 152 — sovereignty, unity and integrity",BNS,83,10,current BNS baseline,"Commenced 1 July 2024; not equivalent to IPC 124A"
+BNS-196,"BNS 196(1)(a)-(b) — promoting enmity",BNS,92,11,current BNS baseline,"Electronic communication wording; consider Imran Pratapgadhi (2025)"
+BNS-299,"BNS 299 — deliberate malicious religious insult",BNS,67,8,current BNS baseline,"Electronic means wording"
+BNS-353-1,"BNS 353(1) — statements conducing to public mischief",BNS,67,8,current BNS baseline,"False information and electronic means"
+BNS-353-2,"BNS 353(2) — enmity from false/rumour reports",BNS,75,9,current BNS baseline,"Do not infer IPC-to-BNS frequency trends"
+BNS-356,"BNS 356(1)-(2) — criminal defamation",BNS,33,4,current BNS baseline,"Community service available"
+BNS-221,"BNS 221 — obstructing public functions",BNS,33,4,current BNS baseline,"BNSS 215 complaint gate outside rubric"
+UAPA-13,"UAPA 13 with 2(o) — unlawful activities",Other,83,10,continuing statute,"Do not assume Chapters IV/VI bail embargo applies to section 13 alone"
+IT-67,"IT Act 67 — electronic obscenity (first conviction)",Other,67,8,continuing statute,"Subsequent conviction scenario: 75/100; 67A/67B excluded"
+OSA-3,"Official Secrets Act 3 — defence/code publication branch",Other,83,10,continuing statute,"Other-case publication branch: 75/100"
+OSA-5,"Official Secrets Act 5 — wrongful communication",Other,75,9,continuing statute,"Distinct statutory limbs require case-specific review"
+IT-66A,"IT Act 66A — offensive messages",Invalid,,,struck down in entirety 24 March 2015,"Flag for review; do not assign active-law score"
