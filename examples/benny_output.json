@@ -1,0 +1,55 @@
+{
+  "cases": [
+    {
+      "case_id": "DEMO-001",
+      "case_name": "Synthetic journalist prosecution A",
+      "journalist_status": "confirmed",
+      "currently_detained": "yes",
+      "next_hearing": "2026-10-11",
+      "counsel_present": "yes",
+      "counsel_access": "restricted (unverified)",
+      "interpreter_needed": "unknown",
+      "provisions": [
+        "BNS-196"
+      ],
+      "pdf_links": [
+        "https://example.org/order1.pdf",
+        "https://example.org/order2.pdf"
+      ],
+      "evidence": [
+        {
+          "domain": "procedural",
+          "element": "counsel_denied",
+          "assessment": "alleged_concern",
+          "speaker": "defense",
+          "quote": "Counsel access was reportedly restricted (synthetic example)",
+          "source_url": "https://example.org/order1.pdf",
+          "page": 2,
+          "urgent_override": true
+        }
+      ]
+    },
+    {
+      "case_id": "DEMO-002",
+      "journalist_status": "unverified",
+      "pdf_url": "https://example.org/order3.pdf",
+      "provisions": [
+        "BNS-356"
+      ]
+    },
+    {
+      "case_id": "DEMO-003",
+      "case_name": "Synthetic reviewed case - closed",
+      "journalist_status": "confirmed",
+      "currently_detained": "no",
+      "pdf_url": "https://example.org/closed_order.pdf",
+      "human_review": {
+        "decision": "close_no_further_action",
+        "reviewer": "Example TrialWatch reviewer",
+        "reviewed_at": "2026-10-10",
+        "rationale": "Reviewed the available order; no outstanding actionable concerns at this time (synthetic demo).",
+        "evidence_reference": "https://example.org/closed_order.pdf"
+      }
+    }
+  ]
+}
