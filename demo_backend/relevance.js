@@ -16,17 +16,40 @@ const TW_FIELDS = {
 };
 
 function relevanceBadge(r){return el('span',r.label,'tw-badge '+r.tier)}
-function relevanceCell(r){const td=el('td',undefined,'relevance-cell');td.append(relevanceBadge(r),el('span',r.score_display+(r.has_assessment&&!r.needs_recheck?' · '+r.coverage_percent+'% coverage':''),'relevance-note'));td.title=r.action;return td}
+function relevanceCell(r,c){
+  const td=el('td',undefined,'relevance-cell'),block=el('div',undefined,'tw-cell'),status=el('div'),score=el('div',undefined,'tw-cell-score');
+  status.append(el('span','TrialWatch priority','tw-cell-label'),relevanceBadge(r));
+  score.append(el('strong',r.has_assessment&&!r.needs_recheck?r.score_display:'— /100'),el('small',!r.has_assessment?'Awaiting assessment':r.needs_recheck?'Recheck needed':r.coverage_percent+'% coverage'));
+  const button=el('button',!r.has_assessment?'Assess priority':r.needs_recheck?'Recheck priority':'Edit priority','tw-assess');
+  button.type='button';button.setAttribute('aria-label','Assess TrialWatch priority for '+pretty(c.title));button.onclick=()=>detail(c.cnr,true);
+  block.append(status,score,button);td.append(block);td.title=r.action;return td;
+}
+
+function updateTrialwatchOverview(data){
+  const counts=data.trialwatch_summary,reviews=data.relevance_review_summary;
+  for(const key of ['urgent','high','routine','verify'])$('tw-count-'+key).textContent=counts[key];
+  $('twOverviewNote').textContent=reviews.assessed===0?
+    `No TrialWatch scores have been recorded yet. ${reviews.unassessed} cases need their support needs and intervention opening checked.`:
+    `${reviews.assessed} relevance assessment(s) recorded · ${reviews.unassessed} awaiting assessment. Scores and tiers use checked support needs and intervention openings.`;
+  $('twReviewNext').disabled=counts.verify===0;
+}
+
+async function assessNextTrialwatchCase(){
+  const button=$('twReviewNext');button.disabled=true;
+  try{const data=await api('/api/cases?sort=triage&trialwatch_tier=verify&limit=1');if(data.items.length)await detail(data.items[0].cnr,true);else await globalSummary()}
+  catch(e){error(e)}finally{button.disabled=false}
+}
 function twField(key,facts){const [label,options,help]=TW_FIELDS[key],wrap=el('label',undefined,'tw-field');wrap.append(el('span',label));const select=el('select');select.id='tw-'+key;select.name=key;select.setAttribute('aria-label',label);for(const [value,text] of options){const opt=el('option',text);opt.value=value;select.append(opt)}select.value=facts[key];select.onchange=updateRelevanceForm;wrap.append(select,el('small',help));return wrap}
 
 function renderRelevance(c){
   const r=c.trialwatch_relevance,facts=r.facts,card=el('div',undefined,'tw-card'),head=el('div',undefined,'tw-head'),title=el('div'),score=el('div',undefined,'tw-score');
-  title.append(el('span','02 · TRIALWATCH RELEVANCE','eyebrow'),el('h3','Where could TrialWatch help?'),relevanceBadge(r));
-  score.append(el('strong',r.score_display),el('small',r.has_assessment&&!r.needs_recheck?r.coverage_percent+'% assessed coverage':'Human verification required'));
+  title.append(el('span','02 · TRIALWATCH PRIORITY','eyebrow'),el('h3','TrialWatch score & priority'),relevanceBadge(r));
+  score.append(el('span','TRIALWATCH SCORE','tw-cell-label'),el('strong',r.has_assessment&&!r.needs_recheck?r.score_display:'— /100'),el('small',!r.has_assessment?'Awaiting assessment':r.needs_recheck?'Recheck needed':r.coverage_percent+'% assessed coverage'));
   head.append(title,score);card.append(head,el('p',r.action,'tw-action'));
-  if(r.has_assessment){const reasons=el('div',undefined,'tw-reasons');for(const reason of r.reasons.slice(0,5))reasons.append(el('span',reason));card.append(reasons);const breakdown=el('div',undefined,'tw-breakdown');for(const f of r.factors){const block=el('div',undefined,'tw-factor');block.append(el('small',TW_LABELS[f.key]),el('b',f.assessed?f.range[0]+'/'+f.max:'Verify · /'+f.max));breakdown.append(block)}card.append(breakdown)}
+  if(r.has_assessment){const reasons=el('div',undefined,'tw-reasons');for(const reason of r.reasons.slice(0,5))reasons.append(el('span',reason));card.append(reasons)}
   else card.append(el('p','Confirm journalist connection, support needs and an opening to act. Nothing is inferred from a missing detail in a court order.','review-help'));
-  const editor=el('details',undefined,'tw-editor');editor.id='twEditor';editor.append(el('summary',r.has_assessment?r.needs_recheck?'Recheck relevance':'Edit relevance':'Assess relevance'));
+  const breakdown=el('div',undefined,'tw-breakdown');for(const f of r.factors){const block=el('div',undefined,'tw-factor');block.append(el('small',TW_LABELS[f.key]),el('b',f.assessed?f.range[0]+'/'+f.max:'— /'+f.max));breakdown.append(block)}card.append(breakdown);
+  const editor=el('details',undefined,'tw-editor');editor.id='twEditor';editor.append(el('summary',r.has_assessment?r.needs_recheck?'Recheck TrialWatch priority':'Edit TrialWatch priority':'Assess TrialWatch priority'));
   const form=el('form',undefined,'tw-form');form.id='twForm';form.onsubmit=e=>{e.preventDefault();submitRelevance()};
   for(const [label,keys] of [['Case fit',['journalist_nexus','case_stage']],['Fair-trial support needs',['counsel','interpretation','defence_access']],['Timing & safety',['custody','immediate_threat','deadline_status']],['An opening to act',['opening_status']]]){
     const group=el('fieldset'),grid=el('div',undefined,'tw-grid');group.append(el('legend',label));for(const key of keys)grid.append(twField(key,facts));group.append(grid);

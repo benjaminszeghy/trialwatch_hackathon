@@ -19,8 +19,8 @@
     },
     {
       "path": "demo_backend/README.md",
-      "bytes": 29322,
-      "sha256": "e73740ce4aba5ce3c1dee8cce8312da165987a343cdac0d1e17eaf68ff1f6eff"
+      "bytes": 29867,
+      "sha256": "591e17a3eb1f51303e033f27e55b9291f1c2b9ad532dd2bed13a2179ade8bc5a"
     },
     {
       "path": "demo_backend/__init__.py",
@@ -54,8 +54,8 @@
     },
     {
       "path": "demo_backend/demo.html",
-      "bytes": 62381,
-      "sha256": "723e4c1fc89ab018403ac4cc5b05b477bf24d4851fa0ed4dff600c7b2bfc6e42"
+      "bytes": 63914,
+      "sha256": "8cdfa74cc3fbb985e7fb2a4cfdc381c556f24b78722c6583cb307299308f8997"
     },
     {
       "path": "demo_backend/feedback.py",
@@ -74,13 +74,13 @@
     },
     {
       "path": "demo_backend/relevance.css",
-      "bytes": 4613,
-      "sha256": "0ab6b39234401023f59cdd0e76aeb4798696cb56f5681ef0e14b5dd82e221153"
+      "bytes": 6812,
+      "sha256": "dc781840f5a7cb8b06c8c6e8e43f92db3a7cf98005345be48e3c771c395d8c3f"
     },
     {
       "path": "demo_backend/relevance.js",
-      "bytes": 11413,
-      "sha256": "610bd5d3151babb9d307a15861316fb8fa890ed6c0c727f5555509ae4c7e2bdb"
+      "bytes": 13073,
+      "sha256": "7f7654037d62e44313cfa5f9eb7de871eeb491cfae50f069e92a665f486bee8b"
     },
     {
       "path": "demo_backend/relevance.py",
@@ -1351,6 +1351,31 @@
       "path": "outputs/trialwatch-pilot.zip",
       "bytes": 52602911,
       "sha256": "214f321799850a5d54c6c2fdb85f94932cf6fc9976a28f48d4eed294fb9af6b7"
+    },
+    {
+      "path": "outputs/trialwatch-priority-display-validation.json",
+      "bytes": 1377,
+      "sha256": "9e5a3f2e1ff9d72f9c637a2d5b55638e484a3195b6309bf1cd4c611e7f3204b4"
+    },
+    {
+      "path": "outputs/trialwatch-priority-visible-800.png",
+      "bytes": 58726,
+      "sha256": "da57ba7549d206611e627d44cb2b4c37ec04ea969d0d78da18f39f9bf1e6b32f"
+    },
+    {
+      "path": "outputs/trialwatch-priority-visible-mobile.png",
+      "bytes": 39239,
+      "sha256": "fd1457ab5be8a1da8daced3d674b99c6d9e5f65ea6df57268881fcb81e2da06d"
+    },
+    {
+      "path": "outputs/trialwatch-priority-visible-overview.png",
+      "bytes": 62964,
+      "sha256": "b5c10ec3327a65ac352d76d6cdcf6cfd0941bd3c5be975af06c2db84973bbb28"
+    },
+    {
+      "path": "outputs/trialwatch-priority-visible-scored-fixture.png",
+      "bytes": 70476,
+      "sha256": "f423b5c7378bfc0ab68e118a90a8469d97c9f6b9e1eab4ef8214b7d115ad74f9"
     },
     {
       "path": "outputs/trialwatch-relevance-case.png",
@@ -4663,5 +4688,5 @@
       "reason": "Generated Python bytecode"
     }
   ],
-  "updated_at": "2026-10-10T17:22:47.232828+00:00"
+  "updated_at": "2026-10-10T17:45:58.081126+00:00"
 }

@@ -1,0 +1,36 @@
+{
+  "checked_at": "2026-10-10T17:45:57.826951+00:00",
+  "fix": "Prominent TrialWatch priority panel; explicit per-case score/tier/actions; labeled cards up to 920px; versioned CSS/JS assets",
+  "scoring_method_unchanged": true,
+  "current_case_count": 147,
+  "current_relevance_assessments": {
+    "assessed": 0,
+    "unassessed": 147,
+    "needs_recheck": 0
+  },
+  "checks": {
+    "scoring_priority_feedback_tests_passed": 27,
+    "javascript_syntax_checks_passed": true,
+    "actual_browser_window": {
+      "width": 800,
+      "no_horizontal_overflow": true,
+      "case_score_and_priority_visible": true
+    },
+    "phone_window": {
+      "width": 390,
+      "no_horizontal_overflow": true,
+      "case_labels_visible": true
+    },
+    "overview_and_row_buttons_open_scoring_form": true,
+    "scored_display": "Existing isolated fictional fixture shows 95/100 and Tier 1; urgent tile filter verified.",
+    "browser_console_errors": 0,
+    "real_case_assessments_added_for_testing": 0
+  },
+  "pending_score_policy": "Unassessed or stale cases show a dash out of 100 and an explicit status, not a fabricated numerical score.",
+  "screenshots": [
+    "outputs/trialwatch-priority-visible-800.png",
+    "outputs/trialwatch-priority-visible-mobile.png",
+    "outputs/trialwatch-priority-visible-overview.png",
+    "outputs/trialwatch-priority-visible-scored-fixture.png"
+  ]
+}
