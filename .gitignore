@@ -15,3 +15,10 @@ work/pdf-read/
 
 # Reconstruct this expanded intermediate from the included source Parquets
 work/court-data/hc_case_details.json
+
+# Persistent collector state and local demo dependencies
+work/live-*/
+work/uv-live-cache/
+*.sqlite3
+*.sqlite3-wal
+*.sqlite3-shm

@@ -1,0 +1,13 @@
+{
+  "state_dir": "work/live-demo",
+  "court": "27_1",
+  "court_name": "Bombay High Court",
+  "benches": ["newas", "hcaurdb", "hcbgoa", "kolhcdb"],
+  "sections": ["152", "196", "299", "353", "356", "221"],
+  "start_date": "2024-07-01",
+  "end_date": null,
+  "interval_seconds": 3600,
+  "max_pdfs_per_run": 12,
+  "pdf_recheck_days": 7,
+  "cors_origins": []
+}

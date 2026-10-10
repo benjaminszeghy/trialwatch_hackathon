@@ -1,0 +1,393 @@
+{
+  "checked_at": "2026-10-10T15:22:35+00:00",
+  "description": "Live backend validation; separate from the fixed BNS training-starter snapshot",
+  "tests": {
+    "backend_integration_tests_passed": 11,
+    "existing_research_tests_passed": 15
+  },
+  "status_at_validation": {
+    "cases": 147,
+    "documents_ready": 225,
+    "documents_pending": 221,
+    "human_annotations": 0,
+    "latest_order_date": "2026-06-17",
+    "source_latest_modified": "2026-10-10T08:26:10.000Z",
+    "source_case_details_latest_modified": "2026-06-25T07:06:59.000Z",
+    "source_order_metadata_latest_modified": "2026-10-10T08:26:10.000Z",
+    "last_metadata_check_completed_at": "2026-10-10T15:21:51+00:00",
+    "last_run": {
+      "id": 5,
+      "started_at": "2026-10-10T15:21:27+00:00",
+      "finished_at": "2026-10-10T15:21:51+00:00",
+      "status": "success",
+      "scope": {
+        "court": "Bombay High Court",
+        "court_code": "27_1",
+        "benches": [
+          "newas",
+          "hcaurdb",
+          "hcbgoa",
+          "kolhcdb"
+        ],
+        "act": "BNS",
+        "sections": [
+          "152",
+          "196",
+          "299",
+          "353",
+          "356",
+          "221"
+        ],
+        "order_date_from": "2024-07-01",
+        "order_date_to": "2026-10-10",
+        "pdf_budget_per_run": 12
+      },
+      "stats": {
+        "metadata_objects_checked": 28,
+        "metadata_objects_changed": 0,
+        "candidate_cnrs_in_window": 147,
+        "new_cases": 0,
+        "new_document_records": 0,
+        "pdfs_downloaded": 12,
+        "pdf_failures": 0,
+        "existing_pdfs_rechecked": 0,
+        "pending_documents_total": 221,
+        "metadata_checked_at": "2026-10-10T15:21:51+00:00"
+      },
+      "error": null
+    },
+    "scope": {
+      "court": "Bombay High Court",
+      "court_code": "27_1",
+      "benches": [
+        "newas",
+        "hcaurdb",
+        "hcbgoa",
+        "kolhcdb"
+      ],
+      "act": "BNS",
+      "sections": [
+        "152",
+        "196",
+        "299",
+        "353",
+        "356",
+        "221"
+      ],
+      "order_date_from": "2024-07-01",
+      "order_date_to": "2026-10-10",
+      "pdf_budget_per_run": 12
+    },
+    "interval_seconds": 120,
+    "source": "https://indian-high-court-judgments.s3.ap-south-1.amazonaws.com/",
+    "labels": "Metadata candidates; human legal review pending. Not training gold.",
+    "refresh_running": false,
+    "scheduler_enabled": true,
+    "next_check_at": "2026-10-10T15:23:27+00:00"
+  },
+  "ready_pdf_integrity": {
+    "checked": 225,
+    "hash_page_count_errors": []
+  },
+  "api_checks": [
+    {
+      "route": "/",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 10138
+    },
+    {
+      "route": "/docs",
+      "http_status": 200,
+      "content_type": "text/html",
+      "bytes": 1023
+    },
+    {
+      "route": "/api/status",
+      "http_status": 200,
+      "content_type": "application/json",
+      "bytes": 1556
+    },
+    {
+      "route": "/api/cases?q=Farah&section=152",
+      "http_status": 200,
+      "content_type": "application/json",
+      "bytes": 732
+    },
+    {
+      "route": "/api/cases/HCBM010264272026",
+      "http_status": 200,
+      "content_type": "application/json",
+      "bytes": 2185
+    },
+    {
+      "route": "/api/documents/575d5de0563eec2dddd5/pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 29431
+    },
+    {
+      "route": "/api/documents/575d5de0563eec2dddd5/text",
+      "http_status": 200,
+      "content_type": "application/json",
+      "bytes": 2144
+    },
+    {
+      "route": "/api/documents/575d5de0563eec2dddd5/versions",
+      "http_status": 200,
+      "content_type": "application/json",
+      "bytes": 378
+    },
+    {
+      "route": "/api/runs",
+      "http_status": 200,
+      "content_type": "application/json",
+      "bytes": 3385
+    },
+    {
+      "route": "/api/laws",
+      "http_status": 200,
+      "content_type": "application/json",
+      "bytes": 55514
+    }
+  ],
+  "source_metadata_objects": [
+    {
+      "key": "metadata/parquet/year=2024/court=27_1/bench=hcaurdb/metadata-mobile.parquet",
+      "modified": "2026-06-25T07:04:28.000Z",
+      "size": 407387,
+      "sha256": "6b589098a03229e5582cde4e0d3f035e10f1036f19cc65c20eaa4ab9f49dc8c0"
+    },
+    {
+      "key": "metadata/parquet/year=2024/court=27_1/bench=hcaurdb/metadata.parquet",
+      "modified": "2026-06-25T03:12:40.000Z",
+      "size": 16877211,
+      "sha256": "1435713092c7dfcf2351ac2a16ce5db09663b5ce49514e34b31f2359aa51303d"
+    },
+    {
+      "key": "metadata/parquet/year=2024/court=27_1/bench=hcbgoa/metadata-mobile.parquet",
+      "modified": "2026-06-25T07:04:28.000Z",
+      "size": 64986,
+      "sha256": "5cb39b84b3fda84e571fa4a77db06a9d2faf34372db889fbb73025d5c58d7965"
+    },
+    {
+      "key": "metadata/parquet/year=2024/court=27_1/bench=hcbgoa/metadata.parquet",
+      "modified": "2026-05-23T05:02:25.000Z",
+      "size": 891555,
+      "sha256": "8bc23e9a019e1a2eb4c590372009df2ffedde2c1e0f47932bf21743df9c82ec0"
+    },
+    {
+      "key": "metadata/parquet/year=2024/court=27_1/bench=kolhcdb/metadata-mobile.parquet",
+      "modified": "2026-06-25T07:04:29.000Z",
+      "size": 147729,
+      "sha256": "0ebd635d8595f44c09a4843b65943beae8f37889627d4061c5d5af95d213ed10"
+    },
+    {
+      "key": "metadata/parquet/year=2024/court=27_1/bench=kolhcdb/metadata.parquet",
+      "modified": "2026-06-25T03:13:55.000Z",
+      "size": 4874092,
+      "sha256": "bae212117f5cc5b3078782dd1f5cf1c102484086a916c7a0c3f97c8a41bed6f3"
+    },
+    {
+      "key": "metadata/parquet/year=2024/court=27_1/bench=newas/metadata-mobile.parquet",
+      "modified": "2026-06-25T07:04:49.000Z",
+      "size": 5008981,
+      "sha256": "b9497426da1ca908d009b1cbdfbaf4621795ad1369185d38c6ebe488177d2724"
+    },
+    {
+      "key": "metadata/parquet/year=2024/court=27_1/bench=newas/metadata.parquet",
+      "modified": "2026-06-25T03:13:23.000Z",
+      "size": 10049358,
+      "sha256": "fc3b1bca64f1ce4162b77ae77347d9df9dbc8eaf1adedc0a2a2c9c4e8d640e63"
+    },
+    {
+      "key": "metadata/parquet/year=2025/court=27_1/bench=hcaurdb/metadata-mobile.parquet",
+      "modified": "2026-06-25T07:05:11.000Z",
+      "size": 1158040,
+      "sha256": "9f12e973a137473257f62e0b233036e1848ef977130e78ce4f5aa54f9fc1475b"
+    },
+    {
+      "key": "metadata/parquet/year=2025/court=27_1/bench=hcaurdb/metadata.parquet",
+      "modified": "2026-08-26T05:49:59.000Z",
+      "size": 19791129,
+      "sha256": "d582aea30d351f4d170a6fd29cbc4fd850303ee411affe700f2d3d867f882cf1"
+    },
+    {
+      "key": "metadata/parquet/year=2025/court=27_1/bench=hcbgoa/metadata-mobile.parquet",
+      "modified": "2026-06-25T07:05:13.000Z",
+      "size": 163016,
+      "sha256": "98d0f2886a42b3c5c36bb9350f2d28efe7dcece4a8abf61d68416b6d0bbcc752"
+    },
+    {
+      "key": "metadata/parquet/year=2025/court=27_1/bench=hcbgoa/metadata.parquet",
+      "modified": "2026-08-26T05:49:23.000Z",
+      "size": 721811,
+      "sha256": "36bf8ccbf386d3b49a66b5d1faa259ecd9ca06a6250f744970abea07d8d3b467"
+    },
+    {
+      "key": "metadata/parquet/year=2025/court=27_1/bench=kolhcdb/metadata-mobile.parquet",
+      "modified": "2026-06-25T07:05:15.000Z",
+      "size": 346355,
+      "sha256": "b886eeced326a0416603732c7a71297c7a437eb9dd26c1d04ab0edf2338b84b6"
+    },
+    {
+      "key": "metadata/parquet/year=2025/court=27_1/bench=kolhcdb/metadata.parquet",
+      "modified": "2026-08-26T05:52:45.000Z",
+      "size": 4939693,
+      "sha256": "0f7ca0b27afa8a4a740efe8f1a1608a9be081032de5140925e47e97cd21367d3"
+    },
+    {
+      "key": "metadata/parquet/year=2025/court=27_1/bench=newas/metadata-mobile.parquet",
+      "modified": "2026-06-25T07:05:59.000Z",
+      "size": 7952078,
+      "sha256": "4a17c475956614093556c4504a9a14befa502c49f115c525599aacf36baead39"
+    },
+    {
+      "key": "metadata/parquet/year=2025/court=27_1/bench=newas/metadata.parquet",
+      "modified": "2026-08-26T05:51:55.000Z",
+      "size": 1617601,
+      "sha256": "07d1ce93f14416c9d6db85e1685266a906146a9ad4e89270b9c9c8eb4622fd09"
+    },
+    {
+      "key": "metadata/parquet/year=2026/court=27_1/bench=hcaurdb/metadata-mobile.parquet",
+      "modified": "2026-06-25T07:06:31.000Z",
+      "size": 1651142,
+      "sha256": "60bba666545afd5183168a551aea4dae9caaad1507ebe98bc8ff1d91cc5492dd"
+    },
+    {
+      "key": "metadata/parquet/year=2026/court=27_1/bench=hcaurdb/metadata.parquet",
+      "modified": "2026-10-10T08:15:47.000Z",
+      "size": 4628971,
+      "sha256": "7a9a121fc0fcfadca59ab523084b58c0eeb8f56998aca4ebbc7b166ffa16e0f5"
+    },
+    {
+      "key": "metadata/parquet/year=2026/court=27_1/bench=hcbgoa/metadata-mobile.parquet",
+      "modified": "2026-06-25T07:06:32.000Z",
+      "size": 135316,
+      "sha256": "819769da8e83b3c6f047edf86ee14e88305402cf2191493f2d9c67393c4a8ba3"
+    },
+    {
+      "key": "metadata/parquet/year=2026/court=27_1/bench=hcbgoa/metadata.parquet",
+      "modified": "2026-10-10T08:13:00.000Z",
+      "size": 257459,
+      "sha256": "5603d8f52b2a315b67a45280403d3e5815313b8c1466cfe76f01d0819e732adb"
+    },
+    {
+      "key": "metadata/parquet/year=2026/court=27_1/bench=kolhcdb/metadata-mobile.parquet",
+      "modified": "2026-06-25T07:06:34.000Z",
+      "size": 429721,
+      "sha256": "5294a6ebef1513e3e1603a2a3c13ee0807b1d57b3d5013663573cc33fe6fbb30"
+    },
+    {
+      "key": "metadata/parquet/year=2026/court=27_1/bench=kolhcdb/metadata.parquet",
+      "modified": "2026-10-10T08:26:10.000Z",
+      "size": 1051975,
+      "sha256": "ff2f99c0e6456c2be8d8f453de5d9e2ac38723d15fb7a59917e2d7fad2713786"
+    },
+    {
+      "key": "metadata/parquet/year=2026/court=27_1/bench=newas/metadata-mobile.parquet",
+      "modified": "2026-06-25T07:06:42.000Z",
+      "size": 2160326,
+      "sha256": "f20c97a0151ddfef364a9c883e50212733cf5aeef6ee6cbbc1978d6eb686c20c"
+    },
+    {
+      "key": "metadata/parquet/year=2026/court=27_1/bench=newas/metadata.parquet",
+      "modified": "2026-10-10T08:21:45.000Z",
+      "size": 5565423,
+      "sha256": "9fa114fdb69f1b92344e1eae55b71ffe88e30521d8b7a5940f1f0a7294acec9e"
+    },
+    {
+      "key": "metadata/parquet_case_details/court=27_1/bench=hcaurdb/case_details-mobile.parquet",
+      "modified": "2026-06-25T07:06:54.000Z",
+      "size": 2520413,
+      "sha256": "3af71696368b3ec52a15267bb53afa36285335f2c7199b07350b53bfb53ea898"
+    },
+    {
+      "key": "metadata/parquet_case_details/court=27_1/bench=hcbgoa/case_details-mobile.parquet",
+      "modified": "2026-06-25T07:06:55.000Z",
+      "size": 217407,
+      "sha256": "e4423911bc3d9e22e9fb07433d9b99a8877e88fb8b6241000e25b4414abc34d5"
+    },
+    {
+      "key": "metadata/parquet_case_details/court=27_1/bench=kolhcdb/case_details-mobile.parquet",
+      "modified": "2026-06-25T07:06:55.000Z",
+      "size": 585705,
+      "sha256": "f4be13755754171402779023107bd04f0bfe21a0be1062e828e0c8667e7c7786"
+    },
+    {
+      "key": "metadata/parquet_case_details/court=27_1/bench=newas/case_details-mobile.parquet",
+      "modified": "2026-06-25T07:06:59.000Z",
+      "size": 9552120,
+      "sha256": "191c98667d5d8c64b70a5376cb4a7d6ef2b1f2bedb26374b2f9de030d139f59a"
+    }
+  ],
+  "first_successful_refresh": {
+    "metadata_objects_checked": 28,
+    "metadata_objects_changed": 0,
+    "candidate_cnrs_in_window": 147,
+    "new_cases": 40,
+    "new_document_records": 269,
+    "pdfs_downloaded": 12,
+    "pdf_failures": 0,
+    "existing_pdfs_rechecked": 0,
+    "pending_documents_total": 257,
+    "metadata_checked_at": "2026-10-10T15:16:18+00:00"
+  },
+  "repeat_refreshes": [
+    {
+      "id": 3,
+      "finished_at": "2026-10-10T15:18:18+00:00",
+      "stats": {
+        "metadata_objects_checked": 28,
+        "metadata_objects_changed": 0,
+        "candidate_cnrs_in_window": 147,
+        "new_cases": 0,
+        "new_document_records": 0,
+        "pdfs_downloaded": 12,
+        "pdf_failures": 0,
+        "existing_pdfs_rechecked": 0,
+        "pending_documents_total": 245,
+        "metadata_checked_at": "2026-10-10T15:18:18+00:00"
+      }
+    },
+    {
+      "id": 4,
+      "finished_at": "2026-10-10T15:20:17+00:00",
+      "stats": {
+        "metadata_objects_checked": 28,
+        "metadata_objects_changed": 0,
+        "candidate_cnrs_in_window": 147,
+        "new_cases": 0,
+        "new_document_records": 0,
+        "pdfs_downloaded": 12,
+        "pdf_failures": 0,
+        "existing_pdfs_rechecked": 0,
+        "pending_documents_total": 233,
+        "metadata_checked_at": "2026-10-10T15:20:17+00:00"
+      }
+    },
+    {
+      "id": 5,
+      "finished_at": "2026-10-10T15:21:51+00:00",
+      "stats": {
+        "metadata_objects_checked": 28,
+        "metadata_objects_changed": 0,
+        "candidate_cnrs_in_window": 147,
+        "new_cases": 0,
+        "new_document_records": 0,
+        "pdfs_downloaded": 12,
+        "pdf_failures": 0,
+        "existing_pdfs_rechecked": 0,
+        "pending_documents_total": 221,
+        "metadata_checked_at": "2026-10-10T15:21:51+00:00"
+      }
+    }
+  ],
+  "limitations": [
+    "Four Bombay benches and six BNS sections only",
+    "Act/section metadata may lag order metadata; unmatched recent cases are not discovered yet",
+    "Metadata matches are not charge findings or training labels",
+    "Bounded download backlog continues while local server runs",
+    "No hosted service or cloud scheduler deployed"
+  ]
+}

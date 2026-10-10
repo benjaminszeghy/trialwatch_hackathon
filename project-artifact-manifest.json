@@ -3,6 +3,71 @@
   "snapshot_date": "2026-10-09",
   "files": [
     {
+      "path": ".gitignore",
+      "bytes": 462,
+      "sha256": "84d3630f7f057cec1a30647dd0ce3f6cd02200b4926de4aadaeaa9ff5971e02d"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5984,
+      "sha256": "7f2506765d675ad12c10b36e4a9b41a88eb5a51829402fe761c8ab7ffd134816"
+    },
+    {
+      "path": "demo_backend/README.md",
+      "bytes": 8961,
+      "sha256": "8d03da942ce0919164939beb15e60d194eacaa6d7939c912d1edb378537cf768"
+    },
+    {
+      "path": "demo_backend/__init__.py",
+      "bytes": 70,
+      "sha256": "5d55329fbbb9c7dbde84f73399c230aaa03fa1deb7a356445bc0c26e513fdb98"
+    },
+    {
+      "path": "demo_backend/__main__.py",
+      "bytes": 2196,
+      "sha256": "683b36e4ab96ff9028484b2bdfb7150c685cf70fcdac7929b1b9b9d143f23efa"
+    },
+    {
+      "path": "demo_backend/app.py",
+      "bytes": 8712,
+      "sha256": "d342920f7b065fd74160e5bf810c92da056e6bfeb78fc30d228b6ccf2d4f636b"
+    },
+    {
+      "path": "demo_backend/collector.py",
+      "bytes": 11081,
+      "sha256": "040b88a694780de4f8a94c54e1fd168d7bff8f08fd9881f517a84ded3ad67e20"
+    },
+    {
+      "path": "demo_backend/config.example.json",
+      "bytes": 357,
+      "sha256": "9aab070baaf44adf5bd3fe8508df1d35447a32e64b66df4497ac7ea091c611b6"
+    },
+    {
+      "path": "demo_backend/core.py",
+      "bytes": 16752,
+      "sha256": "6618cb6ddf7c80d157e21e2f9c369cbfb4a7948a20720521399f81127785bf05"
+    },
+    {
+      "path": "demo_backend/demo.html",
+      "bytes": 10138,
+      "sha256": "25419b30899bba6a07dc4f61dfa2fb5e4be1f267def858e8d04a4e0e1ca775ca"
+    },
+    {
+      "path": "demo_backend/requirements-dev.txt",
+      "bytes": 34,
+      "sha256": "934fbb549ab3209320a68f549631f92ffa7dcd1372d15620c148eb5f55bd7735"
+    },
+    {
+      "path": "demo_backend/requirements.txt",
+      "bytes": 61,
+      "sha256": "54312cdf9b2049b2ea49f5e718e865b39c4c2dea60b81a728ca0a10da68645f3"
+    },
+    {
+      "path": "demo_backend/test_backend.py",
+      "bytes": 12538,
+      "sha256": "105f6a1771e037cba1a87fdb45f697c41bb8ad908c771ba29e5a653b41a8f63e"
+    },
+    {
       "path": "export-bns-corpus.mjs",
       "bytes": 2795,
       "sha256": "f7939429c8ebf320348e9142c421d9fbc74536636115a1cb1b7b72c165a571a0"
@@ -1043,7 +1108,7 @@
       "sha256": "c998df7f1fbdc239b3f6dcbfa4975227a9737a02c35a51582a1286e5e1f34832"
     },
     {
-      "path": "outputs/bns-training-starter/\u5f00\u59cb\u8fd9\u91cc.md",
+      "path": "outputs/bns-training-starter/开始这里.md",
       "bytes": 3310,
       "sha256": "c3ce388eb7c6d297b64e3e4418c73e8e6ae5a38ff6c518e0134f84779d7934e2"
     },
@@ -1086,6 +1151,16 @@
       "path": "outputs/law-scores.md",
       "bytes": 43193,
       "sha256": "6bb184842f9656cfd92f5e6358cdc8323a180f83e3e609988ff1be398c7f65ef"
+    },
+    {
+      "path": "outputs/live-demo-preview.png",
+      "bytes": 89465,
+      "sha256": "ce7ce05c6be367dba63100383aa4abb711e7620b22d32bf626f7d1a7c00eb167"
+    },
+    {
+      "path": "outputs/live-demo-validation.json",
+      "bytes": 13340,
+      "sha256": "dc6e07c9d7ec891fdb3e62bbd557c494cfc03f894d5ae875ca0b4c8e40faf1cc"
     },
     {
       "path": "outputs/njdg-bail-detail.jpg",
@@ -4424,6 +4499,19 @@
       "path": "work/court-data/hc_case_details.json",
       "bytes": 220891568,
       "reason": "Expanded intermediate exceeds GitHub per-file limit; original source Parquets and prepare_corpus.py are included"
+    },
+    {
+      "path": "work/live-*/",
+      "reason": "Local collector database, downloaded backlog and demo virtual environment"
+    },
+    {
+      "path": "work/uv-live-cache/",
+      "reason": "Machine-local Python package cache"
+    },
+    {
+      "path": "demo_backend/__pycache__/",
+      "reason": "Generated Python bytecode"
     }
-  ]
+  ],
+  "updated_at": "2026-10-10T15:23:19+00:00"
 }

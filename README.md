@@ -2,6 +2,20 @@
 
 This branch contains the law-scoring, ML-design and case-acquisition outputs prepared for the Fair Trial & AI Hackathon, Track 1. The current acquisition work focuses on **BNS 152, 196, 299, 353, 356 and 221**. Earlier IPC and special-Act research remains available as a separate reference collection.
 
+## Run the live local demo
+
+The standalone Python API now checks fresh AWS metadata on a schedule, persists cases/PDFs in SQLite, and serves a searchable demo. See [backend setup and API integration](demo_backend/README.md). It keeps human annotations and old evidence versions separate from new acquisitions. The live collector focuses on the six selected BNS sections across four Bombay benches; it does not update the provisional law scores or create training labels.
+
+```sh
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install -r demo_backend/requirements.txt
+python -m demo_backend seed
+python -m demo_backend serve --port 8000 --interval 120
+```
+
+Open **http://127.0.0.1:8000**. Keep the process running for automatic checks. [Timestamped live validation](outputs/live-demo-validation.json) records the fresh source check; it is separate from the fixed training-starter snapshot below.
+
 ## Start here
 
 | Deliverable | File |
