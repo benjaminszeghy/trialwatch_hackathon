@@ -14,6 +14,8 @@ python -m demo_backend seed
 python -m demo_backend serve --port 8000 --interval 120
 ```
 
+The database/API now pair each PDF with its associated BNS law profile, score, subsection scope and evidence status. [PDF-law association audit](outputs/pdf-law-score-validation.json) records completeness and the distinction between metadata links and text/review evidence. Scores are law-level provisional indices; the collection includes lower-scoring BNS 221/356 cases and does not assign case misuse probabilities.
+
 Open **http://127.0.0.1:8000**. Keep the process running for automatic checks. [Timestamped live validation](outputs/live-demo-validation.json) records the fresh source check; it is separate from the fixed training-starter snapshot below.
 
 ## Start here

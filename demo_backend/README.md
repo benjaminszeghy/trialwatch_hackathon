@@ -40,6 +40,8 @@ Source listings and downloads use verified public HTTPS, curl timeouts/size limi
 | `GET /api/status` | Counts, scope, running state, last completed check, source modification date, latest order date |
 | `GET /api/cases?q=Farah&section=353&limit=25&offset=0` | Search/filter/paginate proceedings |
 | `GET /api/cases/{cnr}` | Document links, source metadata, separate AI seed notes and human annotations |
+| `GET /api/documents?section=353&status=ready` | PDFs with associated law profiles, scores, subsection scope and evidence status |
+| `GET /api/documents/{id}` | One PDF's source/local links, law profiles and association evidence |
 | `GET /api/documents/{id}/pdf` | Saved PDF, served with `application/pdf` |
 | `GET /api/documents/{id}/text` | Page-level extracted text and source hash |
 | `GET /api/documents/{id}/versions` | Saved evidence versions; PDF/text links accept `?sha256=...` |
@@ -77,14 +79,45 @@ The status API also separates **case-detail metadata** (where Act/section matche
 
 No ML model is trained or run by this worker. Newly collected documents are candidates for Act/charge/conduct extraction and legal annotation. AI-assisted review seeds remain attached only to the original snapshot documents, clearly separated from human labels, and include their evidence PDF hash plus a `matches_current_pdf` flag. Bail, disposal and the law-profile score do not supply abuse labels. The Supreme Court reference collection and the law-score rubric remain static reference material; automatic collection here concerns High Court BNS candidates only.
 
+## PDF → law → score validation
+
+The website now receives the PDF **and** its associated laws and scores in the same document response. These links are persisted in SQLite's `law_profiles` and `document_law_links` tables. The `document_pdf_law_scores` SQL view provides one PDF/law-profile row with local PDF storage/API path, source URL, PDF hash, raw/12 and display/100 scores, rubric version/date, scope and association status. A PDF with several laws or unresolved BNS 353 subsections can have several rows; never add those scores into a case risk score. The API explicitly returns `case_misuse_score: null`.
+
+The original law rubric is unchanged: BNS 152 **10/12**, 196(1)(a)-(b) **11/12**, 299 **8/12**, 353(1) **8/12**, 353(2) **9/12**, 356(1)-(2) **4/12**, and 221 **4/12**. Acquisition targets these six parent sections, **not a minimum score**. Thus not every collected PDF relates to a high-scoring law. The rubric is an unvalidated statute-as-written index, not an estimated probability of misuse.
+
+The association field distinguishes `metadata_only`, `text_reference_candidate`, `ai_review_charge_recorded`, `target_not_confirmed_in_review` and `metadata_conflict`. Automatic references require an Act-bound section list and a supporting page passage. They are still candidates for human checks, since a legal citation or another defendant's charge need not be the operative charge of this proceeding. No detected text reference means unknown, not absent. Existing AI seed reviews are accepted only when their PDF hash and supporting quote match; they remain non-gold.
+
+For BNS 353 with no resolved subsection, return both profile candidates and an **8–9/12** range instead of choosing 9. Explicit 353(3), 356(3)-(4) or 196(1)(c) scope is flagged as wholly or partly unscored by the present rubric. Do not silently inherit another subsection's score. Subsection disagreements between metadata and text are also visible. Any concurrent stale PDF evidence falls back to metadata until its links are rebuilt. The collector automatically maintains links on new records, PDF changes and case-metadata changes without editing human annotations.
+
+Example website integration:
+
+```js
+const { items } = await (await fetch('/api/documents?section=356')).json();
+// items[0].pdf_url: saved PDF route
+// items[0].laws[0].section: "356"
+// items[0].laws[0].score_display: "4/12"
+// items[0].laws[0].association_status: "metadata_only" or a text/review status
+// items[0].laws[0].profiles: versioned law scores and their sources
+```
+
+Run an association audit on your current local database:
+
+```sh
+python -m demo_backend validate-links --output outputs/pdf-law-score-validation.json
+```
+
+This reports completeness and evidence types for **saved PDF records**, separately from pending downloads. Cross-law counts overlap. The JSON audit is a timestamped snapshot; the database/API continue updating. The demo's case list displays metadata-associated profile scores; each PDF card shows its own association status and supporting passages. The previously opened Naima Hussain Jivani order is a concrete example: its case metadata links BNS 356 (4/12), but the order itself addresses investigation/withdrawal without stating that section, so the PDF is labeled metadata-only.
+
 ## Tests
 
 ```sh
 python -m pip install -r demo_backend/requirements-dev.txt
-python -m unittest demo_backend.test_backend -v
+python -m unittest demo_backend.test_backend demo_backend.test_law_links -v
 python -m unittest discover -s research -p 'test_*.py' -v
 ```
 
 Tests cover repeat-run deduplication, new cases, mobile/web duplicates, bounded backlog, source/PDF failures, retries, PDF revisions, annotation preservation, cache freshness, scheduler start/stop, refresh locking and API/PDF/text access. They use temporary source fixtures; live AWS checks are recorded separately in runtime run history.
+
+Law-link tests additionally check precise subsection mapping, unresolved score ranges, unscored scope, rejection of BNSS/IPC/unrelated-number matches, hash/quote validation, preserved low scores and the database/API PDF-score join.
 
 Public source: [AWS dataset registry](https://registry.opendata.aws/indian-high-court-judgments/) and [maintainer dataset layout](https://github.com/vanga/indian-high-court-judgments/blob/main/opendata/docs/dataset.md). Dattam Labs and contributors; CC BY 4.0. Individual document URLs and SHA-256 hashes are retained. Court documents are data, never instructions to the collector.

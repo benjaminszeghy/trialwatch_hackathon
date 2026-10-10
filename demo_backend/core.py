@@ -106,7 +106,35 @@ class Store:
                 CREATE TABLE IF NOT EXISTS runs (
                     id INTEGER PRIMARY KEY AUTOINCREMENT, started_at TEXT,
                     finished_at TEXT, status TEXT, scope TEXT, stats TEXT, error TEXT);
+                CREATE TABLE IF NOT EXISTS law_profiles (
+                    id TEXT PRIMARY KEY, parent_section TEXT, raw_total INTEGER,
+                    raw_max INTEGER, score_100 INTEGER, rubric_version TEXT,
+                    score_as_of TEXT, catalog_sha256 TEXT, payload TEXT);
+                CREATE TABLE IF NOT EXISTS document_law_links (
+                    document_id TEXT REFERENCES documents(id), section TEXT,
+                    payload TEXT, pdf_sha256 TEXT, catalog_sha256 TEXT, updated_at TEXT,
+                    PRIMARY KEY(document_id,section));
+                CREATE VIEW IF NOT EXISTS document_pdf_law_scores AS
+                    SELECT d.id AS document_id,d.cnr,c.title,d.status AS pdf_status,
+                    d.source_url,d.pdf_path AS pdf_storage_path,
+                    '/api/documents/'||d.id||'/pdf' AS pdf_api_url,
+                    d.sha256 AS pdf_sha256,l.section AS bns_section,p.id AS law_profile_id,
+                    json_extract(p.payload,'$.name') AS law_name,
+                    p.raw_total AS law_score_raw,p.raw_max AS law_score_max,
+                    p.score_100 AS law_score_display_100,p.rubric_version,p.score_as_of,
+                    json_extract(l.payload,'$.association_status') AS association_status,
+                    json_extract(l.payload,'$.scope_status') AS law_scope_status,
+                    json_extract(l.payload,'$.evidence') AS evidence,
+                    0 AS is_case_misuse_score
+                    FROM documents d JOIN cases c USING(cnr)
+                    JOIN document_law_links l ON l.document_id=d.id
+                    LEFT JOIN law_profiles p ON p.parent_section=l.section AND
+                    p.catalog_sha256=l.catalog_sha256 AND EXISTS (
+                        SELECT 1 FROM json_each(l.payload,'$.profiles') j
+                        WHERE json_extract(j.value,'$.id')=p.id);
             ''')
+        from .law_links import sync_catalog
+        sync_catalog(self)
 
     @contextmanager
     def db(self):
@@ -121,28 +149,40 @@ class Store:
 
     def case(self, cnr, title, court, bench, sections, metadata):
         with self.db() as db:
-            new = db.execute('SELECT 1 FROM cases WHERE cnr=?', (cnr,)).fetchone() is None
+            old = db.execute('SELECT sections,metadata FROM cases WHERE cnr=?', (cnr,)).fetchone()
+            new = old is None
             db.execute('''INSERT INTO cases VALUES(?,?,?,?,?,?,?,?)
                 ON CONFLICT(cnr) DO UPDATE SET title=excluded.title,court=excluded.court,
                 bench=excluded.bench,sections=excluded.sections,metadata=excluded.metadata,
                 last_seen=excluded.last_seen''',
                 (cnr, title, court, bench, encode(sorted(set(sections))), encode(metadata), now(), now()))
+        if old and (old['sections'] != encode(sorted(set(sections))) or old['metadata'] != encode(metadata)):
+            from .law_links import sync_document
+            with self.db() as db:
+                identifiers = [r[0] for r in db.execute('SELECT id FROM documents WHERE cnr=?', (cnr,))]
+            for identifier in identifiers:
+                sync_document(self, identifier)
         return new
 
     def document(self, cnr, logical_key, order_date, url, metadata):
         identifier = digest(url.encode())[:20]
         with self.db() as db:
             # Preserve original snapshot identifiers when mobile/web representations change.
-            old = db.execute('SELECT id FROM documents WHERE logical_key=? OR source_url=?',
+            old = db.execute('SELECT id,metadata FROM documents WHERE logical_key=? OR source_url=?',
                              (logical_key, url)).fetchone()
             if old:
                 db.execute('UPDATE documents SET last_seen=?,metadata=? WHERE id=?',
                            (now(), encode(metadata), old['id']))
-                return old['id'], False
-            db.execute('''INSERT INTO documents(id,cnr,logical_key,order_date,source_url,metadata,
+                identifier, added = old['id'], False
+            else:
+                db.execute('''INSERT INTO documents(id,cnr,logical_key,order_date,source_url,metadata,
                        first_seen,last_seen) VALUES(?,?,?,?,?,?,?,?)''',
                        (identifier, cnr, logical_key, order_date, url, encode(metadata), now(), now()))
-            return identifier, True
+                added = True
+        if added or old['metadata'] != encode(metadata):
+            from .law_links import sync_document
+            sync_document(self, identifier)
+        return identifier, added
 
     def row(self, identifier):
         with self.db() as db:
@@ -163,6 +203,8 @@ class Store:
             db.execute('''UPDATE documents SET status='ready',sha256=?,pdf_path=?,text_path=?,
                        page_count=?,error=NULL,downloaded_at=? WHERE id=?''',
                        (sha, relative_pdf, relative_text, len(pages), now(), identifier))
+        from .law_links import sync_document
+        sync_document(self, identifier)
         return sha
 
     def seed(self, corpus=ROOT / 'outputs/bns-training-starter', raw_metadata=ROOT / 'work/bns-corpus/documents.json'):
@@ -212,6 +254,8 @@ class Store:
                     old['evidence_pdf_sha256'] = review['evidence_pdf_sha256']
                     db.execute('UPDATE seed_reviews SET payload=? WHERE document_id=?',
                                (encode(old), review['document_id']))
+        from .law_links import sync_all
+        sync_all(self)
         return {'seed_documents_added': count, 'cases': len(cases)}
 
     def status(self, config):

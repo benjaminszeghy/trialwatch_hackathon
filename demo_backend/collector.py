@@ -97,6 +97,14 @@ class Collector:
                      'pdfs_downloaded': 0, 'pdf_failures': 0, 'existing_pdfs_rechecked': 0}
             status, error = 'success', None
             try:
+                from .law_links import catalog, sync_all
+                with self.store.db() as db:
+                    stale = db.execute('''SELECT COUNT(*) FROM documents d WHERE NOT EXISTS
+                        (SELECT 1 FROM document_law_links l WHERE l.document_id=d.id
+                        AND l.catalog_sha256=? AND COALESCE(l.pdf_sha256,'')=COALESCE(d.sha256,''))''',
+                        (catalog()['sha256'],)).fetchone()[0]
+                if stale:
+                    sync_all(self.store)
                 self.ingest(stats, run_id)
             except Exception as exc:
                 LOG.exception('Refresh %s failed', run_id)

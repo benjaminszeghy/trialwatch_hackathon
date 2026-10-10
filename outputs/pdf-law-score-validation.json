@@ -1,0 +1,123 @@
+{
+  "checked_at": "2026-10-10T15:45:16+00:00",
+  "document_records": 446,
+  "saved_pdf_records": 357,
+  "pending_or_failed_records": 89,
+  "documents_without_any_law_link": 0,
+  "saved_pdf_records_with_law_links": 357,
+  "saved_pdfs_with_any_text_or_ai_review_candidate": 53,
+  "saved_pdfs_with_at_least_one_metadata_only_link": 295,
+  "saved_pdf_law_link_status_counts": {
+    "metadata_only": 350,
+    "text_reference_candidate": 26,
+    "target_not_confirmed_in_review": 10,
+    "ai_review_charge_recorded": 34,
+    "metadata_conflict": 2
+  },
+  "law_summary": [
+    {
+      "section": "152",
+      "profiles": [
+        {
+          "id": "BNS-152",
+          "raw_total": 10,
+          "raw_max": 12,
+          "score_100": 83
+        }
+      ],
+      "saved_pdf_records_linked_by_metadata": 16,
+      "text_or_ai_review_candidates": 2
+    },
+    {
+      "section": "196",
+      "profiles": [
+        {
+          "id": "BNS-196",
+          "raw_total": 11,
+          "raw_max": 12,
+          "score_100": 92
+        }
+      ],
+      "saved_pdf_records_linked_by_metadata": 36,
+      "text_or_ai_review_candidates": 7
+    },
+    {
+      "section": "221",
+      "profiles": [
+        {
+          "id": "BNS-221",
+          "raw_total": 4,
+          "raw_max": 12,
+          "score_100": 33
+        }
+      ],
+      "saved_pdf_records_linked_by_metadata": 40,
+      "text_or_ai_review_candidates": 3
+    },
+    {
+      "section": "299",
+      "profiles": [
+        {
+          "id": "BNS-299",
+          "raw_total": 8,
+          "raw_max": 12,
+          "score_100": 67
+        }
+      ],
+      "saved_pdf_records_linked_by_metadata": 40,
+      "text_or_ai_review_candidates": 3
+    },
+    {
+      "section": "353",
+      "profiles": [
+        {
+          "id": "BNS-353-1",
+          "raw_total": 8,
+          "raw_max": 12,
+          "score_100": 67
+        },
+        {
+          "id": "BNS-353-2",
+          "raw_total": 9,
+          "raw_max": 12,
+          "score_100": 75
+        }
+      ],
+      "saved_pdf_records_linked_by_metadata": 77,
+      "text_or_ai_review_candidates": 10
+    },
+    {
+      "section": "356",
+      "profiles": [
+        {
+          "id": "BNS-356",
+          "raw_total": 4,
+          "raw_max": 12,
+          "score_100": 33
+        }
+      ],
+      "saved_pdf_records_linked_by_metadata": 213,
+      "text_or_ai_review_candidates": 35
+    }
+  ],
+  "score_meaning": "Provisional statute-as-written review index; not a case misuse score or probability",
+  "validation_limit": "Automated association audit plus prior AI-assisted review; not human gold. Counts overlap across laws/statuses.",
+  "integrity_checks": {
+    "checked_at": "2026-10-10T15:45:16+00:00",
+    "saved_pdf_files_hash_checked": 357,
+    "ready_pdf_law_links_checked": 422,
+    "sql_view_rows_checked": 477,
+    "evidence_quotes_matched_to_current_pdf_text": 70,
+    "canonical_law_score_matches": true,
+    "broken_pdf_law_links": 0,
+    "api_document_listing_contract": "passed on first 200 ready records",
+    "example_document_id": "575d5de0563eec2dddd5",
+    "example_section": "356",
+    "example_law_score": "4/12",
+    "example_association_status": "metadata_only",
+    "example_pdf_route_content_type_and_hash": "passed",
+    "backend_tests_passed": 20,
+    "existing_research_tests_passed": 15,
+    "human_gold_validation_completed": false
+  }
+}

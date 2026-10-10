@@ -14,6 +14,8 @@ def main():
     sub.add_parser('seed', help='Import the included snapshot without network access (idempotent)')
     sub.add_parser('refresh', help='Run one fresh AWS check and bounded PDF batch')
     sub.add_parser('worker', help='Run refreshes until stopped')
+    links = sub.add_parser('validate-links', help='Link each PDF to law profiles and audit association evidence')
+    links.add_argument('--output', help='Write the JSON audit to this path')
     serve = sub.add_parser('serve', help='Serve API + demo + scheduled refresh worker')
     serve.add_argument('--host', default='127.0.0.1')
     serve.add_argument('--port', default=8000, type=int)
@@ -28,6 +30,14 @@ def main():
     store = Store(config.state_dir)
     if args.command == 'seed':
         print(json.dumps(store.seed(), indent=2))
+    elif args.command == 'validate-links':
+        from .law_links import sync_all
+        result = sync_all(store)
+        text = json.dumps(result, indent=2)
+        if args.output:
+            from pathlib import Path
+            Path(args.output).write_text(text + '\n')
+        print(text)
     elif args.command == 'refresh':
         result = Collector(config, store).refresh()
         print(json.dumps(result, indent=2))
