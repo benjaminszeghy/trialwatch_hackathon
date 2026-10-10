@@ -5,6 +5,7 @@ train a model or change the statute-as-written rubric.
 """
 from __future__ import annotations
 
+from contextlib import nullcontext
 import json
 from collections import Counter, defaultdict
 
@@ -147,10 +148,11 @@ def eligible_profiles(db, cnr):
     return list({p['id']: p for law in links for p in law['profiles']}.values())
 
 
-def write_review(store, cnr, data, *, clear=False):
+def write_review(store, cnr, data, *, clear=False, connection=None):
     """Atomic revision check + replacement: edits never add a second vote."""
-    with store.db() as db:
-        db.execute('BEGIN IMMEDIATE')
+    with (nullcontext(connection) if connection is not None else store.db()) as db:
+        if connection is None:
+            db.execute('BEGIN IMMEDIATE')
         current = contexts(db).get(cnr)
         if current is None:
             raise ReviewError(404, 'Case not found')

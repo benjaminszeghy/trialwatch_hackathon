@@ -20,6 +20,8 @@ from .core import ROOT, Config, parse_run
 from .law_links import catalog, get_links, sync_all
 from .feedback import (ReviewError, empty_review, eligible_profiles, export_labels,
                        overlay_links, state as feedback_state, write_review)
+from .combined_priority import assess as combined_priority, summarize as queue_summary, order as combined_order, BANDS as QUEUE_BANDS, METHOD as QUEUE_METHOD
+from .unified_review import AssessmentInput, ClearAssessment, save as save_assessment
 from .trialwatch_fit import FitInput, save as save_fit, export as export_fit
 from .priority import BANDS, METHOD, case_laws, review_priority, summarize
 from .relevance import (TIERS, METHOD as RELEVANCE_METHOD, RelevanceInput,
@@ -52,7 +54,7 @@ def require_writer(request):
         origin = request.headers.get('origin')
         if host not in ('127.0.0.1', '::1', 'testclient') or hostname not in ('127.0.0.1', 'localhost', '::1', 'testserver'):
             raise HTTPException(403, 'Writes and label export are local-only; configure TRIALWATCH_ADMIN_TOKEN for remote use')
-        if origin and origin != str(request.base_url).rstrip('/'):
+        if origin and origin != urlparse(str(request.url)).scheme + '://' + urlparse(str(request.url)).netloc:
             raise HTTPException(403, 'Writes require same origin')
 
 
@@ -66,7 +68,7 @@ def public_document(row, law_links=None, relevance=None):
         'trialwatch_relevance': relevance}
 
 
-def create_app(config=None, *, scheduler=True, collector=None):
+def create_app(config=None, *, scheduler=True, collector=None, include_demo=True):
     config = config or Config()
     engine = collector or Collector(config)
     store = engine.store
@@ -91,7 +93,8 @@ def create_app(config=None, *, scheduler=True, collector=None):
 
     @app.get('/', response_class=HTMLResponse)
     def demo():
-        return (Path(__file__).parent / 'demo.html').read_text()
+        html = (Path(__file__).parent / 'demo.html').read_text()
+        return html if include_demo else html.replace('/assets/', '/demo/assets/')
 
     @app.get('/assets/relevance.js')
     def relevance_script():
@@ -109,16 +112,16 @@ def create_app(config=None, *, scheduler=True, collector=None):
             relevance = relevance_state(db, feedback['contexts'], store=store)['summary']
         return store.status(config) | {'case_reviews': reviews, 'trialwatch_tiers': relevance,
             'refresh_running': engine.running,
-            'scheduler_enabled': scheduler, 'next_check_at': engine.next_check_at}
+            'scheduler_enabled': scheduler, 'next_check_at': engine.next_check_at, 'demo_mode':not include_demo}
 
     @app.get('/api/cases')
     def cases(q: str = Query('', max_length=200), section: str | None = None,
               limit: int = Query(25, ge=1, le=200), offset: int = Query(0, ge=0),
               priority: str | None = None, sort: str = 'latest', review: str | None = None,
-              trialwatch_tier: str | None = None, fit_review: str | None = None):
+              trialwatch_tier: str | None = None, fit_review: str | None = None, queue_priority: str | None = None):
         if priority and priority not in BANDS:
             raise HTTPException(400, 'Invalid review priority')
-        if sort not in ('latest', 'priority', 'triage', 'trialwatch'):
+        if sort not in ('latest', 'priority', 'triage', 'trialwatch', 'combined'):
             raise HTTPException(400, 'Invalid sort order')
         if trialwatch_tier and trialwatch_tier not in TIERS:
             raise HTTPException(400, 'Invalid TrialWatch tier')
@@ -126,6 +129,8 @@ def create_app(config=None, *, scheduler=True, collector=None):
             raise HTTPException(400, 'Invalid review status')
         if fit_review and fit_review not in ('unreviewed', 'reviewed', 'needs_recheck', 'yes', 'no'):
             raise HTTPException(400, 'Invalid TrialWatch fit review status')
+        if queue_priority and queue_priority not in QUEUE_BANDS:
+            raise HTTPException(400, 'Invalid combined review priority')
         clauses, args = [], []
         if q:
             clauses.append('(c.title LIKE ? OR c.cnr LIKE ?)')
@@ -155,6 +160,7 @@ def create_app(config=None, *, scheduler=True, collector=None):
             item['case_review'] = feedback['reviews'].get(item['cnr'], empty_review())
             item['review_status'] = item['case_review']['status']
             item['trialwatch_relevance'] = relevance['items'][item['cnr']]
+            item['case_priority'] = combined_priority(item['review_priority'], item['trialwatch_relevance'])
             result.append(item)
         summary = summarize(result)
         tier_counts = {k: sum(item['trialwatch_relevance']['tier'] == k for item in result) for k in TIERS}
@@ -173,17 +179,18 @@ def create_app(config=None, *, scheduler=True, collector=None):
             if fit_review in ('reviewed', 'unreviewed'):
                 return r['score_eligible'] == (fit_review == 'reviewed')
             return r['score_eligible'] and r['decision'] == fit_review
-        selected = [item for item in result if fit_selected(item) and (not priority or item['review_priority']['band'] == priority) and
+        selected = [item for item in result if fit_selected(item) and (not queue_priority or item['case_priority']['band']==queue_priority) and (not priority or item['review_priority']['band'] == priority) and
                     (not trialwatch_tier or item['trialwatch_relevance']['tier'] == trialwatch_tier) and
                     (not review or (item['case_review']['status'] == review if review in
                                     ('unreviewed', 'reviewed', 'needs_recheck') else
                                     item['case_review']['decision'] == review and not item['case_review']['needs_recheck']))]
-        order_queue(selected, sort)
+        combined_order(selected) if sort=='combined' else order_queue(selected, sort)
         return {'total': len(selected), 'offset': offset, 'limit': limit,
                 'items': selected[offset:offset + limit], 'summary': summary, 'priority_method': METHOD,
                 'feedback_summary': feedback['summary'], 'trialwatch_summary': tier_counts,
                 'relevance_review_summary': relevance_reviews,
-                'relevance_method': RELEVANCE_METHOD}
+                'relevance_method': RELEVANCE_METHOD, 'queue_summary':queue_summary(result), 'queue_method':QUEUE_METHOD,
+                'demo_mode':not include_demo}
 
     @app.get('/api/cases/{cnr}')
     def case(cnr: str):
@@ -209,6 +216,7 @@ def create_app(config=None, *, scheduler=True, collector=None):
         option_ids = {p['id'] for p in options}
         return {'cnr': cnr, 'title': row['title'], 'court': row['court'], 'bench': row['bench'],
                 'review_priority': review_priority(links), 'law_links': links,
+                'case_priority':combined_priority(review_priority(links), relevance), 'demo_mode':not include_demo,
                 'case_review': feedback['reviews'].get(cnr, empty_review()),
                 'review_evidence_version': feedback['contexts'][cnr]['evidence_version'],
                 'review_law_options': [p for p in feedback['profiles'] if p['id'] in option_ids],
@@ -221,6 +229,24 @@ def create_app(config=None, *, scheduler=True, collector=None):
                 'ai_review_seeds': seed_items,
                 'seed_status': 'AI-assisted snapshot notes, not human gold; not generated by refresh',
                 'human_annotations': [dict(r) | {'payload': json.loads(r['payload'])} for r in annotations]}
+
+    @app.put('/api/cases/{cnr}/assessment')
+    def unified_assessment(cnr: str, data: AssessmentInput, request: Request):
+        require_writer(request)
+        try:
+            save_assessment(store,cnr,data)
+        except ReviewError as error:
+            raise HTTPException(error.status,str(error))
+        return case(cnr)
+
+    @app.delete('/api/cases/{cnr}/assessment')
+    def clear_unified(cnr: str, data: ClearAssessment, request: Request):
+        require_writer(request)
+        try:
+            save_assessment(store,cnr,data,clear=True)
+        except ReviewError as error:
+            raise HTTPException(error.status,str(error))
+        return case(cnr)
 
     @app.put('/api/cases/{cnr}/trialwatch-fit')
     def record_fit(cnr: str, data: FitInput, request: Request):
@@ -244,7 +270,7 @@ def create_app(config=None, *, scheduler=True, collector=None):
     def fit_labels(request: Request):
         require_writer(request)
         with store.db() as db:
-            return export_fit(db)
+            return export_fit(db) | {'synthetic_demo':not include_demo, 'training_eligible':include_demo}
 
     @app.put('/api/cases/{cnr}/relevance')
     def assess_relevance(cnr: str, data: RelevanceInput, request: Request):
@@ -283,7 +309,7 @@ def create_app(config=None, *, scheduler=True, collector=None):
     def review_export(request: Request):
         require_writer(request)
         with store.db() as db:
-            return export_labels(db)
+            return export_labels(db) | {'synthetic_demo':not include_demo, 'training_eligible':include_demo}
 
     @app.get('/api/documents')
     def documents(section: str | None = None, status: str | None = 'ready',
@@ -380,6 +406,22 @@ def create_app(config=None, *, scheduler=True, collector=None):
     @app.post('/api/refresh', status_code=202)
     def refresh(request: Request):
         require_writer(request)
+        if not include_demo:
+            raise HTTPException(409, 'Synthetic sandbox has no external collection. Use Reset examples.')
         return {'accepted': engine.launch(), 'message': 'Refresh queued, or existing refresh still running'}
 
+    if include_demo:
+        from . import demo_scenarios
+        sandbox_config=demo_scenarios.config(store.root/'demo-scenarios')
+        sandbox_engine=Collector(sandbox_config)
+        demo_scenarios.seed(sandbox_engine.store)
+        sandbox=create_app(sandbox_config,scheduler=False,collector=sandbox_engine,include_demo=False)
+
+        @sandbox.post('/api/demo/reset')
+        def reset_demo(request:Request):
+            require_writer(request)
+            demo_scenarios.seed(sandbox_engine.store,reset=True)
+            return {'reset':True,'synthetic_demo':True,'training_eligible':False}
+
+        app.mount('/demo',sandbox)
     return app

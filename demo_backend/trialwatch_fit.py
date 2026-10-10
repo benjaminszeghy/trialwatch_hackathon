@@ -6,6 +6,7 @@ absence. Human labels are never manufactured from system assessments.
 """
 from __future__ import annotations
 
+from contextlib import nullcontext
 import json
 import re
 from collections import defaultdict
@@ -197,9 +198,10 @@ def state(store, db, evidence_contexts, *, as_of):
     return items
 
 
-def save(store, cnr, data, *, clear=False):
-    with store.db() as db:
-        db.execute('BEGIN IMMEDIATE')
+def save(store, cnr, data, *, clear=False, connection=None):
+    with (nullcontext(connection) if connection is not None else store.db()) as db:
+        if connection is None:
+            db.execute('BEGIN IMMEDIATE')
         context = contexts(db).get(cnr)
         if context is None:
             raise ReviewError(404, 'Case not found')

@@ -1,0 +1,112 @@
+{
+  "validated_at": "2026-10-10T18:33:14.226123+00:00",
+  "method": {
+    "version": "combined-review-v1",
+    "weights": {
+      "law_concern": 0.5,
+      "trialwatch_fit": 0.5
+    },
+    "formula": "0.5 \u00d7 highest associated law index /12 \u00d7100 + 0.5 \u00d7 case fit index",
+    "bands": {
+      "high": "60\u2013100",
+      "review": "40 to below 60",
+      "monitor": "Below 40"
+    },
+    "overrides": "Verified urgent needs come first. A current fit No caps non-urgent priority at 39; no automatic closure.",
+    "uncertainty": "Missing scores contribute a range; ranges crossing a band require an evidence check.",
+    "validation": "Provisional demo review index, not misuse probability, established legal abuse or official intake policy."
+  },
+  "live_cases": 147,
+  "live_pdfs": 446,
+  "live_distribution": {
+    "total": 147,
+    "counts": {
+      "urgent": 0,
+      "high": 1,
+      "review": 31,
+      "monitor": 87,
+      "verify": 28,
+      "closed": 0,
+      "outside_scope": 0
+    },
+    "reviewed": 0
+  },
+  "live_misuse_labels": 0,
+  "live_fit_labels": 0,
+  "sandbox_distribution": {
+    "total": 6,
+    "counts": {
+      "urgent": 1,
+      "high": 1,
+      "review": 1,
+      "monitor": 1,
+      "verify": 1,
+      "closed": 1,
+      "outside_scope": 0
+    },
+    "reviewed": 0
+  },
+  "sandbox_training_eligible": false,
+  "tests": {
+    "unittest_count": 67,
+    "result": "passed",
+    "coverage": [
+      "Combined arithmetic, bands and unknown-score ranges",
+      "Urgent override and fit-No routing",
+      "Atomic saves, revision conflicts and rollback of both tasks",
+      "Edits, idempotence, one-answer updates and clearing",
+      "Complete-set filtering before pagination",
+      "Sandbox isolation, synthetic PDF marker, export flags and reset"
+    ]
+  },
+  "browser": {
+    "viewports_checked": [
+      {
+        "width": 1280,
+        "height": 900
+      },
+      {
+        "width": 803,
+        "height": 984
+      },
+      {
+        "width": 390,
+        "height": 844
+      }
+    ],
+    "horizontal_overflow": false,
+    "console_errors": 0,
+    "distribution_filter": "Monitor segment selected just DEMO-004",
+    "one_card_two_question_rows_one_save": true,
+    "sandbox_case": "DEMO-003",
+    "initial": {
+      "score": 53.3,
+      "band": "review",
+      "law_score": 8,
+      "fit_score": 40
+    },
+    "yes_yes": {
+      "score": 65.7,
+      "band": "high",
+      "law_score": 8.6,
+      "fit_score": 60
+    },
+    "no_no": {
+      "score": 28.6,
+      "band": "monitor",
+      "law_score": 6.9,
+      "fit_score": 0
+    },
+    "clear_restored": {
+      "score": 53.3,
+      "band": "review"
+    },
+    "real_case_votes_written": 0
+  },
+  "limitations": [
+    "Equal weights and thresholds are provisional demo assumptions, not calibrated probabilities or official intake policy.",
+    "Law associations and current support needs need independent verification.",
+    "The feedback reranker captures separate unadjudicated labels; it does not train a neural model.",
+    "Synthetic examples and their exports are excluded from real collection and training."
+  ]
+}

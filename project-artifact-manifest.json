@@ -14,13 +14,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 8550,
-      "sha256": "af6e526f67f183a310e8aa6e5e8457034cd15a8fe893bd9c358fedfa0572a4a3"
+      "bytes": 7894,
+      "sha256": "100317cc76d9ac1b9114447dfd534741ef7160735f43e94dc3eafa898a2007f9"
     },
     {
       "path": "demo_backend/README.md",
-      "bytes": 33806,
-      "sha256": "524425579d957d9483ed552ede57f8ae814bb16a6bde9ef71ca5e97ec194e720"
+      "bytes": 37501,
+      "sha256": "8cc958fdb5703cd5f8b82d35469828660bba2dd45e2a87c842808b6b9b3768ba"
     },
     {
       "path": "demo_backend/__init__.py",
@@ -34,13 +34,18 @@
     },
     {
       "path": "demo_backend/app.py",
-      "bytes": 19400,
-      "sha256": "5c5879672ea9647857ff446fe2616b3434e846526c84b9349dac6fa5fd821377"
+      "bytes": 22056,
+      "sha256": "f745bf449c2b20673fa9ad36931cc1b774c27751b5f2452ede239ed9125f36f7"
     },
     {
       "path": "demo_backend/collector.py",
       "bytes": 11592,
       "sha256": "62bf9095732cc15dc03101d358c08a106ca53cba545822492a3185b0b3f50d33"
+    },
+    {
+      "path": "demo_backend/combined_priority.py",
+      "bytes": 3473,
+      "sha256": "ac223e9784ec0a6f00ca1cc04649faae5cb2a8085a23eb17db9149f2da1bec8c"
     },
     {
       "path": "demo_backend/config.example.json",
@@ -54,13 +59,18 @@
     },
     {
       "path": "demo_backend/demo.html",
-      "bytes": 65426,
-      "sha256": "95d6525c7d9d4e61a98e08d4789e5fad24e45e8dbb37570b8c143b04fc0e4bbe"
+      "bytes": 51471,
+      "sha256": "6ba9e59f2c9a859b9e0907140c08366b769fb6b74510af4de0cb9d1fe080c5e4"
+    },
+    {
+      "path": "demo_backend/demo_scenarios.py",
+      "bytes": 5768,
+      "sha256": "d075304e858272badfda7623ff4738ff9dce92e90a3d60e366c821d2ea003baf"
     },
     {
       "path": "demo_backend/feedback.py",
-      "bytes": 10918,
-      "sha256": "bbabf799017852e46d42f548fe6240aa117c1528f3c9bf3bfad56269f488d789"
+      "bytes": 11062,
+      "sha256": "913bef7c1a73ceb264929c5f46539a8226499a276789760eee34b2337ea883eb"
     },
     {
       "path": "demo_backend/law_links.py",
@@ -74,13 +84,13 @@
     },
     {
       "path": "demo_backend/relevance.css",
-      "bytes": 8074,
-      "sha256": "be75a257548938ccfaec6d83e7a10520b7ae20b14876c7ffc741029a95c5a970"
+      "bytes": 18001,
+      "sha256": "241768772c70477b6db15c64d367f4d8ada0e18b461d72ae98e612a98ca9553b"
     },
     {
       "path": "demo_backend/relevance.js",
-      "bytes": 17260,
-      "sha256": "bf7cc0494263e8a611a8103763bb5682ae1e6a4027b9a405553338ecadc9fd0d"
+      "bytes": 21736,
+      "sha256": "f4967701fdd0c34d9e48cc399b14e9138b1e3d9dda291fccd1d24a5ed52589e9"
     },
     {
       "path": "demo_backend/relevance.py",
@@ -101,6 +111,11 @@
       "path": "demo_backend/test_backend.py",
       "bytes": 12538,
       "sha256": "105f6a1771e037cba1a87fdb45f697c41bb8ad908c771ba29e5a653b41a8f63e"
+    },
+    {
+      "path": "demo_backend/test_combined_priority.py",
+      "bytes": 7985,
+      "sha256": "df9ff92db9f351f994826e20a0366a3dd6906d4515c2c11c3d88b15275e30ab0"
     },
     {
       "path": "demo_backend/test_feedback.py",
@@ -129,8 +144,13 @@
     },
     {
       "path": "demo_backend/trialwatch_fit.py",
-      "bytes": 15189,
-      "sha256": "8eb17972f5e89c0fb008574ca80b7b3ff44e79fce22d6d0588893b2aeba8c3b3"
+      "bytes": 15333,
+      "sha256": "34e4a69317ef17eb5c21f363acdc344f0a465d638c65b15d52ea7f484a52d11b"
+    },
+    {
+      "path": "demo_backend/unified_review.py",
+      "bytes": 2855,
+      "sha256": "aa8c7245d9809e5a6e4164d0cc2563da027a1adcb531946b0aa9d961868d815d"
     },
     {
       "path": "export-bns-corpus.mjs",
@@ -1178,7 +1198,7 @@
       "sha256": "c998df7f1fbdc239b3f6dcbfa4975227a9737a02c35a51582a1286e5e1f34832"
     },
     {
-      "path": "outputs/bns-training-starter/\u5f00\u59cb\u8fd9\u91cc.md",
+      "path": "outputs/bns-training-starter/开始这里.md",
       "bytes": 3310,
       "sha256": "c3ce388eb7c6d297b64e3e4418c73e8e6ae5a38ff6c518e0134f84779d7934e2"
     },
@@ -1441,6 +1461,36 @@
       "path": "outputs/trialwatch-relevance-validation.json",
       "bytes": 2397,
       "sha256": "fbb678477069a7833515d5ded26754c0b05c9ecb2eb46686db2d9f6301af4196"
+    },
+    {
+      "path": "outputs/unified-demo-feedback-no.png",
+      "bytes": 59699,
+      "sha256": "5fda17a73361651669a61c96c13b5e66c967047cbcfd0c5de2cb91fa563002e2"
+    },
+    {
+      "path": "outputs/unified-demo-feedback-yes.png",
+      "bytes": 58808,
+      "sha256": "d2d8c4a972342d0d5a03283a55abe51ff7aac8f0eb5cd8a295eb4906d3149f61"
+    },
+    {
+      "path": "outputs/unified-priority-case.png",
+      "bytes": 55273,
+      "sha256": "a0078ab78742ab6183874e09bc4b3d2d7b25c6eaf4cb72b2d70e64d560068753"
+    },
+    {
+      "path": "outputs/unified-priority-desktop.png",
+      "bytes": 80164,
+      "sha256": "e8a5c4b734dc02ed91344b4a0ec9f76e9b6875c4251c897c4cce8d2839b2f308"
+    },
+    {
+      "path": "outputs/unified-priority-mobile-case.png",
+      "bytes": 34774,
+      "sha256": "3c780619cc3f36df344e9dfbc8018246d769393e7143676af376b411e223f4ab"
+    },
+    {
+      "path": "outputs/unified-priority-validation.json",
+      "bytes": 3117,
+      "sha256": "58e54319c89d990dd4a70d5419bb6e32bb299aeed70987e2d8a816c827d2acf6"
     },
     {
       "path": "research/README.md",
@@ -4723,5 +4773,5 @@
       "reason": "Generated Python bytecode"
     }
   ],
-  "updated_at": "2026-10-10T18:07:17.088327+00:00"
+  "updated_at": "2026-10-10T18:33:14.226123+00:00"
 }
