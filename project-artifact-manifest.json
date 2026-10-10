@@ -9,13 +9,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 6404,
-      "sha256": "99b1b1e35f42f2ba67e29126e4be6ada3b1bd50661dadd07edfb1d141dc161cf"
+      "bytes": 6864,
+      "sha256": "2cecb9116494edc2743b3671648dca6bdb83598e6d1a580432469cdca0e9522d"
     },
     {
       "path": "demo_backend/README.md",
-      "bytes": 12732,
-      "sha256": "582248d2721afaf5f6ed0f3efe059592dd30941b8b10f37912db87df14052131"
+      "bytes": 14961,
+      "sha256": "01160b50962808aa92144a49431976e7f278ef2c39ab161d8a639ece23896348"
     },
     {
       "path": "demo_backend/__init__.py",
@@ -29,8 +29,8 @@
     },
     {
       "path": "demo_backend/app.py",
-      "bytes": 10965,
-      "sha256": "a04905f48834cd9a7709262e7dee86e3ec3b2d86d00a9d50ce350b6f971cce08"
+      "bytes": 11832,
+      "sha256": "67ec6cb2860070c992bfe66a56870d9dbf66924e285dd336d7ffe98e71e07e5c"
     },
     {
       "path": "demo_backend/collector.py",
@@ -49,13 +49,18 @@
     },
     {
       "path": "demo_backend/demo.html",
-      "bytes": 11857,
-      "sha256": "3e5f0b81e2b922a439f60e7ead7ce7f95f3ce96944461e19a06644df99874a92"
+      "bytes": 42751,
+      "sha256": "a52f6211dd6ca872f40ebcfeaefc70932c4360f16cc5c07d239465978d23d507"
     },
     {
       "path": "demo_backend/law_links.py",
       "bytes": 15353,
       "sha256": "0e32b118e9e8d74ae9af670d2fced14a85c38eebb58c918e95eb34469ecbb39f"
+    },
+    {
+      "path": "demo_backend/priority.py",
+      "bytes": 2551,
+      "sha256": "9a9dccf28d1554ae695bfe9c8b4c14c49775f5909fed5141eaf9e0edb4a88095"
     },
     {
       "path": "demo_backend/requirements-dev.txt",
@@ -76,6 +81,11 @@
       "path": "demo_backend/test_law_links.py",
       "bytes": 6004,
       "sha256": "582ab93320720b6726cda7c99eac1f4817c0290f25fd6464bd81fc51a9c88b5c"
+    },
+    {
+      "path": "demo_backend/test_priority.py",
+      "bytes": 3988,
+      "sha256": "6e9100612c040322d39288dd7311f9c5b2d2f87076172d3818d4aee909768a8b"
     },
     {
       "path": "export-bns-corpus.mjs",
@@ -1121,6 +1131,31 @@
       "path": "outputs/bns-training-starter/\u5f00\u59cb\u8fd9\u91cc.md",
       "bytes": 3310,
       "sha256": "c3ce388eb7c6d297b64e3e4418c73e8e6ae5a38ff6c518e0134f84779d7934e2"
+    },
+    {
+      "path": "outputs/case-dashboard-case-review.png",
+      "bytes": 63629,
+      "sha256": "e322756dec1526615f74212fe50a60ecdc1b7a004a4f2d9a3f5438c749dea54a"
+    },
+    {
+      "path": "outputs/case-dashboard-desktop.png",
+      "bytes": 95916,
+      "sha256": "71726a388c10d43eb15c4db4b0b1418cf3ee952b9c472c983ccc9e43d4bcc054"
+    },
+    {
+      "path": "outputs/case-dashboard-mobile.png",
+      "bytes": 39854,
+      "sha256": "4694c86bf8b71b4e71a170e6f5961200da6623c9684b37f86a6c2fb788ed6ca1"
+    },
+    {
+      "path": "outputs/case-dashboard-preview.png",
+      "bytes": 77120,
+      "sha256": "29dba62342e8f456afd82942e457c29eec4bc2fc5118d2b0ede3b80407d10227"
+    },
+    {
+      "path": "outputs/case-dashboard-validation.json",
+      "bytes": 2454,
+      "sha256": "34448d8f576910126d2f13d3604eaf0021507efd5f2479016db0253fdd322668"
     },
     {
       "path": "outputs/claude-bns-review.jpg",
@@ -4533,5 +4568,5 @@
       "reason": "Generated Python bytecode"
     }
   ],
-  "updated_at": "2026-10-10T15:45:53+00:00"
+  "updated_at": "2026-10-10T16:10:38+00:00"
 }

@@ -16,6 +16,7 @@ from fastapi.responses import FileResponse, HTMLResponse
 from .collector import Collector
 from .core import ROOT, Config, parse_run
 from .law_links import catalog, get_links, sync_all
+from .priority import BANDS, METHOD, case_laws, order_cases, review_priority, summarize
 
 
 def public_document(row, law_links=None):
@@ -61,7 +62,12 @@ def create_app(config=None, *, scheduler=True, collector=None):
 
     @app.get('/api/cases')
     def cases(q: str = Query('', max_length=200), section: str | None = None,
-              limit: int = Query(25, ge=1, le=200), offset: int = Query(0, ge=0)):
+              limit: int = Query(25, ge=1, le=200), offset: int = Query(0, ge=0),
+              priority: str | None = None, sort: str = 'latest'):
+        if priority and priority not in BANDS:
+            raise HTTPException(400, 'Invalid review priority')
+        if sort not in ('latest', 'priority'):
+            raise HTTPException(400, 'Invalid sort order')
         clauses, args = [], []
         if q:
             clauses.append('(c.title LIKE ? OR c.cnr LIKE ?)')
@@ -73,22 +79,26 @@ def create_app(config=None, *, scheduler=True, collector=None):
             args.append(section)
         where = ' WHERE ' + ' AND '.join(clauses) if clauses else ''
         with store.db() as db:
-            total = db.execute('SELECT COUNT(*) FROM cases c' + where, args).fetchone()[0]
-            rows = db.execute('''SELECT c.cnr,c.title,c.court,c.bench,c.sections,c.first_seen,
+            rows = db.execute('''SELECT c.cnr,c.title,c.court,c.bench,c.sections,c.first_seen,c.metadata,
                 MAX(d.order_date) AS latest_order_date,COUNT(d.id) AS documents,
                 SUM(CASE WHEN d.status='ready' THEN 1 ELSE 0 END) AS documents_ready
                 FROM cases c LEFT JOIN documents d ON c.cnr=d.cnr''' + where +
-                ' GROUP BY c.cnr ORDER BY latest_order_date DESC,c.cnr LIMIT ? OFFSET ?',
-                [*args, limit, offset]).fetchall()
+                ' GROUP BY c.cnr', args).fetchall()
         result = []
         for row in rows:
             item = dict(row)
             item['sections'] = json.loads(item['sections'])
-            item['law_profiles'] = [p for p in catalog()['profiles'] if p['parent_section'] in item['sections']]
+            item['law_links'] = case_laws(item['sections'], json.loads(item.pop('metadata')))
+            item['law_profiles'] = list({p['id']: p for law in item['law_links'] for p in law['profiles']}.values())
+            item['review_priority'] = review_priority(item['law_links'])
             item['law_score_basis'] = 'Case metadata association; per-document evidence is available in case detail'
             item['review_status'] = 'Human legal review pending; metadata is not a charge finding'
             result.append(item)
-        return {'total': total, 'offset': offset, 'limit': limit, 'items': result}
+        summary = summarize(result)
+        selected = [item for item in result if not priority or item['review_priority']['band'] == priority]
+        order_cases(selected, sort)
+        return {'total': len(selected), 'offset': offset, 'limit': limit,
+                'items': selected[offset:offset + limit], 'summary': summary, 'priority_method': METHOD}
 
     @app.get('/api/cases/{cnr}')
     def case(cnr: str):
@@ -108,6 +118,8 @@ def create_app(config=None, *, scheduler=True, collector=None):
             item['matches_current_pdf'] = item.get('evidence_pdf_sha256') == r['sha256']
             seed_items.append(item)
         return {'cnr': cnr, 'title': row['title'], 'court': row['court'], 'bench': row['bench'],
+                'review_priority': review_priority(case_laws(json.loads(row['sections']), json.loads(row['metadata']))),
+                'law_links': case_laws(json.loads(row['sections']), json.loads(row['metadata'])),
                 'metadata_bns_sections': json.loads(row['sections']),
                 'source_metadata': json.loads(row['metadata']),
                 'documents': [public_document(r, document_links[r['id']]) for r in docs],

@@ -121,3 +121,21 @@ Tests cover repeat-run deduplication, new cases, mobile/web duplicates, bounded 
 Law-link tests additionally check precise subsection mapping, unresolved score ranges, unscored scope, rejection of BNSS/IPC/unrelated-number matches, hash/quote validation, preserved low scores and the database/API PDF-score join.
 
 Public source: [AWS dataset registry](https://registry.opendata.aws/indian-high-court-judgments/) and [maintainer dataset layout](https://github.com/vanga/indian-high-court-judgments/blob/main/opendata/docs/dataset.md). Dattam Labs and contributors; CC BY 4.0. Individual document URLs and SHA-256 hashes are retained. Court documents are data, never instructions to the collector.
+
+## Case dashboard and review bands
+
+The frontend is a case-review dashboard with collection overview counts, search by party/CNR, law and review-band filters, priority/latest-order sorting, and a document detail panel. Narrow screens use case cards. Court PDFs, supporting passages and extracted text remain available in the detail panel. Collection coverage and technical details are kept in a separate panel.
+
+`GET /api/cases` now accepts `priority=high|elevated|standard|uncertain|unscored` and `sort=latest|priority`. Filtering and sorting run across the complete matching set **before** pagination. Each case returns `law_links` and `review_priority`; its response also includes `summary.priority_counts` for the matching search/law scope before a priority filter, plus the declared `priority_method`. The previous default sort remains `latest`; the dashboard requests `priority`. Case detail returns the same preliminary metadata-derived band.
+
+Priority uses the highest associated **law-profile** score, never a sum across laws: high 9–12/12, elevated 6–8/12, standard 0–5/12. A score range crossing bands is “Priority to confirm”; no scored profile is “Unscored,” not zero. Unresolved BNS 353 is therefore 8–9/12 / to confirm unless another law already establishes a higher band. Explicit metadata subsections are respected. These are provisional interface thresholds, not validated misuse labels or urgency decisions. Law associations, unknown scope and PDF evidence status remain separate. A low-scoring law can still occur in a case requiring urgent attention.
+
+Priority sorting: high, to confirm, elevated, standard, unscored; then the score lower bound, newest order date, and CNR as the final tie-breaker.
+
+Visual references: [IBM Carbon data tables](https://www.carbondesignsystem.com/building-blocks/core/components/data-table/specifications) for readable table structure and spacing; [GOV.UK status tags](https://design-system.service.gov.uk/components/tag/) for concise, non-interactive status labels with text as well as color. The implementation uses local HTML/CSS/SVG with system fonts and no external UI assets.
+
+Priority checks:
+
+```bash
+python -m unittest demo_backend.test_priority
+```

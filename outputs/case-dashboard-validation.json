@@ -1,0 +1,86 @@
+{
+  "checked_at": "2026-10-10T16:10:38+00:00",
+  "cases_in_collection": 147,
+  "available_pdfs": 446,
+  "priority_counts": {
+    "high": 28,
+    "elevated": 9,
+    "standard": 86,
+    "uncertain": 18,
+    "unscored": 6
+  },
+  "priority_method": {
+    "version": "law-review-bands-v1",
+    "bands": {
+      "high": [
+        9,
+        12
+      ],
+      "elevated": [
+        6,
+        8
+      ],
+      "standard": [
+        0,
+        5
+      ]
+    },
+    "basis": "Highest associated law-profile score, using case metadata; not a case misuse finding.",
+    "uncertainty": "A score range crossing a band boundary is Priority to confirm. Unknown scores are not zero.",
+    "sorting": "High, to confirm, elevated, standard, unscored; then score lower bound and latest order.",
+    "validation": "Provisional interface thresholds, not expert-validated or learned from outcomes."
+  },
+  "backend_tests_passed": 26,
+  "new_priority_tests_passed": 6,
+  "javascript_parse": "passed",
+  "ui_checks": [
+    "Search by name",
+    "Empty result and reset",
+    "Priority filters",
+    "Law filter",
+    "Latest order sorting",
+    "Pagination",
+    "Case review panel",
+    "Law profiles",
+    "Priority guide",
+    "Collection coverage",
+    "Extracted PDF text"
+  ],
+  "responsive_checks": [
+    {
+      "viewport_width": 1440,
+      "document_scroll_width": 1440,
+      "result": "desktop sidebar and table visible; no page overflow"
+    },
+    {
+      "viewport_width": 800,
+      "document_scroll_width": 800,
+      "result": "tablet queue usable; no page overflow"
+    },
+    {
+      "viewport_width": 390,
+      "document_scroll_width": 390,
+      "result": "case cards and two-column overview; law selector readable; priority guide accessible"
+    }
+  ],
+  "example_case": {
+    "cnr": "HCBM010264272026",
+    "priority": {
+      "band": "standard",
+      "label": "Standard priority",
+      "score_range": [
+        4,
+        4
+      ],
+      "score_display": "4/12",
+      "has_unscored_scope": false,
+      "basis": "Highest associated law-profile score, using case metadata; not a case misuse finding.",
+      "method_version": "law-review-bands-v1",
+      "is_case_misuse_score": false,
+      "human_verified": false
+    },
+    "pdf_law_association": "metadata_only",
+    "pdf_route_content_type_and_hash": "passed"
+  },
+  "limits": "Review bands use case metadata and provisional law scores. They do not infer case misuse, legitimacy or urgency."
+}

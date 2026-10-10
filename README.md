@@ -16,6 +16,8 @@ python -m demo_backend serve --port 8000 --interval 120
 
 The database/API now pair each PDF with its associated BNS law profile, score, subsection scope and evidence status. [PDF-law association audit](outputs/pdf-law-score-validation.json) records completeness and the distinction between metadata links and text/review evidence. Scores are law-level provisional indices; the collection includes lower-scoring BNS 221/356 cases and does not assign case misuse probabilities.
 
+The case dashboard now has review-band filters, priority/latest-order sorting, a document panel, and readable layouts for desktop and phones. Bands use the highest available law-profile score (high 9–12, elevated 6–8, standard 0–5); unresolved cross-band ranges are “Priority to confirm,” and missing profiles stay unscored. [Dashboard preview](outputs/case-dashboard-desktop.png) · [UI and API validation](outputs/case-dashboard-validation.json).
+
 Open **http://127.0.0.1:8000**. Keep the process running for automatic checks. [Timestamped live validation](outputs/live-demo-validation.json) records the fresh source check; it is separate from the fixed training-starter snapshot below.
 
 ## Start here
