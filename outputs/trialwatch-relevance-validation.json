@@ -1,0 +1,68 @@
+{
+  "checked_at": "2026-10-10T17:21:12.371599+00:00",
+  "implementation": "Two-layer law-concern / TrialWatch relevance; provisional research demo",
+  "method_version": "trialwatch-relevance-v1",
+  "weights": {
+    "counsel": 25,
+    "interpretation": 15,
+    "defence_access": 15,
+    "urgency": 25,
+    "opening": 20
+  },
+  "live_collection": {
+    "cases": 147,
+    "ready_pdfs": 446,
+    "law_concern_bands": {
+      "high": 28,
+      "elevated": 9,
+      "standard": 86,
+      "uncertain": 18,
+      "unscored": 6
+    },
+    "trialwatch_tiers": {
+      "urgent": 0,
+      "high": 0,
+      "routine": 0,
+      "verify": 147,
+      "closed": 0,
+      "outside_scope": 0
+    },
+    "relevance_assessments": {
+      "assessed": 0,
+      "unassessed": 147,
+      "needs_recheck": 0
+    },
+    "misuse_reviews": 0
+  },
+  "checks": {
+    "automated_backend_tests": 47,
+    "automated_relevance_tests_included": 11,
+    "automated_research_tests": 15,
+    "all_passed": true,
+    "javascript_syntax_checks": "pass",
+    "browser": "Desktop 1440x1000; phone 390x844; separate score columns, detail form, save, reload, urgent-tier filter and invalid closure verified",
+    "browser_write_test": "Isolated fictional TEST0, 95/100 relevance, Tier 1, law score unchanged at 9/12; active urgent closure rejected",
+    "mobile_horizontal_overflow": false,
+    "real_case_assessments_added_for_testing": 0,
+    "current_queue_facts_are_unknown_until_checked": true
+  },
+  "limitations": [
+    "Weights/thresholds are team assumptions, not official TrialWatch policy.",
+    "Score is not a misuse probability, eligibility finding, or likelihood of securing release.",
+    "Source snippets are keyword retrieval hints, not automated support-gap findings.",
+    "Reviewers must verify journalist connection, court stage, current need and feasible route.",
+    "Local team reviews are unadjudicated; no model retraining or verified reviewer identity.",
+    "Closed reviews reopen for source changes or a recorded deadline becoming urgent."
+  ],
+  "references": [
+    "https://cfj.org/trialwatch/",
+    "https://cfj.org/monitor/"
+  ],
+  "screenshots": [
+    "outputs/trialwatch-relevance-dashboard.png",
+    "outputs/trialwatch-relevance-case.png",
+    "outputs/trialwatch-relevance-mobile.png",
+    "outputs/trialwatch-relevance-fictional-test.png",
+    "outputs/trialwatch-relevance-fictional-mobile.png"
+  ]
+}

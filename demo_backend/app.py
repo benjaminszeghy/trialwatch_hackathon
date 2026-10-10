@@ -20,7 +20,10 @@ from .core import ROOT, Config, parse_run
 from .law_links import catalog, get_links, sync_all
 from .feedback import (ReviewError, empty_review, eligible_profiles, export_labels,
                        overlay_links, state as feedback_state, write_review)
-from .priority import BANDS, METHOD, case_laws, order_cases, review_priority, summarize
+from .priority import BANDS, METHOD, case_laws, review_priority, summarize
+from .relevance import (TIERS, METHOD as RELEVANCE_METHOD, RelevanceInput,
+                        state as relevance_state, save as save_relevance,
+                        order as order_queue, passages as relevance_passages)
 
 
 class CaseReviewInput(BaseModel):
@@ -52,13 +55,14 @@ def require_writer(request):
             raise HTTPException(403, 'Writes require same origin')
 
 
-def public_document(row, law_links=None):
+def public_document(row, law_links=None, relevance=None):
     # No machine paths or verbose source HTML in the public response.
     return {k: row[k] for k in ['id', 'cnr', 'order_date', 'source_url', 'status', 'sha256',
         'page_count', 'first_seen', 'downloaded_at', 'error']} | {
         'pdf_url': f'/api/documents/{row["id"]}/pdf' if row['status'] == 'ready' else None,
         'text_url': f'/api/documents/{row["id"]}/text' if row['status'] == 'ready' else None,
-        'laws': law_links or [], 'case_misuse_score': None}
+        'laws': law_links or [], 'case_misuse_score': None,
+        'trialwatch_relevance': relevance}
 
 
 def create_app(config=None, *, scheduler=True, collector=None):
@@ -88,21 +92,35 @@ def create_app(config=None, *, scheduler=True, collector=None):
     def demo():
         return (Path(__file__).parent / 'demo.html').read_text()
 
+    @app.get('/assets/relevance.js')
+    def relevance_script():
+        return FileResponse(Path(__file__).parent / 'relevance.js', media_type='text/javascript')
+
+    @app.get('/assets/relevance.css')
+    def relevance_style():
+        return FileResponse(Path(__file__).parent / 'relevance.css', media_type='text/css')
+
     @app.get('/api/status')
     def status():
         with store.db() as db:
-            reviews = feedback_state(db)['summary']
-        return store.status(config) | {'case_reviews': reviews, 'refresh_running': engine.running,
+            feedback = feedback_state(db)
+            reviews = feedback['summary']
+            relevance = relevance_state(db, feedback['contexts'])['summary']
+        return store.status(config) | {'case_reviews': reviews, 'trialwatch_tiers': relevance,
+            'refresh_running': engine.running,
             'scheduler_enabled': scheduler, 'next_check_at': engine.next_check_at}
 
     @app.get('/api/cases')
     def cases(q: str = Query('', max_length=200), section: str | None = None,
               limit: int = Query(25, ge=1, le=200), offset: int = Query(0, ge=0),
-              priority: str | None = None, sort: str = 'latest', review: str | None = None):
+              priority: str | None = None, sort: str = 'latest', review: str | None = None,
+              trialwatch_tier: str | None = None):
         if priority and priority not in BANDS:
             raise HTTPException(400, 'Invalid review priority')
-        if sort not in ('latest', 'priority'):
+        if sort not in ('latest', 'priority', 'triage', 'trialwatch'):
             raise HTTPException(400, 'Invalid sort order')
+        if trialwatch_tier and trialwatch_tier not in TIERS:
+            raise HTTPException(400, 'Invalid TrialWatch tier')
         if review and review not in ('unreviewed', 'reviewed', 'needs_recheck', 'misuse', 'no_misuse'):
             raise HTTPException(400, 'Invalid review status')
         clauses, args = [], []
@@ -122,6 +140,7 @@ def create_app(config=None, *, scheduler=True, collector=None):
                 FROM cases c LEFT JOIN documents d ON c.cnr=d.cnr''' + where +
                 ' GROUP BY c.cnr', args).fetchall()
             feedback = feedback_state(db)
+            relevance = relevance_state(db, feedback['contexts'])
         result = []
         for row in rows:
             item = dict(row)
@@ -132,16 +151,25 @@ def create_app(config=None, *, scheduler=True, collector=None):
             item['law_score_basis'] = 'Case metadata association; per-document evidence is available in case detail'
             item['case_review'] = feedback['reviews'].get(item['cnr'], empty_review())
             item['review_status'] = item['case_review']['status']
+            item['trialwatch_relevance'] = relevance['items'][item['cnr']]
             result.append(item)
         summary = summarize(result)
+        tier_counts = {k: sum(item['trialwatch_relevance']['tier'] == k for item in result) for k in TIERS}
+        relevance_reviews = {
+            'assessed': sum(item['trialwatch_relevance']['has_assessment'] for item in result),
+            'unassessed': sum(not item['trialwatch_relevance']['has_assessment'] for item in result),
+            'needs_recheck': sum(item['trialwatch_relevance']['needs_recheck'] for item in result)}
         selected = [item for item in result if (not priority or item['review_priority']['band'] == priority) and
+                    (not trialwatch_tier or item['trialwatch_relevance']['tier'] == trialwatch_tier) and
                     (not review or (item['case_review']['status'] == review if review in
                                     ('unreviewed', 'reviewed', 'needs_recheck') else
                                     item['case_review']['decision'] == review and not item['case_review']['needs_recheck']))]
-        order_cases(selected, sort)
+        order_queue(selected, sort)
         return {'total': len(selected), 'offset': offset, 'limit': limit,
                 'items': selected[offset:offset + limit], 'summary': summary, 'priority_method': METHOD,
-                'feedback_summary': feedback['summary']}
+                'feedback_summary': feedback['summary'], 'trialwatch_summary': tier_counts,
+                'relevance_review_summary': relevance_reviews,
+                'relevance_method': RELEVANCE_METHOD}
 
     @app.get('/api/cases/{cnr}')
     def case(cnr: str):
@@ -156,6 +184,7 @@ def create_app(config=None, *, scheduler=True, collector=None):
                 s.document_id=d.id WHERE d.cnr=?''', (cnr,)).fetchall()
             document_links = {r['id']: get_links(db, r['id']) for r in docs}
             feedback = feedback_state(db)
+            relevance = relevance_state(db, feedback['contexts'])['items'][cnr]
             options = eligible_profiles(db, cnr)
         seed_items = []
         for r in seeds:
@@ -170,12 +199,23 @@ def create_app(config=None, *, scheduler=True, collector=None):
                 'review_evidence_version': feedback['contexts'][cnr]['evidence_version'],
                 'review_law_options': [p for p in feedback['profiles'] if p['id'] in option_ids],
                 'feedback_method': feedback['method'],
+                'trialwatch_relevance': relevance, 'relevance_method': RELEVANCE_METHOD,
+                'relevance_passages': relevance_passages(store, cnr),
                 'metadata_bns_sections': json.loads(row['sections']),
                 'source_metadata': json.loads(row['metadata']),
-                'documents': [public_document(r, overlay_links(document_links[r['id']], feedback)) for r in docs],
+                'documents': [public_document(r, overlay_links(document_links[r['id']], feedback), relevance) for r in docs],
                 'ai_review_seeds': seed_items,
                 'seed_status': 'AI-assisted snapshot notes, not human gold; not generated by refresh',
                 'human_annotations': [dict(r) | {'payload': json.loads(r['payload'])} for r in annotations]}
+
+    @app.put('/api/cases/{cnr}/relevance')
+    def assess_relevance(cnr: str, data: RelevanceInput, request: Request):
+        require_writer(request)
+        try:
+            save_relevance(store, cnr, data)
+        except ReviewError as error:
+            raise HTTPException(error.status, str(error))
+        return case(cnr)
 
     @app.put('/api/cases/{cnr}/review')
     def save_case_review(cnr: str, data: CaseReviewInput, request: Request):
@@ -227,7 +267,8 @@ def create_app(config=None, *, scheduler=True, collector=None):
             rows = db.execute('''SELECT d.*,c.title FROM documents d JOIN cases c USING(cnr)''' + where +
                 ' ORDER BY d.order_date DESC,d.id LIMIT ? OFFSET ?', [*args, limit, offset]).fetchall()
             feedback = feedback_state(db)
-            result = [public_document(r, overlay_links(get_links(db, r['id']), feedback)) |
+            relevance = relevance_state(db, feedback['contexts'])['items']
+            result = [public_document(r, overlay_links(get_links(db, r['id']), feedback), relevance[r['cnr']]) |
                       {'title': r['title']} for r in rows]
         return {'total': total, 'offset': offset, 'limit': limit, 'items': result}
 
@@ -239,8 +280,10 @@ def create_app(config=None, *, scheduler=True, collector=None):
         if not row:
             raise HTTPException(404, 'Document not found')
         with store.db() as db:
-            links = overlay_links(get_links(db, identifier), feedback_state(db))
-        return public_document(row, links)
+            feedback = feedback_state(db)
+            links = overlay_links(get_links(db, identifier), feedback)
+            relevance = relevance_state(db, feedback['contexts'])['items'][row['cnr']]
+        return public_document(row, links, relevance)
 
     def document(identifier):
         if not re.fullmatch(r'[a-f0-9]{20}', identifier):

@@ -138,6 +138,9 @@ class Store:
         from .feedback import initialize
         with self.db() as db:
             initialize(db)
+        from .relevance import initialize as initialize_relevance
+        with self.db() as db:
+            initialize_relevance(db)
 
     @contextmanager
     def db(self):

@@ -1,0 +1,67 @@
+/* TrialWatch relevance remains visually separate from law concern. */
+.tw-badge{display:inline-flex;align-items:center;gap:5px;padding:5px 8px;border-radius:5px;font-size:10px;font-weight:600;line-height:1.4;white-space:nowrap;background:#edf1f0;color:#526861}
+.tw-badge.urgent{color:#923d2f;background:#fae9e3;border:1px solid #edc4b8}
+.tw-badge.high{color:#705623;background:#f7efdd}
+.tw-badge.routine{color:#36644e;background:#e8f2ec}
+.tw-badge.verify{color:#5c6d7d;background:#edf1f6}
+.tw-badge.closed,.tw-badge.outside_scope{color:#717b75;background:#f0f2ef}
+.relevance-cell{min-width:150px;vertical-align:top}
+#detailPriority{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:18px}
+.review-progress{flex-wrap:wrap;justify-content:flex-end}
+.relevance-note{display:block;font-size:10px;color:#78837b;line-height:1.6;margin-top:6px}
+.case-cell{width:29%}
+.tw-card{background:#fff;border:1px solid #d8e3df;border-radius:10px;margin:0 0 22px;padding:20px}
+.tw-head{display:flex;align-items:flex-start;justify-content:space-between;gap:15px}
+.tw-head h3{font-size:18px;letter-spacing:-.3px;margin:6px 0 7px}
+.tw-score{text-align:right;flex-shrink:0}
+.tw-score strong{display:block;font-size:18px;font-weight:600;color:#2c5748;line-height:1.6}
+.tw-score small{display:block;color:#7c8981;font-size:10px;margin-top:3px}
+.tw-action{font-size:12px;line-height:1.65;color:#566c60;margin:13px 0}
+.tw-reasons{display:flex;flex-wrap:wrap;gap:5px;margin:10px 0}
+.tw-reasons span{background:#f4f6f3;color:#596e62;font-size:10px;padding:5px 8px;border-radius:4px;line-height:1.5}
+.tw-breakdown{display:grid;grid-template-columns:repeat(5,1fr);gap:7px;margin:14px 0}
+.tw-factor{border-top:3px solid #dce7df;padding:8px 2px}
+.tw-factor b{display:block;font-size:12px;color:#456654;margin-top:5px}
+.tw-factor small{display:block;font-size:9px;line-height:1.45;color:#78877c;min-height:27px}
+.tw-editor{border-top:1px solid var(--line);margin-top:14px}
+.tw-editor>summary{color:var(--green);font-size:12px;font-weight:600;padding:15px 0 2px;cursor:pointer}
+.tw-editor>summary::marker{font-size:10px}
+.tw-form{padding-top:14px}
+.tw-form fieldset{border:0;border-bottom:1px solid var(--line);margin:0 0 16px;padding:0 0 16px;min-width:0}
+.tw-form legend{font-size:12px;font-weight:600;color:#314b3c;margin-bottom:12px}
+.tw-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.tw-field{display:flex;flex-direction:column;gap:6px;font-size:11px;color:#52645a;min-width:0}
+.tw-field select,.tw-field input,.tw-form textarea{width:100%;border:1px solid #d5dfd7;background:#fff;border-radius:6px;padding:10px;color:var(--ink);font:inherit;font-size:12px;min-height:40px}
+.tw-field select:focus-visible,.tw-field input:focus-visible,.tw-form textarea:focus-visible{outline:3px solid #4a9681;outline-offset:2px}
+.tw-field small{font-size:10px;line-height:1.55;color:#839086}
+.tw-field[hidden],.tw-form [hidden]{display:none}
+.tw-form textarea{resize:vertical;line-height:1.6;min-height:76px}
+.tw-openings{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:12px}
+.tw-opening{display:flex;align-items:center;gap:8px;border:1px solid #dce5df;background:#fbfcfa;padding:10px;border-radius:6px;font-size:11px;line-height:1.5}
+.tw-opening input{accent-color:var(--green);width:15px;height:15px;margin:0}
+.tw-opening:has(input:checked){background:#eaf3ec;border-color:#90b49c}
+.tw-sources{margin:15px 0;padding:12px 14px;background:#f7f9f6;border-radius:7px}
+.tw-sources summary{font-size:11px;cursor:pointer;color:#597563}
+.tw-sources p{font-size:10px;line-height:1.6;color:#77847b;margin-top:9px}
+.tw-passage{margin:12px 0;border-top:1px solid #e0e8e1;padding-top:10px}
+.tw-passage b{font-size:11px;color:#415f4c}
+.tw-passage blockquote{border-left:2px solid #b7cbbc;padding-left:12px;margin:7px 0;font-size:11px;line-height:1.7;color:#637469;white-space:pre-wrap}
+.tw-passage a{font-size:10px}
+.tw-foot{font-size:10px;line-height:1.65;color:#7b8b80;margin-top:12px}
+.tw-form .review-actions{justify-content:flex-end}
+.toolbar .search{flex:1 1 260px}
+.toolbar select{max-width:240px}
+@media(min-width:1600px){.case-cell{width:32%}}
+@media(max-width:760px){
+ .relevance-cell{grid-column:1;grid-row:3;padding-top:6px!important}
+ .law-cell{grid-column:2;grid-row:2/5}
+ .docs-cell{grid-column:1;grid-row:4}
+ .tw-card{padding:16px}
+ .tw-head{flex-wrap:wrap;gap:8px}
+ .tw-score{text-align:left}
+ .tw-grid{grid-template-columns:1fr;gap:11px}
+ .tw-breakdown{grid-template-columns:repeat(3,1fr)}
+ .tw-openings{grid-template-columns:1fr}
+ .tw-form .btn{width:100%}
+ .tw-badge{white-space:normal}
+}

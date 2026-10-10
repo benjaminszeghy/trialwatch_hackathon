@@ -112,7 +112,7 @@ This reports completeness and evidence types for **saved PDF records**, separate
 
 ```sh
 python -m pip install -r demo_backend/requirements-dev.txt
-python -m unittest demo_backend.test_backend demo_backend.test_law_links demo_backend.test_priority demo_backend.test_feedback -v
+python -m unittest demo_backend.test_backend demo_backend.test_law_links demo_backend.test_priority demo_backend.test_feedback demo_backend.test_relevance -v
 python -m unittest discover -s research -p 'test_*.py' -v
 ```
 
@@ -126,7 +126,7 @@ Public source: [AWS dataset registry](https://registry.opendata.aws/indian-high-
 
 The frontend is a case-review dashboard with collection overview counts, search by party/CNR, law and review-band filters, priority/latest-order sorting, and a document detail panel. Narrow screens use case cards. Court PDFs, supporting passages and extracted text remain available in the detail panel. Collection coverage and technical details are kept in a separate panel.
 
-`GET /api/cases` now accepts `priority=high|elevated|standard|uncertain|unscored` and `sort=latest|priority`. Filtering and sorting run across the complete matching set **before** pagination. Each case returns `law_links` and `review_priority`; its response also includes `summary.priority_counts` for the matching search/law scope before a priority filter, plus the declared `priority_method`. The previous default sort remains `latest`; the dashboard requests `priority`. Case detail returns the same preliminary metadata-derived band.
+`GET /api/cases` accepts `priority=high|elevated|standard|uncertain|unscored` and `sort=latest|priority|triage|trialwatch`. Filtering and sorting run across the complete matching set **before** pagination. Each case returns `law_links` and `review_priority`; its response also includes `summary.priority_counts` for the matching search/law scope before a priority filter, plus the declared `priority_method`. The API default remains `latest`; the dashboard now requests `triage` (see the two-layer queue below). Case detail returns the same preliminary metadata-derived band.
 
 Priority uses the highest associated **law score**, with current team feedback where available, never a sum across laws: high 9–12/12, elevated 6 to below 9/12, standard 0 to below 6/12. Original law scores remain available separately. A score range crossing bands is “Priority to confirm”; no scored profile is “Unscored,” not zero. Unresolved BNS 353 is therefore 8–9/12 / to confirm unless another law already establishes a higher band. Explicit metadata subsections are respected. These are provisional interface thresholds, not validated misuse labels or urgency decisions. Law associations, unknown scope and PDF evidence status remain separate. A low-scoring law can still occur in a case requiring urgent attention.
 
@@ -195,3 +195,64 @@ Writes and label export share the local/same-origin or server-held admin-token g
 The feature supplies an editable human-label feedback loop and a queue that can filter unreviewed or changed-evidence cases. **It does not retrain a machine-learning model.** Exported labels are explicitly **unadjudicated human assessments, not gold**; historical non-binary, cleared and stale labels are excluded from the binary export. Keep related CNR proceedings, all their orders, and revisions in the same train/test group. The export includes `family_group_verified: false`: different CNRs can still describe one prosecution, so grouping and duplicate-adjudication remain team tasks. Do not use post-review feedback scores or reviewer notes as features when predicting the labels themselves. Evaluate any future model on separately adjudicated held-out cases before using model uncertainty for acquisition.
 
 Feedback validation uses isolated synthetic cases: yes/no monotonic updates, replacements, idempotence, clearing, persistence, law attribution, stale evidence/catalog checks, export, input limits and write guards. Browser save/reload/recheck tests also use a fictional case in a separate temporary database. No real-case assessment was added for testing.
+
+## TrialWatch relevance and the two-layer queue
+
+**Law concern** stays a separate law-level index out of 12, including the existing feedback overlay. **TrialWatch relevance** is a reviewer-confirmed case-level index out of 100. It describes support needs, timing and a possible route for monitoring or follow-up; it is not a misuse finding, a measure of deservingness, or an estimate of TrialWatch's capacity to secure a release. The categories reflect [TrialWatch's published monitoring and legal-support work](https://cfj.org/trialwatch/); the following weights and thresholds are our provisional team assumptions, not official TrialWatch policy.
+
+| Factor | Anchored contribution |
+|---|---|
+| Access to counsel · max 25 | Unavailable/denied 25; limited access 12.5; available with no identified gap 0 |
+| Interpretation · max 15 | Needed but unavailable 15; limited support 7.5; adequately provided or verified not required 0 |
+| Defence/evidence access · max 15 | Documented restriction 15; checked and no restriction identified 0 |
+| Time sensitivity · max 25 | Highest applicable signal: immediate safety threat or hearing/filing deadline in 0–7 days 25; current custody 20; deadline in 8–30 days 15; later deadline 5; all checked with no current signal 0 |
+| Practical intervention opening · max 20 | Confirmed route 20; route still to arrange 10; checked and no current opening 0 |
+
+Possible routes are trial monitoring, legal-support review, interpretation follow-up, or evidence/advocacy review. Listing a route does not assign resources, contact anyone, or verify that TrialWatch has agreed to take a case. A completed proceeding can still have a review/advocacy route. Journalist/reporting connection and current court stage are separate fit checks, not points. A verified absence of this connection is labeled **Outside journalist pilot**, with referral for consideration; it is not a determination about eligibility for other help.
+
+Open a case, expand **Assess relevance**, select only facts you checked, supply a source note (order/date/page or other current source), and save. Each unknown factor contributes **0 to its maximum** to a lower–upper score range, rather than a confirmed zero. Coverage is the percentage of rubric weight whose contribution is assessed, not model confidence. An unassessed case has no score. Missing journalist connection/stage, a range crossing tiers, changed evidence, or an expired active deadline requires verification. A keyword passage is only a reading aid: the advocate may represent the State or another defendant, and translation may concern a document rather than an interpreter. No form entry is auto-populated from those matches or from silence in an order.
+
+| TrialWatch tier | Routing |
+|---|---|
+| Tier 1 · Urgent | 75–100: immediate review |
+| Tier 2 · High | 45 to below 75: priority investigation |
+| Tier 3 · Routine | Below 45: monitoring/evidence collection |
+| Needs verification | Fit or facts unconfirmed, range crosses tiers, or an assessment needs recheck |
+| Tier 4 · Closed review | Explicit reviewer decision with a reason, independent of score |
+
+A documented immediate threat, deadline within seven days, or current custody with unavailable counsel overrides the numerical tiers and moves the case to immediate review even with a low law score. If journalist fit is unconfirmed, this is **Urgent verification**. Stale urgent flags remain visible as **Urgent recheck**, without a current numerical score. A verified non-journalist case stays outside this pilot. Closing while a current urgent override is active is rejected. A closure reopens for review on changed evidence or when its recorded future deadline becomes urgent. This updates the routing state without rewriting the saved historical facts. A no-misuse assessment, a low relevance score or completed proceedings never automatically closes a review. Dates and deadline aging use `Asia/Kolkata`; polling recomputes tiers as time passes.
+
+The default `sort=triage` puts urgent cases first, then sorts other active cases by **law-concern band → TrialWatch tier → confirmed relevance lower bound**. Existing law-score/date ordering breaks ties. Closed/out-of-pilot reviews come last. `sort=trialwatch` emphasizes relevance tier/lower bound before law concern; `sort=priority` and `sort=latest` retain their previous behavior. The dashboard provides a separate TrialWatch-tier filter, two distinct score columns, an urgent count and assessed component breakdown in case detail.
+
+### Relevance API and storage
+
+| Route / field | Purpose |
+|---|---|
+| `PUT /api/cases/{cnr}/relevance` | Save/replace verified facts or explicitly close/reopen a review; updated case detail returned |
+| `GET /api/cases?sort=triage&trialwatch_tier=urgent` | Full-set prioritization and tier filtering before pagination |
+| `GET /api/cases/{cnr}` | `trialwatch_relevance`, `relevance_method`, and exact-source `relevance_passages` |
+| Case/document `trialwatch_relevance` | Tier, score/range, coverage, factor breakdown, reasons, action, checked facts, revision and evidence freshness |
+| `GET /api/status` | Global `trialwatch_tiers`; case list also reports scoped `trialwatch_summary` and `relevance_review_summary` |
+
+The same case relevance accompanies its PDF responses; it is not a score calculated independently for each PDF. Law scores, PDF-law associations and the original binary misuse assessment remain separate. Relevance changes never vote on a law score or change a misuse label. The API's `case_misuse_score` remains null.
+
+```js
+const c = await (await fetch(`/api/cases/${cnr}`)).json();
+const response = await fetch(`/api/cases/${cnr}/relevance`, {
+  method: 'PUT', headers: {'Content-Type': 'application/json'},
+  body: JSON.stringify({
+    ...c.trialwatch_relevance.facts,
+    journalist_nexus: 'confirmed', case_stage: 'ongoing',
+    counsel: 'limited',
+    evidence_note: 'Checked order [date], page [n]: describe the relevant defendant and supporting facts.',
+    expected_revision: c.trialwatch_relevance.revision,
+    evidence_version: c.review_evidence_version
+  })
+});
+```
+
+Other enum fields, date/opening consistency and limits are described in `/docs`. A confirmed entry requires a source note of at least 10 characters. `deadline_status=scheduled` requires a non-past `next_deadline`; other statuses require null. `opening_status=ready|to_arrange` requires at least one listed opening; `none|unknown` requires none. `workflow_status=closed` requires a reason of at least 10 characters. Revision and evidence hashes prevent stale/concurrent writes (HTTP 409). Identical resaves are idempotent. The local/same-origin or backend-admin write guard also applies here.
+
+`case_relevance` stores one current assessment per CNR. `case_relevance_events` retains actual edits with metadata/PDF evidence snapshots, revision, timestamp and method version. Both live only in the ignored runtime SQLite database; collection never overwrites them and source commits exclude reviewer notes. Back up that database with the PDF/text versions. The local team identity is not verified; this is not a multi-reviewer adjudication system. Related proceedings still require case-family grouping. Neither relevance facts nor future reviewer scores should become features for predicting the same human misuse labels without a deliberate leakage review.
+
+Validation includes 11 relevance tests plus the existing 36 backend tests, 15 research tests, desktop/mobile UI review and a save/reload/invalid-closure/filter flow on a clearly fictional case in an isolated database. Real scraped cases remain unassessed. See [validation snapshot](../outputs/trialwatch-relevance-validation.json) and [fictional UI proof](../outputs/trialwatch-relevance-fictional-test.png).
