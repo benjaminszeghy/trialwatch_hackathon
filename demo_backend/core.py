@@ -135,6 +135,9 @@ class Store:
             ''')
         from .law_links import sync_catalog
         sync_catalog(self)
+        from .feedback import initialize
+        with self.db() as db:
+            initialize(db)
 
     @contextmanager
     def db(self):

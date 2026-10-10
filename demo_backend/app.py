@@ -8,15 +8,48 @@ import threading
 from contextlib import asynccontextmanager
 from pathlib import Path
 from urllib.parse import urlparse
+from typing import Literal
 
 from fastapi import FastAPI, HTTPException, Query, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse, HTMLResponse
+from pydantic import BaseModel, ConfigDict, Field
 
 from .collector import Collector
 from .core import ROOT, Config, parse_run
 from .law_links import catalog, get_links, sync_all
+from .feedback import (ReviewError, empty_review, eligible_profiles, export_labels,
+                       overlay_links, state as feedback_state, write_review)
 from .priority import BANDS, METHOD, case_laws, order_cases, review_priority, summarize
+
+
+class CaseReviewInput(BaseModel):
+    model_config = ConfigDict(extra='forbid')
+    decision: Literal['misuse', 'no_misuse', 'insufficient']
+    law_profile_ids: list[str] = Field(default_factory=list, max_length=7)
+    note: str = Field('', max_length=1500)
+    expected_revision: int = Field(0, ge=0)
+    evidence_version: str = Field(pattern=r'^[a-f0-9]{64}$')
+
+
+class ClearReviewInput(BaseModel):
+    model_config = ConfigDict(extra='forbid')
+    expected_revision: int = Field(ge=0)
+
+
+def require_writer(request):
+    token = os.environ.get('TRIALWATCH_ADMIN_TOKEN')
+    if token:
+        if not hmac.compare_digest(request.headers.get('authorization', ''), 'Bearer ' + token):
+            raise HTTPException(401, 'Admin bearer token required')
+    else:
+        host = request.client.host if request.client else ''
+        hostname = urlparse(str(request.url)).hostname
+        origin = request.headers.get('origin')
+        if host not in ('127.0.0.1', '::1', 'testclient') or hostname not in ('127.0.0.1', 'localhost', '::1', 'testserver'):
+            raise HTTPException(403, 'Writes and label export are local-only; configure TRIALWATCH_ADMIN_TOKEN for remote use')
+        if origin and origin != str(request.base_url).rstrip('/'):
+            raise HTTPException(403, 'Writes require same origin')
 
 
 def public_document(row, law_links=None):
@@ -57,17 +90,21 @@ def create_app(config=None, *, scheduler=True, collector=None):
 
     @app.get('/api/status')
     def status():
-        return store.status(config) | {'refresh_running': engine.running,
+        with store.db() as db:
+            reviews = feedback_state(db)['summary']
+        return store.status(config) | {'case_reviews': reviews, 'refresh_running': engine.running,
             'scheduler_enabled': scheduler, 'next_check_at': engine.next_check_at}
 
     @app.get('/api/cases')
     def cases(q: str = Query('', max_length=200), section: str | None = None,
               limit: int = Query(25, ge=1, le=200), offset: int = Query(0, ge=0),
-              priority: str | None = None, sort: str = 'latest'):
+              priority: str | None = None, sort: str = 'latest', review: str | None = None):
         if priority and priority not in BANDS:
             raise HTTPException(400, 'Invalid review priority')
         if sort not in ('latest', 'priority'):
             raise HTTPException(400, 'Invalid sort order')
+        if review and review not in ('unreviewed', 'reviewed', 'needs_recheck', 'misuse', 'no_misuse', 'insufficient'):
+            raise HTTPException(400, 'Invalid review status')
         clauses, args = [], []
         if q:
             clauses.append('(c.title LIKE ? OR c.cnr LIKE ?)')
@@ -84,21 +121,27 @@ def create_app(config=None, *, scheduler=True, collector=None):
                 SUM(CASE WHEN d.status='ready' THEN 1 ELSE 0 END) AS documents_ready
                 FROM cases c LEFT JOIN documents d ON c.cnr=d.cnr''' + where +
                 ' GROUP BY c.cnr', args).fetchall()
+            feedback = feedback_state(db)
         result = []
         for row in rows:
             item = dict(row)
             item['sections'] = json.loads(item['sections'])
-            item['law_links'] = case_laws(item['sections'], json.loads(item.pop('metadata')))
+            item['law_links'] = overlay_links(case_laws(item['sections'], json.loads(item.pop('metadata'))), feedback)
             item['law_profiles'] = list({p['id']: p for law in item['law_links'] for p in law['profiles']}.values())
             item['review_priority'] = review_priority(item['law_links'])
             item['law_score_basis'] = 'Case metadata association; per-document evidence is available in case detail'
-            item['review_status'] = 'Human legal review pending; metadata is not a charge finding'
+            item['case_review'] = feedback['reviews'].get(item['cnr'], empty_review())
+            item['review_status'] = item['case_review']['status']
             result.append(item)
         summary = summarize(result)
-        selected = [item for item in result if not priority or item['review_priority']['band'] == priority]
+        selected = [item for item in result if (not priority or item['review_priority']['band'] == priority) and
+                    (not review or (item['case_review']['status'] == review if review in
+                                    ('unreviewed', 'reviewed', 'needs_recheck') else
+                                    item['case_review']['decision'] == review and not item['case_review']['needs_recheck']))]
         order_cases(selected, sort)
         return {'total': len(selected), 'offset': offset, 'limit': limit,
-                'items': selected[offset:offset + limit], 'summary': summary, 'priority_method': METHOD}
+                'items': selected[offset:offset + limit], 'summary': summary, 'priority_method': METHOD,
+                'feedback_summary': feedback['summary']}
 
     @app.get('/api/cases/{cnr}')
     def case(cnr: str):
@@ -112,20 +155,57 @@ def create_app(config=None, *, scheduler=True, collector=None):
             seeds = db.execute('''SELECT s.payload,d.sha256 FROM seed_reviews s JOIN documents d ON
                 s.document_id=d.id WHERE d.cnr=?''', (cnr,)).fetchall()
             document_links = {r['id']: get_links(db, r['id']) for r in docs}
+            feedback = feedback_state(db)
+            options = eligible_profiles(db, cnr)
         seed_items = []
         for r in seeds:
             item = json.loads(r['payload'])
             item['matches_current_pdf'] = item.get('evidence_pdf_sha256') == r['sha256']
             seed_items.append(item)
+        links = overlay_links(case_laws(json.loads(row['sections']), json.loads(row['metadata'])), feedback)
+        option_ids = {p['id'] for p in options}
         return {'cnr': cnr, 'title': row['title'], 'court': row['court'], 'bench': row['bench'],
-                'review_priority': review_priority(case_laws(json.loads(row['sections']), json.loads(row['metadata']))),
-                'law_links': case_laws(json.loads(row['sections']), json.loads(row['metadata'])),
+                'review_priority': review_priority(links), 'law_links': links,
+                'case_review': feedback['reviews'].get(cnr, empty_review()),
+                'review_evidence_version': feedback['contexts'][cnr]['evidence_version'],
+                'review_law_options': [p for p in feedback['profiles'] if p['id'] in option_ids],
+                'feedback_method': feedback['method'],
                 'metadata_bns_sections': json.loads(row['sections']),
                 'source_metadata': json.loads(row['metadata']),
-                'documents': [public_document(r, document_links[r['id']]) for r in docs],
+                'documents': [public_document(r, overlay_links(document_links[r['id']], feedback)) for r in docs],
                 'ai_review_seeds': seed_items,
                 'seed_status': 'AI-assisted snapshot notes, not human gold; not generated by refresh',
                 'human_annotations': [dict(r) | {'payload': json.loads(r['payload'])} for r in annotations]}
+
+    @app.put('/api/cases/{cnr}/review')
+    def save_case_review(cnr: str, data: CaseReviewInput, request: Request):
+        require_writer(request)
+        try:
+            write_review(store, cnr, data.model_dump())
+        except ReviewError as error:
+            raise HTTPException(error.status, str(error))
+        return case(cnr)
+
+    @app.delete('/api/cases/{cnr}/review')
+    def clear_case_review(cnr: str, data: ClearReviewInput, request: Request):
+        require_writer(request)
+        try:
+            write_review(store, cnr, data.model_dump(), clear=True)
+        except ReviewError as error:
+            raise HTTPException(error.status, str(error))
+        return case(cnr)
+
+    @app.get('/api/feedback')
+    def law_feedback():
+        with store.db() as db:
+            result = feedback_state(db)
+        return {k: result[k] for k in ('profiles', 'summary', 'method')}
+
+    @app.get('/api/reviews/export')
+    def review_export(request: Request):
+        require_writer(request)
+        with store.db() as db:
+            return export_labels(db)
 
     @app.get('/api/documents')
     def documents(section: str | None = None, status: str | None = 'ready',
@@ -146,7 +226,9 @@ def create_app(config=None, *, scheduler=True, collector=None):
             total = db.execute('SELECT COUNT(*) FROM documents d' + where, args).fetchone()[0]
             rows = db.execute('''SELECT d.*,c.title FROM documents d JOIN cases c USING(cnr)''' + where +
                 ' ORDER BY d.order_date DESC,d.id LIMIT ? OFFSET ?', [*args, limit, offset]).fetchall()
-            result = [public_document(r, get_links(db, r['id'])) | {'title': r['title']} for r in rows]
+            feedback = feedback_state(db)
+            result = [public_document(r, overlay_links(get_links(db, r['id']), feedback)) |
+                      {'title': r['title']} for r in rows]
         return {'total': total, 'offset': offset, 'limit': limit, 'items': result}
 
     @app.get('/api/documents/{identifier}')
@@ -157,7 +239,7 @@ def create_app(config=None, *, scheduler=True, collector=None):
         if not row:
             raise HTTPException(404, 'Document not found')
         with store.db() as db:
-            links = get_links(db, identifier)
+            links = overlay_links(get_links(db, identifier), feedback_state(db))
         return public_document(row, links)
 
     def document(identifier):
@@ -216,18 +298,7 @@ def create_app(config=None, *, scheduler=True, collector=None):
 
     @app.post('/api/refresh', status_code=202)
     def refresh(request: Request):
-        token = os.environ.get('TRIALWATCH_ADMIN_TOKEN')
-        if token:
-            if not hmac.compare_digest(request.headers.get('authorization', ''), 'Bearer ' + token):
-                raise HTTPException(401, 'Admin bearer token required')
-        else:
-            host = request.client.host if request.client else ''
-            hostname = urlparse(str(request.url)).hostname
-            origin = request.headers.get('origin')
-            if host not in ('127.0.0.1', '::1', 'testclient') or hostname not in ('127.0.0.1', 'localhost', '::1', 'testserver'):
-                raise HTTPException(403, 'Manual refresh is local-only; configure TRIALWATCH_ADMIN_TOKEN for remote use')
-            if origin and origin != str(request.base_url).rstrip('/'):
-                raise HTTPException(403, 'Refresh requires same origin')
+        require_writer(request)
         return {'accepted': engine.launch(), 'message': 'Refresh queued, or existing refresh still running'}
 
     return app

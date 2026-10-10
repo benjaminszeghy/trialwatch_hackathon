@@ -1,0 +1,66 @@
+{
+  "validated_at": "2026-10-10T16:43:49.191526+00:00",
+  "backend_tests": {
+    "passed": 36,
+    "suite": "test_backend, test_law_links, test_priority, test_feedback"
+  },
+  "research_regression_tests": {
+    "passed": 15
+  },
+  "browser_tests": {
+    "yes_save": true,
+    "no_replaces_yes_and_lowers_score": true,
+    "reload_retains_review": true,
+    "law_attribution_required": true,
+    "insufficient_removes_prior_vote": true,
+    "clear_restores_baseline": true,
+    "changed_pdf_needs_recheck": true,
+    "reconfirm_restores_contribution": true,
+    "law_profile_counts_visible": true,
+    "review_status_filter_and_empty_state": true,
+    "keyboard_dialog_dismissal": true,
+    "desktop_viewport": [
+      1440,
+      1000
+    ],
+    "mobile_viewport": [
+      390,
+      844
+    ],
+    "mobile_horizontal_overflow": false,
+    "normal_viewport_restored": true,
+    "console_errors": [],
+    "write_tests_use": "Isolated fictional case database on localhost:8001, now stopped"
+  },
+  "live_collection": {
+    "cases": 147,
+    "ready_pdfs": 446,
+    "pending_pdfs": 0,
+    "review_summary": {
+      "reviewed": 0,
+      "misuse": 0,
+      "no_misuse": 0,
+      "insufficient": 0,
+      "needs_recheck": 0,
+      "unreviewed": 147
+    },
+    "real_case_test_labels_created": 0,
+    "original_rubric_unchanged": true,
+    "scheduler_enabled": true
+  },
+  "feedback_method": {
+    "version": "review-feedback-v1",
+    "prior_strength": 6,
+    "formula": "(6 * original_score + 12 * yes_reviews) / (6 + yes_reviews + no_reviews)",
+    "scale": "0\u201312 review index, not a probability",
+    "unit": "One current team assessment per CNR and selected law profile",
+    "uncertain": "Insufficient evidence, cleared and stale reviews do not change scores.",
+    "validation": "Provisional feedback policy; neither learned nor expert-validated."
+  },
+  "limits": [
+    "One current local team assessment per CNR; individual reviewer identity not verified.",
+    "Different CNRs may represent one prosecution; family grouping is not automated.",
+    "Human feedback is unadjudicated and not a misuse probability.",
+    "No machine-learning model is retrained."
+  ]
+}

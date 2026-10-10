@@ -61,7 +61,7 @@ Manual refresh is restricted to the local machine and same origin by default. If
 
 ## Persistent state and later deployment
 
-SQLite, source Parquet versions, PDFs and extracted text live under ignored `work/live-demo/` by default. Use `--state-dir /persistent/path` to relocate them. Back up this directory, including all document versions. Never run a recurring worker on an ephemeral filesystem. The SQLite `annotations` table is separate from imported metadata and is never overwritten by refreshes; this version provides read access to annotations, not an annotation editor. Its payload should include the evidence PDF hash when your team builds the editor.
+SQLite, source Parquet versions, PDFs and extracted text live under ignored `work/live-demo/` by default. Use `--state-dir /persistent/path` to relocate them. Back up this directory, including all document versions. Never run a recurring worker on an ephemeral filesystem. The SQLite `annotations` table is separate from imported metadata and is never overwritten by refreshes; document annotations remain separate from the case-assessment editor below. Case assessments and their PDF hashes live in the new `case_reviews` and `case_review_events` tables and are never overwritten by collection.
 
 For today use **one server process**. The integrated scheduler works only while that process runs. For later hosting, run an API process with `serve --no-scheduler` and one persistent worker with `worker`; both need the same persistent directory. Put the API behind HTTPS and a reverse proxy before public deployment. No cloud deployment or external scheduler has been configured by this change.
 
@@ -112,7 +112,7 @@ This reports completeness and evidence types for **saved PDF records**, separate
 
 ```sh
 python -m pip install -r demo_backend/requirements-dev.txt
-python -m unittest demo_backend.test_backend demo_backend.test_law_links -v
+python -m unittest demo_backend.test_backend demo_backend.test_law_links demo_backend.test_priority demo_backend.test_feedback -v
 python -m unittest discover -s research -p 'test_*.py' -v
 ```
 
@@ -128,7 +128,7 @@ The frontend is a case-review dashboard with collection overview counts, search 
 
 `GET /api/cases` now accepts `priority=high|elevated|standard|uncertain|unscored` and `sort=latest|priority`. Filtering and sorting run across the complete matching set **before** pagination. Each case returns `law_links` and `review_priority`; its response also includes `summary.priority_counts` for the matching search/law scope before a priority filter, plus the declared `priority_method`. The previous default sort remains `latest`; the dashboard requests `priority`. Case detail returns the same preliminary metadata-derived band.
 
-Priority uses the highest associated **law-profile** score, never a sum across laws: high 9–12/12, elevated 6–8/12, standard 0–5/12. A score range crossing bands is “Priority to confirm”; no scored profile is “Unscored,” not zero. Unresolved BNS 353 is therefore 8–9/12 / to confirm unless another law already establishes a higher band. Explicit metadata subsections are respected. These are provisional interface thresholds, not validated misuse labels or urgency decisions. Law associations, unknown scope and PDF evidence status remain separate. A low-scoring law can still occur in a case requiring urgent attention.
+Priority uses the highest associated **law score**, with current team feedback where available, never a sum across laws: high 9–12/12, elevated 6 to below 9/12, standard 0 to below 6/12. Original law scores remain available separately. A score range crossing bands is “Priority to confirm”; no scored profile is “Unscored,” not zero. Unresolved BNS 353 is therefore 8–9/12 / to confirm unless another law already establishes a higher band. Explicit metadata subsections are respected. These are provisional interface thresholds, not validated misuse labels or urgency decisions. Law associations, unknown scope and PDF evidence status remain separate. A low-scoring law can still occur in a case requiring urgent attention.
 
 Priority sorting: high, to confirm, elevated, standard, unscored; then the score lower bound, newest order date, and CNR as the final tie-breaker.
 
@@ -139,3 +139,59 @@ Priority checks:
 ```bash
 python -m unittest demo_backend.test_priority
 ```
+
+
+## Case assessments and the feedback loop
+
+Open a case and use **Yes — Misuse identified**, **No — No misuse identified**, or **Not sure — Insufficient evidence**. Select the law or exact scored subsection you verified in the records, optionally explain the evidence, then **Save assessment**. Multiple-law cases do not vote on every listed law automatically. A single applicable scored profile is preselected; this is not a charge verification by the system. Inspect its scope before saving. Unknown/unscored scopes can receive an assessment without inventing a score.
+
+The card previews the score change, shows saved status, and allows editing or clearing the assessment. The queue shows assessment tags and a review-status filter. Law profiles show the original rubric, feedback-adjusted score and yes/no counts. Original `raw_total`, original law-score CSV/JSON, and PDF-law associations are preserved. `/api/cases` and PDF APIs carry a separate overlay; priority uses that overlay where present. The raw SQL `document_pdf_law_scores` view continues to expose the original rubric; combine it with `case_reviews` or use `/api/feedback` for current adjusted scores.
+
+### Transparent scoring policy
+
+For each exact scored law profile, let **b** be the original rubric score out of 12, **Y** the number of current yes assessments and **N** the number of current no assessments:
+
+```text
+feedback_adjusted_score = (6 × b + 12 × Y) / (6 + Y + N)
+```
+
+The baseline carries the weight of six assessments. Yes moves the index upward; no moves it downward; scores stay within 0–12. With no current votes, the index equals the original score. Example: BNS 299 starts at 8; one yes gives **8.6**, one no gives **6.9**. Replacing that yes with a no yields one current no vote, not two votes. Insufficient evidence, cleared assessments and stale assessments add no score vote. Switching an existing yes/no to insufficient evidence removes its old contribution. This weighting is an explicit experimental policy, not a learned parameter or a calibrated probability. Changing feedback cannot change the wording of a law or its underlying structural rubric.
+
+There is **one current team assessment per CNR**, rather than one vote per click or PDF. This local pilot does not verify the identity or legal expertise of individual reviewers. Concurrent edits use `expected_revision`; an outdated browser receives HTTP 409 and must reload. Repeating the same current assessment is idempotent. Every actual change appends an audit event; clearing retains the earlier evidence and edit history.
+
+Each assessment snapshots the case metadata, catalog hash, and all known document IDs, source URLs, dates, statuses and PDF SHA-256 hashes at review time. Changes to these inputs mark it **Needs recheck** and remove its contribution from adjusted scores and the current binary-label export. Unchanged polling does not invalidate it. Reconfirm the current evidence to reactivate it. Importing new source data never silently rewrites a review.
+
+### API integration
+
+| Route | Purpose |
+|---|---|
+| `PUT /api/cases/{cnr}/review` | Save/replace the current assessment; response is updated case detail |
+| `DELETE /api/cases/{cnr}/review` | Clear the current assessment with a revision check; audit retained |
+| `GET /api/feedback` | Current profile overlays, yes/no counts, summary and declared formula |
+| `GET /api/reviews/export` | Current non-stale binary human assessments, their evidence snapshots and revision |
+| `GET /api/cases?review=unreviewed` | Restrict queue by assessment status |
+
+The case detail API supplies `review_evidence_version`, `case_review.revision` and `review_law_options`. Only those associated profile IDs can be selected. For unresolved BNS 353, a reviewer must choose the verified scored subsection; the API does not assume 353(2). A yes/no decision requires an available court PDF. Insufficient evidence can be recorded while PDFs are pending. Notes are limited to 1,500 characters. Score updates are computed from persisted current assessments, so they survive restarts without a separate score-update job.
+
+```js
+const c = await (await fetch(`/api/cases/${cnr}`)).json();
+const response = await fetch(`/api/cases/${cnr}/review`, {
+  method: 'PUT',
+  headers: {'Content-Type': 'application/json'},
+  body: JSON.stringify({
+    decision: 'misuse', // 'no_misuse' or 'insufficient'
+    law_profile_ids: selectedVerifiedProfileIds,
+    note: reviewerNote,
+    expected_revision: c.case_review.revision,
+    evidence_version: c.review_evidence_version
+  })
+});
+```
+
+Writes and label export share the local/same-origin or server-held admin-token guard used by refresh. This is intended for the current local demo. Deploying a shared reviewer service requires real reviewer authentication, authorization and a defined adjudication process; a token is not an individual reviewer identity. Cross-origin browser writes are not enabled, and no token is embedded in the page. Notes and assessments remain in the ignored runtime database and are not included in source commits.
+
+### What this contributes to active learning
+
+The feature supplies an editable human-label feedback loop and a queue that can filter unreviewed, uncertain or changed-evidence cases. **It does not retrain a machine-learning model.** Exported labels are explicitly **unadjudicated human assessments, not gold**; uncertain, cleared and stale labels are excluded from the binary export. Keep related CNR proceedings, all their orders, and revisions in the same train/test group. The export includes `family_group_verified: false`: different CNRs can still describe one prosecution, so grouping and duplicate-adjudication remain team tasks. Do not use post-review feedback scores or reviewer notes as features when predicting the labels themselves. Evaluate any future model on separately adjudicated held-out cases before using model uncertainty for acquisition.
+
+Feedback validation uses isolated synthetic cases: yes/no monotonic updates, replacements, idempotence, clearing, persistence, law attribution, stale evidence/catalog checks, export, input limits and write guards. Browser save/reload/recheck tests also use a fictional case in a separate temporary database. No real-case assessment was added for testing.

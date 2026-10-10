@@ -9,13 +9,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 6864,
-      "sha256": "2cecb9116494edc2743b3671648dca6bdb83598e6d1a580432469cdca0e9522d"
+      "bytes": 7647,
+      "sha256": "197762cdfb5844a6f2ffe972f69966542764f570c5f71aef05e87d9fa2baed03"
     },
     {
       "path": "demo_backend/README.md",
-      "bytes": 14961,
-      "sha256": "01160b50962808aa92144a49431976e7f278ef2c39ab161d8a639ece23896348"
+      "bytes": 21473,
+      "sha256": "9ee175eb27700100360922472f5f3639db516b248a4d29ec7ffc72dddb47dcc4"
     },
     {
       "path": "demo_backend/__init__.py",
@@ -29,8 +29,8 @@
     },
     {
       "path": "demo_backend/app.py",
-      "bytes": 11832,
-      "sha256": "67ec6cb2860070c992bfe66a56870d9dbf66924e285dd336d7ffe98e71e07e5c"
+      "bytes": 15032,
+      "sha256": "5eb27c7b592853cdb03a1c9f496d30e391f700071478a0f6e608600bd8bcb3aa"
     },
     {
       "path": "demo_backend/collector.py",
@@ -44,13 +44,18 @@
     },
     {
       "path": "demo_backend/core.py",
-      "bytes": 19507,
-      "sha256": "8f148988ba626e5265f83d86e5bce6a76349354fd47dbf6d26f9b4d925f76b8e"
+      "bytes": 19605,
+      "sha256": "83cfa6988b59faf556f5407f60a3ef7621a02b6ccf627bf0e682bc1160226be4"
     },
     {
       "path": "demo_backend/demo.html",
-      "bytes": 42751,
-      "sha256": "a52f6211dd6ca872f40ebcfeaefc70932c4360f16cc5c07d239465978d23d507"
+      "bytes": 59254,
+      "sha256": "fc1e53201bd68e3e2a21312f270e5569e2ac5550e24a0328a2c9298a1b971ca8"
+    },
+    {
+      "path": "demo_backend/feedback.py",
+      "bytes": 10629,
+      "sha256": "751375585297a2a38339d1a5f00080247d0a11052fcf4e7f3e2b92dad2c3df9b"
     },
     {
       "path": "demo_backend/law_links.py",
@@ -59,8 +64,8 @@
     },
     {
       "path": "demo_backend/priority.py",
-      "bytes": 2551,
-      "sha256": "9a9dccf28d1554ae695bfe9c8b4c14c49775f5909fed5141eaf9e0edb4a88095"
+      "bytes": 3013,
+      "sha256": "33acca243d061b5faf9a95591f2fb1fe5d375f4f53b22e7f235f547765c589ee"
     },
     {
       "path": "demo_backend/requirements-dev.txt",
@@ -76,6 +81,11 @@
       "path": "demo_backend/test_backend.py",
       "bytes": 12538,
       "sha256": "105f6a1771e037cba1a87fdb45f697c41bb8ad908c771ba29e5a653b41a8f63e"
+    },
+    {
+      "path": "demo_backend/test_feedback.py",
+      "bytes": 12989,
+      "sha256": "f5c7aaeb904e8425d73be200d829d149633e9eba041b16725e8079cefa75c7ae"
     },
     {
       "path": "demo_backend/test_law_links.py",
@@ -1128,9 +1138,24 @@
       "sha256": "c998df7f1fbdc239b3f6dcbfa4975227a9737a02c35a51582a1286e5e1f34832"
     },
     {
-      "path": "outputs/bns-training-starter/\u5f00\u59cb\u8fd9\u91cc.md",
+      "path": "outputs/bns-training-starter/开始这里.md",
       "bytes": 3310,
       "sha256": "c3ce388eb7c6d297b64e3e4418c73e8e6ae5a38ff6c518e0134f84779d7934e2"
+    },
+    {
+      "path": "outputs/case-assessment-desktop.png",
+      "bytes": 79821,
+      "sha256": "2b4fa2f5c1e81a1c7a29e48c38d4a5aef90e9fe3dd7e144daa4d76c2193d5581"
+    },
+    {
+      "path": "outputs/case-assessment-mobile.png",
+      "bytes": 35747,
+      "sha256": "f76c994e3a3d5ac4fece65f921025a55231b6fb5e034e70a86fd1877e19184fb"
+    },
+    {
+      "path": "outputs/case-assessment-preview.png",
+      "bytes": 54738,
+      "sha256": "a238e32366832f117272e81044ad91e8e4eb6786324bf820b0beb30f7cf53f89"
     },
     {
       "path": "outputs/case-dashboard-case-review.png",
@@ -1156,6 +1181,16 @@
       "path": "outputs/case-dashboard-validation.json",
       "bytes": 2454,
       "sha256": "34448d8f576910126d2f13d3604eaf0021507efd5f2479016db0253fdd322668"
+    },
+    {
+      "path": "outputs/case-feedback-dashboard.png",
+      "bytes": 108719,
+      "sha256": "91a987fc066592b90e28ac17bd4158bb5fc86a3a677239cf0e0e6e037b825d5f"
+    },
+    {
+      "path": "outputs/case-feedback-validation.json",
+      "bytes": 2171,
+      "sha256": "2aa08ab18bebbe249234bb1fd2166d98185de07cdb223ae779e32f77f0aa57e8"
     },
     {
       "path": "outputs/claude-bns-review.jpg",
@@ -4568,5 +4603,5 @@
       "reason": "Generated Python bytecode"
     }
   ],
-  "updated_at": "2026-10-10T16:10:38+00:00"
+  "updated_at": "2026-10-10T16:43:49+00:00"
 }
