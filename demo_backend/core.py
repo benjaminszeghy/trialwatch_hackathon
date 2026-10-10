@@ -141,6 +141,9 @@ class Store:
         from .relevance import initialize as initialize_relevance
         with self.db() as db:
             initialize_relevance(db)
+        from .trialwatch_fit import initialize as initialize_fit
+        with self.db() as db:
+            initialize_fit(db)
 
     @contextmanager
     def db(self):

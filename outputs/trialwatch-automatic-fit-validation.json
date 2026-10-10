@@ -1,0 +1,49 @@
+{
+  "checked_at": "2026-10-10T18:06:47.223501+00:00",
+  "feature": "Automatic source-backed TrialWatch fit + separate Yes/No fit feedback and bounded same-law reranking",
+  "method": "Transparent evidence rubric; no neural-model retraining or probabilities",
+  "checks": {
+    "backend_full_suite_passed": 59,
+    "final_fit_endpoint_suite_passed": 12,
+    "javascript_syntax_passed": true,
+    "browser_console_errors": 0,
+    "desktop_width": 800,
+    "mobile_width": 390,
+    "horizontal_overflow": false,
+    "next_fit_opens_automatic_assessment": true,
+    "fictional_UI_score_flow": {
+      "initial": 55,
+      "yes": 74,
+      "no": 0,
+      "clear": 55,
+      "law_misuse_score_unchanged": "9/12"
+    },
+    "quoted_passages_verified": 104,
+    "real_case_human_reviews_added": 0
+  },
+  "live_cases": 147,
+  "score_distribution": {
+    "10/100": 123,
+    "5/100": 14,
+    "35/100": 5,
+    "20/100": 5
+  },
+  "signal_matches": {
+    "expression": 5,
+    "disposed": 94,
+    "pending": 5
+  },
+  "human_fit_labels": 0,
+  "human_misuse_labels": 0,
+  "screenshots": [
+    "outputs/trialwatch-automatic-fit-case.png",
+    "outputs/trialwatch-automatic-fit-dashboard.png",
+    "outputs/trialwatch-automatic-fit-mobile.png",
+    "outputs/trialwatch-fit-fictional-yes.png"
+  ],
+  "limitations": [
+    "Generic BNS corpus; no participant-linked journalist role was detected in available text. Missing is not absent.",
+    "Support and court-stage passages are candidate evidence at the recorded order date, not current status confirmations.",
+    "Review feedback is local-team, unadjudicated and biased by reviewed sample; CNR families must be grouped before training."
+  ]
+}

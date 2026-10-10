@@ -196,7 +196,7 @@ def assess(facts=None, *, as_of=None, stale=False, saved=False):
             'method_version': METHOD['version'], 'is_probability': False}
 
 
-def state(db, evidence_contexts=None):
+def state(db, evidence_contexts=None, *, store=None):
     evidence_contexts = evidence_contexts or contexts(db)
     records = {r['cnr']: r for r in db.execute('SELECT * FROM case_relevance')}
     items = {}
@@ -208,6 +208,22 @@ def state(db, evidence_contexts=None):
         items[cnr] = result | {'revision': row['revision'] if row else 0,
                               'updated_at': row['updated_at'] if row else None, 'facts': facts,
                               'has_assessment': bool(row)}
+    if store is not None:
+        from .trialwatch_fit import state as fit_state
+        fits = fit_state(store, db, evidence_contexts, as_of=today())
+        for cnr, result in items.items():
+            auto = fits[cnr]
+            result['automatic_assessment'] = auto
+            result['fit_review'] = auto['feedback']
+            result['assessment_source'] = 'reviewer' if result['has_assessment'] else 'automatic'
+            if result['assessment_source'] == 'automatic':
+                result.update(tier=auto['tier'], label=TIERS[auto['tier']], score=auto['score'],
+                              score_range=[auto['score'], auto['score']], score_display=auto['score_display'],
+                              action=auto['label'] + ' · inspect the supporting record',
+                              reasons=auto['reasons'])
+            # A negative fit vote doesn't dismiss separately verified urgent needs.
+            if result['assessment_source'] == 'reviewer' and auto['feedback']['score_eligible'] and auto['feedback']['decision'] == 'no' and not result['urgent_override'] and result['tier'] not in ('closed', 'outside_scope'):
+                result.update(tier='routine', label=TIERS['routine'], action='Reviewer marked not relevant; retain needs for referral / evidence review')
     counts = Counter(r['tier'] for r in items.values())
     return {'items': items, 'summary': {k: counts[k] for k in TIERS}, 'method': METHOD}
 
@@ -250,7 +266,8 @@ def order(items, sort):
     law_ranks = {k: i for i, k in enumerate(['high', 'uncertain', 'elevated', 'standard', 'unscored'])}
     def key(item):
         r = item['trialwatch_relevance']
-        end = 2 if r['tier'] in ('closed', 'outside_scope') else 0 if r['tier'] == 'urgent' else 1
+        no_fit = r.get('fit_review', {}).get('score_eligible') and r.get('fit_review', {}).get('decision') == 'no'
+        end = 0 if r['tier'] == 'urgent' else 2 if r['tier'] in ('closed', 'outside_scope') or no_fit else 1
         score = -(r['score_range'] or [0])[0]
         law = law_ranks[item['review_priority']['band']]
         return (end, ranks[r['tier']], score, law) if sort == 'trialwatch' else \

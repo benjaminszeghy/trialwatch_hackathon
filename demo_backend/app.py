@@ -20,6 +20,7 @@ from .core import ROOT, Config, parse_run
 from .law_links import catalog, get_links, sync_all
 from .feedback import (ReviewError, empty_review, eligible_profiles, export_labels,
                        overlay_links, state as feedback_state, write_review)
+from .trialwatch_fit import FitInput, save as save_fit, export as export_fit
 from .priority import BANDS, METHOD, case_laws, review_priority, summarize
 from .relevance import (TIERS, METHOD as RELEVANCE_METHOD, RelevanceInput,
                         state as relevance_state, save as save_relevance,
@@ -105,7 +106,7 @@ def create_app(config=None, *, scheduler=True, collector=None):
         with store.db() as db:
             feedback = feedback_state(db)
             reviews = feedback['summary']
-            relevance = relevance_state(db, feedback['contexts'])['summary']
+            relevance = relevance_state(db, feedback['contexts'], store=store)['summary']
         return store.status(config) | {'case_reviews': reviews, 'trialwatch_tiers': relevance,
             'refresh_running': engine.running,
             'scheduler_enabled': scheduler, 'next_check_at': engine.next_check_at}
@@ -114,7 +115,7 @@ def create_app(config=None, *, scheduler=True, collector=None):
     def cases(q: str = Query('', max_length=200), section: str | None = None,
               limit: int = Query(25, ge=1, le=200), offset: int = Query(0, ge=0),
               priority: str | None = None, sort: str = 'latest', review: str | None = None,
-              trialwatch_tier: str | None = None):
+              trialwatch_tier: str | None = None, fit_review: str | None = None):
         if priority and priority not in BANDS:
             raise HTTPException(400, 'Invalid review priority')
         if sort not in ('latest', 'priority', 'triage', 'trialwatch'):
@@ -123,6 +124,8 @@ def create_app(config=None, *, scheduler=True, collector=None):
             raise HTTPException(400, 'Invalid TrialWatch tier')
         if review and review not in ('unreviewed', 'reviewed', 'needs_recheck', 'misuse', 'no_misuse'):
             raise HTTPException(400, 'Invalid review status')
+        if fit_review and fit_review not in ('unreviewed', 'reviewed', 'needs_recheck', 'yes', 'no'):
+            raise HTTPException(400, 'Invalid TrialWatch fit review status')
         clauses, args = [], []
         if q:
             clauses.append('(c.title LIKE ? OR c.cnr LIKE ?)')
@@ -140,7 +143,7 @@ def create_app(config=None, *, scheduler=True, collector=None):
                 FROM cases c LEFT JOIN documents d ON c.cnr=d.cnr''' + where +
                 ' GROUP BY c.cnr', args).fetchall()
             feedback = feedback_state(db)
-            relevance = relevance_state(db, feedback['contexts'])
+            relevance = relevance_state(db, feedback['contexts'], store=store)
         result = []
         for row in rows:
             item = dict(row)
@@ -158,8 +161,19 @@ def create_app(config=None, *, scheduler=True, collector=None):
         relevance_reviews = {
             'assessed': sum(item['trialwatch_relevance']['has_assessment'] for item in result),
             'unassessed': sum(not item['trialwatch_relevance']['has_assessment'] for item in result),
-            'needs_recheck': sum(item['trialwatch_relevance']['needs_recheck'] for item in result)}
-        selected = [item for item in result if (not priority or item['review_priority']['band'] == priority) and
+            'needs_recheck': sum(item['trialwatch_relevance']['needs_recheck'] for item in result),
+            'automatically_assessed': len(result),
+            'fit_reviewed': sum(item['trialwatch_relevance']['fit_review']['score_eligible'] for item in result)}
+        def fit_selected(item):
+            r = item['trialwatch_relevance']['fit_review']
+            if not fit_review:
+                return True
+            if fit_review == 'needs_recheck':
+                return r['needs_recheck']
+            if fit_review in ('reviewed', 'unreviewed'):
+                return r['score_eligible'] == (fit_review == 'reviewed')
+            return r['score_eligible'] and r['decision'] == fit_review
+        selected = [item for item in result if fit_selected(item) and (not priority or item['review_priority']['band'] == priority) and
                     (not trialwatch_tier or item['trialwatch_relevance']['tier'] == trialwatch_tier) and
                     (not review or (item['case_review']['status'] == review if review in
                                     ('unreviewed', 'reviewed', 'needs_recheck') else
@@ -184,7 +198,7 @@ def create_app(config=None, *, scheduler=True, collector=None):
                 s.document_id=d.id WHERE d.cnr=?''', (cnr,)).fetchall()
             document_links = {r['id']: get_links(db, r['id']) for r in docs}
             feedback = feedback_state(db)
-            relevance = relevance_state(db, feedback['contexts'])['items'][cnr]
+            relevance = relevance_state(db, feedback['contexts'], store=store)['items'][cnr]
             options = eligible_profiles(db, cnr)
         seed_items = []
         for r in seeds:
@@ -207,6 +221,30 @@ def create_app(config=None, *, scheduler=True, collector=None):
                 'ai_review_seeds': seed_items,
                 'seed_status': 'AI-assisted snapshot notes, not human gold; not generated by refresh',
                 'human_annotations': [dict(r) | {'payload': json.loads(r['payload'])} for r in annotations]}
+
+    @app.put('/api/cases/{cnr}/trialwatch-fit')
+    def record_fit(cnr: str, data: FitInput, request: Request):
+        require_writer(request)
+        try:
+            save_fit(store, cnr, data)
+        except ReviewError as error:
+            raise HTTPException(error.status, str(error))
+        return case(cnr)
+
+    @app.delete('/api/cases/{cnr}/trialwatch-fit')
+    def clear_fit(cnr: str, data: ClearReviewInput, request: Request):
+        require_writer(request)
+        try:
+            save_fit(store, cnr, data, clear=True)
+        except ReviewError as error:
+            raise HTTPException(error.status, str(error))
+        return case(cnr)
+
+    @app.get('/api/trialwatch-fit/export')
+    def fit_labels(request: Request):
+        require_writer(request)
+        with store.db() as db:
+            return export_fit(db)
 
     @app.put('/api/cases/{cnr}/relevance')
     def assess_relevance(cnr: str, data: RelevanceInput, request: Request):
@@ -267,7 +305,7 @@ def create_app(config=None, *, scheduler=True, collector=None):
             rows = db.execute('''SELECT d.*,c.title FROM documents d JOIN cases c USING(cnr)''' + where +
                 ' ORDER BY d.order_date DESC,d.id LIMIT ? OFFSET ?', [*args, limit, offset]).fetchall()
             feedback = feedback_state(db)
-            relevance = relevance_state(db, feedback['contexts'])['items']
+            relevance = relevance_state(db, feedback['contexts'], store=store)['items']
             result = [public_document(r, overlay_links(get_links(db, r['id']), feedback), relevance[r['cnr']]) |
                       {'title': r['title']} for r in rows]
         return {'total': total, 'offset': offset, 'limit': limit, 'items': result}
@@ -282,7 +320,7 @@ def create_app(config=None, *, scheduler=True, collector=None):
         with store.db() as db:
             feedback = feedback_state(db)
             links = overlay_links(get_links(db, identifier), feedback)
-            relevance = relevance_state(db, feedback['contexts'])['items'][row['cnr']]
+            relevance = relevance_state(db, feedback['contexts'], store=store)['items'][row['cnr']]
         return public_document(row, links, relevance)
 
     def document(identifier):

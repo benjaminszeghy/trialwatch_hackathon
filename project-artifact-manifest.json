@@ -19,8 +19,8 @@
     },
     {
       "path": "demo_backend/README.md",
-      "bytes": 29867,
-      "sha256": "591e17a3eb1f51303e033f27e55b9291f1c2b9ad532dd2bed13a2179ade8bc5a"
+      "bytes": 33806,
+      "sha256": "524425579d957d9483ed552ede57f8ae814bb16a6bde9ef71ca5e97ec194e720"
     },
     {
       "path": "demo_backend/__init__.py",
@@ -34,8 +34,8 @@
     },
     {
       "path": "demo_backend/app.py",
-      "bytes": 17586,
-      "sha256": "ff9ab711a17dc4c4527e542c352653a8573ebdb7db982354f5528485e4cb09cb"
+      "bytes": 19400,
+      "sha256": "5c5879672ea9647857ff446fe2616b3434e846526c84b9349dac6fa5fd821377"
     },
     {
       "path": "demo_backend/collector.py",
@@ -49,13 +49,13 @@
     },
     {
       "path": "demo_backend/core.py",
-      "bytes": 19738,
-      "sha256": "1e752109305273c577b0db0f456a4b6df80b5309e0b62832622ee351e261c3e0"
+      "bytes": 19864,
+      "sha256": "aae4e65bbeb2c21c311ff74f8a9c1a14cfba8dee1098a5e79eae0da04bab7c75"
     },
     {
       "path": "demo_backend/demo.html",
-      "bytes": 63914,
-      "sha256": "8cdfa74cc3fbb985e7fb2a4cfdc381c556f24b78722c6583cb307299308f8997"
+      "bytes": 65426,
+      "sha256": "95d6525c7d9d4e61a98e08d4789e5fad24e45e8dbb37570b8c143b04fc0e4bbe"
     },
     {
       "path": "demo_backend/feedback.py",
@@ -74,18 +74,18 @@
     },
     {
       "path": "demo_backend/relevance.css",
-      "bytes": 6812,
-      "sha256": "dc781840f5a7cb8b06c8c6e8e43f92db3a7cf98005345be48e3c771c395d8c3f"
+      "bytes": 8074,
+      "sha256": "be75a257548938ccfaec6d83e7a10520b7ae20b14876c7ffc741029a95c5a970"
     },
     {
       "path": "demo_backend/relevance.js",
-      "bytes": 13073,
-      "sha256": "7f7654037d62e44313cfa5f9eb7de871eeb491cfae50f069e92a665f486bee8b"
+      "bytes": 17260,
+      "sha256": "bf7cc0494263e8a611a8103763bb5682ae1e6a4027b9a405553338ecadc9fd0d"
     },
     {
       "path": "demo_backend/relevance.py",
-      "bytes": 16768,
-      "sha256": "277244e007d1485be277144a67fd26e612a20a9d8de2f82e85d3aba6dedc57a9"
+      "bytes": 18206,
+      "sha256": "01b1336697c3650458cd282c62e88a56c6c26a48ace245867f7f445d7f85183c"
     },
     {
       "path": "demo_backend/requirements-dev.txt",
@@ -119,8 +119,18 @@
     },
     {
       "path": "demo_backend/test_relevance.py",
-      "bytes": 15368,
-      "sha256": "a67cfe1ed3278154d93a55208f239cd5e1522394af6e5ecac3b3a63d0fd914f6"
+      "bytes": 15551,
+      "sha256": "fbc584b654ae105dd6fd1bb0b360d09c9e0220847be495a2dbe58f262d484fd5"
+    },
+    {
+      "path": "demo_backend/test_trialwatch_fit.py",
+      "bytes": 12002,
+      "sha256": "081ddf2e6c9f923fb8167174a779006a10c96c5b0d109ee32bccbcb2d1ca146a"
+    },
+    {
+      "path": "demo_backend/trialwatch_fit.py",
+      "bytes": 15189,
+      "sha256": "8eb17972f5e89c0fb008574ca80b7b3ff44e79fce22d6d0588893b2aeba8c3b3"
     },
     {
       "path": "export-bns-corpus.mjs",
@@ -1168,7 +1178,7 @@
       "sha256": "c998df7f1fbdc239b3f6dcbfa4975227a9737a02c35a51582a1286e5e1f34832"
     },
     {
-      "path": "outputs/bns-training-starter/开始这里.md",
+      "path": "outputs/bns-training-starter/\u5f00\u59cb\u8fd9\u91cc.md",
       "bytes": 3310,
       "sha256": "c3ce388eb7c6d297b64e3e4418c73e8e6ae5a38ff6c518e0134f84779d7934e2"
     },
@@ -1346,6 +1356,31 @@
       "path": "outputs/track1-ml-design.md",
       "bytes": 11708,
       "sha256": "8cda596972620fbb2c00e99d958cd484614a8d4183ac138950533e73ef63c499"
+    },
+    {
+      "path": "outputs/trialwatch-automatic-fit-case.png",
+      "bytes": 65803,
+      "sha256": "6df07343d61981e8b46efad0960f065f74bb06636dd04e24795541203d961292"
+    },
+    {
+      "path": "outputs/trialwatch-automatic-fit-dashboard.png",
+      "bytes": 64928,
+      "sha256": "232b1b505195ac2ed39de99fde04415480e7c9d78a1b5fea63c7d049d33c29d9"
+    },
+    {
+      "path": "outputs/trialwatch-automatic-fit-mobile.png",
+      "bytes": 13428,
+      "sha256": "0bf174bfee1562d2579d9da474c68c004ff8d7cc7ad4b9edb5548a2dd786afca"
+    },
+    {
+      "path": "outputs/trialwatch-automatic-fit-validation.json",
+      "bytes": 1676,
+      "sha256": "14891cd3ef970ef25d7ee3367ae518efeaacc311871300bfaf01b712c0457f9a"
+    },
+    {
+      "path": "outputs/trialwatch-fit-fictional-yes.png",
+      "bytes": 60857,
+      "sha256": "b89dc01d4af610111634e89a35a63d2c2e6a008d753592096484b2bd8fcf8af6"
     },
     {
       "path": "outputs/trialwatch-pilot.zip",
@@ -4688,5 +4723,5 @@
       "reason": "Generated Python bytecode"
     }
   ],
-  "updated_at": "2026-10-10T17:45:58.081126+00:00"
+  "updated_at": "2026-10-10T18:07:17.088327+00:00"
 }

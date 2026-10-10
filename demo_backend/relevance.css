@@ -92,3 +92,16 @@
  .tw-overview-head{align-items:flex-start;flex-wrap:wrap}
  .tw-overview h2{font-size:21px}
 }
+
+.tw-recommendation{font-size:15px;font-weight:650;color:#2b523a;margin:14px 0 5px}
+.tw-assessment-evidence{border:1px solid #dde5db;border-radius:7px;background:#fff;padding:13px 15px;margin:14px 0;font-size:12px;color:#58665d;line-height:1.65}
+.tw-assessment-evidence summary{font-weight:600;cursor:pointer;color:#314d39}
+.tw-assessment-evidence ul{padding-left:20px;margin:12px 0}
+.tw-fit-check{background:#fff;border:1px solid #c8d9cc;border-radius:9px;padding:20px;margin:20px 0 16px}
+.tw-fit-check h4{font-size:19px;font-weight:600;letter-spacing:-.3px;margin:8px 0}
+.tw-fit-check .review-choices{margin:16px 0}
+.tw-fit-note-label{display:block;font-size:11px;color:#68786c}
+.tw-fit-note-label textarea{display:block;width:100%;box-sizing:border-box;border:1px solid #dce4dd;border-radius:6px;padding:10px;font:inherit;font-size:12px;margin-top:7px;resize:vertical;background:#fcfdfb;color:#293b2e}
+.tw-fit-footer{display:flex;align-items:center;justify-content:space-between;gap:10px;font-size:11px;color:#41694b;margin:12px 0}
+.tw-fit-impact{display:block;font-size:10px;color:#7c887e;line-height:1.6}
+@media(max-width:480px){.tw-fit-check{padding:14px}.tw-fit-check h4{font-size:17px}.tw-fit-footer{flex-wrap:wrap}.tw-assessment-evidence{padding:11px}}

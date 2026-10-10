@@ -127,7 +127,8 @@ class RelevanceApiTests(unittest.TestCase):
         with self.client() as client:
             original = client.get('/api/feedback').json()
             c = client.get('/api/cases/TEST0').json()
-            self.assertEqual(c['trialwatch_relevance']['score_display'], 'Not assessed')
+            self.assertEqual(c['trialwatch_relevance']['assessment_source'], 'automatic')
+            self.assertIsNotNone(c['trialwatch_relevance']['score'])
             self.assertEqual(c['trialwatch_relevance']['facts']['counsel'], 'unknown')
             self.assertEqual(c['relevance_passages'], [])
             r = self.put(client, counsel='unavailable', opening_status='ready', openings=['monitoring'])
@@ -226,7 +227,8 @@ class RelevanceApiTests(unittest.TestCase):
                 self.assertFalse(p['human_verified'])
                 self.assertEqual(p['pdf_sha256'],result['documents'][0]['sha256'])
             self.assertEqual(result['trialwatch_relevance']['facts']['counsel'],'unknown')
-            self.assertIsNone(result['trialwatch_relevance']['score'])
+            self.assertEqual(result['trialwatch_relevance']['score'],10)
+            self.assertEqual(result['trialwatch_relevance']['automatic_assessment']['factors'][2]['points'],0)
 
     def test_binary_no_does_not_close_relevance(self):
         self.engine.refresh()
