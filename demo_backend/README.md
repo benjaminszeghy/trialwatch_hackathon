@@ -143,7 +143,7 @@ python -m unittest demo_backend.test_priority
 
 ## Case assessments and the feedback loop
 
-Open a case and use **Yes — Misuse identified**, **No — No misuse identified**, or **Not sure — Insufficient evidence**. Select the law or exact scored subsection you verified in the records, optionally explain the evidence, then **Save assessment**. Multiple-law cases do not vote on every listed law automatically. A single applicable scored profile is preselected; this is not a charge verification by the system. Inspect its scope before saving. Unknown/unscored scopes can receive an assessment without inventing a score.
+Open a case and use **Yes — Misuse identified** or **No — No misuse identified**. Select the law or exact scored subsection you verified in the records, optionally explain the evidence, then **Save assessment**. Multiple-law cases do not vote on every listed law automatically. A single applicable scored profile is preselected; this is not a charge verification by the system. Inspect its scope before saving. Unknown/unscored scopes can receive an assessment without inventing a score.
 
 The card previews the score change, shows saved status, and allows editing or clearing the assessment. The queue shows assessment tags and a review-status filter. Law profiles show the original rubric, feedback-adjusted score and yes/no counts. Original `raw_total`, original law-score CSV/JSON, and PDF-law associations are preserved. `/api/cases` and PDF APIs carry a separate overlay; priority uses that overlay where present. The raw SQL `document_pdf_law_scores` view continues to expose the original rubric; combine it with `case_reviews` or use `/api/feedback` for current adjusted scores.
 
@@ -155,7 +155,7 @@ For each exact scored law profile, let **b** be the original rubric score out of
 feedback_adjusted_score = (6 × b + 12 × Y) / (6 + Y + N)
 ```
 
-The baseline carries the weight of six assessments. Yes moves the index upward; no moves it downward; scores stay within 0–12. With no current votes, the index equals the original score. Example: BNS 299 starts at 8; one yes gives **8.6**, one no gives **6.9**. Replacing that yes with a no yields one current no vote, not two votes. Insufficient evidence, cleared assessments and stale assessments add no score vote. Switching an existing yes/no to insufficient evidence removes its old contribution. This weighting is an explicit experimental policy, not a learned parameter or a calibrated probability. Changing feedback cannot change the wording of a law or its underlying structural rubric.
+The baseline carries the weight of six assessments. Yes moves the index upward; no moves it downward; scores stay within 0–12. With no current votes, the index equals the original score. Example: BNS 299 starts at 8; one yes gives **8.6**, one no gives **6.9**. Replacing that yes with a no yields one current no vote, not two votes. Unreviewed cases, cleared assessments and stale assessments add no score vote. Historical non-binary assessments are preserved in storage but appear as unreviewed and add no vote; new assessments accept only yes or no. This weighting is an explicit experimental policy, not a learned parameter or a calibrated probability. Changing feedback cannot change the wording of a law or its underlying structural rubric.
 
 There is **one current team assessment per CNR**, rather than one vote per click or PDF. This local pilot does not verify the identity or legal expertise of individual reviewers. Concurrent edits use `expected_revision`; an outdated browser receives HTTP 409 and must reload. Repeating the same current assessment is idempotent. Every actual change appends an audit event; clearing retains the earlier evidence and edit history.
 
@@ -171,7 +171,7 @@ Each assessment snapshots the case metadata, catalog hash, and all known documen
 | `GET /api/reviews/export` | Current non-stale binary human assessments, their evidence snapshots and revision |
 | `GET /api/cases?review=unreviewed` | Restrict queue by assessment status |
 
-The case detail API supplies `review_evidence_version`, `case_review.revision` and `review_law_options`. Only those associated profile IDs can be selected. For unresolved BNS 353, a reviewer must choose the verified scored subsection; the API does not assume 353(2). A yes/no decision requires an available court PDF. Insufficient evidence can be recorded while PDFs are pending. Notes are limited to 1,500 characters. Score updates are computed from persisted current assessments, so they survive restarts without a separate score-update job.
+The case detail API supplies `review_evidence_version`, `case_review.revision` and `review_law_options`. Only those associated profile IDs can be selected. For unresolved BNS 353, a reviewer must choose the verified scored subsection; the API does not assume 353(2). A yes/no decision requires an available court PDF. Cases remain unreviewed while PDFs are pending. Notes are limited to 1,500 characters. Score updates are computed from persisted current assessments, so they survive restarts without a separate score-update job.
 
 ```js
 const c = await (await fetch(`/api/cases/${cnr}`)).json();
@@ -179,7 +179,7 @@ const response = await fetch(`/api/cases/${cnr}/review`, {
   method: 'PUT',
   headers: {'Content-Type': 'application/json'},
   body: JSON.stringify({
-    decision: 'misuse', // 'no_misuse' or 'insufficient'
+    decision: 'misuse', // or 'no_misuse'
     law_profile_ids: selectedVerifiedProfileIds,
     note: reviewerNote,
     expected_revision: c.case_review.revision,
@@ -192,6 +192,6 @@ Writes and label export share the local/same-origin or server-held admin-token g
 
 ### What this contributes to active learning
 
-The feature supplies an editable human-label feedback loop and a queue that can filter unreviewed, uncertain or changed-evidence cases. **It does not retrain a machine-learning model.** Exported labels are explicitly **unadjudicated human assessments, not gold**; uncertain, cleared and stale labels are excluded from the binary export. Keep related CNR proceedings, all their orders, and revisions in the same train/test group. The export includes `family_group_verified: false`: different CNRs can still describe one prosecution, so grouping and duplicate-adjudication remain team tasks. Do not use post-review feedback scores or reviewer notes as features when predicting the labels themselves. Evaluate any future model on separately adjudicated held-out cases before using model uncertainty for acquisition.
+The feature supplies an editable human-label feedback loop and a queue that can filter unreviewed or changed-evidence cases. **It does not retrain a machine-learning model.** Exported labels are explicitly **unadjudicated human assessments, not gold**; historical non-binary, cleared and stale labels are excluded from the binary export. Keep related CNR proceedings, all their orders, and revisions in the same train/test group. The export includes `family_group_verified: false`: different CNRs can still describe one prosecution, so grouping and duplicate-adjudication remain team tasks. Do not use post-review feedback scores or reviewer notes as features when predicting the labels themselves. Evaluate any future model on separately adjudicated held-out cases before using model uncertainty for acquisition.
 
 Feedback validation uses isolated synthetic cases: yes/no monotonic updates, replacements, idempotence, clearing, persistence, law attribution, stale evidence/catalog checks, export, input limits and write guards. Browser save/reload/recheck tests also use a fictional case in a separate temporary database. No real-case assessment was added for testing.

@@ -9,13 +9,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 7647,
-      "sha256": "197762cdfb5844a6f2ffe972f69966542764f570c5f71aef05e87d9fa2baed03"
+      "bytes": 7623,
+      "sha256": "1b25067e4d717bc4b95a1d3b81bf754aa890eb899e816a9cc0446ab0587ebf4d"
     },
     {
       "path": "demo_backend/README.md",
-      "bytes": 21473,
-      "sha256": "9ee175eb27700100360922472f5f3639db516b248a4d29ec7ffc72dddb47dcc4"
+      "bytes": 21455,
+      "sha256": "c7af0f01140d8557e005c363c4ba9298a02be76e391cca8db8911bf63efcb95d"
     },
     {
       "path": "demo_backend/__init__.py",
@@ -29,8 +29,8 @@
     },
     {
       "path": "demo_backend/app.py",
-      "bytes": 15032,
-      "sha256": "5eb27c7b592853cdb03a1c9f496d30e391f700071478a0f6e608600bd8bcb3aa"
+      "bytes": 15000,
+      "sha256": "9afcd3418e4ea4f8635edb083e0b7ebdfb18ba4115e9a79941c666401901647a"
     },
     {
       "path": "demo_backend/collector.py",
@@ -49,13 +49,13 @@
     },
     {
       "path": "demo_backend/demo.html",
-      "bytes": 59254,
-      "sha256": "fc1e53201bd68e3e2a21312f270e5569e2ac5550e24a0328a2c9298a1b971ca8"
+      "bytes": 58591,
+      "sha256": "92feb3cbd76099fb37a53954eb787356aea2de9536989e928249c154bb7dbbd0"
     },
     {
       "path": "demo_backend/feedback.py",
-      "bytes": 10629,
-      "sha256": "751375585297a2a38339d1a5f00080247d0a11052fcf4e7f3e2b92dad2c3df9b"
+      "bytes": 10918,
+      "sha256": "bbabf799017852e46d42f548fe6240aa117c1528f3c9bf3bfad56269f488d789"
     },
     {
       "path": "demo_backend/law_links.py",
@@ -84,8 +84,8 @@
     },
     {
       "path": "demo_backend/test_feedback.py",
-      "bytes": 12989,
-      "sha256": "f5c7aaeb904e8425d73be200d829d149633e9eba041b16725e8079cefa75c7ae"
+      "bytes": 14370,
+      "sha256": "2842af55176cb5ab62322adb826c9dc172a9bbf36a84418a284e6be1cc664320"
     },
     {
       "path": "demo_backend/test_law_links.py",
@@ -1144,18 +1144,18 @@
     },
     {
       "path": "outputs/case-assessment-desktop.png",
-      "bytes": 79821,
-      "sha256": "2b4fa2f5c1e81a1c7a29e48c38d4a5aef90e9fe3dd7e144daa4d76c2193d5581"
+      "bytes": 72569,
+      "sha256": "8edd9fcb81adf864ebc4f8c07143c9f7543cdbeaee3545d7ccc9d934f39cb2ff"
     },
     {
       "path": "outputs/case-assessment-mobile.png",
-      "bytes": 35747,
-      "sha256": "f76c994e3a3d5ac4fece65f921025a55231b6fb5e034e70a86fd1877e19184fb"
+      "bytes": 33956,
+      "sha256": "436b72e0e0afb2877a72cf234103db51f56bbf6adc507cfe3bfcf2a87610be2d"
     },
     {
       "path": "outputs/case-assessment-preview.png",
-      "bytes": 54738,
-      "sha256": "a238e32366832f117272e81044ad91e8e4eb6786324bf820b0beb30f7cf53f89"
+      "bytes": 25018,
+      "sha256": "6315093a70980d45821c9be253e89ed186a6dc5ee04fb51c816601a07fd0ecb9"
     },
     {
       "path": "outputs/case-dashboard-case-review.png",
@@ -1184,13 +1184,13 @@
     },
     {
       "path": "outputs/case-feedback-dashboard.png",
-      "bytes": 108719,
-      "sha256": "91a987fc066592b90e28ac17bd4158bb5fc86a3a677239cf0e0e6e037b825d5f"
+      "bytes": 33097,
+      "sha256": "c3a895d6a6a8fefb3274c378f6a4cc816ede8ce02b1b7ddf4dcf24076d2de45f"
     },
     {
       "path": "outputs/case-feedback-validation.json",
-      "bytes": 2171,
-      "sha256": "2aa08ab18bebbe249234bb1fd2166d98185de07cdb223ae779e32f77f0aa57e8"
+      "bytes": 2545,
+      "sha256": "6885348632caf18918bd9ef987ede0122c8429d96775f3c56c8725c3f402dd2e"
     },
     {
       "path": "outputs/claude-bns-review.jpg",
@@ -4603,5 +4603,5 @@
       "reason": "Generated Python bytecode"
     }
   ],
-  "updated_at": "2026-10-10T16:43:49+00:00"
+  "updated_at": "2026-10-10T16:50:56+00:00"
 }

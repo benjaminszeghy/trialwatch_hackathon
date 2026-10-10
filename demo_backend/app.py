@@ -25,7 +25,7 @@ from .priority import BANDS, METHOD, case_laws, order_cases, review_priority, su
 
 class CaseReviewInput(BaseModel):
     model_config = ConfigDict(extra='forbid')
-    decision: Literal['misuse', 'no_misuse', 'insufficient']
+    decision: Literal['misuse', 'no_misuse']
     law_profile_ids: list[str] = Field(default_factory=list, max_length=7)
     note: str = Field('', max_length=1500)
     expected_revision: int = Field(0, ge=0)
@@ -103,7 +103,7 @@ def create_app(config=None, *, scheduler=True, collector=None):
             raise HTTPException(400, 'Invalid review priority')
         if sort not in ('latest', 'priority'):
             raise HTTPException(400, 'Invalid sort order')
-        if review and review not in ('unreviewed', 'reviewed', 'needs_recheck', 'misuse', 'no_misuse', 'insufficient'):
+        if review and review not in ('unreviewed', 'reviewed', 'needs_recheck', 'misuse', 'no_misuse'):
             raise HTTPException(400, 'Invalid review status')
         clauses, args = [], []
         if q:

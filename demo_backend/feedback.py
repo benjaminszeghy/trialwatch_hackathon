@@ -14,7 +14,6 @@ from .law_links import catalog
 DECISIONS = {
     'misuse': 'Misuse identified',
     'no_misuse': 'No misuse identified',
-    'insufficient': 'Insufficient evidence',
 }
 PRIOR_STRENGTH = 6
 METHOD = {
@@ -23,7 +22,7 @@ METHOD = {
     'formula': '(6 * original_score + 12 * yes_reviews) / (6 + yes_reviews + no_reviews)',
     'scale': '0–12 review index, not a probability',
     'unit': 'One current team assessment per CNR and selected law profile',
-    'uncertain': 'Insufficient evidence, cleared and stale reviews do not change scores.',
+    'excluded': 'Unreviewed, cleared, stale and historical non-binary reviews do not change scores.',
     'validation': 'Provisional feedback policy; neither learned nor expert-validated.',
 }
 
@@ -69,13 +68,18 @@ def state(db):
     current = contexts(db)
     counts, stale_counts = defaultdict(Counter), Counter()
     reviews = {}
-    summary = {'reviewed': 0, 'misuse': 0, 'no_misuse': 0, 'insufficient': 0, 'needs_recheck': 0}
+    summary = {'reviewed': 0, 'misuse': 0, 'no_misuse': 0, 'legacy_pending': 0, 'needs_recheck': 0}
     for row in db.execute('SELECT * FROM case_reviews'):
         payload = json.loads(row['payload'])
         stale = payload['evidence_version'] != current[row['cnr']]['evidence_version']
-        active = bool(payload.get('decision'))
-        eligible = active and not stale and payload['decision'] in ('misuse', 'no_misuse')
+        active = payload.get('decision') in DECISIONS
+        eligible = active and not stale
         public = {k: payload.get(k) for k in ('decision', 'law_profile_ids', 'note', 'evidence_version', 'reviewed_at')}
+        if payload.get('decision') and not active:
+            # Preserve old records verbatim in storage; never turn unknown into no.
+            public['legacy_decision'] = payload['decision']
+            public['decision'] = None
+            summary['legacy_pending'] += 1
         public.update(revision=row['revision'], needs_recheck=stale and active,
                       score_eligible=eligible, status='needs_recheck' if stale and active else
                       'reviewed' if active else 'unreviewed', updated_at=row['updated_at'],
@@ -157,11 +161,13 @@ def write_review(store, cnr, data, *, clear=False):
         if not clear and data['evidence_version'] != current['evidence_version']:
             raise ReviewError(409, 'Case evidence changed. Reload and check the current documents before saving.')
         decision = None if clear else data['decision']
+        if not clear and decision not in DECISIONS:
+            raise ReviewError(422, 'Assessment must be yes or no.')
         identifiers = sorted(set(data.get('law_profile_ids', []))) if not clear else []
         note = data.get('note', '').strip() if not clear else ''
         if not clear:
             ready = [d for d in current['snapshot']['documents'] if d['status'] == 'ready']
-            if not ready and decision != 'insufficient':
+            if not ready:
                 raise ReviewError(422, 'Read an available court document before recording a yes/no assessment.')
             candidates = {p['id'] for p in eligible_profiles(db, cnr)}
             if set(identifiers) - candidates:

@@ -1,8 +1,9 @@
 {
-  "validated_at": "2026-10-10T16:43:49.191526+00:00",
+  "validated_at": "2026-10-10T16:50:56.556348+00:00",
   "backend_tests": {
     "passed": 36,
-    "suite": "test_backend, test_law_links, test_priority, test_feedback"
+    "suite": "test_backend, test_law_links, test_priority, test_feedback",
+    "legacy_preservation_and_rejection_verified": true
   },
   "research_regression_tests": {
     "passed": 15
@@ -12,7 +13,6 @@
     "no_replaces_yes_and_lowers_score": true,
     "reload_retains_review": true,
     "law_attribution_required": true,
-    "insufficient_removes_prior_vote": true,
     "clear_restores_baseline": true,
     "changed_pdf_needs_recheck": true,
     "reconfirm_restores_contribution": true,
@@ -30,7 +30,11 @@
     "mobile_horizontal_overflow": false,
     "normal_viewport_restored": true,
     "console_errors": [],
-    "write_tests_use": "Isolated fictional case database on localhost:8001, now stopped"
+    "write_tests_use": "Isolated fictional case database on localhost:8001, now stopped",
+    "binary_choices_only": true,
+    "not_sure_control_count": 0,
+    "review_filter_has_no_uncertain_choice": true,
+    "binary_preview_verified": "BNS 299 no: 8.0 to 6.9 /12"
   },
   "live_collection": {
     "cases": 147,
@@ -40,7 +44,7 @@
       "reviewed": 0,
       "misuse": 0,
       "no_misuse": 0,
-      "insufficient": 0,
+      "legacy_pending": 0,
       "needs_recheck": 0,
       "unreviewed": 147
     },
@@ -54,7 +58,7 @@
     "formula": "(6 * original_score + 12 * yes_reviews) / (6 + yes_reviews + no_reviews)",
     "scale": "0\u201312 review index, not a probability",
     "unit": "One current team assessment per CNR and selected law profile",
-    "uncertain": "Insufficient evidence, cleared and stale reviews do not change scores.",
+    "excluded": "Unreviewed, cleared, stale and historical non-binary reviews do not change scores.",
     "validation": "Provisional feedback policy; neither learned nor expert-validated."
   },
   "limits": [
@@ -62,5 +66,6 @@
     "Different CNRs may represent one prosecution; family grouping is not automated.",
     "Human feedback is unadjudicated and not a misuse probability.",
     "No machine-learning model is retrained."
-  ]
+  ],
+  "change": "Only Yes and No are available. Non-binary request values are rejected; legacy non-binary reviews remain stored, unreviewed and excluded from scoring/export."
 }

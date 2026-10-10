@@ -71,15 +71,34 @@ class FeedbackTests(unittest.TestCase):
             with self.store.db() as db:
                 self.assertEqual(db.execute('SELECT COUNT(*) FROM case_review_events').fetchone()[0], 1)
 
-    def test_uncertain_has_no_vote_and_is_not_exported_as_binary_gold(self):
+    def test_only_yes_no_are_accepted_and_legacy_unknowns_stay_unreviewed(self):
         self.engine.refresh()
         with self.client() as client:
             response = client.put('/api/cases/TEST0/review', json=self.payload(client, 'insufficient', profiles=[]))
-            self.assertEqual(response.status_code, 200)
-            self.assertFalse(response.json()['case_review']['score_eligible'])
+            self.assertEqual(response.status_code, 422)
+            self.assertEqual(client.get('/api/cases?review=insufficient').status_code, 400)
+            # Simulate a record written by the previous version, without modifying it.
+            from .feedback import contexts
+            from .core import now
+            with self.store.db() as db:
+                context = contexts(db)['TEST0']
+                legacy = {'decision': 'insufficient', 'law_profile_ids': [], 'note': 'Old uncertain review',
+                          **context, 'reviewed_at': now()}
+                db.execute('INSERT INTO case_reviews VALUES(?,?,?,?)', ('TEST0', 1, json.dumps(legacy), now()))
+            review = client.get('/api/cases/TEST0').json()['case_review']
+            self.assertIsNone(review['decision'])
+            self.assertFalse(review['score_eligible'])
+            self.assertEqual(review['legacy_decision'], 'insufficient')
+            self.assertEqual(client.get('/api/cases?review=unreviewed').json()['total'], 1)
+            self.assertEqual(client.get('/api/status').json()['case_reviews']['reviewed'], 0)
             self.assertEqual(self.score(client)['adjusted_score'], 9)
             self.assertEqual(client.get('/api/reviews/export').json()['total'], 0)
-            self.assertEqual(client.get('/api/cases?review=insufficient').json()['total'], 1)
+            with self.store.db() as db:
+                self.assertEqual(json.loads(db.execute('SELECT payload FROM case_reviews').fetchone()[0])['decision'], 'insufficient')
+            saved = client.put('/api/cases/TEST0/review', json=self.payload(client, 'no_misuse'))
+            self.assertEqual(saved.status_code, 200)
+            self.assertEqual(saved.json()['case_review']['revision'], 2)
+            self.assertEqual(self.score(client)['no_reviews'], 1)
 
     def test_new_pdf_metadata_and_catalog_evidence_changes_require_recheck(self):
         self.engine.refresh()
@@ -177,8 +196,8 @@ class FeedbackTests(unittest.TestCase):
             self.assertEqual(case['review_law_options'], [])
             self.assertEqual(client.put('/api/cases/TEST0/review', json=self.payload(client, profiles=[])).status_code, 422)
             result = client.put('/api/cases/TEST0/review', json=self.payload(client, 'insufficient', profiles=[]))
-            self.assertEqual(result.status_code, 200)
-            self.assertEqual(result.json()['review_priority']['band'], 'unscored')
+            self.assertEqual(result.status_code, 422)
+            self.assertEqual(client.get('/api/cases/TEST0').json()['review_priority']['band'], 'unscored')
             self.assertEqual(self.score(client)['adjusted_score'], 9)
 
     def test_two_case_votes_are_bounded_and_replaceable(self):
