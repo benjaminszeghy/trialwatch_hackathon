@@ -14,13 +14,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 7894,
-      "sha256": "100317cc76d9ac1b9114447dfd534741ef7160735f43e94dc3eafa898a2007f9"
+      "bytes": 8471,
+      "sha256": "3d9229762d07caf5ec8b1b8a9246d6636ec60293fcea2d4d241bf9829bb7226f"
     },
     {
       "path": "demo_backend/README.md",
-      "bytes": 37501,
-      "sha256": "8cc958fdb5703cd5f8b82d35469828660bba2dd45e2a87c842808b6b9b3768ba"
+      "bytes": 38190,
+      "sha256": "eed65a70ae051b10ea2a55329a7eb65671f6074db4d2ab28b6fe1a3953297710"
     },
     {
       "path": "demo_backend/__init__.py",
@@ -34,8 +34,58 @@
     },
     {
       "path": "demo_backend/app.py",
-      "bytes": 22056,
-      "sha256": "f745bf449c2b20673fa9ad36931cc1b774c27751b5f2452ede239ed9125f36f7"
+      "bytes": 22228,
+      "sha256": "b61bdd9311f0974a4fbddadbabf86af5323b4847f72b34a72c25fb3e46d462e4"
+    },
+    {
+      "path": "demo_backend/assets/identity/README.md",
+      "bytes": 1884,
+      "sha256": "ec40dba71748858b51c5302f663d24a4f838e870f2bea15fb04f1371d60259bc"
+    },
+    {
+      "path": "demo_backend/assets/identity/font-sources.json",
+      "bytes": 2220,
+      "sha256": "c82114ac04527d8cf1c6568d7257423fd753d3826aa34bad2a8a4be3667434f1"
+    },
+    {
+      "path": "demo_backend/assets/identity/fonts/noto-serif-latin-variable.woff2",
+      "bytes": 36696,
+      "sha256": "9f36107f7918309d0ffcc7d12ba636a247af36ba337f91f836173dab66a3b27e"
+    },
+    {
+      "path": "demo_backend/assets/identity/fonts/notoserif-OFL.txt",
+      "bytes": 4396,
+      "sha256": "cee9892f9f0cc8fe882c9e9537ee6a89621d86ee7ceaf70b02e2b2b1c25c061a"
+    },
+    {
+      "path": "demo_backend/assets/identity/fonts/poppins-OFL.txt",
+      "bytes": 4385,
+      "sha256": "6be04893d770899a015649c7aa3b582f871b272f8747a92b78b17c3e5c8b2573"
+    },
+    {
+      "path": "demo_backend/assets/identity/fonts/poppins-latin-400.woff2",
+      "bytes": 7900,
+      "sha256": "3dc5d0c52428fe1696264907a1054ebbaac07f8cbe45832c105f819c2ae397c0"
+    },
+    {
+      "path": "demo_backend/assets/identity/fonts/poppins-latin-500.woff2",
+      "bytes": 7740,
+      "sha256": "289e0afc8be731a86822349e54557296f145926496bd2138db1bac0db77f77a2"
+    },
+    {
+      "path": "demo_backend/assets/identity/fonts/poppins-latin-600.woff2",
+      "bytes": 7992,
+      "sha256": "872e862918591a9e824dc03ed92f05729435ffbb8ebbb10eff7eda26592b1798"
+    },
+    {
+      "path": "demo_backend/assets/identity/fonts/poppins-latin-700.woff2",
+      "bytes": 7848,
+      "sha256": "197a3cbd7290c242c5c765268cdd69a9a39867fdc80cd13071f243a81c56fb76"
+    },
+    {
+      "path": "demo_backend/assets/identity/identity.css",
+      "bytes": 24826,
+      "sha256": "80a6af25f8b80d202d99d99fe361f9b06dd2729b0a4dd4db93897c7bf037d77e"
     },
     {
       "path": "demo_backend/collector.py",
@@ -59,8 +109,8 @@
     },
     {
       "path": "demo_backend/demo.html",
-      "bytes": 51471,
-      "sha256": "6ba9e59f2c9a859b9e0907140c08366b769fb6b74510af4de0cb9d1fe080c5e4"
+      "bytes": 51784,
+      "sha256": "fb097e7f5586c3a01b565ac6baafac2755fdeceaf6ebdaa1c1cf430d7f14ae6f"
     },
     {
       "path": "demo_backend/demo_scenarios.py",
@@ -1276,6 +1326,36 @@
       "path": "outputs/court-evidence.json",
       "bytes": 105842,
       "sha256": "19b595ecba47ff05f24240ff343767fe2b56fef69ec1daa943095f7d472ab577"
+    },
+    {
+      "path": "outputs/editorial-case-mobile.png",
+      "bytes": 32521,
+      "sha256": "7886cf87f0a9f5c02ddce68cd4f0992420fa6bf5fb4d646acd7b307728766eaa"
+    },
+    {
+      "path": "outputs/editorial-case.png",
+      "bytes": 79563,
+      "sha256": "ff972ba9d3bb5e8f4b991930ed413ef7cc71f6436bc535103e2721ed892d4153"
+    },
+    {
+      "path": "outputs/editorial-dashboard.png",
+      "bytes": 98166,
+      "sha256": "ba7e5a6d8ef4842bc458e485fcefd935ae97a6b96f2e9d7525b0b7189f6836f5"
+    },
+    {
+      "path": "outputs/editorial-facelift-validation.json",
+      "bytes": 6493,
+      "sha256": "ba936f9fc5408d9000122ffe3605b24220d52327c3cdd47cacffecfae8c86fc7"
+    },
+    {
+      "path": "outputs/editorial-mobile.png",
+      "bytes": 39124,
+      "sha256": "a17093555b9d7dc64ae270d93b7ca10e6e108413c2dcf8a7f502b2b33cb51d00"
+    },
+    {
+      "path": "outputs/editorial-tablet.png",
+      "bytes": 57507,
+      "sha256": "558d5fcc230440371e6ccfc5877b8840b3ee743e4aa8ed0b4810dc835b1e7b0f"
     },
     {
       "path": "outputs/law-scores.csv",
@@ -4773,5 +4853,5 @@
       "reason": "Generated Python bytecode"
     }
   ],
-  "updated_at": "2026-10-10T18:33:14.226123+00:00"
+  "updated_at": "2026-10-10T18:50:29.153294+00:00"
 }

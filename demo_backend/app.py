@@ -13,6 +13,7 @@ from typing import Literal
 from fastapi import FastAPI, HTTPException, Query, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse, HTMLResponse
+from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, ConfigDict, Field
 
 from .collector import Collector
@@ -87,6 +88,7 @@ def create_app(config=None, *, scheduler=True, collector=None, include_demo=True
 
     app = FastAPI(title='TrialWatch BNS collector', version='0.1.0', lifespan=lifespan)
     app.state.collector = engine
+    app.mount('/assets/identity', StaticFiles(directory=Path(__file__).parent / 'assets' / 'identity'), name='visual-identity')
     if config.cors_origins:
         app.add_middleware(CORSMiddleware, allow_origins=config.cors_origins,
                            allow_methods=['GET'], allow_headers=['Content-Type'])

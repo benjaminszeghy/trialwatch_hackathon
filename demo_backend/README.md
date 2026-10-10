@@ -18,6 +18,10 @@ Open **http://127.0.0.1:8000**. Interactive API documentation is at **http://127
 
 The first fresh check downloads source Parquets and can take several minutes. You can present the seeded cases immediately and show the check's progress. A repeat check normally reuses verified unchanged Parquets. An unchanged source will produce **zero new cases**, correctly: the demo never fabricates activity. Keep the server running during the presentation. A laptop sleep or stopped process pauses collection.
 
+## Dashboard appearance
+
+The dashboard uses self-hosted **Poppins and Noto Serif**, matching the open typeface pairing observed on TrialWatch's official site. An editorial layout inspired by Monocle uses warm ivory, dark ink, muted red accents and fine rules across the queue and case-review panels. [Design reference, font provenance and licenses](assets/identity/README.md). The same theme is served in the isolated demo sandbox. This is a cosmetic layer: existing controls, collection, scores and feedback formulas are unchanged. Desktop, tablet and phone previews and a before/after API comparison are recorded in [facelift validation](../outputs/editorial-facelift-validation.json).
+
 ## Update behavior and scope
 
 Defaults: **BNS 152, 196, 299, 353, 356 and 221**, Bombay High Court, `newas`, `hcaurdb`, `hcbgoa`, `kolhcdb`, order dates from 1 July 2024 to today's machine date. The year range expands with the calendar. This is a limited pilot, not all courts or all BNS cases. Edit `config.example.json` to change scope and pass `--config PATH` **before** the command:

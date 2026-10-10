@@ -1,0 +1,216 @@
+{
+  "validated_at": "2026-10-10T18:50:29.153294+00:00",
+  "scope": "Cosmetic facelift of the existing local dashboard; no new scoring or feedback behavior",
+  "references": [
+    {
+      "url": "https://cfj.org/trialwatch/",
+      "observed": "Poppins navigation/body and Noto Serif lead paragraphs"
+    },
+    {
+      "url": "https://monocle.com/",
+      "observed": "Editorial serif hierarchy, thin rules and compact section navigation; proprietary font not copied"
+    }
+  ],
+  "fonts": {
+    "computed_body": "Poppins, Arial, sans-serif",
+    "computed_headings": "Noto Serif, Georgia, serif",
+    "browser_font_status": "loaded",
+    "delivery": "Self-hosted WOFF2; both licenses and source hashes included",
+    "bytes_total": 68176
+  },
+  "tests": {
+    "command": "python -m unittest demo_backend.test_backend demo_backend.test_law_links demo_backend.test_priority demo_backend.test_feedback demo_backend.test_relevance demo_backend.test_trialwatch_fit demo_backend.test_combined_priority -q",
+    "passed": 67,
+    "failed": 0
+  },
+  "api_comparison": {
+    "complete_case_payload_identical": true,
+    "law_catalog_identical": true,
+    "feedback_identical": true,
+    "real_cases": 147,
+    "ready_pdfs": 446,
+    "real_misuse_reviews": 0,
+    "real_fit_reviews": 0
+  },
+  "unchanged_behavior_files": [
+    "demo_backend/relevance.js",
+    "demo_backend/relevance.css",
+    "demo_backend/combined_priority.py",
+    "demo_backend/trialwatch_fit.py",
+    "demo_backend/unified_review.py"
+  ],
+  "inline_javascript_unchanged": true,
+  "assets": [
+    {
+      "path": "/assets/identity/identity.css",
+      "status": 200,
+      "content_type": "text/css; charset=utf-8",
+      "sha256": "80a6af25f8b80d202d99d99fe361f9b06dd2729b0a4dd4db93897c7bf037d77e"
+    },
+    {
+      "path": "/assets/identity/fonts/noto-serif-latin-variable.woff2",
+      "status": 200,
+      "content_type": "font/woff2",
+      "sha256": "9f36107f7918309d0ffcc7d12ba636a247af36ba337f91f836173dab66a3b27e"
+    },
+    {
+      "path": "/assets/identity/fonts/poppins-latin-400.woff2",
+      "status": 200,
+      "content_type": "font/woff2",
+      "sha256": "3dc5d0c52428fe1696264907a1054ebbaac07f8cbe45832c105f819c2ae397c0"
+    },
+    {
+      "path": "/assets/identity/fonts/poppins-latin-500.woff2",
+      "status": 200,
+      "content_type": "font/woff2",
+      "sha256": "289e0afc8be731a86822349e54557296f145926496bd2138db1bac0db77f77a2"
+    },
+    {
+      "path": "/assets/identity/fonts/poppins-latin-600.woff2",
+      "status": 200,
+      "content_type": "font/woff2",
+      "sha256": "872e862918591a9e824dc03ed92f05729435ffbb8ebbb10eff7eda26592b1798"
+    },
+    {
+      "path": "/assets/identity/fonts/poppins-latin-700.woff2",
+      "status": 200,
+      "content_type": "font/woff2",
+      "sha256": "197a3cbd7290c242c5c765268cdd69a9a39867fdc80cd13071f243a81c56fb76"
+    },
+    {
+      "path": "/demo/assets/identity/identity.css",
+      "status": 200,
+      "content_type": "text/css; charset=utf-8",
+      "sha256": "80a6af25f8b80d202d99d99fe361f9b06dd2729b0a4dd4db93897c7bf037d77e"
+    },
+    {
+      "path": "/demo/assets/identity/fonts/noto-serif-latin-variable.woff2",
+      "status": 200,
+      "content_type": "font/woff2",
+      "sha256": "9f36107f7918309d0ffcc7d12ba636a247af36ba337f91f836173dab66a3b27e"
+    },
+    {
+      "path": "/demo/assets/identity/fonts/poppins-latin-400.woff2",
+      "status": 200,
+      "content_type": "font/woff2",
+      "sha256": "3dc5d0c52428fe1696264907a1054ebbaac07f8cbe45832c105f819c2ae397c0"
+    },
+    {
+      "path": "/demo/assets/identity/fonts/poppins-latin-500.woff2",
+      "status": 200,
+      "content_type": "font/woff2",
+      "sha256": "289e0afc8be731a86822349e54557296f145926496bd2138db1bac0db77f77a2"
+    },
+    {
+      "path": "/demo/assets/identity/fonts/poppins-latin-600.woff2",
+      "status": 200,
+      "content_type": "font/woff2",
+      "sha256": "872e862918591a9e824dc03ed92f05729435ffbb8ebbb10eff7eda26592b1798"
+    },
+    {
+      "path": "/demo/assets/identity/fonts/poppins-latin-700.woff2",
+      "status": 200,
+      "content_type": "font/woff2",
+      "sha256": "197a3cbd7290c242c5c765268cdd69a9a39867fdc80cd13071f243a81c56fb76"
+    }
+  ],
+  "browser_checks": [
+    {
+      "viewport": [
+        1440,
+        1000
+      ],
+      "layout": "Desktop table",
+      "horizontal_overflow_px": 0
+    },
+    {
+      "viewport": [
+        1120,
+        850
+      ],
+      "layout": "Narrow desktop table",
+      "horizontal_overflow_px": 0
+    },
+    {
+      "viewport": [
+        803,
+        984
+      ],
+      "layout": "Tablet case cards",
+      "horizontal_overflow_px": 0
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "layout": "Phone dashboard and full-width case sheet",
+      "horizontal_overflow_px": 0
+    }
+  ],
+  "interaction_checks": {
+    "review_next": "Opens Farah Deeba case with unchanged 63.3 combined index, 11/12 law concern and 35/100 fit",
+    "selected_yes": "Pressed state remains true; dark ink background with white text; Save review enables",
+    "real_label_writes": 0,
+    "search": "Mrunal returns exactly one case; Clear restores 147 cases",
+    "law_profiles": "All seven BNS profiles render with unchanged scores",
+    "viewport_override": "Reset after responsive checks"
+  },
+  "text_contrast": [
+    {
+      "role": "primary text",
+      "text": "#252522",
+      "background": "#fffdf8",
+      "ratio": 15.12
+    },
+    {
+      "role": "secondary text",
+      "text": "#69675f",
+      "background": "#f6f4ed",
+      "ratio": 5.15
+    },
+    {
+      "role": "primary action",
+      "text": "#ffffff",
+      "background": "#a42d28",
+      "ratio": 7.04
+    },
+    {
+      "role": "selected feedback",
+      "text": "#ffffff",
+      "background": "#252522",
+      "ratio": 15.37
+    },
+    {
+      "role": "focus label",
+      "text": "#74561a",
+      "background": "#f3ead3",
+      "ratio": 5.67
+    },
+    {
+      "role": "review label",
+      "text": "#4f6038",
+      "background": "#eaeede",
+      "ratio": 5.81
+    },
+    {
+      "role": "monitor label",
+      "text": "#645f54",
+      "background": "#efede7",
+      "ratio": 5.42
+    },
+    {
+      "role": "evidence label",
+      "text": "#486270",
+      "background": "#e9eef1",
+      "ratio": 5.52
+    }
+  ],
+  "screenshots": [
+    "outputs/editorial-dashboard.png",
+    "outputs/editorial-case.png",
+    "outputs/editorial-mobile.png",
+    "outputs/editorial-case-mobile.png",
+    "outputs/editorial-tablet.png"
+  ]
+}

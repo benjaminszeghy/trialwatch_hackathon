@@ -20,6 +20,8 @@ The dashboard now has **one review queue and one combined priority score**: an e
 
 For a presentation, use **Try demo scenarios** or open [the sandbox](http://127.0.0.1:8000/demo/). Its six cases and PDFs are explicitly fictional, with blank review answers, prescribed support facts and a separate database. Open **Demo – Limited Support Access**: Yes/Yes changes the combined index from 53.3 to 65.7; No/No lowers it to 28.6; clearing restores the original contribution. Reset examples prepares another presentation. Synthetic feedback is excluded from live scores and training exports. These are provisional demo weights, not official TrialWatch intake policy. No real-case votes were added for testing.
 
+The current visual theme uses **Poppins + Noto Serif**, the open font pairing verified on TrialWatch's official site, with an original editorial layout inspired by Monocle. Fonts are bundled locally. This cosmetic update preserves collection, priority calculations and feedback behavior. [Visual identity and font licenses](demo_backend/assets/identity/README.md) · [Current dashboard](outputs/editorial-dashboard.png) · [Case review](outputs/editorial-case.png) · [Mobile preview](outputs/editorial-mobile.png) · [Validation](outputs/editorial-facelift-validation.json).
+
 Open **http://127.0.0.1:8000**. Keep the process running for automatic checks. [Timestamped live validation](outputs/live-demo-validation.json) records the fresh source check; it is separate from the fixed training-starter snapshot below.
 
 ## Start here
